@@ -1,0 +1,90 @@
+[
+  {
+    "requirement": "Exact removal sequence",
+    "passed": true
+  },
+  {
+    "requirement": "Pouch inventory",
+    "passed": true
+  },
+  {
+    "requirement": "Side keyboard and three orientations",
+    "passed": true
+  },
+  {
+    "requirement": "Handle access and alternate removal",
+    "passed": true
+  },
+  {
+    "requirement": "Startup sequence",
+    "passed": true
+  },
+  {
+    "requirement": "Battery recovery observation without guarantee",
+    "passed": true
+  },
+  {
+    "requirement": "Distinct startup symptoms",
+    "passed": true
+  },
+  {
+    "requirement": "Graceful shutdown before physical off",
+    "passed": true
+  },
+  {
+    "requirement": "Packing and charge confirmation",
+    "passed": true
+  },
+  {
+    "requirement": "Reverse packing order",
+    "passed": true
+  },
+  {
+    "requirement": "Latest six-second owner confirmation",
+    "passed": true
+  },
+  {
+    "requirement": "Dedicated Bose section and externally tracked model",
+    "passed": true
+  },
+  {
+    "requirement": "Input audio direction and tracked adapter limit",
+    "passed": true
+  },
+  {
+    "requirement": "Expected chapter headings",
+    "passed": true
+  },
+  {
+    "requirement": "Normal battery check uses rear plunger and slits",
+    "passed": true
+  },
+  {
+    "requirement": "Unlock before lifting; close before locking",
+    "passed": true
+  },
+  {
+    "requirement": "New setup details preserved",
+    "passed": true
+  },
+  {
+    "requirement": "Complete first session in setup",
+    "passed": true
+  },
+  {
+    "requirement": "Everyday operations covered",
+    "passed": true
+  },
+  {
+    "requirement": "No guessed operational gesture or mapper",
+    "passed": true
+  },
+  {
+    "requirement": "All requested troubleshooting areas",
+    "passed": true
+  },
+  {
+    "requirement": "Publication free of editorial placeholders",
+    "passed": true
+  }
+]

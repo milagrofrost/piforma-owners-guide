@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="590" viewBox="0 0 900 590">
+<defs><linearGradient id="case" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f5f4f0"/><stop offset="1" stop-color="#b9b9b5"/></linearGradient><linearGradient id="screen" x1="0" x2="0.8" y1="0" y2="1"><stop stop-color="#858c8c"/><stop offset="1" stop-color="#c5c9c6"/></linearGradient></defs>
+<ellipse cx="450" cy="535" rx="360" ry="23" fill="#d5d5d2" opacity=".5"/>
+<path d="M333 63 L560 64 L605 88 L604 450 L554 478 L333 449Z" fill="#8e8f8b" stroke="#696b69" stroke-width="3"/>
+<path d="M313 55 Q307 55 306 70 L306 442 Q306 454 317 454 L560 454 L559 55Z" fill="url(#case)" stroke="#858683" stroke-width="3"/>
+<path d="M336 93 L532 93 L541 107 L541 311 L526 332 L338 332 L321 310 L321 113Z" fill="#b5b6b2" stroke="#979894" stroke-width="3"/>
+<path d="M344 122 L515 122 L516 296 L346 296Z" fill="url(#screen)" stroke="#848984" stroke-width="5"/>
+<g fill="#505753" font-family="monospace" font-size="23"><text x="371" y="191">PiForma</text><text x="364" y="229" font-size="12">Welcome to Macintosh</text></g>
+<path d="M335 348 L532 348" stroke="#929390" stroke-width="2"/><path d="M336 358 L532 358" stroke="#929390" stroke-width="2"/><path d="M336 369 L532 369" stroke="#929390" stroke-width="2"/><path d="M336 380 L532 380" stroke="#929390" stroke-width="2"/>
+<path d="M441 415 L530 415 L530 422 L441 422Z" fill="#92938f"/><circle cx="340" cy="419" r="5" fill="#7f8380"/>
+<path d="M120 462 L425 462 L565 513 L494 541 L90 505Z" fill="#adaeab" stroke="#858785" stroke-width="3"/>
+<path d="M119 457 L425 457 L551 505 L488 527 L94 496Z" fill="#dadbd8" stroke="#92948f" stroke-width="2"/>
+<g stroke="#969995" stroke-width="1.4" fill="#f1f0ec">
+<path d="M131.0 466.0 l17 1 l8 5 l-18 -1Z"/>
+<path d="M154.0 466.9 l17 1 l8 5 l-18 -1Z"/>
+<path d="M177.0 467.8 l17 1 l8 5 l-18 -1Z"/>
+<path d="M200.0 468.7 l17 1 l8 5 l-18 -1Z"/>
+<path d="M223.0 469.6 l17 1 l8 5 l-18 -1Z"/>
+<path d="M246.0 470.5 l17 1 l8 5 l-18 -1Z"/>
+<path d="M269.0 471.4 l17 1 l8 5 l-18 -1Z"/>
+<path d="M292.0 472.3 l17 1 l8 5 l-18 -1Z"/>
+<path d="M315.0 473.2 l17 1 l8 5 l-18 -1Z"/>
+<path d="M338.0 474.1 l17 1 l8 5 l-18 -1Z"/>
+<path d="M361.0 475.0 l17 1 l8 5 l-18 -1Z"/>
+<path d="M384.0 475.9 l17 1 l8 5 l-18 -1Z"/>
+<path d="M407.0 476.8 l17 1 l8 5 l-18 -1Z"/>
+<path d="M430.0 477.7 l17 1 l8 5 l-18 -1Z"/>
+<path d="M133.0 476.0 l17 1 l8 5 l-18 -1Z"/>
+<path d="M156.0 476.9 l17 1 l8 5 l-18 -1Z"/>
+<path d="M179.0 477.8 l17 1 l8 5 l-18 -1Z"/>
+<path d="M202.0 478.7 l17 1 l8 5 l-18 -1Z"/>
+<path d="M225.0 479.6 l17 1 l8 5 l-18 -1Z"/>
+<path d="M248.0 480.5 l17 1 l8 5 l-18 -1Z"/>
+<path d="M271.0 481.4 l17 1 l8 5 l-18 -1Z"/>
+<path d="M294.0 482.3 l17 1 l8 5 l-18 -1Z"/>
+<path d="M317.0 483.2 l17 1 l8 5 l-18 -1Z"/>
+<path d="M340.0 484.1 l17 1 l8 5 l-18 -1Z"/>
+<path d="M363.0 485.0 l17 1 l8 5 l-18 -1Z"/>
+<path d="M386.0 485.9 l17 1 l8 5 l-18 -1Z"/>
+<path d="M409.0 486.8 l17 1 l8 5 l-18 -1Z"/>
+<path d="M432.0 487.7 l17 1 l8 5 l-18 -1Z"/>
+<path d="M135.0 486.0 l17 1 l8 5 l-18 -1Z"/>
+<path d="M158.0 486.9 l17 1 l8 5 l-18 -1Z"/>
+<path d="M181.0 487.8 l17 1 l8 5 l-18 -1Z"/>
+<path d="M204.0 488.7 l17 1 l8 5 l-18 -1Z"/>
+<path d="M227.0 489.6 l17 1 l8 5 l-18 -1Z"/>
+<path d="M250.0 490.5 l17 1 l8 5 l-18 -1Z"/>
+<path d="M273.0 491.4 l17 1 l8 5 l-18 -1Z"/>
+<path d="M296.0 492.3 l17 1 l8 5 l-18 -1Z"/>
+<path d="M319.0 493.2 l17 1 l8 5 l-18 -1Z"/>
+<path d="M342.0 494.1 l17 1 l8 5 l-18 -1Z"/>
+<path d="M365.0 495.0 l17 1 l8 5 l-18 -1Z"/>
+<path d="M388.0 495.9 l17 1 l8 5 l-18 -1Z"/>
+<path d="M411.0 496.8 l17 1 l8 5 l-18 -1Z"/>
+<path d="M434.0 497.7 l17 1 l8 5 l-18 -1Z"/>
+<path d="M137.0 496.0 l17 1 l8 5 l-18 -1Z"/>
+<path d="M160.0 496.9 l17 1 l8 5 l-18 -1Z"/>
+<path d="M183.0 497.8 l17 1 l8 5 l-18 -1Z"/>
+<path d="M206.0 498.7 l17 1 l8 5 l-18 -1Z"/>
+<path d="M229.0 499.6 l17 1 l8 5 l-18 -1Z"/>
+<path d="M252.0 500.5 l17 1 l8 5 l-18 -1Z"/>
+<path d="M275.0 501.4 l17 1 l8 5 l-18 -1Z"/>
+<path d="M298.0 502.3 l17 1 l8 5 l-18 -1Z"/>
+<path d="M321.0 503.2 l17 1 l8 5 l-18 -1Z"/>
+<path d="M344.0 504.1 l17 1 l8 5 l-18 -1Z"/>
+<path d="M367.0 505.0 l17 1 l8 5 l-18 -1Z"/>
+<path d="M390.0 505.9 l17 1 l8 5 l-18 -1Z"/>
+<path d="M413.0 506.8 l17 1 l8 5 l-18 -1Z"/>
+<path d="M436.0 507.7 l17 1 l8 5 l-18 -1Z"/>
+</g><path d="M627 486 L697 481 L719 510 L696 538 L621 542 L602 513Z" fill="#b8b9b6" stroke="#8a8c89" stroke-width="3"/><path d="M627 483 L690 481 L707 510 L688 526 L617 531 L609 512Z" fill="#e5e5e1" stroke="#a2a4a0" stroke-width="2"/><path d="M661 485 L660 507" stroke="#999b96" stroke-width="2"/></svg>

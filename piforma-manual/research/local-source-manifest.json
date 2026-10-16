@@ -1,0 +1,62 @@
+[
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\README.md",
+    "sha256": "451ebb811f0dc20abdee6675fe03adc205a0442f5eb2f337a81f24354d39a2ce",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\README.md"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\hardware.md",
+    "sha256": "3c11a6802a90501f69ae3f817600557d0f18352ba1a30c21b6d5d9f031cd6cba",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\docs\\hardware.md"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\software.md",
+    "sha256": "72afcaf8fca305a82418c79785e6a83071f6fa1829432c930db4aaa332c7b032",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\docs\\software.md"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\bom.md",
+    "sha256": "e932cd554e35ab7b56b8590bceb61b57c62b56aff627bd0f60c4707bdeefc378",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\docs\\bom.md"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\known-issues.md",
+    "sha256": "646d29c8175c87c8ba865826c8da9fd3c64db01c55f04a22dc85f133c8a0f30e",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\docs\\known-issues.md"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\maintenance.md",
+    "sha256": "8acf52ff95ad827042e17d4029f1b09940d89d12db51e1874663f3c6c2f0ed5f",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\docs\\maintenance.md"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\related-projects.md",
+    "sha256": "cb7cca6f5856f3d9101682f4d0c6576826dd390da0fa699057469109d8b7e42e",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\docs\\related-projects.md"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\safety.md",
+    "sha256": "bf4679e30e775103999c099779bb62e68d851b18bf48cba00df95cea6ad448c8",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\docs\\safety.md"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\live-system-audit.md",
+    "sha256": "30986f2b80d3ead081717b1e35d0b8255ef7984274ab41fc5911a0b8222cfab0",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\docs\\live-system-audit.md"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\config\\atease\\config.yaml",
+    "sha256": "5be6e2565cda056fd4d67e53d51583b1180f2ff5d586cb1f53644197115c2311",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\config\\atease\\config.yaml"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\scripts\\apple_gesture_button.py",
+    "sha256": "e325bb3d3eb29971f090ed4906212723ede3bb759dc8cf69385d3a18cfd0dec3",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\scripts\\apple_gesture_button.py"
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\scripts\\usb-audio-loop.sh",
+    "sha256": "eb33df933959d296cd582efab96e2fd5bdd71ac641def979506c46803d3654f9",
+    "snapshot": "piforma-manual\\research\\local-snapshots\\scripts\\usb-audio-loop.sh"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "path": "CLAIMS_INDEX.csv",
+    "sha256": "9994e7ec0118059243a43af73a99cb32467174d5c9ce222b08f6253d417f921b"
+  },
+  {
+    "path": "CODEX_START_HERE.md",
+    "sha256": "e4d693433e32711a669dec7a96b7c25fad80c30150a4e7bf51fdb33c603800f9"
+  },
+  {
+    "path": "content\\01-annotated-contents.md",
+    "sha256": "791d19525c83a85db5af135c32a2ccfd8b747bf487da7b73475924c9e87ebc70"
+  },
+  {
+    "path": "content\\02-chapter-1-getting-started.md",
+    "sha256": "6acd9692b02711004be0b72b9022e069f91f065cea3a2aa6f7dfe80390a1ca73"
+  },
+  {
+    "path": "content\\03-chapters-2-to-4.md",
+    "sha256": "bb6431c063f1f8d81feb872810fd92f0714256fa6388ca77af6b3bbdcce6ab14"
+  },
+  {
+    "path": "content\\04-voice-and-sample-prose.md",
+    "sha256": "78e7625467db4e6998ebd6b848cc77a416600c38e96bc29e6a35e5f12b5d5966"
+  },
+  {
+    "path": "plans\\illustration-shot-list.md",
+    "sha256": "dc6c70e0a83142cc2094eb6e0bbb5effc9d1b4fb3b6d164f89f04dfd422ed561"
+  },
+  {
+    "path": "plans\\open-questions.md",
+    "sha256": "7ec017236bd8cb48f7173d9241e68cd3aa1a6c77a203b464cd32fb0e076e1036"
+  },
+  {
+    "path": "plans\\production-workflow.md",
+    "sha256": "92f8203802e5e3065aa7d1f9c676d968249aad30f569ff5494c6e64dba1bbee9"
+  },
+  {
+    "path": "README.md",
+    "sha256": "6a8cfef624d64219b65f09405a7379c706301a0d345ef7aebccebb8deca4202a"
+  },
+  {
+    "path": "reference\\verified-facts-and-uncertainties.md",
+    "sha256": "34a56d5ad8394c9f0f2a4e7c1c60ae2ea96863a2735ff07dbf5ebeef6047877b"
+  }
+]

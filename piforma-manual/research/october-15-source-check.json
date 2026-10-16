@@ -1,0 +1,32 @@
+[
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\software.md",
+    "sha256": "72afcaf8fca305a82418c79785e6a83071f6fa1829432c930db4aaa332c7b032",
+    "matches_inspected_snapshot": true
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\hardware.md",
+    "sha256": "3c11a6802a90501f69ae3f817600557d0f18352ba1a30c21b6d5d9f031cd6cba",
+    "matches_inspected_snapshot": true
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\maintenance.md",
+    "sha256": "8acf52ff95ad827042e17d4029f1b09940d89d12db51e1874663f3c6c2f0ed5f",
+    "matches_inspected_snapshot": true
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\known-issues.md",
+    "sha256": "646d29c8175c87c8ba865826c8da9fd3c64db01c55f04a22dc85f133c8a0f30e",
+    "matches_inspected_snapshot": true
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\docs\\safety.md",
+    "sha256": "bf4679e30e775103999c099779bb62e68d851b18bf48cba00df95cea6ad448c8",
+    "matches_inspected_snapshot": true
+  },
+  {
+    "path": "D:\\Users\\Matt\\Downloads\\Macintosh-PiForma-docs\\config\\atease\\config.yaml",
+    "sha256": "5be6e2565cda056fd4d67e53d51583b1180f2ff5d586cb1f53644197115c2311",
+    "matches_inspected_snapshot": true
+  }
+]

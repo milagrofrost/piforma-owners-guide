@@ -1,0 +1,291 @@
+# Software
+
+This document captures the Macintosh PiForma software stack as currently known.
+
+The software is not trying to be a perfect clone of classic Mac OS. It is Raspberry Pi OS dressed up like a Mac OS 9 / At Ease / early internet fever dream.
+
+For the audited APT/dpkg inventory, local `.deb` packages, non-APT software, and rebuild profiles, see [PiForma Package Inventory](package-inventory.md) and [Macintosh PiForma Software Installation](software-installation.md).
+
+## System
+
+| Item | Value |
+|---|---|
+| Board | Raspberry Pi 4 Model B |
+| RAM | 4GB |
+| Storage | 256GB microSD |
+| Hostname | `macintosh-piforma` |
+| User | `frost` |
+| OS | Raspberry Pi OS / Debian 13 Trixie-style Raspberry Pi desktop stack |
+| Desktop | LXDE / Openbox / PCManFM desktop |
+| Session | X11 |
+| Display mode | 800x480 |
+
+## Current graphical stack
+
+The current live desktop is an X11 `rpd-x` session launched by LightDM. Openbox manages windows, PCManFM owns the desktop background, and PiForma Panel is the active top panel.
+
+| Layer | Current implementation |
+|---|---|
+| Display manager | LightDM |
+| Session | `rpd-x` / LXDE on X11 |
+| Window manager | Openbox |
+| Desktop background | PCManFM |
+| Top panel | PiForma Panel |
+| Launcher shell | AtEase |
+| Dock / Control Strip | ControlStrip Simulator |
+| Assistant | Clippy |
+| Audio | PipeWire / WirePlumber |
+
+LXPanel-pi and tint2 configuration files may still exist on the machine, but they are not the active top panel in the July 2026 live audit.
+
+## Boot flow
+
+Expected flow:
+
+```text
+Power switch on
+  -> Anker battery output energizes 5V rail
+  -> YS-M3 boot chime plays
+  -> Raspberry Pi boots
+  -> Plymouth splash
+  -> RetroPie asplashscreen
+  -> LightDM
+  -> LXDE/Openbox desktop
+  -> custom services start
+```
+
+## Desktop look
+
+The desktop is intended to feel like a Mac OS 9-ish Raspberry Pi system.
+
+Visual pieces:
+
+- Mac OS 9 Platinum-style GTK theme
+- Chicago-style font
+- MoNine icons
+- PiXflat as fallback
+- At Ease inspired wallpaper
+- Apple-menu-style top panel
+- retro launchers
+
+It is not macOS. It is Raspberry Pi OS wearing a thrift-store Macintosh costume, and honestly that is kind of the point.
+
+## Important config paths
+
+Known files and directories touched during the build:
+
+```text
+/boot/firmware/config.txt                 active boot config
+/boot/config.txt                          pointer to /boot/firmware/config.txt
+/etc/default/keyboard                     active keyboard defaults
+/etc/xdg/lxsession/rpd-x/autostart        system LXSession fallback
+~/.config/lxsession/rpd-x/autostart       active user LXSession override
+~/.config/openbox/rpd-rc.xml              active Openbox config
+~/.config/pcmanfm/LXDE-pi/desktop-items-0.conf
+~/.local/share/piforma-panel/config.yaml
+~/.local/share/control-strip/config.yaml
+~/.local/share/control-strip/scripts/window-check.sh
+~/.local/share/atease/config.yaml
+~/.local/share/atease/apps/
+~/.local/share/atease/apps-2/
+~/.config/SheepShaver/prefs
+~/weather-channel/
+~/Desktop/
+~/.icons/
+~/.themes/
+```
+
+Historical or missing paths found during the July 2026 config audit:
+
+```text
+~/.config/lxpanel-pi/panels/panel         historical; PiForma Panel is active
+~/.config/tint2/tint2rc                   historical; no tint2 process active
+~/.config/atease/config.yaml              historical AtEase schema/path
+~/.config/pcmanfm/default/desktop-items-0.conf
+~/.sheepshaver_prefs                      not found
+~/.asoundrc                               not found
+```
+
+## Custom services
+
+| Service | Scope | Purpose |
+|---|---|---|
+| `apple-gesture-button.service` | system | Handles Apple logo capacitive gestures |
+| `volume-knob.service` | system | Handles EC11 volume knob |
+| `atease.service` | system | Starts the AtEase launcher as user `frost` |
+| `flyingtoasters.service` | system | Serves local Flying Toasters web build |
+| `piforma-panel.service` | user | Starts PiForma Panel |
+| `controlstrip-simulator.service` | user | Starts ControlStrip Simulator |
+| `usb-audio-loop.service` | user | Optional external USB audio-input loop |
+
+## Apple logo gesture button
+
+Script:
+
+```text
+/usr/local/bin/apple_gesture_button.py
+```
+
+Service:
+
+```text
+apple-gesture-button.service
+```
+
+Hardware:
+
+- TTP223 capacitive touch sensor
+- mounted behind the Apple logo
+- GPIO 23
+- active-low
+- uses `gpiozero`
+- uses `LGPIOFactory`
+
+Gesture mapping:
+
+| Gesture | Action |
+|---|---|
+| 1 tap | Open Internet Explorer / Netscape-style browser launcher |
+| 2 taps | Open Mac OS 9 / SheepShaver |
+| 3 taps | Open Winamp / QMMP |
+| 4 taps | Open RetroPie / EmulationStation |
+| Hold 2 seconds | Close active window |
+| Hold 6 seconds | Close all windows and show desktop |
+| Hold 10 seconds | Power off |
+
+The four-tap RetroPie gesture exists so the keyboard and mouse can stay packed when the only goal is playing games. Power on, plug in a controller, tap the Apple logo four times, and go.
+
+The timed hold gestures provide keyboard-free window and system control. A two-second hold closes the active game or application, a six-second hold clears the desktop, and a ten-second hold shuts down the PiForma.
+
+## Volume knob
+
+Script:
+
+```text
+/usr/local/bin/volume_knob.py
+```
+
+Service:
+
+```text
+volume-knob.service
+```
+
+Hardware:
+
+- EC11 rotary encoder
+- GPIO 17 and 27 for rotation
+- GPIO 22 for push/mute support
+
+Behavior:
+
+- rotate clockwise: volume up
+- rotate counterclockwise: volume down
+- push-to-mute supported in software
+- push-to-mute not physically usable in final hardware
+
+## Audio stack
+
+Normal output:
+
+- PipeWire
+- internal USB speaker
+- speaker plugged directly into Raspberry Pi
+
+Optional external audio:
+
+- `usb-audio-loop.service` is not Nintendo 64-specific. It watches for the configured external USB audio-input or capture device and loops incoming audio to the PiForma's normal output speakers.
+- The current helper selects the C-Media Cable Creation adapter by its PipeWire/PulseAudio source name.
+- RCA is only one possible upstream connection method before the signal reaches the USB audio adapter; 3.5 mm or other analog connectors can also feed an appropriate adapter.
+- The rear RCA jack described in the hardware documentation is composite video only. Analog external audio input requires an external USB audio adapter.
+
+Previous experiments included MAX98357A I2S amplifier boards and other audio adapters. The final installed path is the internal USB speaker because it works.
+
+## Included apps and launchers
+
+Current visible launchers are managed by AtEase from `~/.local/share/atease/apps/` and `~/.local/share/atease/apps-2/`, not from `~/Desktop`.
+
+| App / Feature | Role | Status |
+|---|---|---|
+| RetroPie / EmulationStation | games | primary practical use |
+| Web browser | general use | primary practical use |
+| SheepShaver / Mac OS 9 | classic Mac nostalgia | included |
+| LinApple | Apple II emulation | dormant or pending confirmation |
+| DOSBox-X / Windows 98 | retro Windows | experimental or pending confirmation |
+| WeatherStar / Weather Channel kiosk | ambient retro weather | included |
+| Flying Toasters | screensaver nostalgia | included |
+| AOL simulator | early internet nostalgia | included |
+| Netscape launcher | early internet nostalgia | included |
+| Encarta | encyclopedia nostalgia | included |
+| LimeWire | early internet nostalgia | included |
+| Kid Pix | classic creative software | historical or pending confirmation |
+| Winamp / QMMP style player | music nostalgia | included |
+
+Some are practical. Some are there because the computer would feel wrong without them.
+
+## Weather Channel kiosk
+
+Known path:
+
+```text
+~/weather-channel/
+```
+
+Known files:
+
+```text
+weather-channel.sh
+launch.html
+satellite.png
+```
+
+The kiosk flow shows a satellite image first, then opens the WeatherStar web interface in Chromium kiosk/app mode.
+
+## Archived repo files
+
+The repository now archives the verified live service units and key helper/config snapshots. Use the service inventory in [../systemd/README.md](../systemd/README.md) as the scope-aware source for unit paths, enablement state, and recovery commands.
+
+Archived scripts:
+
+```text
+scripts/apple_gesture_button.py
+scripts/volume_knob.py
+scripts/weather-channel.sh
+scripts/usb-audio-loop.sh
+```
+
+Archived systemd units:
+
+```text
+systemd/system/apple-gesture-button.service
+systemd/system/volume-knob.service
+systemd/system/atease.service
+systemd/system/flyingtoasters.service
+systemd/user/piforma-panel.service
+systemd/user/controlstrip-simulator.service
+systemd/user/usb-audio-loop.service
+```
+
+Archived config snapshots:
+
+```text
+config/boot/firmware/config.txt
+config/keyboard/default-keyboard
+config/lxsession/rpd-x-autostart
+config/lxsession/system-rpd-x-autostart
+config/openbox/rpd-rc.xml
+config/pcmanfm/desktop-items-0.conf
+config/piforma-panel/config.yaml
+config/control-strip/config.yaml
+config/control-strip/scripts/window-check.sh
+config/atease/config.yaml
+config/atease/apps/
+config/atease/apps-2/
+config/sheepshaver/prefs
+config/historical/lxpanel-pi/panel
+config/historical/tint2/tint2rc
+config/historical/atease-legacy/config.yaml
+config/historical/pcmanfm-default/desktop-items-0.conf
+```
+
+See `config/README.md` for the verified archive status, restore paths, validation commands, and missing files such as `/home/frost/.asoundrc`.

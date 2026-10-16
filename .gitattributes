@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.md text eol=lf
+*.typ text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.png binary
+*.pdf binary
+# Evidence snapshots and the original handoff retain their supplied bytes.
+PiForma_Manual_Handoff/** -text
+piforma-manual/research/snapshots/** -text
+piforma-manual/research/local-snapshots/** -text

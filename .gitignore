@@ -1,0 +1,17 @@
+# Local Python/tool environments
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.exe
+*.log
+.env
+.env.*
+
+# Build artifacts: keep the single reviewed handoff PDF only.
+piforma-manual/output/*
+!piforma-manual/output/macintosh-piforma-layout-reviewed.pdf

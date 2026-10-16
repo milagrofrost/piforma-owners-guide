@@ -1,0 +1,266 @@
+[
+  {
+    "original": "assets\\illustrations\\1.png",
+    "source_copy": "assets/screenshots/originals/piforma-desktop-overview.png",
+    "presentation": "piforma-desktop-overview.svg",
+    "sha256": "0a08bc642498d502ae4ff5a77a74ca65d802c3c1af69845be5b8f9e4b34f4dab",
+    "pixels": [
+      824,
+      600
+    ],
+    "viewport_px": [
+      0,
+      0,
+      824,
+      600
+    ],
+    "viewport_size_px": [
+      824,
+      600
+    ],
+    "width_pt": 366,
+    "height_pt": 266.505,
+    "effective_native_ppi": 162,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\2.png",
+    "source_copy": "assets/screenshots/originals/piforma-shutdown-menu.png",
+    "presentation": "piforma-shutdown-menu.svg",
+    "sha256": "8bef0391ff82cdd0505169af8a683c6becaca977970f9a2a1f013fd47cee5d4d",
+    "pixels": [
+      821,
+      595
+    ],
+    "viewport_px": [
+      0,
+      0,
+      460,
+      145
+    ],
+    "viewport_size_px": [
+      460,
+      145
+    ],
+    "width_pt": 242,
+    "height_pt": 76.283,
+    "effective_native_ppi": 137,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\3.png",
+    "source_copy": "assets/screenshots/originals/piforma-about-system.png",
+    "presentation": "piforma-about-system.svg",
+    "sha256": "dec1bc8856337aa12b5b2307e2bcdced37292291fb2c0030b7336ba04c3b7e7d",
+    "pixels": [
+      826,
+      602
+    ],
+    "viewport_px": [
+      0,
+      0,
+      745,
+      490
+    ],
+    "viewport_size_px": [
+      745,
+      490
+    ],
+    "width_pt": 366,
+    "height_pt": 240.725,
+    "effective_native_ppi": 147,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\4.png",
+    "source_copy": "assets/screenshots/originals/piforma-guide-application.png",
+    "presentation": "piforma-guide-application.svg",
+    "sha256": "dc162456b1a6ac00c0e5bf2e78ab3f1970a455b4d87659446807db1cb8304e2c",
+    "pixels": [
+      825,
+      601
+    ],
+    "viewport_px": [
+      0,
+      25,
+      824,
+      570
+    ],
+    "viewport_size_px": [
+      824,
+      545
+    ],
+    "width_pt": 366,
+    "height_pt": 242.075,
+    "effective_native_ppi": 162,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\5.png",
+    "source_copy": "assets/screenshots/originals/piforma-clippy-conversation.png",
+    "presentation": "piforma-clippy-conversation.svg",
+    "sha256": "88304fe9573bb0ecc2c160bcc0210f5c61c6f243f10cda5f480068303baee0ca",
+    "pixels": [
+      825,
+      601
+    ],
+    "viewport_px": [
+      222,
+      124,
+      603,
+      504
+    ],
+    "viewport_size_px": [
+      381,
+      380
+    ],
+    "width_pt": 242,
+    "height_pt": 241.365,
+    "effective_native_ppi": 113,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\6.png",
+    "source_copy": "assets/screenshots/originals/piforma-control-strip.png",
+    "presentation": "piforma-control-strip.svg",
+    "sha256": "956feb78f78c722a74ff383ec25719d81478026a80944876b513b44e225b5f4e",
+    "pixels": [
+      828,
+      600
+    ],
+    "viewport_px": [
+      0,
+      525,
+      230,
+      600
+    ],
+    "viewport_size_px": [
+      230,
+      75
+    ],
+    "width_pt": 176,
+    "height_pt": 57.391,
+    "effective_native_ppi": 94,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\7.png",
+    "source_copy": "assets/screenshots/originals/piforma-show-desktop.png",
+    "presentation": "piforma-show-desktop.svg",
+    "sha256": "2a6eea70001a2e8c4c87dcbad23c3794403037e3758cc4c364efee85253a038d",
+    "pixels": [
+      827,
+      599
+    ],
+    "viewport_px": [
+      0,
+      0,
+      420,
+      120
+    ],
+    "viewport_size_px": [
+      420,
+      120
+    ],
+    "width_pt": 242,
+    "height_pt": 69.143,
+    "effective_native_ppi": 125,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\8.png",
+    "source_copy": "assets/screenshots/originals/piforma-application-menus.png",
+    "presentation": "piforma-application-menus.svg",
+    "sha256": "54834dc2afb99e7560b4c7eefabda67b7d38e00e5caf5bb96c29b247f124bdac",
+    "pixels": [
+      826,
+      599
+    ],
+    "viewport_px": [
+      0,
+      0,
+      824,
+      290
+    ],
+    "viewport_size_px": [
+      824,
+      290
+    ],
+    "width_pt": 366,
+    "height_pt": 128.811,
+    "effective_native_ppi": 162,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\9.png",
+    "source_copy": "assets/screenshots/originals/piforma-open-home-folder.png",
+    "presentation": "piforma-open-home-folder.svg",
+    "sha256": "9db0a6381fb6f6baf45dc348d8b5546e2d2a7fecb180c2ff901a773408d2a0c5",
+    "pixels": [
+      825,
+      599
+    ],
+    "viewport_px": [
+      0,
+      0,
+      375,
+      140
+    ],
+    "viewport_size_px": [
+      375,
+      140
+    ],
+    "width_pt": 242,
+    "height_pt": 90.347,
+    "effective_native_ppi": 112,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\10.png",
+    "source_copy": "assets/screenshots/originals/piforma-home-folder.png",
+    "presentation": "piforma-home-folder.svg",
+    "sha256": "3c115368cdde6f6198cabdfd952e24e7e89e4d28aba4c65e720743006edf3ba8",
+    "pixels": [
+      826,
+      602
+    ],
+    "viewport_px": [
+      0,
+      0,
+      826,
+      602
+    ],
+    "viewport_size_px": [
+      826,
+      602
+    ],
+    "width_pt": 366,
+    "height_pt": 266.746,
+    "effective_native_ppi": 162,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\11.png",
+    "source_copy": "assets/screenshots/originals/piforma-clippy-message-entry.png",
+    "presentation": "piforma-clippy-message-entry.svg",
+    "sha256": "c2b73b82f05bb2331cba64bc52d7bfa66cc93878411b08191763bad33f7bf3f7",
+    "pixels": [
+      824,
+      598
+    ],
+    "viewport_px": [
+      240,
+      438,
+      584,
+      482
+    ],
+    "viewport_size_px": [
+      344,
+      44
+    ],
+    "width_pt": 242,
+    "height_pt": 30.953,
+    "effective_native_ppi": 102,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  }
+]
