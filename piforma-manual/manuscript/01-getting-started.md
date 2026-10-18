@@ -125,6 +125,9 @@ Use the rear USB port for the USB hub when you need more than one external USB c
 <!-- evidence: owner-current H01-bose; editorial-advice; needs-confirmation Q-BOSE -->
 The two Bose speakers and their stands are part of the intended setup. Give them a stable place beside the working area, with cables out of the way and no strain on the PiForma. Their stands should not make the table or the computer’s folding stand unstable.
 
+<!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
+[ILLUSTRATION 1-5|complete-setup.png|The complete setup: the PiForma on its stand, the keyboard in front, the mouse on its pad, a Bose speaker on its stand at each side and a Nintendo 64 controller at the left.]
+
 ### Bringing sound into the PiForma
 
 <!-- evidence: owner-current H01-audio; repo-verified D-SOFTWARE D-AUDIO -->

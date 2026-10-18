@@ -15,6 +15,11 @@ items=[
  (9,'piforma-open-home-folder',(0,0,375,140),242),
  (10,'piforma-home-folder',None,366),
  (11,'piforma-clippy-message-entry',(240,438,584,482),242),
+ (12,'piforma-limewire-simulator',None,280),
+ (13,'piforma-flying-toasters',None,242),
+ (14,'piforma-winamp',None,300),
+ (15,'piforma-weatherstar',None,242),
+ (16,'piforma-emulationstation-n64',None,366),
 ]
 manifest=[]
 for number,name,roi,width in items:

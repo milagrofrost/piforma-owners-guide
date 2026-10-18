@@ -262,5 +262,125 @@
     "height_pt": 30.953,
     "effective_native_ppi": 102,
     "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\12.png",
+    "source_copy": "assets/screenshots/originals/piforma-limewire-simulator.png",
+    "presentation": "piforma-limewire-simulator.svg",
+    "sha256": "c976c0e6e63dabff8ebe2132462aaaf32b1f83f89869f4ac0bbfb67e565b1373",
+    "pixels": [
+      845,
+      602
+    ],
+    "viewport_px": [
+      0,
+      0,
+      845,
+      602
+    ],
+    "viewport_size_px": [
+      845,
+      602
+    ],
+    "width_pt": 280,
+    "height_pt": 199.479,
+    "effective_native_ppi": 217,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\13.png",
+    "source_copy": "assets/screenshots/originals/piforma-flying-toasters.png",
+    "presentation": "piforma-flying-toasters.svg",
+    "sha256": "c3994ec9cb1ee525ac0affc09ffa8f7b4d84a177d59dbbf27d4479830fd12101",
+    "pixels": [
+      1064,
+      722
+    ],
+    "viewport_px": [
+      0,
+      0,
+      1064,
+      722
+    ],
+    "viewport_size_px": [
+      1064,
+      722
+    ],
+    "width_pt": 242,
+    "height_pt": 164.214,
+    "effective_native_ppi": 317,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\14.png",
+    "source_copy": "assets/screenshots/originals/piforma-winamp.png",
+    "presentation": "piforma-winamp.svg",
+    "sha256": "6ab631266e18faa4734331ea6ea20c065e5248fada59d34e55c87243187320d3",
+    "pixels": [
+      730,
+      400
+    ],
+    "viewport_px": [
+      0,
+      0,
+      730,
+      400
+    ],
+    "viewport_size_px": [
+      730,
+      400
+    ],
+    "width_pt": 300,
+    "height_pt": 164.384,
+    "effective_native_ppi": 175,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\15.png",
+    "source_copy": "assets/screenshots/originals/piforma-weatherstar.png",
+    "presentation": "piforma-weatherstar.svg",
+    "sha256": "768ebd3df510f4265d681a69615aec3c84e217e160d790a1dd067c9d6277e864",
+    "pixels": [
+      803,
+      605
+    ],
+    "viewport_px": [
+      0,
+      0,
+      803,
+      605
+    ],
+    "viewport_size_px": [
+      803,
+      605
+    ],
+    "width_pt": 242,
+    "height_pt": 182.329,
+    "effective_native_ppi": 239,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
+  },
+  {
+    "original": "assets\\illustrations\\16.png",
+    "source_copy": "assets/screenshots/originals/piforma-emulationstation-n64.png",
+    "presentation": "piforma-emulationstation-n64.svg",
+    "sha256": "145d770f6eae1a47ab7381ce2947b3932696f8f9b2c31775e861f7a9688c1d29",
+    "pixels": [
+      1003,
+      610
+    ],
+    "viewport_px": [
+      0,
+      0,
+      1003,
+      610
+    ],
+    "viewport_size_px": [
+      1003,
+      610
+    ],
+    "width_pt": 366,
+    "height_pt": 222.592,
+    "effective_native_ppi": 197,
+    "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
   }
 ]

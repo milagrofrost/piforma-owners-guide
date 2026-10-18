@@ -77,6 +77,16 @@
       "max_width_pt": 366,
       "max_height_pt": 345,
       "kind": "owner-labeled-interior-photograph"
+    },
+    "complete-setup.png": {
+      "max_width_pt": 366,
+      "max_height_pt": 190,
+      "kind": "assembled-setup-photograph"
+    },
+    "piforma-n64.png": {
+      "max_width_pt": 220,
+      "max_height_pt": 210,
+      "kind": "controller-photograph"
     }
   },
   "groups": [

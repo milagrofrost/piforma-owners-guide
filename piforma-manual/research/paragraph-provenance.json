@@ -377,6 +377,13 @@
   },
   {
     "file": "manuscript\\01-getting-started.md",
+    "section": "Bose speakers and stands",
+    "paragraph_sha256": "237735255ab3ea53910c942d384c6462bcfa70b46d4699870f9d19e3c8626c27",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "[ILLUSTRATION 1-5|complete-setup.png|The complete setup: the PiForma on its stand, the keyboard in front, the mouse on its pad, a Bose speak"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
     "section": "Bringing sound into the PiForma",
     "paragraph_sha256": "9ed5fa4d3756302cd41eebfe3751cfa841534207f694225550c4e3b2c2e1675b",
     "evidence": "owner-current H01-audio; repo-verified D-SOFTWARE D-AUDIO",
@@ -646,7 +653,7 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "Stopping the computer",
     "evidence": "owner-current H01-shutdown; repo-verified P-MENU P-POWER; editorial-advice",
-    "preview": "2. In the PiForma Panel menu bar, choose Special → Shut Down. "
+    "preview": "2. In the PiForma Panel menu bar, choose Special → Shut Down."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -1231,22 +1238,36 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
+    "paragraph_sha256": "8ada0350cb0d5cf3483b46c07af92e82bc1e5834de939640c9089718ed4598d6",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "[ILLUSTRATION 3-5a|piforma-n64.png|Two Nintendo 64 controllers and a racing game on the PiForma screen.]"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Controllers and games",
     "paragraph_sha256": "4ee6f8f43924aaab61d0170c36cfcbb2af206964f0bf33b477d81e4e171d611c",
-    "evidence": "owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game."
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
+    "paragraph_sha256": "03043d77a1a8b88cad177109034bbe7dd56e63bd071ffc3386c98dcef37c6d00",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's Nintendo 64 game list. The bar along the bottom names the buttons for t"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Controllers and games",
     "paragraph_sha256": "d1a7430edf1be1b2940b7b2bef356dd2dc456511e107de051d38c8b28da34b9d",
-    "evidence": "owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a c"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
     "paragraph_sha256": "819ec32beca174649ae12c070bd2a518577edab667006f5293929b3613785612",
-    "evidence": "owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "A game's own save and an emulator's save state are different facilities. Use only a save facility the running game or emulator actually prov"
   },
   {
@@ -1287,6 +1308,41 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Clippy and the other diversions",
+    "paragraph_sha256": "a5434cfcc1abd9116f35aa2526521d666c9ae546d7f821b287b25d9b87640472",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "A few of them are shown here: Winamp and its playlist, LimeWire Simulator, the Weather Channel and the Flying Toasters."
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Clippy and the other diversions",
+    "paragraph_sha256": "30ff1c0fcc24a8040abce9950385cf1879004c77e7ecfbc0c067812c8d8fdcae",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "[SCREENSHOT 3-7a|piforma-winamp.svg|Winamp and its playlist window open over the AtEase launcher.]"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Clippy and the other diversions",
+    "paragraph_sha256": "52b82fe750a1a07e488d6a9fe6a2a4705667ac83840303bbf5f484cf4c6ede0e",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "[SCREENSHOT 3-7b|piforma-limewire-simulator.svg|LimeWire Simulator, a period-styled take on the old file-sharing program.]"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Clippy and the other diversions",
+    "paragraph_sha256": "43571a30ada7b6e9b06ec25ad4f916986f3e9319d662c28dfd1baffab781ddce",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "[SCREENSHOT 3-7c|piforma-weatherstar.svg|The Weather Channel diversion showing current conditions in WeatherStar 4000+ style.]"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Clippy and the other diversions",
+    "paragraph_sha256": "a748ae5eaa2a2a08864f93d490503bc40ad48cf77b366973862bdc95884620fa",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "[SCREENSHOT 3-7d|piforma-flying-toasters.svg|The Flying Toasters, airborne.]"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Clippy and the other diversions",
     "paragraph_sha256": "2ab1856be3a1e2bb6380f5cba6a16d73e6f485199ebf4c02274131135f3fd407",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
     "preview": "Clippy is the assistant at the lower-right corner of the desktop. In the Chat with Clippy window, click the message field, type your questio"
@@ -1294,9 +1350,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Clippy and the other diversions",
-    "paragraph_sha256": "4f930ec6dca92dd697d772e8b9934d333d5882183436de2a69afd65e31c8c4f2",
+    "paragraph_sha256": "326c9b148de117d8f36619297189b33da24bac0060c36700ee2fb39f5bd588a8",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 3-5a|piforma-clippy-message-entry.svg|Enter a question in the message field, then press Enter or click Send.]"
+    "preview": "[SCREENSHOT 3-6a|piforma-clippy-message-entry.svg|Enter a question in the message field, then press Enter or click Send.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1308,9 +1364,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Clippy and the other diversions",
-    "paragraph_sha256": "f3d9a5c4bf6b63f14a08b0f58df95f2f800a8d29618da85c0366be0b6c9a2e38",
+    "paragraph_sha256": "9de81a219775b1b745b33690073ab01227553ce017bb6978cb9d668b3f5be8e3",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 3-5b|piforma-clippy-conversation.svg|An example Chat with Clippy conversation. Its suggestions should be checked against the act"
+    "preview": "[SCREENSHOT 3-6b|piforma-clippy-conversation.svg|An example Chat with Clippy conversation. Its suggestions should be checked against the act"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1343,9 +1399,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "About This PiForma and the project guide",
-    "paragraph_sha256": "98e3a4bccb1378ebd62e9fe036d6e5c5efb0669ff24604d145109a910280aa79",
+    "paragraph_sha256": "ef4de7d68391d9ad839299f6b5b28927cf310e880bbee7b851ad8c2031604874",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 3-6|piforma-guide-application.svg|PiForma Guide opens Macintosh PiForma Guided Tour. Choose a documentation stack; the bottom li"
+    "preview": "[SCREENSHOT 3-8|piforma-guide-application.svg|PiForma Guide opens Macintosh PiForma Guided Tour. Choose a documentation stack; the bottom li"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",

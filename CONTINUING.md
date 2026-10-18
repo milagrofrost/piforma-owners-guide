@@ -1,3 +1,7 @@
+# Update — October 18, 2026
+
+Seven owner-supplied images were added, bringing the guide to 73 pages. Figure 1-5 (`complete-setup.png`) shows the assembled setup at the end of the Bose section. Chapter 3 adds the controllers photo (`piforma-n64.png`, Figure 3-5a), the EmulationStation N64 list (3-5b) and four diversions (3-7a–d: Winamp, LimeWire Simulator, the Weather Channel, Flying Toasters); the Clippy and PiForma Guide figures were renumbered 3-6a/b and 3-8. The new screenshots are `assets/illustrations/12.png`–`16.png`, processed by `scripts/prepare-screenshots.py`. The manuscript lock was re-baselined after the copy-preservation check passed.
+
 # Current direction — October 17, 2026
 
 The owner approved the six-page study. The complete guide now uses natural-width EB Garamond and the six composition families, at 69 pages. Specifications state their existing facts directly without “recorded.” Read `piforma-manual/approved-redesign-report.md` for the layout changes and validation. Earlier history below describes the initial repository handoff.
