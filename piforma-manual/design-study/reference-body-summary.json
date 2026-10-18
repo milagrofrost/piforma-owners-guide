@@ -1,0 +1,24 @@
+{
+  "reference": "macintosh-plus.pdf",
+  "pdf_page": 20,
+  "body_left_x_pt_range": [
+    152.65,
+    153.6
+  ],
+  "body_right_x_pt_max": 388.4,
+  "median_line_pitch_pt": 10.55,
+  "full_line_characters": [
+    77,
+    71,
+    48,
+    72,
+    71,
+    71,
+    75,
+    74,
+    78,
+    77,
+    78
+  ],
+  "note": "OCR baselines checked against page rendering; exact original typeface/point size not inferred from OCR."
+}

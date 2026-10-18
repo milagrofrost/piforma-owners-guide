@@ -1,3 +1,7 @@
+# October 17, 2026 — approved full-book redesign
+
+Applied the approved natural-width EB Garamond typography and six composition families across the full guide. Removed “recorded” and repetitive source-attribution hedging from established specifications at the owner’s direction. Preserved all operating procedures, figure captions, humor and meaningful limits. See approved-redesign-report.md.
+
 # Owner correction — battery display and bag visibility
 
 The owner confirms the photographed battery reading is 84%, correcting the earlier 94% transcription. The battery display CAN indicate whether charging from the wireless receiver is working; it cannot be seen while the computer is packed in the bag. Earlier claims that no dependable indicator exists are superseded. No specific symbol or indicator appearance is inferred.

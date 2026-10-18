@@ -2,8 +2,9 @@
   "description": "Maximum printed artwork sizes in points, preserving aspect ratio; source PNGs are unchanged. Captions occupy separate space. 72 pt = 1 inch.",
   "images": {
     "bag-arrangement.png": {
-      "max_width_pt": 366,
-      "max_height_pt": 330
+      "max_width_pt": 320,
+      "max_height_pt": 345,
+      "kind": "instructional-plate"
     },
     "1-2a.png": {
       "max_width_pt": 176,
@@ -25,24 +26,14 @@
       "kind": "control-diagram"
     },
     "1-3d.png": {
-      "max_width_pt": 288,
-      "max_height_pt": 216,
-      "kind": "stacked-control-view",
-      "empty_canvas_trim": {
-        "top": 55,
-        "bottom": 1031,
-        "source_width": 1448
-      }
+      "max_width_pt": 176,
+      "max_height_pt": 176,
+      "kind": "paired-control-view"
     },
     "1-3e.png": {
-      "max_width_pt": 288,
-      "max_height_pt": 216,
-      "kind": "stacked-control-view",
-      "empty_canvas_trim": {
-        "top": 47,
-        "bottom": 1039,
-        "source_width": 1448
-      }
+      "max_width_pt": 176,
+      "max_height_pt": 176,
+      "kind": "paired-control-view"
     },
     "1-4a.png": {
       "max_width_pt": 300,
@@ -101,13 +92,17 @@
         "1-3d.png",
         "1-3e.png"
       ],
-      "mode": "stack"
+      "mode": "columns"
     }
   ],
   "placements": [
     {
       "file": "1-3b.png",
       "after_text": "It is separate from the physical power switch."
+    },
+    {
+      "file": "1-4a.png",
+      "after_text": "rests securely rather than leaning toward one side."
     }
   ],
   "keep_together": [
@@ -123,5 +118,13 @@
       "start": "The owner\u2019s current arrangement has one externally",
       "end": "\"rear-inputs.png\""
     }
-  ]
+  ],
+  "compositions": {
+    "chapter_openers": "dedicated opening leaf; natural type and quiet lower illustration in chapter 1",
+    "startup": "four instructions with the original silent-chime paragraph in the annotation rail",
+    "packing": "dedicated illustration-led plate",
+    "controls": "opposite sides paired at equal scale",
+    "software": "AtEase and Show Desktop stations with actual screenshot details",
+    "technical": "full-width open specification tables"
+  }
 }

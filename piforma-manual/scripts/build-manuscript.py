@@ -9,7 +9,7 @@ import re, json, argparse, subprocess, hashlib, shutil, os
 import pymupdf as pdf
 from PIL import Image, ImageDraw
 P=Path(__file__).resolve().parents[1]
-arg=argparse.ArgumentParser();arg.add_argument('--iteration',default='1');arg.add_argument('--ppi',type=int,default=180);arg.add_argument('--typst',default=os.environ.get('TYPST_BIN','typst'),help='Typst executable (default: TYPST_BIN or typst on PATH)');opts=arg.parse_args()
+arg=argparse.ArgumentParser();arg.add_argument('--iteration',default='1');arg.add_argument('--ppi',type=int,default=180);arg.add_argument('--typst',default=None,help='Typst executable; defaults to TYPST_BIN, local tool or PATH');opts=arg.parse_args()
 generated=P/'chapters';generated.mkdir(exist_ok=True)
 def q(s): return json.dumps(s,ensure_ascii=False)
 def plain(s):
@@ -93,6 +93,17 @@ def convert(file):
     flush()
     # Presentation rules move only figure blocks, never source prose or captions.
     if file.name=='01-getting-started.md':
+        # Startup reads as a procedure with its existing silent-chime explanation
+        # alongside it. Prose stays in the manuscript in its original order.
+        note=next(i for i,b in enumerate(blocks) if b.startswith('#para(') and 'A silent startup does not by itself' in b)
+        start=next(i for i,b in enumerate(blocks[:note]) if b.startswith('#heading(level:2,"Starting up the computer"'))+1
+        assert all(b.startswith('#instruction(') for b in blocks[start:note])
+        note_copy=blocks[note].removeprefix('#para(').removesuffix(')')
+        blocks[start:note+1]=['#annotated("The startup chime",'+note_copy+',[\n'+'\n'.join(blocks[start:note])+'\n])']
+        for i,b in enumerate(blocks):
+            if b.startswith('#wide-illustration("1-1",'):blocks[i]=b.replace('#wide-illustration(', '#illustration-plate(',1)
+        setup=next(i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,"Putting it all together"'))
+        blocks.insert(setup,'#pagebreak(weak:true)')
         by_file={a['file']:a for a in artwork_sizes}
         for group in json.loads(layout_file.read_text(encoding='utf-8')).get('groups',[]):
             indexes=[i for i,b in enumerate(blocks) if b.startswith('#wide-illustration(') and any(q(name) in b for name in group['files'])]
@@ -116,6 +127,29 @@ def convert(file):
             end=next(i for i,b in enumerate(blocks) if keep['end'] in b)
             assert start<=end
             blocks[start:end+1]=['#block(breakable:false)[\n'+'\n'.join(blocks[start:end+1])+'\n]']
+    if file.name=='03-how-piforma-works.md':
+        start=next(i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,"Opening programs with AtEase"'))
+        first,second,screen=blocks[start+1:start+4]
+        assert first.startswith('#para(') and second.startswith('#para(') and screen.startswith('#screen-figure("3-1"')
+        blocks[start:start+4]=['#pagebreak(weak:true)',blocks[start],
+            '#annotated("AtEase",none,[\n'+first+'\n#launcher-detail()\n])',
+            '#annotated("Show Desktop",none,[\n'+second+'\n'+screen+'\n])']
+    if file.name=='05-technical-information.md':
+        i=0
+        while i<len(blocks):
+            if not blocks[i].startswith('#spec-row('):i+=1;continue
+            end=i+1
+            while end<len(blocks) and blocks[end].startswith('#spec-row('):end+=1
+            blocks[i:end]=['#reference-plate([\n'+'\n'.join(blocks[i:end])+'\n])'];i+=1
+    # Keep short care/troubleshooting topics intact, especially the service
+    # department joke and the frozen-application recovery sequence.
+    if file.name in ['04-caring-for-piforma.md','07-troubleshooting.md']:
+        starts=[i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,')]
+        for start,end in reversed(list(zip(starts,starts[1:]+[len(blocks)]))):
+            blocks[start:end]=['#block(breakable:false)[\n'+'\n'.join(blocks[start:end])+'\n]']
+    if file.name=='02-inside-piforma.md':
+        i=next(i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,"The battery and charging paths"'))
+        blocks.insert(i,'#pagebreak(weak:true)')
     return '\n'.join(blocks)+'\n'
 for file in sorted((P/'manuscript').glob('*.md')):
     (generated/(file.stem+'.typ')).write_text('// Generated from '+str(file.relative_to(P))+'; edit Markdown and rebuild.\n#import "../styles/book.typ": *\n#import "../styles/screenshots.typ": screen-figure\n#import "../styles/typography.typ": accent\n'+convert(file),encoding='utf-8')
@@ -129,7 +163,8 @@ for i,a in enumerate(new_artwork):
     if i:preview.append('#pagebreak()')
     preview.append(f'#wide-illustration({q(a["figure"])},{q(a["file"])},{q(a["caption"])},width:{a["width_pt"]}pt)')
 (P/'artwork-preview.typ').write_text('\n'.join(preview)+'\n',encoding='utf-8')
-typst=opts.typst;logs=[]
+local_typst=P.parent/'PiForma_Guide_v2/typst.exe'
+typst=opts.typst or os.environ.get('TYPST_BIN') or (str(local_typst) if local_typst.exists() else 'typst');logs=[]
 def call(args):
     r=subprocess.run(args,capture_output=True,text=True);logs.append(' '.join(args)+'\n'+r.stdout+r.stderr);(out/'compile.log').write_text('\n'.join(logs),encoding='utf-8')
     if r.returncode:raise RuntimeError(r.stderr)

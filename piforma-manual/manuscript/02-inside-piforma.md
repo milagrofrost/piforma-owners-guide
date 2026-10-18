@@ -17,7 +17,7 @@ This is a conversion, not a restoration of a stock Macintosh. The old case was a
 <!-- evidence: repo-verified D-HARDWARE D-SOFTWARE D-BOM -->
 A Raspberry Pi runs the programs. RAM holds the work the computer is doing now; the microSD storage card keeps the operating system, applications, and saved files when power is off. Saving transfers your work into a file that can remain after shutdown.
 
-The computer runs Raspberry Pi OS beneath its Macintosh-inspired appearance. Appendix A lists the recorded hardware and software specifications.
+The computer runs Raspberry Pi OS beneath its Macintosh-inspired appearance. Appendix A lists the hardware and software specifications.
 
 ## The display and source selector
 
@@ -29,7 +29,7 @@ The rear physical source control cycles through HDMI, RCA, VGA, and RCA2 in the 
 ## The battery and charging paths
 
 <!-- evidence: repo-verified D-HARDWARE D-BOM D-SAFETY -->
-The internal battery lets you use the PiForma without a power cord. The intended external power cable supplies its charger, and the battery can charge while the computer's physical switch is off. The switch does not disconnect the charger from external power. Appendix A describes the recorded internal power path.
+The internal battery lets you use the PiForma without a power cord. The intended external power cable supplies its charger, and the battery can charge while the computer's physical switch is off. The switch does not disconnect the charger from external power. Appendix A describes the internal power path.
 
 <!-- evidence: owner-current H01-battery; repo-verified D-HARDWARE; needs-confirmation Q-BATTERY -->
 An external plunger reaches the battery’s own button. The owner uses it to check charge and sometimes wake the pack. The normal check is to press the rear plunger and read the percentage through the top slits. The owner has also confirmed that the top latch can be unlocked and lifted for a closer look; Chapter 1 describes the optional opening procedure.
@@ -39,7 +39,7 @@ An external plunger reaches the battery’s own button. The owner uses it to che
 ## System sound and startup chimes
 
 <!-- evidence: repo-verified D-HARDWARE; owner-current H01-chime -->
-The startup chime and ordinary system audio are separate. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. The owner reports silent or empty positions as well.
+The startup chime and ordinary system audio are separate. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. Some positions are silent or empty.
 
 Normal desktop sound uses an internal USB speaker. Changing its software volume is not necessarily a test of the separate startup-chime hardware.
 
@@ -55,7 +55,7 @@ Turn the side volume knob clockwise to raise normal system volume and counterclo
 ## Ports, wireless links and adapters
 
 <!-- evidence: owner-current H01-usb; repo-verified D-HARDWARE D-SOFTWARE -->
-The owner reports one rear USB port available to the user. The Pi board’s own connectors should not be mistaken for externally accessible ports. Use the hub for multiple peripherals.
+One rear USB port is available to the user. The Pi board’s own connectors should not be mistaken for externally accessible ports. Use the hub for multiple peripherals.
 
 The keyboard uses Bluetooth LE and the mouse uses its USB receiver. Wi-Fi and Bluetooth belong to the operating system’s network and device tools. External audio input uses a separate USB capture adapter and audio-loop helper, not the rear composite-video RCA jack.
 
@@ -67,7 +67,7 @@ The vintage Apple keyboard has been converted to Bluetooth LE using Matt Chester
 ## The matching mouse
 
 <!-- evidence: repo-verified D-HARDWARE -->
-The matching mouse combines Bambu wireless mouse-kit electronics with a printed Retro Wireless Computer Mouse shell. The project records a replacement scroll wheel and axle after the original wheel broke during modification. A USB receiver provides the connection to the computer.
+The matching mouse combines Bambu wireless mouse-kit electronics with a printed Retro Wireless Computer Mouse shell. The scroll wheel and axle were replaced after the original wheel broke during modification. A USB receiver provides the connection to the computer.
 
 ## Bose speakers and stands
 
@@ -77,6 +77,6 @@ The two Bose speakers and their stands extend the setup beyond the internal spea
 ## The bag and its fitted interior
 
 <!-- evidence: repo-verified D-HARDWARE; owner-current H01-packing -->
-The carrying bag is part of the build. The records describe a corrugated-plastic liner, a foam bottom, green velvet, alignment grooves, and a wireless charging transmitter concealed under the lining. Its cable reaches the back pocket.
+The carrying bag is part of the build. It has a corrugated-plastic liner, a foam bottom, green velvet, alignment grooves, and a wireless charging transmitter concealed under the lining. Its cable reaches the back pocket.
 
 The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its intended side position. A loose fit and a correctly aligned charging position are not interchangeable.

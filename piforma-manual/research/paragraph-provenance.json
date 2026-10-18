@@ -58,9 +58,9 @@
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "About this manual",
-    "paragraph_sha256": "15977241a179861195b92512e5dbb88603ff52a219e173753f5ac351fba8e320",
+    "paragraph_sha256": "636f7041b9266a582eb435bc3b981635c1eb367764d6333069974c9d27c9077c",
     "evidence": "editorial-advice OUTLINE",
-    "preview": "Appendix A collects technical records and points to the project documentation. Appendix B helps you find a useful check when something goes "
+    "preview": "Appendix A collects technical information and points to the project documentation. Appendix B helps you find a useful check when something g"
   },
   {
     "file": "manuscript\\00-front-matter.md",
@@ -186,9 +186,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
-    "paragraph_sha256": "b02271bb8805f3a7467cf00b79354b88aeee4f41e1ab4076f6baea9952fb55ed",
+    "paragraph_sha256": "98ea1565cb810556bfdc11649eeb3834cb169e5e4a2a58ffd9ea2538c69bff80",
     "evidence": "owner-current H01-controls; repo-verified D-HARDWARE D-SOFTWARE",
-    "preview": "The build records identify a rear display-source selector and a composite-video RCA input. That RCA jack is for video, not a general audio c"
+    "preview": "At the rear are a display-source selector and a composite-video RCA input. That RCA jack is for video, not a general audio connection. Use t"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -357,9 +357,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Power for a longer session",
-    "paragraph_sha256": "fe4a0da4849a97d04017b6b1634f55354543401f5c4a8edf27af1c0029169f07",
+    "paragraph_sha256": "ca5f19eee520c8b7f69768ea78c256e008e8f48898a9a43f9befde1916b539b2",
     "evidence": "owner-current H01-power; repo-verified D-HARDWARE",
-    "preview": "Take the power cable from the brown pouch. The project records describe the original rear AC inlet as the input to the installed internal ch"
+    "preview": "Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the comput"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -437,7 +437,7 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Checking the battery",
-    "paragraph_sha256": "f3ee25afa3f913116e7ab725d7f3e60cfce023a62c830e2a5b93935c77719abb",
+    "paragraph_sha256": "5eaf4dfa39aaa6a5e5aef7f1d5926101c328f107d13e60efde79a9e6d41a4b91",
     "evidence": "owner-current H01-battery OWNER-IMAGES-2026-10-14; repo-verified D-HARDWARE D-MAINTENANCE",
     "preview": "If nothing happens, check the battery before assuming something has broken. The outside plunger mechanically presses the button on the inter"
   },
@@ -658,7 +658,7 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "Stopping the computer",
     "evidence": "owner-current H01-shutdown; repo-verified P-MENU P-POWER; editorial-advice",
-    "preview": "4. Once shutdown is complete, turn off the right-side physical power control. The recorded wiring permits battery charging while this control is off."
+    "preview": "4. Once shutdown is complete, turn off the right-side physical power control. The wiring permits battery charging while this control is off."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -732,9 +732,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Checking the charging alignment",
-    "paragraph_sha256": "14f97f2d576e9d3a3cc87773b6d789c3a9997835e3cc03fb1785e04a5405ce2b",
+    "paragraph_sha256": "a192a388efcaf2e5640c9d79a9537702dc137cde7c7c367b1b88f64b38d81753",
     "evidence": "owner-current H01-alignment; repo-verified D-HARDWARE D-MAINTENANCE",
-    "preview": "Seating the rear/bottom in the molded foam indents aligns the bag’s wireless-charging arrangement. The repository records place a hidden tra"
+    "preview": "Seating the rear/bottom in the molded foam indents aligns the bag’s wireless-charging arrangement. A hidden transmitter sits under the velve"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -802,9 +802,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "Raspberry Pi, memory and storage",
-    "paragraph_sha256": "75f237ffc984e90354f78bc10822a15bc0d8e0bc1a2f0c3100b4bd914b5caadc",
+    "paragraph_sha256": "44a56f8213e4d8814afa0f56913558445acc1e0555f660216cd4f0a70fcc0438",
     "evidence": "repo-verified D-HARDWARE D-SOFTWARE D-BOM",
-    "preview": "The computer runs Raspberry Pi OS beneath its Macintosh-inspired appearance. Appendix A lists the recorded hardware and software specificati"
+    "preview": "The computer runs Raspberry Pi OS beneath its Macintosh-inspired appearance. Appendix A lists the hardware and software specifications."
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -823,7 +823,7 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The battery and charging paths",
-    "paragraph_sha256": "e470d9788e753fef3aeac58685f23f5697009de1095a3ad64a628daf302b6f24",
+    "paragraph_sha256": "f5da29ff6b45ff55b6c644dddb1a601232abf3ae8f42f3159092aa4e9f2695d3",
     "evidence": "repo-verified D-HARDWARE D-BOM D-SAFETY",
     "preview": "The internal battery lets you use the PiForma without a power cord. The intended external power cable supplies its charger, and the battery "
   },
@@ -844,7 +844,7 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "System sound and startup chimes",
-    "paragraph_sha256": "e39bfdf5546a0206c1c3f4be508b03388b63e13c187bda80714d4c9521a527a6",
+    "paragraph_sha256": "4d6394fc76ef09c2fbce9c61c753bb0059265434d27c5028497a535817a78a7d",
     "evidence": "repo-verified D-HARDWARE; owner-current H01-chime",
     "preview": "The startup chime and ordinary system audio are separate. A separate sound module and speaker play the startup chime; the rear selector choo"
   },
@@ -879,9 +879,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "Ports, wireless links and adapters",
-    "paragraph_sha256": "4c2742c2edc8cde71b9919004568c005b1ca540a37f9dd41f2aa2eab28b75d95",
+    "paragraph_sha256": "035beb1490285e1b02cbf171700e57bcf21951769d71698d7c30251c286f44ba",
     "evidence": "owner-current H01-usb; repo-verified D-HARDWARE D-SOFTWARE",
-    "preview": "The owner reports one rear USB port available to the user. The Pi board’s own connectors should not be mistaken for externally accessible po"
+    "preview": "One rear USB port is available to the user. The Pi board’s own connectors should not be mistaken for externally accessible ports. Use the hu"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -900,9 +900,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The matching mouse",
-    "paragraph_sha256": "bd5c413632f106f88967e0c7166968afe95c08f86692930785c474e691bb0b06",
+    "paragraph_sha256": "c2dcf48fb83e19a8b1f7bcb13505a450fa4900b5e96f21139af0c194b0f0245d",
     "evidence": "repo-verified D-HARDWARE",
-    "preview": "The matching mouse combines Bambu wireless mouse-kit electronics with a printed Retro Wireless Computer Mouse shell. The project records a r"
+    "preview": "The matching mouse combines Bambu wireless mouse-kit electronics with a printed Retro Wireless Computer Mouse shell. The scroll wheel and ax"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -914,9 +914,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The bag and its fitted interior",
-    "paragraph_sha256": "10e6a7eb853d55a4c9d887abbddc1f4c7d8576a327528bbc7b87eefb6c45f770",
+    "paragraph_sha256": "1677c5e81bd341661bdab68e3c11163e8515e4b98383c962e5ebfa21323deb3d",
     "evidence": "repo-verified D-HARDWARE; owner-current H01-packing",
-    "preview": "The carrying bag is part of the build. The records describe a corrugated-plastic liner, a foam bottom, green velvet, alignment grooves, and "
+    "preview": "The carrying bag is part of the build. It has a corrugated-plastic liner, a foam bottom, green velvet, alignment grooves, and a wireless cha"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1469,94 +1469,94 @@
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Technical Information",
-    "paragraph_sha256": "b780aedc575c9a29b2eb88158e8762aacb7fe63bd50e216309b17dae4b4c55ef",
+    "paragraph_sha256": "ca8e0fd77af704089b969a833301faee57107bedfab8dcfcb16809d8e7941797",
     "evidence": "repo-verified D-HARDWARE D-BOM D-SOFTWARE; needs-confirmation Q-POWER",
-    "preview": "This appendix summarizes the inspected project records. It is not a wiring plan or a certification. Compare identifying labels and the runni"
+    "preview": "This appendix describes the PiForma’s hardware, connections and software. Use the project documentation for maintenance and recovery instruc"
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Donor: Apple IIc Monitor A2M4090, recorded February 1985."
+    "preview": "- Donor: Apple IIc Monitor A2M4090, February 1985."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Computer: Raspberry Pi 4 Model B, recorded 4 GB RAM."
+    "preview": "- Computer: Raspberry Pi 4 Model B, 4 GB RAM."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Storage: recorded 256 GB microSD."
+    "preview": "- Storage: 256 GB microSD."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Display: recorded 9-inch LCD kit, working mode 800 × 480."
+    "preview": "- Display: 9-inch LCD kit, working mode 800 × 480."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Main battery: recorded Anker Prime 26K 300W."
+    "preview": "- Main battery: Anker Prime 26K 300W."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Internal charger: recorded 100W USB-C adapter."
+    "preview": "- Internal charger: 100W USB-C adapter."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Keyboard: recorded Apple A9M0330 ADB keyboard, BLE conversion, ZMK, USB-C charging, nice!view."
+    "preview": "- Keyboard: Apple A9M0330 ADB keyboard, BLE conversion, ZMK, USB-C charging, nice!view."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Mouse: recorded Bambu kit electronics in a printed shell, USB receiver."
+    "preview": "- Mouse: Bambu kit electronics in a printed shell, USB receiver."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Startup sound: recorded YS-M3, CK1028 selector, separate salvaged speaker."
+    "preview": "- Startup sound: YS-M3, CK1028 selector, separate salvaged speaker."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Normal sound: recorded internal USB speaker."
+    "preview": "- Normal sound: internal USB speaker."
   },
   {
     "file": "manuscript\\05-technical-information.md",
-    "section": "Recorded power architecture",
-    "paragraph_sha256": "e75721c3df54aab75d98a4b7ad3abf266ed57677d9ec3c7d847c191e40ee0ddf",
+    "section": "Power architecture",
+    "paragraph_sha256": "9f8bda27f5a84268d283e6449516fcfbad01c1cc3005075f3f523bf9b5116a66",
     "evidence": "repo-verified D-HARDWARE D-SAFETY",
-    "preview": "Recorded path: rear AC inlet → internal charger → main battery → original power switch → custom 5V JST rail → Pi, LCD controller, startup-ch"
+    "preview": "Power path: rear AC inlet → internal charger → main battery → original power switch → custom 5V JST rail → Pi, LCD controller, startup-chime"
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
     "evidence": "repo-verified D-GESTURE D-SOFTWARE",
-    "preview": "- Apple-logo sensor: recorded TTP223 on BCM GPIO23, active-low."
+    "preview": "- Apple-logo sensor: TTP223 on BCM GPIO23, active-low."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
     "evidence": "repo-verified D-GESTURE D-SOFTWARE",
-    "preview": "- EC11 volume encoder: recorded BCM GPIO17/27; push input GPIO22 exists in software but is not physically usable in the installed-knob record."
+    "preview": "- EC11 volume encoder: BCM GPIO17/27; push input GPIO22 exists in software but is not physically usable on the installed knob."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
     "evidence": "repo-verified D-GESTURE D-SOFTWARE",
-    "preview": "- Display source: physical switch to LCD controller source control, not a GPIO relay selector in the final record."
+    "preview": "- Display source: physical switch to LCD controller source control, not a GPIO relay selector in this build."
   },
   {
     "file": "manuscript\\05-technical-information.md",
@@ -1574,35 +1574,35 @@
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
     "evidence": "repo-verified D-GESTURE D-SOFTWARE",
-    "preview": "- External USB access: one rear port in the owner’s current account; do not infer exterior access from the Pi’s board connector count."
+    "preview": "- External USB access: one rear port; do not infer exterior access from the Pi’s board connector count."
   },
   {
     "file": "manuscript\\05-technical-information.md",
-    "section": "Software, services and recovery records",
-    "paragraph_sha256": "ce2e8e46492abf84e5a94e0dec1a95ad4da89b99889e231778c8a2b1b8fe377f",
+    "section": "Software, services and recovery",
+    "paragraph_sha256": "cc2fdc8347d057bcbdb66943e41311ac0c2d2542e08ffd597f63de9f0c942b14",
     "evidence": "repo-verified D-SOFTWARE D-AUDIO",
-    "preview": "The canonical software page records Raspberry Pi OS, X11/LXDE, Openbox, LightDM, PCManFM, PipeWire, and WirePlumber. System services include"
+    "preview": "The software includes Raspberry Pi OS, X11/LXDE, Openbox, LightDM, PCManFM, PipeWire, and WirePlumber. System services include apple-gesture"
   },
   {
     "file": "manuscript\\05-technical-information.md",
-    "section": "Software, services and recovery records",
-    "paragraph_sha256": "aa767bde82d43fac08fdcc4d20dcc0cdbbbb7dd087fd1a54412444aaf6d20337",
+    "section": "Software, services and recovery",
+    "paragraph_sha256": "4385208adc9e2023f256867b409cfd8f5bb7e596b8b41ccc38dfaff0827c2ffb",
     "evidence": "repo-verified D-SOFTWARE D-AUDIO",
     "preview": "Use the canonical repository's software page, service inventory, configuration archive and installation guide for recovery. Archived helpers"
   },
   {
     "file": "manuscript\\05-technical-information.md",
-    "section": "Keyboard conversion and source records",
+    "section": "Keyboard conversion and sources",
     "paragraph_sha256": "925016a21478542ab9e5124b5980a44d280dad1e2f3de4893d4adfd7dac2aeac",
     "evidence": "repo-verified D-HARDWARE D-BOM; historic-record H03-dosbox",
     "preview": "The build credits Matt Chesters’ `zmk-apple-desktop-bus-keyboard` conversion. Special keys follow the deployed keymap."
   },
   {
     "file": "manuscript\\05-technical-information.md",
-    "section": "Keyboard conversion and source records",
-    "paragraph_sha256": "71e21a65de3afaffcc3fb254a46ca2ba0a27f29420ec4c1ebf4116b096f3c2c3",
+    "section": "Keyboard conversion and sources",
+    "paragraph_sha256": "dd44e15db4a3d6c9ebf67561222ad4dbf74d3ac9ef23f6f97278320b2a23a669",
     "evidence": "repo-verified D-HARDWARE D-BOM; historic-record H03-dosbox",
-    "preview": "The keyboard conversion records list a Seeed XIAO nRF52840, MCP23017 I/O expander, custom board, small battery and nice!view display."
+    "preview": "The keyboard conversion uses a Seeed XIAO nRF52840, MCP23017 I/O expander, custom board, small battery and nice!view display."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -1628,9 +1628,9 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Chime selector",
-    "paragraph_sha256": "526f5905da663368bfbf8ee9edbf7529441eb19aea4546637a29b278794beaf0",
+    "paragraph_sha256": "f0a49b0ebd1edcd2971dc2e7204695a9649534f846ef9ca89a4bdb8b881f3768",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
-    "preview": "The rear dial that chooses a startup sound; some owner-reported settings are silent."
+    "preview": "The rear dial that chooses a startup sound; some settings are silent."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -1698,9 +1698,9 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "RetroPie",
-    "paragraph_sha256": "1d1d00011d6dd0e29c5a1eef3953bf507b4c9faa2195e85e2e779b09fa326d80",
+    "paragraph_sha256": "06e4b2318d49cf01f2da7122bd7558d7ef2bb42887afcee2ec3f7086a60c69f0",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
-    "preview": "The recorded games/emulation environment, opened through EmulationStation in this setup."
+    "preview": "The games/emulation environment, opened through EmulationStation in this setup."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",

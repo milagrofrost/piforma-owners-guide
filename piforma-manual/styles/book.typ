@@ -1,6 +1,7 @@
 #import "typography.typ": ink, accent, quiet, manual-font
 #let current-title = state("book-running-title", "Macintosh PiForma")
 #let phase = state("book-phase", "front")
+#let chapter-number = state("book-chapter", 1)
 #let content-mark() = metadata("printed-content")
 #let folio() = context {
   let populated = query(metadata.where(value:"printed-content")).any(m => m.location().page() == here().page())
@@ -16,44 +17,45 @@
 #let book(content) = {
   set document(title: "Macintosh PiForma Owner’s Guide — Working Proof", author: "Macintosh PiForma")
   set page(width:432pt,height:522pt,margin:(left:152pt,right:38pt,top:39pt,bottom:43pt),footer:folio(),footer-descent:17pt)
-  set text(font:manual-font,size:10pt,fill:ink,lang:"en")
-  set par(leading:6pt,spacing:8pt,justify:false)
+  set text(font:manual-font,size:10.5pt,fill:ink,lang:"en")
+  set par(leading:6pt,spacing:7pt,justify:false)
   set text(hyphenate:false)
   set list(marker:rect(width:3pt,height:3pt,fill:accent,stroke:none),indent:0pt,body-indent:10pt,spacing:6pt)
   set enum(indent:0pt,body-indent:13pt,spacing:7pt)
   show heading.where(level:1): it => {
+    set par(leading:10pt)
     block(breakable:false,sticky:true,below:15pt,
       stack(dir:ttb,spacing:4pt,[#content-mark()#line(length:242pt,stroke:1.8pt+accent)],
-        scale(x:85%,origin:top+left,reflow:true,block(width:242pt / .85,text(size:16pt,weight:"bold",it.body)))))
+        block(width:242pt,text(size:15pt,weight:"bold",it.body))))
   }
   show heading.where(level:2): it => {
     block(above:13pt,below:8pt,breakable:false,sticky:true,
       stack(dir:ttb,spacing:4pt,[#content-mark()#line(length:242pt,stroke:1.4pt+accent)],
-      scale(x:85%,origin:top+left,text(size:13pt,weight:"bold",it.body))))
+      text(size:12pt,weight:"bold",it.body)))
   }
   show heading.where(level:3): it => block(above:10pt,below:6pt,sticky:true,[#content-mark()#text(size:10.5pt,weight:"bold",it.body)])
   content
 }
-#let para(copy,width:242pt) = block(width:width,above:0pt,below:8pt,breakable:false,
-  [#content-mark()#scale(x:85%,origin:top+left,reflow:true,block(width:width / .85, copy))])
+#let para(copy,width:242pt) = block(width:width,above:0pt,below:7pt,breakable:false,
+  [#content-mark()#copy])
 #let subhead(title) = heading(level:3,outlined:false,title)
 #let instruction(n,copy) = block(above:0pt,below:7pt,breakable:false)[
   #content-mark()
   #grid(columns:(13pt,229pt),gutter:0pt,
     text(fill:accent,weight:"bold",str(n)+"."),
-    scale(x:85%,origin:top+left,reflow:true,block(width:229pt/.85,copy)))
+    block(width:229pt,copy))
 ]
 #let bullet(copy) = block(above:0pt,below:7pt,breakable:false)[
   #content-mark()
   #grid(columns:(10pt,232pt),gutter:0pt,
     box(inset:(top:4pt),rect(width:3pt,height:3pt,fill:accent,stroke:none)),
-    scale(x:85%,origin:top+left,reflow:true,block(width:232pt/.85,copy)))
+    block(width:232pt,copy))
 ]
-#let spec-row(label,copy) = block(above:0pt,below:6pt,breakable:false)[
+#let spec-row(label,copy) = block(width:354pt,above:0pt,below:6pt,breakable:false)[
   #content-mark()
-  #grid(columns:(76pt,158pt),gutter:8pt,
-    scale(x:85%,origin:top+left,reflow:true,block(width:76pt/.85,text(weight:"bold",label))),
-    scale(x:85%,origin:top+left,reflow:true,block(width:158pt/.85,copy)))
+  #set text(size:10pt)
+  #grid(columns:(91pt,251pt),gutter:12pt,
+    text(weight:"bold",label),copy)
 ]
 #let glossary-term(title) = subhead(title)
 #let side-note(label,copy) = block(above:7pt,below:9pt,breakable:false)[
@@ -78,7 +80,7 @@
 #let caption(id,copy,width:366pt) = block(width:width,above:4pt,below:0pt,breakable:false)[
   #content-mark()
   #set text(size:8pt)
-  #set par(leading:2.5pt,spacing:0pt,justify:false)
+  #set par(leading:4.2pt,spacing:0pt,justify:false)
   #text([Figure #id. #copy])
 ]
 #let figure-anchor(body) = context {
@@ -125,6 +127,36 @@
     }
   ])
 ]
+#let annotated(label,note,body) = block(width:242pt,above:3pt,below:10pt,breakable:false)[
+  #content-mark()
+  #move(dx:-112pt,block(width:354pt)[
+    #grid(columns:(96pt,242pt),column-gutter:16pt,
+      block[
+        #set text(size:8.5pt)
+        #set par(leading:4.5pt,spacing:5pt)
+        #text(weight:"bold",label)
+        #if note != none { v(5pt); note }
+      ],body)
+  ])
+]
+#let reference-plate(body) = block(width:242pt,above:10pt,below:12pt,breakable:false)[
+  #content-mark()
+  #move(dx:-112pt,block(width:354pt,body))
+]
+#let illustration-plate(id,file,copy,width:320pt) = {
+  pagebreak(weak:true)
+  content-mark()
+  place(top+left,dx:-112pt,block(width:96pt,text(size:11pt,weight:"bold")[Unpacking the equipment]))
+  line(length:242pt,stroke:1.3pt+accent)
+  v(22pt)
+  wide-illustration(id,file,copy,width:width)
+  pagebreak()
+}
+#let launcher-detail() = block(above:7pt,below:9pt,breakable:false)[
+  #content-mark()
+  #image("../assets/screenshots/atease-detail.svg",width:242pt)
+  #caption("1-7 detail","AtEase folder tabs and program buttons.",width:242pt)
+]
 #let verification(copy) = block(above:5pt,below:10pt,breakable:false)[
   #place(top+left,dx:-65pt,dy:2pt,polygon((0pt,6pt),(3pt,0pt),(6pt,6pt),fill:none,stroke:.45pt+accent))
   #place(top+left,dx:-53pt,block(width:48pt,text(size:8.5pt,weight:"bold")[Verify]))
@@ -134,6 +166,7 @@
   pagebreak(to:"odd")
   if n == 1 { counter(page).update(1) }
   phase.update("body")
+  chapter-number.update(n)
   current-title.update("Chapter " + str(n) + ": " + title)
   place(top+left,dx:-112pt,text(size:7pt,tracking:10pt)[CHAPTER])
   place(top+left,dx:23pt,text(size:7pt)[#n])
@@ -145,10 +178,17 @@
 #let opener(copy) = {
   let initial = copy.first()
   block(breakable:false)[
-    #place(top+left,dx:-8pt,dy:-17pt,text(size:35pt,fill:quiet,initial))
+    #place(top+left,dx:-15pt,dy:-17pt,text(size:35pt,fill:quiet,initial))
     #pad(left:12pt,para(copy.slice(1),width:230pt))
   ]
-  v(4pt)
+  // Give each chapter a quiet opening leaf, rather than starting the next
+  // procedure in whatever small space remains beneath its introduction.
+  context {
+    if chapter-number.get() == 1 {
+      place(top+left,dx:-126pt,dy:287pt,image("../assets/illustrations/1-3b.png",width:170pt))
+    }
+  }
+  pagebreak()
 }
 #let front(title,body) = {
   pagebreak()
@@ -164,10 +204,10 @@
 }
 #let cover() = {
   set page(margin:0pt,footer:none)
-  place(top+left,dx:84pt,dy:28pt,scale(x:85%,origin:top+left,text(size:22pt,fill:rgb("777772"))[Macintosh PiForma]))
-  place(top+left,dx:84pt,dy:51pt,scale(x:85%,origin:top+left,text(size:22pt,fill:rgb("777772"))[Owner’s Guide]))
+  place(top+left,dx:84pt,dy:28pt,text(size:22pt,fill:rgb("777772"))[Macintosh PiForma])
+  place(top+left,dx:84pt,dy:60pt,text(size:22pt,fill:rgb("777772"))[Owner’s Guide])
   place(top+left,dx:105pt,dy:218pt,image("../assets/illustrations/piforma-cover.png",width:290pt))
-  place(top+left,dx:84pt,dy:477pt,text(size:8pt)[Working manuscript proof · October 15, 2026])
+  place(top+left,dx:84pt,dy:477pt,text(size:8pt)[Working manuscript proof · October 17, 2026])
 }
 #let cover-reverse() = {
   set page(margin:0pt,footer:none)

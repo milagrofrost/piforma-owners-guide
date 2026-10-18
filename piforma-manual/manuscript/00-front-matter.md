@@ -20,7 +20,7 @@ Chapter 3, “How the Macintosh PiForma Works,” introduces the desktop, launch
 
 Chapter 4, “Caring for Your Macintosh PiForma,” covers handling, cleaning, charging, storage, and transport. It includes the brief but comprehensive description of the service department.
 
-Appendix A collects technical records and points to the project documentation. Appendix B helps you find a useful check when something goes wrong. The glossary explains unfamiliar terms used in the guide.
+Appendix A collects technical information and points to the project documentation. Appendix B helps you find a useful check when something goes wrong. The glossary explains unfamiliar terms used in the guide.
 
 <!-- evidence: needs-confirmation EDITORIAL -->
 Start with Chapter 1 for your first session. Return to Chapter 3 when you want to work with programs and files, or to Appendix B when the computer has other plans.

@@ -1,6 +1,6 @@
 # Macintosh PiForma Owner's Guide
 
-Editable manuscript and Typst production source for the Macintosh PiForma Owner's Guide. Start with the [current 63-page reviewed proof](piforma-manual/output/macintosh-piforma-layout-reviewed.pdf) and [continuation handoff](CONTINUING.md).
+Editable manuscript and Typst production source for the Macintosh PiForma Owner's Guide. Start with the [current 69-page reviewed proof](piforma-manual/output/macintosh-piforma-layout-reviewed.pdf) and [continuation handoff](CONTINUING.md).
 
 The manual retains four chapters, technical information, symptom-based troubleshooting, a glossary and the owner's personality. It follows the original Macintosh Plus and SE guides as instructional and visual references. PiForma is a privately built computer in an Apple IIc Monitor shell, not an Apple product.
 
@@ -14,7 +14,7 @@ The manual retains four chapters, technical information, symptom-based troublesh
 
 ## Build
 
-Use Python 3.12+ and Typst **0.15.1**. Install the fonts named in `piforma-manual/styles/typography.typ` (currently Times New Roman). Fonts and executables are not bundled; font substitution can alter pagination. Dependencies are pinned in `requirements.txt`.
+Use Python 3.12+ and Typst **0.15.1**. Install the fonts named in `piforma-manual/styles/typography.typ` (currently EB Garamond). Fonts and executables are not bundled; font substitution can alter pagination. Dependencies are pinned in `requirements.txt`.
 
 ```powershell
 python -m venv .venv

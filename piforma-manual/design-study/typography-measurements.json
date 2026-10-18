@@ -1,0 +1,26 @@
+[
+  {
+    "trial": "Current: Times New Roman 10 pt / 85% width",
+    "lines": 5,
+    "baseline_pitch_pt": 12.62,
+    "mean_characters_full_lines": 70.8
+  },
+  {
+    "trial": "Times New Roman 10 pt / natural width",
+    "lines": 5,
+    "baseline_pitch_pt": 12.62,
+    "mean_characters_full_lines": 58.8
+  },
+  {
+    "trial": "EB Garamond 10.5 pt / natural width",
+    "lines": 5,
+    "baseline_pitch_pt": 12.82,
+    "mean_characters_full_lines": 58.8
+  },
+  {
+    "trial": "Palatino Linotype 10 pt / natural width",
+    "lines": 6,
+    "baseline_pitch_pt": 13.16,
+    "mean_characters_full_lines": 54
+  }
+]

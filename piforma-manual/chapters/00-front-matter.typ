@@ -13,5 +13,5 @@
 #para("Chapter 2, “Inside the Macintosh PiForma,” introduces the monitor shell, Raspberry Pi, display, battery, controls, keyboard, mouse, speakers, and bag. It explains what the parts do before getting into the finer details.")
 #para("Chapter 3, “How the Macintosh PiForma Works,” introduces the desktop, launcher, menu bar, games, and other programs. It distinguishes the computer’s physical controls from the menus on its screen.")
 #para("Chapter 4, “Caring for Your Macintosh PiForma,” covers handling, cleaning, charging, storage, and transport. It includes the brief but comprehensive description of the service department.")
-#para("Appendix A collects technical records and points to the project documentation. Appendix B helps you find a useful check when something goes wrong. The glossary explains unfamiliar terms used in the guide.")
+#para("Appendix A collects technical information and points to the project documentation. Appendix B helps you find a useful check when something goes wrong. The glossary explains unfamiliar terms used in the guide.")
 #para("Start with Chapter 1 for your first session. Return to Chapter 3 when you want to work with programs and files, or to Appendix B when the computer has other plans.")

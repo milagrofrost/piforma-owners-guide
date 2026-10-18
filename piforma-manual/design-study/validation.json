@@ -1,0 +1,23 @@
+{
+  "study_pages": 6,
+  "trim_pt": [
+    432,
+    522
+  ],
+  "all_selected_text_units_present": 24,
+  "fonts_embedded": true,
+  "production_source_hashes": "unchanged",
+  "text_rectangle_overlap_issues": [],
+  "reference_page_numbers": "physical PDF pages, not printed folios",
+  "current_source_pdf_pages": [
+    7,
+    19,
+    8,
+    13,
+    40,
+    55
+  ],
+  "current_pdf_sha256": "3f043c57394c599066d3c9d340881197239a0c48192d067158b7dcb46fd313ed",
+  "image_method": "unchanged original aspect ratios; screenshot viewport crops existing pixels only",
+  "physical_print_review": false
+}

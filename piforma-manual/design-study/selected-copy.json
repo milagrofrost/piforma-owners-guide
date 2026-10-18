@@ -1,0 +1,36 @@
+{
+  "intro": "This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how to check a reluctant battery, shut down properly, and return everything to the bag. The packing order is worth a little attention. The foam has opinions.",
+  "unpack_intro": "Set the carrying bag upright on a stable surface and open it. Leave room nearby for each item as you take it out.",
+  "startup_steps": [
+    "1. Find the physical power control on the right side and switch the PiForma on.",
+    "2. Look for the green light at the front.",
+    "3. Listen for a startup chime. Depending on the rear selector’s position, there may be no sound.",
+    "4. Watch for the startup picture or sequence. The desktop normally follows in about one to two minutes; allow for some variation."
+  ],
+  "silent_note": "A silent startup does not by itself mean that the computer has failed. Use the green light and display as well as the chime when checking what has happened.",
+  "battery": [
+    "If nothing happens, check the battery before assuming something has broken. The outside plunger mechanically presses the button on the internal battery pack, showing its charge indicators; the owner reports that pressing it may also wake or enable the pack.",
+    "The normal, management-approved way to read the battery is to press the rear battery plunger to turn on its display, then peer through the slits in the top to see the percentage. You do not have to open the compartment for this check."
+  ],
+  "bag_caption": "Arrangement in the carrying bag. The printed guide is not shown; it lies beneath the mouse and stand, above the mouse pad.",
+  "bag_position": "The PiForma is underneath the board, with its monitor/screen facing upward. The keyboard is tucked against one side of the computer. It is not another layer in the stack. Watch that it does not catch as you remove the PiForma.",
+  "controls_intro": "Before connecting anything, find the power control on the right side, the green status light at the front, and the chime-selector dial at the back. The Apple logo at the front is also a touch control. It is separate from the physical power switch.",
+  "software": [
+    "Click an AtEase folder tab to choose a collection, then click a program button once. Allow time for the program to open. A launcher button starts a program; it is not the document you may later create inside it.",
+    "If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This reveals the desktop without quitting the programs. You can then select another AtEase button. If the launcher is absent rather than covered, see Appendix B."
+  ],
+  "tech_intro": "This appendix summarizes the inspected project records. It is not a wiring plan or a certification. Compare identifying labels and the running configuration before using it as a current-device specification.",
+  "tech_rows": [
+    "- Donor: Apple IIc Monitor A2M4090, recorded February 1985.",
+    "- Computer: Raspberry Pi 4 Model B, recorded 4 GB RAM.",
+    "- Storage: recorded 256 GB microSD.",
+    "- Display: recorded 9-inch LCD kit, working mode 800 × 480.",
+    "- Main battery: recorded Anker Prime 26K 300W.",
+    "- Internal charger: recorded 100W USB-C adapter.",
+    "- Keyboard: recorded Apple A9M0330 ADB keyboard, BLE conversion, ZMK, USB-C charging, nice!view.",
+    "- Mouse: recorded Bambu kit electronics in a printed shell, USB receiver.",
+    "- Startup sound: recorded YS-M3, CK1028 selector, separate salvaged speaker.",
+    "- Normal sound: recorded internal USB speaker."
+  ],
+  "power": "Recorded path: rear AC inlet → internal charger → main battery → original power switch → custom 5V JST rail → Pi, LCD controller, startup-chime module, and touch sensor. The USB speaker is supplied through the Pi. The switch does not disconnect the AC charging path. The rail has no separate installed fuse protection in the records."
+}

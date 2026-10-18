@@ -1,3 +1,7 @@
+# Current direction — October 17, 2026
+
+The owner approved the six-page study. The complete guide now uses natural-width EB Garamond and the six composition families, at 69 pages. Specifications state their existing facts directly without “recorded.” Read `piforma-manual/approved-redesign-report.md` for the layout changes and validation. Earlier history below describes the initial repository handoff.
+
 # Continue this project
 
 Handoff prepared October 16, 2026. Current manual: **63 PDF pages**, 6 × 7.25 inches, with four chapters and Appendices A/B. The tracked reviewed PDF includes all eleven software screenshots and three labeled interior photographs. It includes the latest 84% battery correction.

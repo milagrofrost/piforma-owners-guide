@@ -1,0 +1,14 @@
+{
+  "manuscript\\00-front-matter.md": "f95c32d9f866465f4c068b30285fe571e5569d3ea3cc537509b416aff4ee1d0e",
+  "manuscript\\01-getting-started.md": "de38e6a194eae9805e63cfed832762f5ee2b4d007d8503d46836e66879d4e08f",
+  "manuscript\\02-inside-piforma.md": "7d4f3ca6ed0a63018d8d96ab1ac57cac6b4cfb074b024b4db9006a33e921024e",
+  "manuscript\\03-how-piforma-works.md": "4d4a0784cbd9149a5a51d70606749893a373e0d091ade736bef0afb510f90dbf",
+  "manuscript\\04-caring-for-piforma.md": "6fb6a5ed15009b4b23658b175898b134213773c4e5e1e36d4337d22f901d08aa",
+  "manuscript\\05-technical-information.md": "1b93ac2aa6468c44c42e296138ccab51a55906c73bbcb2392386e4cd94b31f5d",
+  "manuscript\\06-glossary-and-credits.md": "b10b72262d1a8e23b5f4e4a1a50eca03d50abe5cd660786ef22f607e5f387a2e",
+  "manuscript\\07-troubleshooting.md": "37cdbfb689a48480283644a7242f9a2f2fefd768e45b8c2133fc2a3cad9c5b8c",
+  "styles\\book.typ": "4000581af61361b3cfbc6d0d663992c5c383f8fd1b440b172b74e8afa8e88baa",
+  "styles\\typography.typ": "047e03fdc3f57b6145add3f0f8f388de0df75dddc3abffc7b79e9e47e126011a",
+  "assets\\illustration-layout.json": "5e83d9f53b18a26325cc4b39f1983c45c17292a41a1805e3ed8ce9df6c5aacfa",
+  "main.typ": "90522b64d5ef5f4c707efb9a7dbd170931bdc0cbc015d5037ee229a831ec87e2"
+}

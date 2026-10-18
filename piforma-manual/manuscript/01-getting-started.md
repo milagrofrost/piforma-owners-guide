@@ -45,7 +45,7 @@ Before connecting anything, find the power control on the right side, the green 
 
 The owner’s current arrangement has one externally accessible USB port at the back. The USB hub lets you attach more than one USB device. The keyboard communicates over Bluetooth; the mouse uses a USB receiver. A keyboard connection problem and a missing mouse receiver therefore call for different checks.
 
-The build records identify a rear display-source selector and a composite-video RCA input. That RCA jack is for video, not a general audio connection. Use the source selector’s HDMI setting for the Raspberry Pi picture.
+At the rear are a display-source selector and a composite-video RCA input. That RCA jack is for video, not a general audio connection. Use the source selector’s HDMI setting for the Raspberry Pi picture.
 
 <!-- evidence: owner-current OWNER-REAR-OUTLINE -->
 [ILLUSTRATION 1-3a|rear-inputs.png|Rear controls and connections. The RCA input is composite video. Use only identified connections described in the text; leave an unfamiliar audio socket unused.]
@@ -113,7 +113,7 @@ Underneath are the battery compartment, power switch, and optical tracking windo
 <!-- evidence: owner-current H01-power; repo-verified D-HARDWARE -->
 If the internal battery is charged, you do not need a power cord for a short session. For use lasting more than a few hours, keep the PiForma connected to external power when it is available, as the owner recommends. This is a practical preference, not a guaranteed battery-runtime figure.
 
-Take the power cable from the brown pouch. The project records describe the original rear AC inlet as the input to the installed internal charger, with the battery able to charge while the computer’s power switch is off. Use the cable and charging arrangement intended for this build.
+Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the computer’s power switch is off. Use the cable and charging arrangement intended for this build.
 
 ### USB devices and controllers
 
@@ -152,7 +152,7 @@ A silent startup does not by itself mean that the computer has failed. Use the g
 ### Checking the battery
 
 <!-- evidence: owner-current H01-battery OWNER-IMAGES-2026-10-14; repo-verified D-HARDWARE D-MAINTENANCE -->
-If nothing happens, check the battery before assuming something has broken. The outside plunger mechanically presses the button on the internal battery pack, showing its charge indicators; the owner reports that pressing it may also wake or enable the pack.
+If nothing happens, check the battery before assuming something has broken. The outside plunger mechanically presses the button on the internal battery pack, showing its charge indicators; pressing it may also wake or enable the pack.
 
 The normal, management-approved way to read the battery is to press the rear battery plunger to turn on its display, then peer through the slits in the top to see the percentage. You do not have to open the compartment for this check.
 
@@ -235,7 +235,7 @@ The launcher calls the project guide PiForma Guide. Click that button in AtEase 
 1. Save your work and leave any game or application using its own quit command when available.
 2. In the PiForma Panel menu bar, choose Special → Shut Down.
 3. If a confirmation appears, choose Shut Down. Let the operating system finish shutting down before removing physical power. A blank screen alone can also mean the display is asleep, so do not use darkness as the only confirmation.
-4. Once shutdown is complete, turn off the right-side physical power control. The recorded wiring permits battery charging while this control is off.
+4. Once shutdown is complete, turn off the right-side physical power control. The wiring permits battery charging while this control is off.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 [SCREENSHOT 1-9|piforma-shutdown-menu.svg|Choose Special → Shut Down after saving your work. This view shows the menu choice, not completed shutdown.]
@@ -260,7 +260,7 @@ The owner has confirmed that a hold of about six seconds closes only the active 
 ### Checking the charging alignment
 
 <!-- evidence: owner-current H01-alignment; repo-verified D-HARDWARE D-MAINTENANCE -->
-Seating the rear/bottom in the molded foam indents aligns the bag’s wireless-charging arrangement. The repository records place a hidden transmitter under the velvet and route its USB power cable into a back pocket. That is documented as a slow, trickle-charging arrangement, not fast charging.
+Seating the rear/bottom in the molded foam indents aligns the bag’s wireless-charging arrangement. A hidden transmitter sits under the velvet, with its USB power cable routed into a back pocket. This is a slow, trickle-charging arrangement, not fast charging.
 
 Physical fit does not prove that charging has started. Check the foam seating and that the charging cable in the back pocket has power. The battery display can indicate whether power from the wireless receiver is charging the battery, but the display is hidden while the computer is packed in the bag. Without a USB power monitor on the bag charger's supply, it is rather a hope-and-pray arrangement.
 

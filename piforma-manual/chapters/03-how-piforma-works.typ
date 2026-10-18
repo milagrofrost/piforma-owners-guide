@@ -20,10 +20,16 @@
 #para("To replace text, select it by dragging across it, then type the replacement. Deleting selected text removes the whole selection. If you remove something by mistake, look for Undo in that application's Edit menu before doing more work.")
 #para("Use an application's own Cut, Copy and Paste commands when available. Copy leaves the original selection in place; Cut removes it; Paste inserts the copied or cut material at the insertion point. Check the selection before cutting, and the insertion point before pasting.")
 #para("The vintage key legends do not establish a modern shortcut map. Follow commands displayed by the program instead of assuming that an Apple-labeled key performs a particular action. Pairing and special key combinations are not covered here. If ordinary typing fails, use the keyboard checks in Appendix B.")
+#pagebreak(weak:true)
 #heading(level:2,"Opening programs with AtEase")
+#annotated("AtEase",none,[
 #para("Click an AtEase folder tab to choose a collection, then click a program button once. Allow time for the program to open. A launcher button starts a program; it is not the document you may later create inside it.")
+#launcher-detail()
+])
+#annotated("Show Desktop",none,[
 #para("If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This reveals the desktop without quitting the programs. You can then select another AtEase button. If the launcher is absent rather than covered, see Appendix B.")
 #screen-figure("3-1","piforma-show-desktop.svg","View → Show Desktop returns you to the launcher without quitting the open applications.",width:242pt)
+])
 #heading(level:2,"Working with application windows")
 #para("Several programs can be open at once. Click a window to bring it forward and direct your typing to it. Before typing a command or entering text, check that the intended window is active. An overlapping window is still open even when you can see only an edge of it.")
 #para("Where a normal window has a title bar, drag it to a more useful position. Where a resize border or corner is provided, drag that border or corner to change the window's size. Some programs fix their window size or use the whole screen; those controls will not always be present.")

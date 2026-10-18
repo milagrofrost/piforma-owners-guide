@@ -15,7 +15,7 @@ Bluetooth Low Energy, the wireless connection used by the converted keyboard.
 
 ## Chime selector
 
-The rear dial that chooses a startup sound; some owner-reported settings are silent.
+The rear dial that chooses a startup sound; some settings are silent.
 
 ## Control Strip
 
@@ -55,7 +55,7 @@ The operating system documented beneath the PiForma’s Macintosh-inspired deskt
 
 ## RetroPie
 
-The recorded games/emulation environment, opened through EmulationStation in this setup.
+The games/emulation environment, opened through EmulationStation in this setup.
 
 ## USB hub
 

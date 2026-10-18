@@ -1,6 +1,6 @@
-# Working table of contents — October 15, 2026
+# Working table of contents — October 17, 2026
 
-Four chapters retained. PDF folios follow actual headings. Production questions and missing artwork: editorial-production-tracker.md. Pre-edit proposal: editorial-production-plan.md.
+Four chapters retained. Folios are generated in the PDF; unresolved questions stay in editorial-production-tracker.md.
 
 
 ## Welcome to the Macintosh PiForma
@@ -66,10 +66,10 @@ Four chapters retained. PDF folios follow actual headings. Production questions 
 ## Technical Information
 
 - Hardware inventory and identification
-- Recorded power architecture
+- Power architecture
 - Connections and GPIO
-- Software, services and recovery records
-- Keyboard conversion and source records
+- Software, services and recovery
+- Keyboard conversion and sources
 
 ## When Something Goes Wrong
 

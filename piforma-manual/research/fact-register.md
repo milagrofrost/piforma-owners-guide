@@ -1,3 +1,7 @@
+# Owner direction — October 17, 2026
+
+Owner approved the six-page art-direction study for the complete guide and requested direct, confident details without “recorded.” Publication specifications now state the existing facts directly; this does not add new hardware facts or constitute a new physical verification. Original evidence and unresolved device checks remain in this file and the editorial tracker.
+
 # Owner correction — battery display and bag visibility
 
 The owner confirms the photographed battery reading is 84%, correcting the earlier 94% transcription. The battery display CAN indicate whether charging from the wireless receiver is working; it cannot be seen while the computer is packed in the bag. Earlier claims that no dependable indicator exists are superseded. No specific symbol or indicator appearance is inferred.

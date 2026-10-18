@@ -1,6 +1,6 @@
 # Photos and illustrations still worth adding
 
-Updated October 15, 2026 against the **59-page screenshot-integrated guide** and the files currently in `assets/illustrations`. This is the current capture checklist; older PHOTO NEEDED requests in the editorial tracker are historical. The identifiers below are shot-list IDs, not final figure numbers.
+Updated October 15, 2026 against the **69-page redesigned guide** and the files currently in `assets/illustrations`. This is the current capture checklist; older PHOTO NEEDED requests in the editorial tracker are historical. The identifiers below are shot-list IDs, not final figure numbers.
 
 Eleven supplied screenshots now cover the desktop, first-session context, window/menu controls, file navigation, Clippy and project guide. The largest remaining software gaps are a real save/reopen sequence, game/controller operation and network controls. Hardware identification is already well illustrated. New images should answer a reader's question, not fill an empty page.
 
