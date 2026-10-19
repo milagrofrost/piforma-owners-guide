@@ -13,7 +13,7 @@ The display connections need gentle handling. Do not try to cure a flicker by ta
 ## Keyboard and mouse care
 
 <!-- evidence: owner-current H01-keyboard H01-mouse; editorial-advice -->
-Keep crumbs, liquids, and loose items out of the keys. Pack the keyboard with its keys toward the bag wall, thick edge rear, and thin edge front. Turn the mouse off for prolonged storage or transport if desired, and keep its receiver accounted for.
+Keep crumbs, liquids, and loose items out of the keys. Pack the keyboard with its keys toward the bag wall, thick edge rear, and thin edge front, with Caps Lock up. Turn the mouse off for prolonged storage or transport if desired, and keep its receiver accounted for.
 
 ## Charging and storage
 

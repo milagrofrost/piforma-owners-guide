@@ -127,7 +127,7 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "Unpacking the equipment",
     "evidence": "owner-current H01-unpacking",
-    "preview": "3. Remove this printed guide."
+    "preview": "3. Remove this printed guide. If you are reading it, you have already done this step. Well done."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -144,9 +144,16 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Unpacking the equipment",
-    "paragraph_sha256": "6cfba361c79d01dde259d79da4ac28dfac41309514915d672d27881c119acaac",
-    "evidence": "owner-current H01-unpacking",
+    "paragraph_sha256": "0d82ced9cca98cfcc7635a031e516a8a079b3bc475c1d2d1abdd253dde553c3e",
+    "evidence": "owner-current H01-unpacking OWNER-TALK-2026-10-19",
     "preview": "The PiForma is underneath the board, with its monitor/screen facing upward. The keyboard is tucked against one side of the computer. It is n"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "Unpacking the equipment",
+    "paragraph_sha256": "a88e77367276a7b06afb0d373c1b28969915ca01122602842d68ffcdf03c78b1",
+    "evidence": "owner-current H01-unpacking OWNER-TALK-2026-10-19",
+    "preview": "Lift the PiForma by its handle and case. Do not push on the screen: pressing on the display can damage the screen or its mounts."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -165,9 +172,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Finding the handle",
-    "paragraph_sha256": "242fb93442c629090ce318617aca2207f47b7870d7446a36fa2008ff5596b4af",
+    "paragraph_sha256": "20df1c7a1d5c3c77e99af1c2d94072df2acd080b89ca21a858fe7c994a19d376",
     "evidence": "owner-current H01-handle",
-    "preview": "If lifting it out upright is awkward, lay the bag on its back first and try the gentler removal angle. Lift carefully, watching the keyboard"
+    "preview": "If lifting it out upright is awkward, lay the bag on its back first and try the gentler removal angle. Lift carefully. There is no prize for"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -336,8 +343,15 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The keyboard controls",
+    "paragraph_sha256": "35ff697210c2f765d86d5cc3f920202f79b746ef8697cca31fe20d39cf82c9e7",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "Caps Lock deserves a warning. It is a vintage locking key, and on the PiForma it behaves like a Shift key held down. While it is down, lette"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "The keyboard controls",
     "paragraph_sha256": "60b3e7e156c73946f17b8d3aa32475a0ae001b35ca1066603aed355bcdd09a44",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "[ILLUSTRATION 1-4b|1-4b.png|Keyboard controls. The USB port and power-switch callouts indicate their general location, not a directly visibl"
   },
   {
@@ -851,9 +865,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The display and source selector",
-    "paragraph_sha256": "69b59f1962e5cce08c508a445290330615dcacd3c6be0dbbf59f518d6a41dbe9",
+    "paragraph_sha256": "4d6d13a7c0d9842212919a9a5ece0ef246faed1f59c96aaf1a4621e352e8bb93",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "The screen’s brightness and color cannot be adjusted from the computer. The picture is a little dim and its colors are not calibrated. The d"
+    "preview": "The screen in this first revision is, frankly, of modest quality: a little dim, with colors that are not quite right, and neither brightness"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1593,7 +1607,7 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Keyboard and mouse care",
-    "paragraph_sha256": "b58e72d223bb1bd1f06208ce2420987cabf3e2895d3db5466e659780117313de",
+    "paragraph_sha256": "c91a31fffba06787b6e1ec673c9bcd36a78407d23c9feb1e443cf434261b466b",
     "evidence": "owner-current H01-keyboard H01-mouse; editorial-advice",
     "preview": "Keep crumbs, liquids, and loose items out of the keys. Pack the keyboard with its keys toward the bag wall, thick edge rear, and thin edge f"
   },
@@ -2127,9 +2141,9 @@
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "Keyboard does not type",
-    "paragraph_sha256": "28d380d4bd4e2e43e89be2c6cf8bcb3a9df205ebcc9645d554dad4418fc80f32",
+    "paragraph_sha256": "91bac93956299e7019c75ced938409887dc5c5268f54b957da01f5e0130a8f59",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
-    "preview": "Check the switch near the upper-right edge and click in the intended text field. Try another available text field. The keyboard uses Bluetoo"
+    "preview": "If letters come out as capitals or the number keys type symbols, Caps Lock is down: press it again so it sits level with the other keys. Oth"
   },
   {
     "file": "manuscript\\07-troubleshooting.md",

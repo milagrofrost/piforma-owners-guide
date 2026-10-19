@@ -21,7 +21,7 @@ Check the underside power switch and put the mouse on its pad. Keep the optical 
 
 ## Keyboard does not type
 
-Check the switch near the upper-right edge and click in the intended text field. Try another available text field. The keyboard uses Bluetooth; a working mouse does not prove that connection. If typing fails everywhere, check keyboard power, charge and connection with the builder. Use the configured pairing procedure, not guessed key combinations.
+If letters come out as capitals or the number keys type symbols, Caps Lock is down: press it again so it sits level with the other keys. Otherwise, check the switch near the upper-right edge and click in the intended text field. Try another available text field. The keyboard uses Bluetooth; a working mouse does not prove that connection. If typing fails everywhere, check keyboard power, charge and connection with the builder. Use the configured pairing procedure, not guessed key combinations.
 
 ## No sound, or no startup chime
 

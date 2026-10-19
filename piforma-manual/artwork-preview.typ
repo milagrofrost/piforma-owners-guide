@@ -24,4 +24,4 @@
 #pagebreak()
 #wide-illustration("1-6a","1-6b.png","Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where to look.",width:330pt)
 #pagebreak()
-#wide-illustration("1-6b","1-6a.png","Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to lock.",width:190.895pt)
+#wide-illustration("1-6b","1-6a.png","Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to lock.",width:152.716pt)

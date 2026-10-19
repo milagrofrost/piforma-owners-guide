@@ -10,11 +10,14 @@ Set the carrying bag upright on a stable surface and open it. Leave room nearby 
 
 1. Remove the small brown accessory pouch near the top. It contains two Nintendo 64 controllers, the USB hub, and the power cable. Set the pouch and its contents aside.
 2. Take out the mouse and the collapsible computer stand beneath the pouch.
-3. Remove this printed guide.
+3. Remove this printed guide. If you are reading it, you have already done this step. Well done.
 4. Lift out the mouse pad beneath the guide.
 5. Remove the velvet-covered foam board beneath the mouse pad. Keep it flat; it protects the computer when everything is packed.
 
-The PiForma is underneath the board, with its monitor/screen facing upward. The keyboard is tucked against one side of the computer. It is not another layer in the stack. Watch that it does not catch as you remove the PiForma.
+<!-- evidence: owner-current H01-unpacking OWNER-TALK-2026-10-19 -->
+The PiForma is underneath the board, with its monitor/screen facing upward. The keyboard is tucked against one side of the computer. It is not another layer in the stack. Note which way it faces, as described under “The keyboard’s place” below, and lift the keyboard out first, before the computer.
+
+Lift the PiForma by its handle and case. Do not push on the screen: pressing on the display can damage the screen or its mounts.
 
 <!-- evidence: owner-current OWNER-BAG-ARRANGEMENT H01-unpacking -->
 [ILLUSTRATION 1-1|bag-arrangement.png|Arrangement in the carrying bag. The printed guide is not shown; it lies beneath the mouse and stand, above the mouse pad.]
@@ -24,7 +27,7 @@ The PiForma is underneath the board, with its monitor/screen facing upward. The 
 <!-- evidence: owner-current H01-handle -->
 The carrying handle may be hidden against the inside front wall of the bag. Slide a hand down inside that wall, along the top side of the PiForma, until you can pull the handle outward. Do not pull on a connector or an edge of the display to lift the machine.
 
-If lifting it out upright is awkward, lay the bag on its back first and try the gentler removal angle. Lift carefully, watching the keyboard beside the computer. There is no prize for wrestling it out upright.
+If lifting it out upright is awkward, lay the bag on its back first and try the gentler removal angle. Lift carefully. There is no prize for wrestling it out upright.
 
 ### The keyboard’s place
 
@@ -92,6 +95,9 @@ The stand illustration deliberately shows one support leg short of its final pos
 ### The keyboard controls
 
 The overhead view identifies the keyboard's volume control and nice!view status display. The USB charging port and power switch are in the indicated area near the top-right edge; their labels show the general location because the port and switch themselves are not visible from above. The USB-C port sits on the right, where the keyboard’s ADB port used to be; charge the keyboard there.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+Caps Lock deserves a warning. It is a vintage locking key, and on the PiForma it behaves like a Shift key held down. While it is down, letters come out as capitals and the number keys type symbols. Make sure Caps Lock is up, level with Shift and Option, before you start and before you pack the keyboard away.
 
 [ILLUSTRATION 1-4b|1-4b.png|Keyboard controls. The USB port and power-switch callouts indicate their general location, not a directly visible socket or switch.]
 

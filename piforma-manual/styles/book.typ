@@ -185,7 +185,7 @@
   // procedure in whatever small space remains beneath its introduction.
   context {
     if chapter-number.get() == 1 {
-      place(top+left,dx:-126pt,dy:287pt,image("../assets/illustrations/1-3b.png",width:170pt))
+      place(top+left,dx:-136pt,dy:267pt,image("../assets/illustrations/piforma-bw.png",width:200pt))
     }
   }
   pagebreak()

@@ -10,7 +10,7 @@
 ]
 #block(breakable:false)[
 #heading(level:2,"Keyboard and mouse care")
-#para("Keep crumbs, liquids, and loose items out of the keys. Pack the keyboard with its keys toward the bag wall, thick edge rear, and thin edge front. Turn the mouse off for prolonged storage or transport if desired, and keep its receiver accounted for.")
+#para("Keep crumbs, liquids, and loose items out of the keys. Pack the keyboard with its keys toward the bag wall, thick edge rear, and thin edge front, with Caps Lock up. Turn the mouse off for prolonged storage or transport if desired, and keep its receiver accounted for.")
 ]
 #block(breakable:false)[
 #heading(level:2,"Charging and storage")

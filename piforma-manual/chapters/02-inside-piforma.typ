@@ -12,7 +12,7 @@
 #para("The computer runs Raspberry Pi OS beneath its Macintosh-inspired appearance. Appendix A lists the hardware and software specifications.")
 #heading(level:2,"The display and source selector")
 #para("An LCD screen replaces the original monitor display. The Raspberry Pi supplies its picture over HDMI. A rear RCA input supplies composite video from an external source: a VCR, an older games console or anything else with a composite video output. Its sound comes in separately, through the external audio adapter.")
-#para("The screen’s brightness and color cannot be adjusted from the computer. The picture is a little dim and its colors are not calibrated. The display board’s own controls are inside the case.")
+#para("The screen in this first revision is, frankly, of modest quality: a little dim, with colors that are not quite right, and neither brightness nor color can be adjusted from the computer. We apologize for the economy. You make do with what you have.")
 #para("The rear physical source control cycles through HDMI, RCA, VGA, and RCA2 in the documented build. HDMI and RCA are the normally useful inputs; the existence of other controller modes does not mean that matching external sockets have been fitted. Select HDMI to return to the Pi’s picture.")
 #pagebreak(weak:true)
 #heading(level:2,"The battery and charging paths")
