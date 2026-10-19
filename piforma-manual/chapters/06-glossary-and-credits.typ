@@ -44,6 +44,8 @@
 #para("The games/emulation environment, opened through EmulationStation in this setup.")
 #glossary-term("Save state")
 #para("An emulator’s snapshot of a game in progress. It is a different facility from the game’s own save.")
+#glossary-term("Screen saver")
+#para("An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own when the computer is idle.")
 #glossary-term("USB hub")
 #para("An accessory that provides several USB connections from one computer port.")
 #glossary-term("Wi-Fi")

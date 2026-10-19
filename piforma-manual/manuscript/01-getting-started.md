@@ -45,10 +45,10 @@ Before connecting anything, find the power control on the right side, the green 
 
 The owner’s current arrangement has one externally accessible USB port at the back. The USB hub lets you attach more than one USB device. The keyboard communicates over Bluetooth; the mouse uses a USB receiver. A keyboard connection problem and a missing mouse receiver therefore call for different checks.
 
-At the rear are a display-source selector and a composite-video RCA input. That RCA jack is for video, not a general audio connection. Use the source selector’s HDMI setting for the Raspberry Pi picture.
+At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general audio connection. The audio socket sends sound out to external speakers or headphones. Use the source selector’s HDMI setting for the Raspberry Pi picture.
 
 <!-- evidence: owner-current OWNER-REAR-OUTLINE -->
-[ILLUSTRATION 1-3a|rear-inputs.png|Rear controls and connections. The RCA input is composite video. Use only identified connections described in the text; leave an unfamiliar audio socket unused.]
+[ILLUSTRATION 1-3a|rear-inputs.png|Rear controls and connections. The RCA input is composite video; the audio socket is an output for speakers or headphones.]
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14 -->
 [ILLUSTRATION 1-3b|1-3b.png|The front: screen, Apple-logo touch control, and power indicator.]
@@ -91,7 +91,7 @@ The stand illustration deliberately shows one support leg short of its final pos
 
 ### The keyboard controls
 
-The overhead view identifies the keyboard's volume control and nice!view status display. The USB charging port and power switch are in the indicated area near the top-right edge; their labels show the general location because the port and switch themselves are not visible from above.
+The overhead view identifies the keyboard's volume control and nice!view status display. The USB charging port and power switch are in the indicated area near the top-right edge; their labels show the general location because the port and switch themselves are not visible from above. The USB-C port sits on the right, where the keyboard’s ADB port used to be; charge the keyboard there.
 
 [ILLUSTRATION 1-4b|1-4b.png|Keyboard controls. The USB port and power-switch callouts indicate their general location, not a directly visible socket or switch.]
 
@@ -104,14 +104,14 @@ The Sync button is not needed in the normal setup: this mouse is used with its o
 
 [ILLUSTRATION 1-4c|1-4c.png|The mouse buttons, scroll wheel, and Sync button. The second button is awaiting official recognition.]
 
-Underneath are the battery compartment, power switch, and optical tracking window. The illustration calls that last item the Eye Correction Laser. Its job is to follow the mouse pad, not improve your eyesight. Keep it pointed at the desk; no eye treatments are included.
+Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery; it is not recharged. The illustration calls that last item the Eye Correction Laser. Its job is to follow the mouse pad, not improve your eyesight. Keep it pointed at the desk; no eye treatments are included.
 
 [ILLUSTRATION 1-4d|1-4d.png|Mouse underside: battery compartment, power switch, and optical tracking sensor.]
 
 ### Power for a longer session
 
-<!-- evidence: owner-current H01-power; repo-verified D-HARDWARE -->
-If the internal battery is charged, you do not need a power cord for a short session. For use lasting more than a few hours, keep the PiForma connected to external power when it is available, as the owner recommends. This is a practical preference, not a guaranteed battery-runtime figure.
+<!-- evidence: owner-current H01-power OWNER-TALK-2026-10-19; repo-verified D-HARDWARE -->
+If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of general use, or about four hours of emulated games, Nintendo 64 games especially. For longer sessions, keep the PiForma connected to external power when it is available.
 
 Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the computer’s power switch is off. Use the cable and charging arrangement intended for this build.
 
@@ -122,8 +122,10 @@ Use the rear USB port for the USB hub when you need more than one external USB c
 
 ### Bose speakers and stands
 
-<!-- evidence: owner-current H01-bose; editorial-advice; needs-confirmation Q-BOSE -->
-The two Bose speakers and their stands are part of the intended setup. Give them a stable place beside the working area, with cables out of the way and no strain on the PiForma. Their stands should not make the table or the computer’s folding stand unstable.
+<!-- evidence: owner-current H01-bose OWNER-TALK-2026-10-19; editorial-advice -->
+The Bose speakers are an optional extra, not part of the PiForma package; they do not fit in the bag. The pair shown are 1984 Bose RoomMate speakers. They are almost as large as the PiForma’s screen, which makes for a great deal of sound from a very small picture, and they were chosen because their proportions match.
+
+Connect the speakers to the rear audio output socket. Switching sound between the internal speaker and the rear socket is not yet a menu choice; ask the builder if it needs changing. Give the speakers a stable place beside the working area, with cables out of the way and no strain on the PiForma. Their stands should not make the table or the computer’s folding stand unstable.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [ILLUSTRATION 1-5|complete-setup.png|The complete setup: the PiForma on its stand, the keyboard in front, the mouse on its pad, a Bose speaker on its stand at each side and a Nintendo 64 controller at the left.]
@@ -267,4 +269,4 @@ A USB power monitor in the bag charger's USB supply connection can show whether 
 <!-- evidence: owner-current H01-carrying; needs-confirmation Q-BOSE -->
 Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immune to hard impacts. Cushioning is not armor.
 
-Keep the Bose speakers and stands separate from the packing sequence above; no place for them is assigned inside this bag.
+The Bose speakers and stands do not fit in this bag; carry them separately.

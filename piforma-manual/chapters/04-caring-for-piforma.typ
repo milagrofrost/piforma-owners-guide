@@ -24,7 +24,7 @@
 ]
 #block(breakable:false)[
 #heading(level:2,"Bose speakers and stands")
-#para("Move the speakers and stands carefully and keep their cables from pulling on the computer. Do not assume the stands can be carried by the speakers or folded while attached.")
+#para("The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer. Do not assume the stands can be carried by the speakers or folded while attached.")
 ]
 #block(breakable:false)[
 #heading(level:2,"Cleaning, ventilation and unusual behavior")

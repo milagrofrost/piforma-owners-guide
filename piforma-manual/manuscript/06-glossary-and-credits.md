@@ -85,6 +85,10 @@ The games/emulation environment, opened through EmulationStation in this setup.
 
 An emulator’s snapshot of a game in progress. It is a different facility from the game’s own save.
 
+## Screen saver
+
+An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own when the computer is idle.
+
 ## USB hub
 
 An accessory that provides several USB connections from one computer port.

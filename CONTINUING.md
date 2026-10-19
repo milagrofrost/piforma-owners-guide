@@ -1,3 +1,7 @@
+# Update — October 19, 2026 (owner answers)
+
+The owner's spoken answers (fact register key OWNER-TALK-2026-10-19) are written in, bringing the guide to 75 pages. New facts include the AtEase tabs, quitting a game, Bose RoomMates, the rear audio output, browser, music, runtime, charging, weather, composite input, backups, display and weight. Bose power and stand assembly are still open. Builder to-do: a clickable audio-output switch.
+
 # Update — October 19, 2026 (mechanical fixes)
 
 Chapter 1: the battery-slit figure is now 1-6a and the latch figure 1-6b, so they run in page order (the files keep their names). "A closer look, strictly off the record" moved after the startup-symptom checks; its keep-together now ends at the figure. The duplicate "About This PiForma and the project guide" section was folded into "Your first session" with Figure 1-8, and "Stopping the computer" now points to Chapter 3 for the six-second hold. Chapter 3: "Clippy and the other diversions" is split into "Diversions" and "Clippy"; the EmulationStation screenshot moved below the game-setup paragraph to close a page gap. The glossary adds Clippy, Composite video, Docs Viewer, EmulationStation, HDMI, PiForma Panel, Save state and Wi-Fi (screen saver waits on the owner). The cover date reads October 19, 2026. `scripts/export-reviewed-pdf.py` writes the tracked `output/macintosh-piforma-layout-reviewed.pdf` from the working proof with images resampled to 300 ppi (about 9 MB instead of 87 MB); run it after every build. The working proof and source images stay full resolution.

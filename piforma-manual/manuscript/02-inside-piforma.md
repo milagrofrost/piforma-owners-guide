@@ -22,7 +22,10 @@ The computer runs Raspberry Pi OS beneath its Macintosh-inspired appearance. App
 ## The display and source selector
 
 <!-- evidence: repo-verified D-HARDWARE -->
-An LCD screen replaces the original monitor display. The Raspberry Pi supplies its picture over HDMI. A rear RCA input supplies composite video from an external source.
+An LCD screen replaces the original monitor display. The Raspberry Pi supplies its picture over HDMI. A rear RCA input supplies composite video from an external source: a VCR, an older games console or anything else with a composite video output. Its sound comes in separately, through the external audio adapter.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+The screen’s brightness and color cannot be adjusted from the computer. The picture is a little dim and its colors are not calibrated. The display board’s own controls are inside the case.
 
 The rear physical source control cycles through HDMI, RCA, VGA, and RCA2 in the documented build. HDMI and RCA are the normally useful inputs; the existence of other controller modes does not mean that matching external sockets have been fitted. Select HDMI to return to the Pi’s picture.
 
@@ -39,7 +42,7 @@ An external plunger reaches the battery’s own button. The owner uses it to che
 ## System sound and startup chimes
 
 <!-- evidence: repo-verified D-HARDWARE; owner-current H01-chime -->
-The startup chime and ordinary system audio are separate. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. Some positions are silent or empty.
+The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when selected, through the rear audio output socket. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. Some positions are silent or empty.
 
 Normal desktop sound uses an internal USB speaker. Changing its software volume is not necessarily a test of the separate startup-chime hardware.
 
@@ -71,8 +74,8 @@ The matching mouse combines Bambu wireless mouse-kit electronics with a printed 
 
 ## Bose speakers and stands
 
-<!-- evidence: owner-current H03-bose; needs-confirmation Q-BOSE -->
-The two Bose speakers and their stands extend the setup beyond the internal speaker. Place them on stable supports with cables clear of the computer and its stand.
+<!-- evidence: owner-current H03-bose OWNER-TALK-2026-10-19 -->
+The Bose speakers are an optional extra that connect to the rear audio output socket. The PiForma’s internal speaker works without them. Place them on stable supports with cables clear of the computer and its stand.
 
 ## The bag and its fitted interior
 

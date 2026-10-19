@@ -5,17 +5,20 @@ This appendix describes the PiForma’s hardware, connections and software. Use 
 
 ## Hardware inventory and identification
 
-<!-- evidence: repo-verified D-HARDWARE D-BOM -->
+<!-- evidence: repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19 -->
 - Donor: Apple IIc Monitor A2M4090, February 1985.
 - Computer: Raspberry Pi 4 Model B, 4 GB RAM.
 - Storage: 256 GB microSD.
-- Display: 9-inch LCD kit, working mode 800 × 480.
+- Display: 9-inch LCD kit, working mode 800 × 480; about 600 × 480 shows inside the bezel. Brightness and color are fixed.
+- Size: the original monitor’s exterior, unchanged.
+- Weight: 8 lb 13 oz (4.0 kg), close to the original monitor.
+- Battery runtime: typically about six hours, or about four hours of emulated games.
 - Main battery: Anker Prime 26K 300W.
 - Internal charger: 100W USB-C adapter.
 - Keyboard: Apple A9M0330 ADB keyboard, BLE conversion, ZMK, USB-C charging, nice!view.
 - Mouse: Bambu kit electronics in a printed shell, USB receiver.
 - Startup sound: YS-M3, CK1028 selector, separate salvaged speaker.
-- Normal sound: internal USB speaker.
+- Normal sound: internal USB speaker, or the rear audio output socket for speakers or headphones.
 
 ## Power architecture
 
@@ -24,11 +27,12 @@ Power path: rear AC inlet → internal charger → main battery → original pow
 
 ## Connections and GPIO
 
-<!-- evidence: repo-verified D-GESTURE D-SOFTWARE -->
+<!-- evidence: repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19 -->
 - Apple-logo sensor: TTP223 on BCM GPIO23, active-low.
 - EC11 volume encoder: BCM GPIO17/27; push input GPIO22 exists in software but is not physically usable on the installed knob.
 - Display source: physical switch to LCD controller source control, not a GPIO relay selector in this build.
 - Composite RCA input: video only.
+- Rear audio socket: output to external speakers or headphones.
 - External audio: USB capture source and audio-loop helper.
 - External USB access: one rear port; do not infer exterior access from the Pi’s board connector count.
 

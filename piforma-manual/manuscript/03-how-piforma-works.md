@@ -43,8 +43,8 @@ The vintage key legends do not establish a modern shortcut map. Follow commands 
 
 ## Opening programs with AtEase
 
-<!-- evidence: repo-verified A-APP D-ATEASE -->
-Click an AtEase folder tab to choose a collection, then click a program button once. Allow time for the program to open. A launcher button starts a program; it is not the document you may later create inside it.
+<!-- evidence: repo-verified A-APP D-ATEASE; owner-current OWNER-TALK-2026-10-19 -->
+AtEase has two folder tabs. At Ease Items holds the programs; sites holds a selection of websites the builder finds interesting, a collection still being tidied. Each tab shows only what fits in its window; there is no second page yet. Click a tab to switch between them, then click a button once. Allow time for the program to open. A launcher button starts a program; it is not the document you may later create inside it.
 
 If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This reveals the desktop without quitting the programs. You can then select another AtEase button. If the launcher is absent rather than covered, see Appendix B.
 
@@ -92,7 +92,7 @@ PiForma Panel's File → Open Home Folder opens your home folder in a file windo
 
 Keep related work in a folder you can recognize. Give documents meaningful names and note which folder contains them. Before moving, renaming or deleting a file, close it in its program and make sure you know which item is selected. Leave unfamiliar system and application files alone.
 
-Moving a file changes where you find it; copying leaves another copy. Neither should be confused with saving edits in an open document. Keep a separate copy of work you value using a storage or transfer method already set up for this computer. Two copies on the same card do not protect against failure of that card.
+Moving a file changes where you find it; copying leaves another copy. Neither should be confused with saving edits in an open document. The PiForma has no backup arrangement for its microSD card, and management prefers not to discuss it. The build is documented well enough to rebuild from scratch if the card ever fails, but your own files would not survive that. Copy any work you value to a USB drive or another computer. Two copies on the same card do not protect against failure of that card.
 
 ## Saving and reopening your work
 
@@ -146,7 +146,8 @@ On the current PiForma, holding the Apple-logo touch control for about six secon
 
 [ILLUSTRATION 3-6b|closing-app-2.png|Touch and hold the Apple logo for about six seconds to close the active application.]
 
-If EmulationStation remains after a game closes, it is a separate application. Use its own exit control when available, then choose View → Show Desktop to find the launcher. Do not extend the logo hold experimentally to discover another action.
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+The same hold is how you quit a game. The Nintendo 64 controllers use every button, so none is set aside for quitting. Hold the Apple logo for about six seconds: the game closes and EmulationStation returns. To leave EmulationStation too, hold the logo for another six seconds; EmulationStation closes and the desktop returns.
 
 Some emulators capture the mouse so the pointer stays inside their display. Use that emulator's documented release control if known. This guide supplies no unverified keyboard shortcut for releasing it. If you cannot regain control, follow the frozen-application checks in Appendix B.
 
@@ -156,10 +157,14 @@ Some emulators capture the mouse so the pointer stays inside their display. Use 
 <!-- evidence: repo-verified D-SOFTWARE D-RELATED -->
 The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experiments among them. Use the labels in your installed launcher. A familiar old name may open a modern program or themed web application rather than the original software. The costume department has been busy.
 
-Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the page's links to follow its contents. Online material needs a working network connection. Locally supplied diversions and documents may remain available without one.
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+The browser is Chromium, dressed as Netscape Navigator; its AtEase button carries the Netscape name. Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the page's links to follow its contents. Online material needs a working network connection. Locally supplied diversions and documents may remain available without one.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 A few of the diversions are shown here: Winamp and its playlist, LimeWire Simulator, the Weather Channel and the Flying Toasters.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them into that folder. The Weather Channel estimates your location from your internet connection and shows the nearest weather station. The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when the computer is idle.
 
 [SCREENSHOT 3-7a|piforma-winamp.svg|Winamp and its playlist window open over the AtEase launcher.]
 

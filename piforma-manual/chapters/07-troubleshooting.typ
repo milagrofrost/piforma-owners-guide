@@ -25,7 +25,7 @@
 ]
 #block(breakable:false)[
 #heading(level:2,"No sound, or no startup chime")
-#para("For normal program sound, turn the side volume control clockwise a little and check that the program has something playing and its own sound is enabled. The installed side knob has no usable push-to-mute action. Keep the initial volume modest.")
+#para("For normal program sound, turn the side volume control clockwise a little and check that the program has something playing and its own sound is enabled. The installed side knob has no usable push-to-mute action. Keep the initial volume modest. If sound has been switched to the rear audio socket, it plays only through whatever is plugged in there, not the internal speaker.")
 #para("For a missing startup chime, remember that some rear selector positions are silent. Follow Chapter 1's powered-on selector check without expecting immediate playback at every position. The chime and normal program sound use separate hardware; hearing one does not prove that the other is working. Describe which sound is missing before asking for help.")
 ]
 #block(breakable:false)[

@@ -186,16 +186,16 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
-    "paragraph_sha256": "98ea1565cb810556bfdc11649eeb3834cb169e5e4a2a58ffd9ea2538c69bff80",
+    "paragraph_sha256": "853cab26bbd44bf838fc6d5d29f98d84aa9b53b689b3d75aa5ebf7f7983eacce",
     "evidence": "owner-current H01-controls; repo-verified D-HARDWARE D-SOFTWARE",
-    "preview": "At the rear are a display-source selector and a composite-video RCA input. That RCA jack is for video, not a general audio connection. Use t"
+    "preview": "At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
-    "paragraph_sha256": "900d8ef29be5b02b34401dcdbfed5d68a1c290d10bc8ee4c766dc0b91da00d09",
+    "paragraph_sha256": "722aa1b94110a80d742ba92247c0df0c0c5d3468597a7d1069c0b5301d796c33",
     "evidence": "owner-current OWNER-REAR-OUTLINE",
-    "preview": "[ILLUSTRATION 1-3a|rear-inputs.png|Rear controls and connections. The RCA input is composite video. Use only identified connections describe"
+    "preview": "[ILLUSTRATION 1-3a|rear-inputs.png|Rear controls and connections. The RCA input is composite video; the audio socket is an output for speake"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -301,7 +301,7 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The keyboard controls",
-    "paragraph_sha256": "ccefd558a05db2c7f9fee48cbef7c56bc47d6f264220914d2daf3b11d1fd793f",
+    "paragraph_sha256": "78566515c4933fadf7e3de1acf85ee94fc4d2d3882856f5aff9643fca628f5e9",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
     "preview": "The overhead view identifies the keyboard's volume control and nice!view status display. The USB charging port and power switch are in the i"
   },
@@ -336,9 +336,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The mouse controls",
-    "paragraph_sha256": "10b3b3d63a3dbcbe25069baafa7fe1da278216ae66b4c8ed1b8ee543e0ce4862",
+    "paragraph_sha256": "7992e787dce8434c9bbb5cf28d70f2c1c4b6324dcda7aa786fe7d8c5e65f9788",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "Underneath are the battery compartment, power switch, and optical tracking window. The illustration calls that last item the Eye Correction "
+    "preview": "Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery; it is not recharged. Th"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -350,15 +350,15 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Power for a longer session",
-    "paragraph_sha256": "3edf4d6195efe38c5a4cb69753526cb4f627cfcb7a88a2526274527221810908",
-    "evidence": "owner-current H01-power; repo-verified D-HARDWARE",
-    "preview": "If the internal battery is charged, you do not need a power cord for a short session. For use lasting more than a few hours, keep the PiForm"
+    "paragraph_sha256": "2a8e6b88a6c5b0c2694f4914be3504a6e04f47af188018131937bc3b58086a4a",
+    "evidence": "owner-current H01-power OWNER-TALK-2026-10-19; repo-verified D-HARDWARE",
+    "preview": "If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of gener"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Power for a longer session",
     "paragraph_sha256": "ca5f19eee520c8b7f69768ea78c256e008e8f48898a9a43f9befde1916b539b2",
-    "evidence": "owner-current H01-power; repo-verified D-HARDWARE",
+    "evidence": "owner-current H01-power OWNER-TALK-2026-10-19; repo-verified D-HARDWARE",
     "preview": "Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the comput"
   },
   {
@@ -371,9 +371,16 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Bose speakers and stands",
-    "paragraph_sha256": "d822dc54139dea294159bbf8ab09119acfa11c4c9a7368b1356abbb6c65d4713",
-    "evidence": "owner-current H01-bose; editorial-advice; needs-confirmation Q-BOSE",
-    "preview": "The two Bose speakers and their stands are part of the intended setup. Give them a stable place beside the working area, with cables out of "
+    "paragraph_sha256": "1d973383c509f8406107992b2f07f745fdabd8cfc908d8952dfae27e345f2163",
+    "evidence": "owner-current H01-bose OWNER-TALK-2026-10-19; editorial-advice",
+    "preview": "The Bose speakers are an optional extra, not part of the PiForma package; they do not fit in the bag. The pair shown are 1984 Bose RoomMate "
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "Bose speakers and stands",
+    "paragraph_sha256": "4d89c7c82cc22ca631c51478fdb06d850c543c55cbdc451ac57b9b253e85ec5c",
+    "evidence": "owner-current H01-bose OWNER-TALK-2026-10-19; editorial-advice",
+    "preview": "Connect the speakers to the rear audio output socket. Switching sound between the internal speaker and the rear socket is not yet a menu cho"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -753,9 +760,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Carrying the bag",
-    "paragraph_sha256": "3423cd3b5e8b4f1544669aa7b6f24975180abadf8c2e97f929d3942124c76fb3",
+    "paragraph_sha256": "e8b40d413b4f35d2b4504fa59b6f753a49e3de5b79a6640e4740407131b4c408",
     "evidence": "owner-current H01-carrying; needs-confirmation Q-BOSE",
-    "preview": "Keep the Bose speakers and stands separate from the packing sequence above; no place for them is assigned inside this bag."
+    "preview": "The Bose speakers and stands do not fit in this bag; carry them separately."
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -802,15 +809,22 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The display and source selector",
-    "paragraph_sha256": "f22ca2c795d0a0db84bdb1322692f4b4c60b75d2e6e5465e876a244265f4984a",
+    "paragraph_sha256": "6900905e35686cc1357d70fdd61c45f64b05cace0afc5edd1363d6dc7e8b52c7",
     "evidence": "repo-verified D-HARDWARE",
     "preview": "An LCD screen replaces the original monitor display. The Raspberry Pi supplies its picture over HDMI. A rear RCA input supplies composite vi"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The display and source selector",
+    "paragraph_sha256": "69b59f1962e5cce08c508a445290330615dcacd3c6be0dbbf59f518d6a41dbe9",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "The screen’s brightness and color cannot be adjusted from the computer. The picture is a little dim and its colors are not calibrated. The d"
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "The display and source selector",
     "paragraph_sha256": "6088c35779e57e7b8221f584736d2a27c9db5e738e043c09ef24f5c2587a7230",
-    "evidence": "repo-verified D-HARDWARE",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "The rear physical source control cycles through HDMI, RCA, VGA, and RCA2 in the documented build. HDMI and RCA are the normally useful input"
   },
   {
@@ -837,9 +851,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "System sound and startup chimes",
-    "paragraph_sha256": "4d6394fc76ef09c2fbce9c61c753bb0059265434d27c5028497a535817a78a7d",
+    "paragraph_sha256": "0fc0a30b89de30fe63396e8994285505636a96e3c6993d53036c60f1975dff14",
     "evidence": "repo-verified D-HARDWARE; owner-current H01-chime",
-    "preview": "The startup chime and ordinary system audio are separate. A separate sound module and speaker play the startup chime; the rear selector choo"
+    "preview": "The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when selec"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -900,9 +914,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "Bose speakers and stands",
-    "paragraph_sha256": "b3220bf738fc43042a27a0713d514e928545b181f23bf6170b2d6a169dcdd69d",
-    "evidence": "owner-current H03-bose; needs-confirmation Q-BOSE",
-    "preview": "The two Bose speakers and their stands extend the setup beyond the internal speaker. Place them on stable supports with cables clear of the "
+    "paragraph_sha256": "1e73531f98a12a8777631b8f19cf9fe9f05e309aa21264ff28ff00f7fdef4711",
+    "evidence": "owner-current H03-bose OWNER-TALK-2026-10-19",
+    "preview": "The Bose speakers are an optional extra that connect to the rear audio output socket. The PiForma’s internal speaker works without them. Pla"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1026,15 +1040,15 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Opening programs with AtEase",
-    "paragraph_sha256": "51f592c37746704ba73c5fbf3fe65487de05e8ae20267c3ddc56c2855abdd942",
-    "evidence": "repo-verified A-APP D-ATEASE",
-    "preview": "Click an AtEase folder tab to choose a collection, then click a program button once. Allow time for the program to open. A launcher button s"
+    "paragraph_sha256": "34fb3e3230c33c710e91751e4e026d3ee2aca4f630ff0001e8aedd7040a251ba",
+    "evidence": "repo-verified A-APP D-ATEASE; owner-current OWNER-TALK-2026-10-19",
+    "preview": "AtEase has two folder tabs. At Ease Items holds the programs; sites holds a selection of websites the builder finds interesting, a collectio"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Opening programs with AtEase",
     "paragraph_sha256": "3603ce7c9d3d6df22b3727e494b6f8da9cdb913fce2d7266edb5a6733885a206",
-    "evidence": "repo-verified A-APP D-ATEASE",
+    "evidence": "repo-verified A-APP D-ATEASE; owner-current OWNER-TALK-2026-10-19",
     "preview": "If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This reveals the desktop without quitting the prog"
   },
   {
@@ -1145,9 +1159,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Files and folders",
-    "paragraph_sha256": "800332676e306c901e1d69056b2b81e78b26c6cbcac3d51d4ea76eb70678e591",
+    "paragraph_sha256": "8db81362c4ad68741f1dac8ce765c210d51581d99117b0cc84aa9f22cbf54b0c",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "Moving a file changes where you find it; copying leaves another copy. Neither should be confused with saving edits in an open document. Keep"
+    "preview": "Moving a file changes where you find it; copying leaves another copy. Neither should be confused with saving edits in an open document. The "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1287,15 +1301,15 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Leaving a full-screen program",
-    "paragraph_sha256": "d7891d3c4cdbcdbd2bc5ec82148c2f6c6b3d9a042ccc3224bc07844f221a7853",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-19",
-    "preview": "If EmulationStation remains after a game closes, it is a separate application. Use its own exit control when available, then choose View → S"
+    "paragraph_sha256": "1287cc30b57536f9377f42ddd9c4aeb12f10860e61f10c6118ad7aece8d87dd2",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "The same hold is how you quit a game. The Nintendo 64 controllers use every button, so none is set aside for quitting. Hold the Apple logo f"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Leaving a full-screen program",
     "paragraph_sha256": "1961356d59953cb124e0381beb3401f6c92dbb80cf9c3fb84243f481d029ff89",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-19",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "Some emulators capture the mouse so the pointer stays inside their display. Use that emulator's documented release control if known. This gu"
   },
   {
@@ -1308,9 +1322,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
-    "paragraph_sha256": "9420917c913ae833f87408bb43fe6bf6fbe69654d804f035ce4232fdcf3b928d",
-    "evidence": "repo-verified D-SOFTWARE D-RELATED",
-    "preview": "Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the pag"
+    "paragraph_sha256": "9c418acd7bc6c1e8131db71c162233a0f0f99a834ac22596815ab80cc1c46f1a",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "The browser is Chromium, dressed as Netscape Navigator; its AtEase button carries the Netscape name. Browser links and pages use their own c"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1322,29 +1336,36 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
+    "paragraph_sha256": "4e4ff76805b93324e5c74190e2711d142b6e10360ecfec3430f0859c963129dc",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them in"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Diversions",
     "paragraph_sha256": "30ff1c0fcc24a8040abce9950385cf1879004c77e7ecfbc0c067812c8d8fdcae",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "[SCREENSHOT 3-7a|piforma-winamp.svg|Winamp and its playlist window open over the AtEase launcher.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
     "paragraph_sha256": "52b82fe750a1a07e488d6a9fe6a2a4705667ac83840303bbf5f484cf4c6ede0e",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "[SCREENSHOT 3-7b|piforma-limewire-simulator.svg|LimeWire Simulator, a period-styled take on the old file-sharing program.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
     "paragraph_sha256": "43571a30ada7b6e9b06ec25ad4f916986f3e9319d662c28dfd1baffab781ddce",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "[SCREENSHOT 3-7c|piforma-weatherstar.svg|The Weather Channel diversion showing current conditions in WeatherStar 4000+ style.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
     "paragraph_sha256": "a748ae5eaa2a2a08864f93d490503bc40ad48cf77b366973862bdc95884620fa",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "[SCREENSHOT 3-7d|piforma-flying-toasters.svg|The Flying Toasters, airborne.]"
   },
   {
@@ -1483,9 +1504,9 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Bose speakers and stands",
-    "paragraph_sha256": "7e092c65853ac2d36d6283f03923d9f9754f4b6a94e153a1ddbef4b48f1173c5",
+    "paragraph_sha256": "38e4515623ef0919c5071de689b0633b5e11d586ff173df67642601e779266a9",
     "evidence": "owner-current H03-bose; editorial-advice; needs-confirmation Q-BOSE",
-    "preview": "Move the speakers and stands carefully and keep their cables from pulling on the computer. Do not assume the stands can be carried by the sp"
+    "preview": "The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer. Do n"
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
@@ -1532,62 +1553,80 @@
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
-    "evidence": "repo-verified D-HARDWARE D-BOM",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Donor: Apple IIc Monitor A2M4090, February 1985."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
-    "evidence": "repo-verified D-HARDWARE D-BOM",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Computer: Raspberry Pi 4 Model B, 4 GB RAM."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
-    "evidence": "repo-verified D-HARDWARE D-BOM",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Storage: 256 GB microSD."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
-    "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Display: 9-inch LCD kit, working mode 800 × 480."
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
+    "preview": "- Display: 9-inch LCD kit, working mode 800 × 480; about 600 × 480 shows inside the bezel. Brightness and color are fixed."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
-    "evidence": "repo-verified D-HARDWARE D-BOM",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
+    "preview": "- Size: the original monitor’s exterior, unchanged."
+  },
+  {
+    "file": "manuscript\\05-technical-information.md",
+    "section": "Hardware inventory and identification",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
+    "preview": "- Weight: 8 lb 13 oz (4.0 kg), close to the original monitor."
+  },
+  {
+    "file": "manuscript\\05-technical-information.md",
+    "section": "Hardware inventory and identification",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
+    "preview": "- Battery runtime: typically about six hours, or about four hours of emulated games."
+  },
+  {
+    "file": "manuscript\\05-technical-information.md",
+    "section": "Hardware inventory and identification",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Main battery: Anker Prime 26K 300W."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
-    "evidence": "repo-verified D-HARDWARE D-BOM",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Internal charger: 100W USB-C adapter."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
-    "evidence": "repo-verified D-HARDWARE D-BOM",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Keyboard: Apple A9M0330 ADB keyboard, BLE conversion, ZMK, USB-C charging, nice!view."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
-    "evidence": "repo-verified D-HARDWARE D-BOM",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Mouse: Bambu kit electronics in a printed shell, USB receiver."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
-    "evidence": "repo-verified D-HARDWARE D-BOM",
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Startup sound: YS-M3, CK1028 selector, separate salvaged speaker."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
-    "evidence": "repo-verified D-HARDWARE D-BOM",
-    "preview": "- Normal sound: internal USB speaker."
+    "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
+    "preview": "- Normal sound: internal USB speaker, or the rear audio output socket for speakers or headphones."
   },
   {
     "file": "manuscript\\05-technical-information.md",
@@ -1599,37 +1638,43 @@
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
-    "evidence": "repo-verified D-GESTURE D-SOFTWARE",
+    "evidence": "repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Apple-logo sensor: TTP223 on BCM GPIO23, active-low."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
-    "evidence": "repo-verified D-GESTURE D-SOFTWARE",
+    "evidence": "repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19",
     "preview": "- EC11 volume encoder: BCM GPIO17/27; push input GPIO22 exists in software but is not physically usable on the installed knob."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
-    "evidence": "repo-verified D-GESTURE D-SOFTWARE",
+    "evidence": "repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Display source: physical switch to LCD controller source control, not a GPIO relay selector in this build."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
-    "evidence": "repo-verified D-GESTURE D-SOFTWARE",
+    "evidence": "repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19",
     "preview": "- Composite RCA input: video only."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
-    "evidence": "repo-verified D-GESTURE D-SOFTWARE",
+    "evidence": "repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19",
+    "preview": "- Rear audio socket: output to external speakers or headphones."
+  },
+  {
+    "file": "manuscript\\05-technical-information.md",
+    "section": "Connections and GPIO",
+    "evidence": "repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19",
     "preview": "- External audio: USB capture source and audio-loop helper."
   },
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
-    "evidence": "repo-verified D-GESTURE D-SOFTWARE",
+    "evidence": "repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19",
     "preview": "- External USB access: one rear port; do not infer exterior access from the Pi’s board connector count."
   },
   {
@@ -1809,6 +1854,13 @@
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Screen saver",
+    "paragraph_sha256": "656db3dbca03080cbc72dafd306918f0e787329d2b50fb361524d7aa477e672d",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own whe"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
     "section": "USB hub",
     "paragraph_sha256": "52c71f3c7c756c427343836b0e9caf0a89212c222c44f6441c70d1bfe1bbb0e7",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
@@ -1909,7 +1961,7 @@
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "No sound, or no startup chime",
-    "paragraph_sha256": "68aa7b3d84ea8a46223c0e3658a7c6530668d1ec34f7137a904d777eadd7d4a6",
+    "paragraph_sha256": "64d99208a372febbb72dbcd9491e23edafdc9f4f35aea0f1354243b5b01ec139",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "For normal program sound, turn the side volume control clockwise a little and check that the program has something playing and its own sound"
   },

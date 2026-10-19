@@ -32,7 +32,7 @@ Pack in the exact order in Chapter 1. Seat the computer in the bottom foam inden
 ## Bose speakers and stands
 
 <!-- evidence: owner-current H03-bose; editorial-advice; needs-confirmation Q-BOSE -->
-Move the speakers and stands carefully and keep their cables from pulling on the computer. Do not assume the stands can be carried by the speakers or folded while attached.
+The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer. Do not assume the stands can be carried by the speakers or folded while attached.
 
 ## Cleaning, ventilation and unusual behavior
 
