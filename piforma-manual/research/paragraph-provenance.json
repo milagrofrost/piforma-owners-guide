@@ -214,9 +214,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The forbidden latch",
-    "paragraph_sha256": "b6bf836b0c8947dd9f9f7c5106a5f1b59b4450fbffaa3d8626478af054e6e8d0",
+    "paragraph_sha256": "37dbaaeb0d46b09867f7d83aaedbfa95edcc8f7476c93b44eb8e71aa8c8bdc2b",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "The battery section explains how it opens. You can check the charge through the top slits without opening it, which should keep management h"
+    "preview": "“A closer look, strictly off the record”, later in this chapter, explains how it opens. You can check the charge through the top slits witho"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -458,9 +458,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Checking the battery",
-    "paragraph_sha256": "829d2aa2af14bfc929a05dfb805acbe7b1a3c716777268b78a4c0494545b66e8",
+    "paragraph_sha256": "7b163a655f465647a9441b38b2edc816e2d1b4a3edd56fd0b919823be7bf8aca",
     "evidence": "owner-current H01-battery OWNER-IMAGES-2026-10-14; repo-verified D-HARDWARE D-MAINTENANCE",
-    "preview": "[ILLUSTRATION 1-6b|1-6b.png|Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where t"
+    "preview": "[ILLUSTRATION 1-6a|1-6b.png|Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where t"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -475,45 +475,6 @@
     "paragraph_sha256": "89c897665371fecf53cc2f44148ff550376fc906c797b233d66e3b521b602523",
     "evidence": "owner-current H01-battery OWNER-IMAGES-2026-10-14; repo-verified D-HARDWARE D-MAINTENANCE",
     "preview": "The owner has sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brie"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "A closer look, strictly off the record",
-    "paragraph_sha256": "45d35125cc051005a2ace74d7a8e703673afdd3344de3b483304b16f99811870",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "For an optional open-top look, first shut down the PiForma, switch off physical power, and disconnect external power. Opening the compartmen"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "A closer look, strictly off the record",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "1. Slide the top latch toward the open-padlock mark: upward as shown in Figure 1-6a."
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "A closer look, strictly off the record",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "2. With the latch unlocked, lift at the slider to open the upper compartment."
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "A closer look, strictly off the record",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "3. Close the compartment before sliding the latch toward the closed-padlock mark, downward in the illustration, to lock it again."
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "A closer look, strictly off the record",
-    "paragraph_sha256": "6355f907dc042aee45110204dd5e552fe07dd5df8690f64ff31fabf0140db35c",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "[ILLUSTRATION 1-6a|1-6a.png|Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to loc"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "A closer look, strictly off the record",
-    "paragraph_sha256": "c16a59f88a4b9b858951dfaab20e7fae0fc9b9a928ddf7b78bc53d86ac50eae4",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "Of course, you did not hear any of this from me. If the CEO asks, you were merely admiring the ventilation slits. I would appreciate remaini"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -556,6 +517,45 @@
     "paragraph_sha256": "325c9b37580769d49be6d4a40104682296773d4bdefd57d57a15c72e8bcd9318",
     "evidence": "owner-current H01-troubleshooting",
     "preview": "Give the computer approximately one to two minutes to reach the desktop. Boot time can vary. If it remains at the startup picture or never r"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "A closer look, strictly off the record",
+    "paragraph_sha256": "45d35125cc051005a2ace74d7a8e703673afdd3344de3b483304b16f99811870",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
+    "preview": "For an optional open-top look, first shut down the PiForma, switch off physical power, and disconnect external power. Opening the compartmen"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "A closer look, strictly off the record",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
+    "preview": "1. Slide the top latch toward the open-padlock mark: upward as shown in Figure 1-6b."
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "A closer look, strictly off the record",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
+    "preview": "2. With the latch unlocked, lift at the slider to open the upper compartment."
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "A closer look, strictly off the record",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
+    "preview": "3. Close the compartment before sliding the latch toward the closed-padlock mark, downward in the illustration, to lock it again."
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "A closer look, strictly off the record",
+    "paragraph_sha256": "99432850c7ff4e939e1096fd9a936d2b4339895f379205fb4fabb87916e87d96",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
+    "preview": "[ILLUSTRATION 1-6b|1-6a.png|Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to loc"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "A closer look, strictly off the record",
+    "paragraph_sha256": "c16a59f88a4b9b858951dfaab20e7fae0fc9b9a928ddf7b78bc53d86ac50eae4",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
+    "preview": "Of course, you did not hear any of this from me. If the CEO asks, you were merely admiring the ventilation slits. I would appreciate remaini"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -611,37 +611,23 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Your first session",
-    "paragraph_sha256": "214b9f476df74ce4ee9d6ca3f59c333a589ae83128e26f3370a093f332cfa17f",
-    "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "If the launcher or menu bar is missing, see Appendix B rather than trying unfamiliar touch gestures. When you have finished using the comput"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "About This PiForma and the project guide",
-    "paragraph_sha256": "04e4d57760fb04dab3f596aa8782d832ebd7cd600eeb3abf3584667f1ee98f3a",
-    "evidence": "owner-current H01-about; repo-verified P-MENU P-ACTIONS ABOUT-CONFIG VIEWER-README",
-    "preview": "Choose Apple menu → About This PiForma to see information about the computer."
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "About This PiForma and the project guide",
-    "paragraph_sha256": "74842beac3e1461ea2825d422d3746469fcc53365975ae11f6d39bd22478bbdd",
-    "evidence": "owner-current H01-about; repo-verified P-MENU P-ACTIONS ABOUT-CONFIG VIEWER-README",
-    "preview": "Macintosh PiForma Docs Viewer is a separate program for reading the project documentation, including an offline snapshot. The About window a"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "About This PiForma and the project guide",
-    "paragraph_sha256": "43f725b87c8853248095a022499b69bc4ccebc3742d250708422030bb1d1403d",
-    "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "The launcher calls the project guide PiForma Guide. Click that button in AtEase to open Macintosh PiForma Guided Tour, the built-in document"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "About This PiForma and the project guide",
     "paragraph_sha256": "a2b0f40c3c859d21d3ac01af00f5a05cd1732ed3a28079ce7adeefadb1678a35",
-    "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
+    "evidence": "owner-current OWNER-SCREENSHOTS-1-11 H01-about",
     "preview": "[SCREENSHOT 1-8|piforma-about-system.svg|Apple menu → About This PiForma opens the information window. The figures shown describe that runni"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "Your first session",
+    "paragraph_sha256": "77948f7679f44cabe38ec215971cbdf27d281c8f665a38e6dc6331075a5583e5",
+    "evidence": "owner-current OWNER-SCREENSHOTS-1-11 H01-about",
+    "preview": "The About window is not the project guide. To read the guide itself, click PiForma Guide in AtEase; Chapter 3 describes it."
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "Your first session",
+    "paragraph_sha256": "214b9f476df74ce4ee9d6ca3f59c333a589ae83128e26f3370a093f332cfa17f",
+    "evidence": "owner-current OWNER-SCREENSHOTS-1-11 H01-about",
+    "preview": "If the launcher or menu bar is missing, see Appendix B rather than trying unfamiliar touch gestures. When you have finished using the comput"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -684,9 +670,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Stopping the computer",
-    "paragraph_sha256": "cf791346e9346dcce94b20dd0c1154ff4e3c499cad2d5a2b90dcf7b51ec306a3",
+    "paragraph_sha256": "5355014c0b78795aaf7ad894037cf23d459af7ed99c0562e8c94317650162287",
     "evidence": "owner-current OWNER-UPDATE-1; needs-confirmation Q-GESTURE Q-SHUTDOWN",
-    "preview": "The owner has confirmed that a hold of about six seconds closes only the active application on the current PiForma. Use that distinction whe"
+    "preview": "To leave a full-screen program rather than stop the computer, see “Leaving a full-screen program” in Chapter 3. A hold of about six seconds "
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -1252,16 +1238,16 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "03043d77a1a8b88cad177109034bbe7dd56e63bd071ffc3386c98dcef37c6d00",
+    "paragraph_sha256": "d1a7430edf1be1b2940b7b2bef356dd2dc456511e107de051d38c8b28da34b9d",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
-    "preview": "[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's Nintendo 64 game list. The bar along the bottom names the buttons for t"
+    "preview": "Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a c"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "d1a7430edf1be1b2940b7b2bef356dd2dc456511e107de051d38c8b28da34b9d",
+    "paragraph_sha256": "03043d77a1a8b88cad177109034bbe7dd56e63bd071ffc3386c98dcef37c6d00",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
-    "preview": "Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a c"
+    "preview": "[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's Nintendo 64 game list. The bar along the bottom names the buttons for t"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1314,80 +1300,80 @@
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
+    "section": "Diversions",
     "paragraph_sha256": "ade2b7b1ba1a9c9435b7700eac872fab215ef97036cb66c4c3510c875dc42656",
     "evidence": "repo-verified D-SOFTWARE D-RELATED",
     "preview": "The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experim"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
-    "paragraph_sha256": "a5434cfcc1abd9116f35aa2526521d666c9ae546d7f821b287b25d9b87640472",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
-    "preview": "A few of them are shown here: Winamp and its playlist, LimeWire Simulator, the Weather Channel and the Flying Toasters."
+    "section": "Diversions",
+    "paragraph_sha256": "9420917c913ae833f87408bb43fe6bf6fbe69654d804f035ce4232fdcf3b928d",
+    "evidence": "repo-verified D-SOFTWARE D-RELATED",
+    "preview": "Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the pag"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
+    "section": "Diversions",
+    "paragraph_sha256": "f3c1ebafc443c1ca9b4fbfd4668f31d1e546ba73caab68e76f165a40866ef2af",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "A few of the diversions are shown here: Winamp and its playlist, LimeWire Simulator, the Weather Channel and the Flying Toasters."
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Diversions",
     "paragraph_sha256": "30ff1c0fcc24a8040abce9950385cf1879004c77e7ecfbc0c067812c8d8fdcae",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "[SCREENSHOT 3-7a|piforma-winamp.svg|Winamp and its playlist window open over the AtEase launcher.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
+    "section": "Diversions",
     "paragraph_sha256": "52b82fe750a1a07e488d6a9fe6a2a4705667ac83840303bbf5f484cf4c6ede0e",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "[SCREENSHOT 3-7b|piforma-limewire-simulator.svg|LimeWire Simulator, a period-styled take on the old file-sharing program.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
+    "section": "Diversions",
     "paragraph_sha256": "43571a30ada7b6e9b06ec25ad4f916986f3e9319d662c28dfd1baffab781ddce",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "[SCREENSHOT 3-7c|piforma-weatherstar.svg|The Weather Channel diversion showing current conditions in WeatherStar 4000+ style.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
+    "section": "Diversions",
     "paragraph_sha256": "a748ae5eaa2a2a08864f93d490503bc40ad48cf77b366973862bdc95884620fa",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "[SCREENSHOT 3-7d|piforma-flying-toasters.svg|The Flying Toasters, airborne.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
+    "section": "Clippy",
     "paragraph_sha256": "2ab1856be3a1e2bb6380f5cba6a16d73e6f485199ebf4c02274131135f3fd407",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
     "preview": "Clippy is the assistant at the lower-right corner of the desktop. In the Chat with Clippy window, click the message field, type your questio"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
+    "section": "Clippy",
     "paragraph_sha256": "448e51f14fb5b7397566964ecad008216bc23d7fb984577cc99db5ab855300ff",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
     "preview": "[SCREENSHOT 3-8a|piforma-clippy-message-entry.svg|Enter a question in the message field, then press Enter or click Send.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
+    "section": "Clippy",
     "paragraph_sha256": "e26105263085d4233bebf6fcd90a321d1293a090e8b813cb9036b03de8d52c1c",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
     "preview": "Clippy can offer suggestions, but check them against the PiForma's actual setup before changing settings or installing anything. He is enthu"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
+    "section": "Clippy",
     "paragraph_sha256": "aff9533a6455f783a11a809c46713557489cd2074f3f0e2b99be535f2061ba1e",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
     "preview": "[SCREENSHOT 3-8b|piforma-clippy-conversation.svg|An example Chat with Clippy conversation. Its suggestions should be checked against the act"
-  },
-  {
-    "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Clippy and the other diversions",
-    "paragraph_sha256": "9420917c913ae833f87408bb43fe6bf6fbe69654d804f035ce4232fdcf3b928d",
-    "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the pag"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1704,6 +1690,20 @@
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Clippy",
+    "paragraph_sha256": "650f50166018b910f36eb1cb8c7383c024f0ded44b3e1ef603379644718d2575",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "The assistant at the lower-right corner of the desktop. Type a question in its Chat with Clippy window; check its suggestions against the ac"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Composite video",
+    "paragraph_sha256": "81cae3822779bf17a9afb3ed235dd37349c7d81ef227b6f577676488570d5474",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "The video signal accepted by the rear RCA input, used to show an external source on the PiForma screen. The jack carries video only, not aud"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Control Strip",
     "paragraph_sha256": "8561e7532e4c4783151a5fbab2e43d7bbc7f5d740ecd577db97d2fd61498b506",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
@@ -1715,6 +1715,20 @@
     "paragraph_sha256": "ae41507e39fff431665b0368166e98bcd31ce9073be0fad26939c5a2c3af14c9",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
     "preview": "The working screen with its background, launchers, menu bar, and application windows."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Docs Viewer",
+    "paragraph_sha256": "60d23847a36414acc5c6e0d0b73eeadc956aa957525541a5bae093de9607d5f7",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "Macintosh PiForma Docs Viewer, the program for reading the project’s hardware, software and maintenance documents, with an offline snapshot."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "EmulationStation",
+    "paragraph_sha256": "b20ee1b06c1bb3654b46f58dc3a048d38c498d09da4e6e79693284461fa889d0",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "The game-list menu of RetroPie, opened from AtEase. It is a separate application from the games it starts."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -1739,10 +1753,24 @@
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "HDMI",
+    "paragraph_sha256": "af866e50337b430e795f9c056887971ea17bdf8e4a45a64325dda44311a42a84",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "The digital video connection that carries the Raspberry Pi’s picture to the PiForma screen. Select HDMI on the rear source selector to see t"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
     "section": "microSD",
     "paragraph_sha256": "cb0d154060d43d21ce7afaf48300a11e006592eee777e9367a66de350c11d2ca",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
     "preview": "The small storage card containing the PiForma’s operating system and saved files."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "PiForma Panel",
+    "paragraph_sha256": "4ee5fd1c31497e1eae90076dac56724fb3535ac7acc4274a0bdd970c31680663",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "The program that supplies the menu bar across the top of the screen, including the Special menu with Shut Down and Sleep Display."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -1774,10 +1802,24 @@
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Save state",
+    "paragraph_sha256": "6f8e1e5068a8d6ddc72d696a16c75c50c5d1ef37dce283cce06d7b598f1f3539",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "An emulator’s snapshot of a game in progress. It is a different facility from the game’s own save."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
     "section": "USB hub",
     "paragraph_sha256": "52c71f3c7c756c427343836b0e9caf0a89212c222c44f6441c70d1bfe1bbb0e7",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
     "preview": "An accessory that provides several USB connections from one computer port."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Wi-Fi",
+    "paragraph_sha256": "73d17e39d45a2dfd1ac34a0c2e8dcc7e6acd3a77f9b45807738e6a3643879388",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "The wireless network connection, managed by the operating system’s network tools. Bluetooth and the mouse receiver do not provide it."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",

@@ -17,6 +17,14 @@ Bluetooth Low Energy, the wireless connection used by the converted keyboard.
 
 The rear dial that chooses a startup sound; some settings are silent.
 
+## Clippy
+
+The assistant at the lower-right corner of the desktop. Type a question in its Chat with Clippy window; check its suggestions against the actual setup.
+
+## Composite video
+
+The video signal accepted by the rear RCA input, used to show an external source on the PiForma screen. The jack carries video only, not audio.
+
 ## Control Strip
 
 The small program-launching and window-focus strip supplied by ControlStrip Simulator.
@@ -24,6 +32,14 @@ The small program-launching and window-focus strip supplied by ControlStrip Simu
 ## Desktop
 
 The working screen with its background, launchers, menu bar, and application windows.
+
+## Docs Viewer
+
+Macintosh PiForma Docs Viewer, the program for reading the project’s hardware, software and maintenance documents, with an offline snapshot. It is separate from About This PiForma.
+
+## EmulationStation
+
+The game-list menu of RetroPie, opened from AtEase. It is a separate application from the games it starts.
 
 ## Emulator
 
@@ -37,9 +53,17 @@ A program occupying the display, often covering the normal desktop menus.
 
 General-purpose input/output pins on the Raspberry Pi, used for controls in this build. Appendix A uses BCM pin numbering.
 
+## HDMI
+
+The digital video connection that carries the Raspberry Pi’s picture to the PiForma screen. Select HDMI on the rear source selector to see the Pi.
+
 ## microSD
 
 The small storage card containing the PiForma’s operating system and saved files.
+
+## PiForma Panel
+
+The program that supplies the menu bar across the top of the screen, including the Special menu with Shut Down and Sleep Display.
 
 ## Qi charging
 
@@ -57,9 +81,17 @@ The operating system documented beneath the PiForma’s Macintosh-inspired deskt
 
 The games/emulation environment, opened through EmulationStation in this setup.
 
+## Save state
+
+An emulator’s snapshot of a game in progress. It is a different facility from the game’s own save.
+
 ## USB hub
 
 An accessory that provides several USB connections from one computer port.
+
+## Wi-Fi
+
+The wireless network connection, managed by the operating system’s network tools. Bluetooth and the mouse receiver do not provide it.
 
 # Credits and acknowledgments
 

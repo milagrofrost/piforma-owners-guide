@@ -56,7 +56,7 @@
     },
     "1-6a.png": {
       "max_width_pt": 330,
-      "max_height_pt": 180,
+      "max_height_pt": 150,
       "kind": "control-detail"
     },
     "1-6b.png": {
@@ -139,10 +139,10 @@
     },
     {
       "start": "#subhead(\"A closer look, strictly off the record\")",
-      "end": "I would appreciate remaining employed."
+      "end": "\"1-6a.png\""
     },
     {
-      "start": "The owner\u2019s current arrangement has one externally",
+      "start": "The owner’s current arrangement has one externally",
       "end": "\"rear-inputs.png\""
     }
   ],

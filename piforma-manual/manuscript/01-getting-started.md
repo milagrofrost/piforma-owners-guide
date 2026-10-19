@@ -57,7 +57,7 @@ At the rear are a display-source selector and a composite-video RCA input. That 
 
 The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. The CEO would prefer you to admire it without touching it. I have gone rogue and made it conveniently openable. Please pretend I never told you; I would like to keep both my job and my continued existence.
 
-The battery section explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.
+“A closer look, strictly off the record”, later in this chapter, explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.
 
 [ILLUSTRATION 1-3c|1-3c.png|The top of the PiForma and its Forbidden Latch.]
 
@@ -159,24 +159,11 @@ If nothing happens, check the battery before assuming something has broken. The 
 
 The normal, management-approved way to read the battery is to press the rear battery plunger to turn on its display, then peer through the slits in the top to see the percentage. You do not have to open the compartment for this check.
 
-[ILLUSTRATION 1-6b|1-6b.png|Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where to look.]
+[ILLUSTRATION 1-6a|1-6b.png|Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where to look.]
 
 Press the plunger as intended, look at the battery indication, and try the right-side power control again. If the battery is empty, apparently asleep, or refuses to start despite showing charge, connect the intended external power supply and try again.
 
 The owner has sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief connection before taking anything apart, but do not count on one minute as a fixed recovery time. This is an observed oddity, not an established diagnosis.
-
-### A closer look, strictly off the record
-
-<!-- evidence: owner-current OWNER-IMAGES-2026-10-14; editorial-advice -->
-For an optional open-top look, first shut down the PiForma, switch off physical power, and disconnect external power. Opening the compartment is for looking, not changing internal wiring.
-
-1. Slide the top latch toward the open-padlock mark: upward as shown in Figure 1-6a.
-2. With the latch unlocked, lift at the slider to open the upper compartment.
-3. Close the compartment before sliding the latch toward the closed-padlock mark, downward in the illustration, to lock it again.
-
-[ILLUSTRATION 1-6a|1-6a.png|Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to lock.]
-
-Of course, you did not hear any of this from me. If the CEO asks, you were merely admiring the ventilation slits. I would appreciate remaining employed. And alive.
 
 ### If there is no green light
 
@@ -202,6 +189,19 @@ Do not disturb internal connections while the machine is powered; ask the builde
 <!-- evidence: owner-current H01-troubleshooting -->
 Give the computer approximately one to two minutes to reach the desktop. Boot time can vary. If it remains at the startup picture or never reaches a usable desktop, record what you see rather than repeatedly interrupting power.
 
+### A closer look, strictly off the record
+
+<!-- evidence: owner-current OWNER-IMAGES-2026-10-14; editorial-advice -->
+For an optional open-top look, first shut down the PiForma, switch off physical power, and disconnect external power. Opening the compartment is for looking, not changing internal wiring.
+
+1. Slide the top latch toward the open-padlock mark: upward as shown in Figure 1-6b.
+2. With the latch unlocked, lift at the slider to open the upper compartment.
+3. Close the compartment before sliding the latch toward the closed-padlock mark, downward in the illustration, to lock it again.
+
+[ILLUSTRATION 1-6b|1-6a.png|Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to lock.]
+
+Of course, you did not hear any of this from me. If the CEO asks, you were merely admiring the ventilation slits. I would appreciate remaining employed. And alive.
+
 ## Your first session
 
 <!-- evidence: repo-verified A-APP P-MENU P-ACTIONS ABOUT-CONFIG; editorial-advice -->
@@ -218,19 +218,12 @@ Once the desktop appears, try this short tour. You need not change any settings 
 
 For a small practice window with a known menu entry, choose Apple menu → About This PiForma. Read the information, close that window using its close control, and return to AtEase. Opening a program, leaving it, and finding your way back are most of the battle. Chapter 3 explains windows, typing, files and games in more detail.
 
-If the launcher or menu bar is missing, see Appendix B rather than trying unfamiliar touch gestures. When you have finished using the computer, follow “Stopping the computer” below.
-
-## About This PiForma and the project guide
-
-<!-- evidence: owner-current H01-about; repo-verified P-MENU P-ACTIONS ABOUT-CONFIG VIEWER-README -->
-Choose Apple menu → About This PiForma to see information about the computer.
-
-Macintosh PiForma Docs Viewer is a separate program for reading the project documentation, including an offline snapshot. The About window and the project guide serve different purposes.
-
-<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
-The launcher calls the project guide PiForma Guide. Click that button in AtEase to open Macintosh PiForma Guided Tour, the built-in documentation application. Chapter 3 explains its stacks and documentation status.
-
+<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 H01-about -->
 [SCREENSHOT 1-8|piforma-about-system.svg|Apple menu → About This PiForma opens the information window. The figures shown describe that running session, rather than fixed memory-use specifications.]
+
+The About window is not the project guide. To read the guide itself, click PiForma Guide in AtEase; Chapter 3 describes it.
+
+If the launcher or menu bar is missing, see Appendix B rather than trying unfamiliar touch gestures. When you have finished using the computer, follow “Stopping the computer” below.
 
 ## Stopping the computer
 
@@ -246,7 +239,7 @@ The launcher calls the project guide PiForma Guide. Click that button in AtEase 
 The physical power switch can cut the computer’s power. Reserve an abrupt power-off for a last resort when the system will not respond, rather than treating it as the normal way to stop. It can lose unsaved work or damage files.
 
 <!-- evidence: owner-current OWNER-UPDATE-1; needs-confirmation Q-GESTURE Q-SHUTDOWN -->
-The owner has confirmed that a hold of about six seconds closes only the active application on the current PiForma. Use that distinction when leaving a full-screen program; it is not a command to close every application or a substitute for the normal shutdown menu. Save first where possible.
+To leave a full-screen program rather than stop the computer, see “Leaving a full-screen program” in Chapter 3. A hold of about six seconds closes only the active application on the current PiForma.
 
 ## Packing the equipment
 

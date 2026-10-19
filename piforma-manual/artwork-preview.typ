@@ -22,6 +22,6 @@
 #pagebreak()
 #wide-illustration("1-4d","1-4d.png","Mouse underside: battery compartment, power switch, and optical tracking sensor.",width:273.714pt)
 #pagebreak()
-#wide-illustration("1-6b","1-6b.png","Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where to look.",width:330pt)
+#wide-illustration("1-6a","1-6b.png","Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where to look.",width:330pt)
 #pagebreak()
-#wide-illustration("1-6a","1-6a.png","Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to lock.",width:229.074pt)
+#wide-illustration("1-6b","1-6a.png","Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to lock.",width:190.895pt)

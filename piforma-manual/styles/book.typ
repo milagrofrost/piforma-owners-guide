@@ -207,7 +207,7 @@
   place(top+left,dx:84pt,dy:28pt,text(size:22pt,fill:rgb("777772"))[Macintosh PiForma])
   place(top+left,dx:84pt,dy:60pt,text(size:22pt,fill:rgb("777772"))[Owner’s Guide])
   place(top+left,dx:105pt,dy:218pt,image("../assets/illustrations/piforma-cover.png",width:290pt))
-  place(top+left,dx:84pt,dy:477pt,text(size:8pt)[Working manuscript proof · October 17, 2026])
+  place(top+left,dx:84pt,dy:477pt,text(size:8pt)[Working manuscript proof · October 19, 2026])
 }
 #let cover-reverse() = {
   set page(margin:0pt,footer:none)

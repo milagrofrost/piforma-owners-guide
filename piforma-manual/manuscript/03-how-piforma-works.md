@@ -127,10 +127,10 @@ The accessory pouch holds two Nintendo 64 controllers. The rear USB port and hub
 
 Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game. Follow the game's own instructions for play. Controller assignments, player order and button meanings can differ between games; a button's label is not a universal promise about its action.
 
+Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a controller-configuration prompt appears, read it before proceeding; do not overwrite an existing setup merely to dismiss the prompt. If there are no usable prompts or known controls, ask the builder to identify the configured bindings.
+
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's Nintendo 64 game list. The bar along the bottom names the buttons for this screen, including A to launch the highlighted game and B to go back.]
-
-Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a controller-configuration prompt appears, read it before proceeding; do not overwrite an existing setup merely to dismiss the prompt. If there are no usable prompts or known controls, ask the builder to identify the configured bindings.
 
 A game's own save and an emulator's save state are different facilities. Use only a save facility the running game or emulator actually provides, and check that it reports success. Closing a game from outside does not guarantee a saved game or state.
 
@@ -150,13 +150,16 @@ If EmulationStation remains after a game closes, it is a separate application. U
 
 Some emulators capture the mouse so the pointer stays inside their display. Use that emulator's documented release control if known. This guide supplies no unverified keyboard shortcut for releasing it. If you cannot regain control, follow the frozen-application checks in Appendix B.
 
-## Clippy and the other diversions
+## Diversions
+
 
 <!-- evidence: repo-verified D-SOFTWARE D-RELATED -->
 The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experiments among them. Use the labels in your installed launcher. A familiar old name may open a modern program or themed web application rather than the original software. The costume department has been busy.
 
+Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the page's links to follow its contents. Online material needs a working network connection. Locally supplied diversions and documents may remain available without one.
+
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
-A few of them are shown here: Winamp and its playlist, LimeWire Simulator, the Weather Channel and the Flying Toasters.
+A few of the diversions are shown here: Winamp and its playlist, LimeWire Simulator, the Weather Channel and the Flying Toasters.
 
 [SCREENSHOT 3-7a|piforma-winamp.svg|Winamp and its playlist window open over the AtEase launcher.]
 
@@ -166,6 +169,8 @@ A few of them are shown here: Winamp and its playlist, LimeWire Simulator, the W
 
 [SCREENSHOT 3-7d|piforma-flying-toasters.svg|The Flying Toasters, airborne.]
 
+## Clippy
+
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 Clippy is the assistant at the lower-right corner of the desktop. In the Chat with Clippy window, click the message field, type your question, then press Enter or click Send. The field itself reminds you how to send. Read the reply in the conversation area; use its scroll bar to revisit a longer conversation.
 
@@ -174,8 +179,6 @@ Clippy is the assistant at the lower-right corner of the desktop. In the Chat wi
 Clippy can offer suggestions, but check them against the PiForma's actual setup before changing settings or installing anything. He is enthusiastic. We have given him his own corner of the screen, which has only encouraged him.
 
 [SCREENSHOT 3-8b|piforma-clippy-conversation.svg|An example Chat with Clippy conversation. Its suggestions should be checked against the actual PiForma setup.]
-
-Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the page's links to follow its contents. Online material needs a working network connection. Locally supplied diversions and documents may remain available without one.
 
 ## About This PiForma and the project guide
 

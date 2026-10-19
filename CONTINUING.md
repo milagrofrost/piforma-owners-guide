@@ -1,3 +1,7 @@
+# Update — October 19, 2026 (mechanical fixes)
+
+Chapter 1: the battery-slit figure is now 1-6a and the latch figure 1-6b, so they run in page order (the files keep their names). "A closer look, strictly off the record" moved after the startup-symptom checks; its keep-together now ends at the figure. The duplicate "About This PiForma and the project guide" section was folded into "Your first session" with Figure 1-8, and "Stopping the computer" now points to Chapter 3 for the six-second hold. Chapter 3: "Clippy and the other diversions" is split into "Diversions" and "Clippy"; the EmulationStation screenshot moved below the game-setup paragraph to close a page gap. The glossary adds Clippy, Composite video, Docs Viewer, EmulationStation, HDMI, PiForma Panel, Save state and Wi-Fi (screen saver waits on the owner). The cover date reads October 19, 2026. `scripts/export-reviewed-pdf.py` writes the tracked `output/macintosh-piforma-layout-reviewed.pdf` from the working proof with images resampled to 300 ppi (about 9 MB instead of 87 MB); run it after every build. The working proof and source images stay full resolution.
+
 # Update — October 19, 2026
 
 `closing-app-1.png` and `closing-app-2.png` now appear side by side as Figures 3-6a/b under the six-second hold in "Leaving a full-screen program". Figure groups in `illustration-layout.json` now work in every chapter, not only Chapter 1. The diversion screenshots stay 3-7a–d; Clippy is now 3-8a/b and PiForma Guide 3-9, so figure numbers run in page order.
