@@ -9,7 +9,7 @@ This appendix describes the PiForma’s hardware, connections and software. Use 
 - Donor: Apple IIc Monitor A2M4090, February 1985.
 - Computer: Raspberry Pi 4 Model B, 4 GB RAM.
 - Storage: 256 GB microSD.
-- Display: 9-inch LCD kit, working mode 800 × 480; about 600 × 480 shows inside the bezel. Brightness and color are fixed.
+- Display: 9-inch LCD kit, working mode 800 × 480; about 640 × 480 shows inside the bezel, a little more across. Software is sized for 640 × 480. Brightness and color are fixed.
 - Size: the original monitor’s exterior, unchanged.
 - Weight: 8 lb 13 oz (4.0 kg), close to the original monitor.
 - Battery runtime: typically about six hours, or about four hours of emulated games.

@@ -8,7 +8,7 @@
 #spec-row("Donor:",text("Apple IIc Monitor A2M4090, February 1985."))
 #spec-row("Computer:",text("Raspberry Pi 4 Model B, 4 GB RAM."))
 #spec-row("Storage:",text("256 GB microSD."))
-#spec-row("Display:",text("9-inch LCD kit, working mode 800 × 480; about 600 × 480 shows inside the bezel. Brightness and color are fixed."))
+#spec-row("Display:",text("9-inch LCD kit, working mode 800 × 480; about 640 × 480 shows inside the bezel, a little more across. Software is sized for 640 × 480. Brightness and color are fixed."))
 #spec-row("Size:",text("the original monitor’s exterior, unchanged."))
 #spec-row("Weight:",text("8 lb 13 oz (4.0 kg), close to the original monitor."))
 #spec-row("Battery runtime:",text("typically about six hours, or about four hours of emulated games."))

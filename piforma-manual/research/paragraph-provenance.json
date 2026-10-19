@@ -1336,7 +1336,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
-    "paragraph_sha256": "4e4ff76805b93324e5c74190e2711d142b6e10360ecfec3430f0859c963129dc",
+    "paragraph_sha256": "1848c2e99f5e17ca62f9b7a72030b01bdfcb49f24169f35c8e0a26c3998bb814",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them in"
   },
@@ -1572,7 +1572,7 @@
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
-    "preview": "- Display: 9-inch LCD kit, working mode 800 × 480; about 600 × 480 shows inside the bezel. Brightness and color are fixed."
+    "preview": "- Display: 9-inch LCD kit, working mode 800 × 480; about 640 × 480 shows inside the bezel, a little more across. Software is sized for 640 × 480. Brightness and color are fixed."
   },
   {
     "file": "manuscript\\05-technical-information.md",
@@ -1855,7 +1855,7 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Screen saver",
-    "paragraph_sha256": "656db3dbca03080cbc72dafd306918f0e787329d2b50fb361524d7aa477e672d",
+    "paragraph_sha256": "31146925d08f6f8cd896681697fe80498610d201f10baeb8f17348a419b3c938",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
     "preview": "An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own whe"
   },

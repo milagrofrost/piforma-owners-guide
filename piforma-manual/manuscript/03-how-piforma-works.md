@@ -164,7 +164,7 @@ The browser is Chromium, dressed as Netscape Navigator; its AtEase button carrie
 A few of the diversions are shown here: Winamp and its playlist, LimeWire Simulator, the Weather Channel and the Flying Toasters.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
-Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them into that folder. The Weather Channel estimates your location from your internet connection and shows the nearest weather station. The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when the computer is idle.
+Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them into that folder. The Weather Channel estimates your location from your internet connection and shows the nearest weather station. The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when the computer is idle. To stop them, hold the Apple logo for about six seconds.
 
 [SCREENSHOT 3-7a|piforma-winamp.svg|Winamp and its playlist window open over the AtEase launcher.]
 

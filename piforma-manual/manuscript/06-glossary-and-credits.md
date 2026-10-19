@@ -87,7 +87,7 @@ An emulator’s snapshot of a game in progress. It is a different facility from 
 
 ## Screen saver
 
-An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own when the computer is idle.
+An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own when the computer is idle. Hold the Apple logo for about six seconds to stop it.
 
 ## USB hub
 
