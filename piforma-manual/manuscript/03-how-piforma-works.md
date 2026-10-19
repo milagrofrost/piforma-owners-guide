@@ -174,7 +174,7 @@ A few of the diversions are shown here: Winamp and its playlist, LimeWire Simula
 Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them into that folder. The Weather Channel estimates your location from your internet connection and shows the nearest weather station. The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when the computer is idle. To stop them, hold the Apple logo for about six seconds.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
-The other AtEase buttons are mostly what they seem. America Online opens an America Online simulator, and Encarta opens Kiwix, a reader for offline reference articles. Macintosh HD opens a file window. Mac OS 9 runs the real Mac OS 9 inside the SheepShaver emulator; it fills the screen, so leave it with the six-second hold. Terminal opens a command line, which is for the builder.
+The other AtEase buttons are mostly what they seem. America Online opens an America Online simulator, and Encarta opens Kiwix, a reader for offline reference articles, at least as of this writing. Macintosh HD opens a file window. Mac OS 9 runs the real Mac OS 9 inside the SheepShaver emulator; it fills the screen, so leave it with the six-second hold. Terminal opens a command line, which is for the builder.
 
 [SCREENSHOT 3-7a|piforma-winamp.svg|Winamp and its playlist window open over the AtEase launcher.]
 

@@ -10,7 +10,9 @@ PiForma is a one-off experiment, not a Macintosh manufactured by Apple. Its name
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The monitor came from Bob, whose collection ran to some fifty Macintoshes and related pieces. This one was beyond saving: corrosion had reached its circuit board. Its electronics and picture tube came out, and the empty case sat on a shelf until the idea of putting a computer inside it would not go away.
 
-The official story is more dramatic. A rogue engineer assembled the PiForma from whatever parts were lying around, and the CEO, against every instinct, approved a portable computer that you can open. It is built from open-source software and other people’s good ideas, which is about as far from a sealed, proprietary Macintosh as a Macintosh can get. Management has decided to call this a feature.
+The official story is more dramatic. The PiForma began as a shadow project: a rogue engineer, working late with whatever parts were lying around, built a portable computer that you can open. Nobody dared show it to management. A computer with a latch, running open-source software and other people’s good ideas, was about as far from a sealed, proprietary Macintosh as a Macintosh could get, and a certain unnamed man with strong opinions about closed cases would not have approved.
+
+Then, in 1985, the unnamed man was let go. The company suddenly needed new ways to put more Macintoshes in front of people, and the engineer’s project came out of hiding at exactly the right moment. The CEO, against every instinct, gave it the green light. Management has since decided to call the latch a feature.
 
 If you have found the PiForma on display, you are welcome to leaf through this guide without touching the computer. It explains what the PiForma does, what is inside it and how it works, laid out the way Apple laid out the manuals that came with its own computers.
 

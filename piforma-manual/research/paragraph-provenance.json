@@ -30,9 +30,16 @@
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "cc9f88a8bf1169e3d643d747a24d548e722d72d58acccd888afbb44e5fe46772",
+    "paragraph_sha256": "d544143d5874eb0332fd8613ad636d0b75cbff787e4d96c1654994094909a7b9",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "The official story is more dramatic. A rogue engineer assembled the PiForma from whatever parts were lying around, and the CEO, against ever"
+    "preview": "The official story is more dramatic. The PiForma began as a shadow project: a rogue engineer, working late with whatever parts were lying ar"
+  },
+  {
+    "file": "manuscript\\00-front-matter.md",
+    "section": "Welcome to the Macintosh PiForma",
+    "paragraph_sha256": "9183e8fda98130804300f12c3f3417cf643c74b123e87e52ce41cdc449356e1c",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "Then, in 1985, the unnamed man was let go. The company suddenly needed new ways to put more Macintoshes in front of people, and the engineer"
   },
   {
     "file": "manuscript\\00-front-matter.md",
@@ -1453,7 +1460,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
-    "paragraph_sha256": "bd4cc3cc4c30705d8499a576be3f779590a8d72e6ad98c3cdcf70b4470d8b4ec",
+    "paragraph_sha256": "3dcabada950a1077039ebcd7e67841f09f4100feb57144dd9f5e7a5d5db4a068",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "The other AtEase buttons are mostly what they seem. America Online opens an America Online simulator, and Encarta opens Kiwix, a reader for "
   },
