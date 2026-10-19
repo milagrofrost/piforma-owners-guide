@@ -100,7 +100,7 @@ The wireless network connection, managed by the operating system’s network too
 # Credits and acknowledgments
 
 <!-- evidence: repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS -->
-This build uses many good ideas by other people, adapted to a computer-shaped joke that became a useful project. The Apple manuals supplied visual and organizational references, not PiForma specifications or approval. Their text has not been copied into this guide.
+This build uses many good ideas by other people, adapted to a computer-shaped joke that became a useful project. The Apple manuals supplied visual and organizational references, not PiForma specifications or approval. Apple had no part in the PiForma; the story in the welcome is a tall tale. Their text has not been copied into this guide.
 
 - Canonical build records: [Macintosh-PiForma-docs](https://github.com/milagrofrost/Macintosh-PiForma-docs).
 - Keyboard conversion credited in those records: [Matt Chesters’ ZMK ADB keyboard project](https://github.com/mattchesters/zmk-apple-desktop-bus-keyboard).

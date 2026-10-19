@@ -9,7 +9,7 @@ The PiForma wears a familiar face, but Raspberry Pi OS does the work underneath.
 The desktop is the working screen behind your application windows. PiForma Panel supplies the menu bar at the top; AtEase is the folder-like launcher for programs. The Control Strip provides another way to open or return to programs.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
-Figure 1-7 in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right corner. The clock appears at the upper right of the system bar.
+The desktop picture in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right corner. The clock appears at the upper right of the system bar.
 
 Choose a menu by clicking its name, then click the command you want. An unavailable command may be dimmed. Read a dialog before answering: it may ask where to save a file, whether to discard changes, or whether to stop the computer.
 
@@ -65,7 +65,7 @@ Showing the desktop hides windows from view without saving or quitting them. Ret
 ### Window controls
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF -->
-The themed document window in Figure 3-2 has a close control at the upper left. At the upper right, the far-right control maximizes the window; the control immediately to its left minimizes it to the Dock, or Control Strip. Minimizing puts the window out of the way while leaving it open. Use the program's Control Strip pane to return to it.
+The themed document window pictured below has a close control at the upper left. At the upper right, the far-right control maximizes the window; the control immediately to its left minimizes it to the Dock, or Control Strip. Minimizing puts the window out of the way while leaving it open. Use the program's Control Strip pane to return to it.
 
 Use the controls a window actually provides. Some windows omit controls or draw them differently. Clippy's chat, for example, has its close button at the upper right. Closing a window is not the same as minimizing it; save before closing work you want to keep.
 
@@ -120,7 +120,15 @@ The Control Strip sits at the bottom-left in the documented desktop arrangement.
 ## Apple-logo shortcuts
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE -->
-The Apple logo on the front is a touch control. Besides the six-second hold described under “Leaving a full-screen program,” short taps open programs directly. Tap once for the browser, twice for Mac OS 9, three times for Winamp and four times for RetroPie. Leave about half a second between taps.
+The Apple logo on the front is a touch control. Besides the six-second hold described under “Leaving a full-screen program,” short taps open programs directly. Leave about half a second between taps.
+
+| Apple logo | Opens |
+|---|---|
+| Tap once | The browser |
+| Tap twice | Mac OS 9 |
+| Tap three times | Winamp |
+| Tap four times | RetroPie |
+| Hold about six seconds | Closes the active application |
 
 The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a Nintendo 64 controller, wait for the desktop and tap the logo four times.
 

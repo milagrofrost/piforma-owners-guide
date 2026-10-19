@@ -2,7 +2,7 @@
 #import "../styles/book.typ": *
 #import "../styles/screenshots.typ": screen-figure
 #import "../styles/typography.typ": accent
-#para("This appendix describes the PiForma’s hardware, connections and software. Use the project documentation for maintenance and recovery instructions.")
+#para([#text("This appendix describes the PiForma’s hardware, connections and software. Use the project documentation for maintenance and recovery instructions.")])
 #heading(level:2,"Hardware inventory and identification")
 #reference-plate([
 #spec-row("Donor:",text("Apple IIc Monitor A2M4090, February 1985."))
@@ -20,7 +20,7 @@
 #spec-row("Normal sound:",text("internal USB speaker, or the rear audio output socket for speakers or headphones."))
 ])
 #heading(level:2,"Power architecture")
-#para("Power path: rear AC inlet → internal charger → main battery → original power switch → custom 5V JST rail → Pi, LCD controller, startup-chime module, and touch sensor. The USB speaker is supplied through the Pi. The switch does not disconnect the AC charging path. The rail has no separate installed fuse protection.")
+#para([#text("Power path: rear AC inlet → internal charger → main battery → original power switch → custom 5V JST rail → Pi, LCD controller, startup-chime module, and touch sensor. The USB speaker is supplied through the Pi. The switch does not disconnect the AC charging path. The rail has no separate installed fuse protection.")])
 #heading(level:2,"Connections and GPIO")
 #reference-plate([
 #spec-row("Apple-logo sensor:",text("TTP223 on BCM GPIO23, active-low."))
@@ -32,8 +32,8 @@
 #spec-row("External USB access:",text("one rear port; do not infer exterior access from the Pi’s board connector count."))
 ])
 #heading(level:2,"Software, services and recovery")
-#para("The software includes Raspberry Pi OS, X11/LXDE, Openbox, LightDM, PCManFM, PipeWire, and WirePlumber. System services include apple-gesture-button, volume-knob, atease, and flyingtoasters. User services include piforma-panel, controlstrip-simulator, and the optional usb-audio-loop.")
-#para("Use the canonical repository's software page, service inventory, configuration archive and installation guide for recovery. Archived helpers describe an earlier installation; do not substitute them for deployed scripts without checking the running configuration.")
+#para([#text("The software includes Raspberry Pi OS, X11/LXDE, Openbox, LightDM, PCManFM, PipeWire, and WirePlumber. System services include apple-gesture-button, volume-knob, atease, and flyingtoasters. User services include piforma-panel, controlstrip-simulator, and the optional usb-audio-loop.")])
+#para([#text("Use the canonical repository's software page, service inventory, configuration archive and installation guide for recovery. Archived helpers describe an earlier installation; do not substitute them for deployed scripts without checking the running configuration.")])
 #heading(level:2,"Keyboard conversion and sources")
-#para("The build credits Matt Chesters’ zmk-apple-desktop-bus-keyboard conversion. Special keys follow the deployed keymap.")
-#para("The keyboard conversion uses a Seeed XIAO nRF52840, MCP23017 I/O expander, custom board, small battery and nice!view display.")
+#para([#text("The build credits Matt Chesters’ zmk-apple-desktop-bus-keyboard conversion. Special keys follow the deployed keymap.")])
+#para([#text("The keyboard conversion uses a Seeed XIAO nRF52840, MCP23017 I/O expander, custom board, small battery and nice!view display.")])

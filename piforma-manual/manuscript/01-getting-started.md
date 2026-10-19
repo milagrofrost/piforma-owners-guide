@@ -58,7 +58,7 @@ At the rear are a display-source selector, a composite-video RCA input and an au
 
 ### The forbidden latch
 
-The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. The CEO would prefer you to admire it without touching it. I have gone rogue and made it conveniently openable. Please pretend I never told you; I would like to keep both my job and my continued existence.
+The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would prefer you to admire it without touching it. I have gone rogue and made it conveniently openable. Please pretend I never told you; I would like to keep both my job and my continued existence.
 
 “A closer look, strictly off the record”, later in this chapter, explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.
 
@@ -80,7 +80,7 @@ Leave room to move your hands and take occasional breaks. Put speakers and their
 ### The stand, keyboard and mouse
 
 <!-- evidence: owner-current H01-setup -->
-1. Open the collapsible stand and place it on the level table. Seat the support leg in its final position, as indicated by the arrow in Figure 1-4a. Check that it is stable before adding the computer.
+1. Open the collapsible stand and place it on the level table. Seat the support leg in its final position, as the arrow in the illustration shows. Check that it is stable before adding the computer.
 2. Place the PiForma on the stand and center it. Check that it rests securely rather than leaning toward one side.
 3. Put the keyboard directly in front. Turn it on with the switch near its top-right edge.
 4. Put the mouse on its pad beside the keyboard. Its power switch is underneath; turn it on if necessary.
@@ -205,13 +205,13 @@ Give the computer approximately one to two minutes to reach the desktop. Boot ti
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14; editorial-advice -->
 For an optional open-top look, first shut down the PiForma, switch off physical power, and disconnect external power. Opening the compartment is for looking, not changing internal wiring.
 
-1. Slide the top latch toward the open-padlock mark: upward as shown in Figure 1-6b.
+1. Slide the top latch toward the open-padlock mark: upward, as the illustration shows.
 2. With the latch unlocked, lift at the slider to open the upper compartment.
 3. Close the compartment before sliding the latch toward the closed-padlock mark, downward in the illustration, to lock it again.
 
 [ILLUSTRATION 1-6b|1-6a.png|Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to lock.]
 
-Of course, you did not hear any of this from me. If the CEO asks, you were merely admiring the ventilation slits. I would appreciate remaining employed. And alive.
+Of course, you did not hear any of this from me. If anyone from management asks, you were merely admiring the ventilation slits. I would appreciate remaining employed. And alive.
 
 ## Your first session
 
@@ -276,6 +276,4 @@ A USB power monitor in the bag charger's USB supply connection can show whether 
 ### Carrying the bag
 
 <!-- evidence: owner-current H01-carrying; needs-confirmation Q-BOSE -->
-Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immune to hard impacts. Cushioning is not armor.
-
-The Bose speakers and stands do not fit in this bag; carry them separately.
+Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immune to hard impacts. Cushioning is not armor. The Bose speakers and stands do not fit in this bag; carry them separately.

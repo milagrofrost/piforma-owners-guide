@@ -17,8 +17,10 @@
 #let book(content) = {
   set document(title: "Macintosh PiForma Owner’s Guide — Working Proof", author: "Macintosh PiForma")
   set page(width:432pt,height:522pt,margin:(left:152pt,right:38pt,top:39pt,bottom:43pt),footer:folio(),footer-descent:17pt)
-  set text(font:manual-font,size:10.5pt,fill:ink,lang:"en")
-  set par(leading:4.5pt,spacing:7pt,justify:false)
+  // Body size and leading follow the Macintosh Plus manual: an x-height of
+  // about 3.85 pt on a 10.4 pt line, with roughly half a line between paragraphs.
+  set text(font:manual-font,size:9.5pt,fill:ink,lang:"en")
+  set par(leading:4.4pt,spacing:7pt,justify:false)
   set text(hyphenate:false)
   set list(marker:rect(width:3pt,height:3pt,fill:accent,stroke:none),indent:0pt,body-indent:10pt,spacing:6pt)
   set enum(indent:0pt,body-indent:13pt,spacing:7pt)
@@ -31,21 +33,31 @@
   show heading.where(level:2): it => {
     block(above:13pt,below:8pt,breakable:false,sticky:true,
       stack(dir:ttb,spacing:4pt,[#content-mark()#line(length:242pt,stroke:1.4pt+accent)],
-      text(size:12pt,weight:"bold",it.body)))
+      text(size:13pt,weight:"bold",it.body)))
   }
-  show heading.where(level:3): it => block(above:10pt,below:6pt,sticky:true,[#content-mark()#text(size:10.5pt,weight:"bold",it.body)])
+  // Apple side heads: a subsection title sits in the left rail under a fine
+  // red rule, level with the first line of its text in the main column.
+  show heading.where(level:3): it => block(above:14pt,below:0pt,sticky:true,breakable:false)[
+    #content-mark()
+    #place(top+left,dx:-112pt,dy:-5pt,block(width:96pt)[
+      #line(length:96pt,stroke:.55pt+accent)
+      #v(-1pt)
+      #set par(leading:4.4pt)
+      #text(size:9.5pt,weight:"bold",it.body)
+    ])
+  ]
   content
 }
-#let para(copy,width:242pt) = block(width:width,above:0pt,below:12pt,breakable:false,
+#let para(copy,width:242pt) = block(width:width,above:0pt,below:10pt,breakable:false,
   [#content-mark()#copy])
 #let subhead(title) = heading(level:3,outlined:false,title)
-#let instruction(n,copy) = block(above:0pt,below:8pt,breakable:false)[
+#let instruction(n,copy) = block(above:0pt,below:7pt,breakable:false)[
   #content-mark()
   #grid(columns:(13pt,229pt),gutter:0pt,
     text(fill:accent,weight:"bold",str(n)+"."),
     block(width:229pt,copy))
 ]
-#let bullet(copy) = block(above:0pt,below:8pt,breakable:false)[
+#let bullet(copy) = block(above:0pt,below:7pt,breakable:false)[
   #content-mark()
   #grid(columns:(10pt,232pt),gutter:0pt,
     box(inset:(top:4pt),rect(width:3pt,height:3pt,fill:accent,stroke:none)),
@@ -53,11 +65,13 @@
 ]
 #let spec-row(label,copy) = block(width:354pt,above:0pt,below:6pt,breakable:false)[
   #content-mark()
-  #set text(size:10pt)
+  #set text(size:9pt)
   #grid(columns:(91pt,251pt),gutter:12pt,
     text(weight:"bold",label),copy)
 ]
 #let glossary-term(title) = subhead(title)
+// A glossary entry runs in: bold term and colon, then its definition.
+#let glossary-entry(term,copy) = para([#text(weight:"bold",term + ":") #copy])
 #let side-note(label,copy) = block(above:7pt,below:9pt,breakable:false)[
   #place(top+left,dx:-112pt,block(width:96pt)[
     #line(length:96pt,stroke:.55pt+accent)
@@ -81,7 +95,8 @@
   #content-mark()
   #set text(size:8pt)
   #set par(leading:4.2pt,spacing:0pt,justify:false)
-  #text([Figure #id. #copy])
+  // Apple captions carry no figure numbers; the SE marks them with a red square.
+  #box(inset:(bottom:1pt),rect(width:3pt,height:3pt,fill:accent,stroke:none)) #copy
 ]
 #let figure-anchor(body) = context {
   let odd = calc.odd(here().page())
@@ -103,13 +118,54 @@
   #v(4pt)
   #para(text(size:8pt)[Figure #id. #copy])
 ]
-#let wide-illustration(id,file,copy,width:366pt) = block(width:242pt,above:8pt,below:10pt,breakable:false)[
+// A figure narrower than the main column stays in it, with its caption in the
+// left rail beside the picture's lower edge, as Apple set its callouts.
+#let rail-figure(picture,copy) = block(width:242pt,above:9pt,below:11pt,breakable:false)[
+  #content-mark()
+  #move(dx:-112pt,grid(columns:(96pt,242pt),column-gutter:16pt,
+    align(bottom,block(width:96pt)[
+      #set text(size:8pt)
+      #set par(leading:3.6pt,spacing:0pt)
+      #copy
+    ]),
+    picture))
+]
+// Optional background in the Macintosh manuals' manner: a hairline across the
+// whole page, the title in the rail, smaller text set in two columns.
+#let sidebar(title,body) = block(width:242pt,above:14pt,below:14pt,breakable:false)[
+  #content-mark()
+  #move(dx:-112pt,block(width:354pt)[
+    #line(length:354pt,stroke:.5pt+ink)
+    #v(6pt)
+    #grid(columns:(96pt,242pt),column-gutter:16pt,
+      text(size:11pt,weight:"bold",title),
+      block(width:242pt)[
+        #set text(size:8.5pt)
+        #set par(leading:4.2pt,spacing:6pt)
+        #columns(2,gutter:12pt,body)
+      ])
+  ])
+]
+#let sb-item(n,copy) = block(above:0pt,below:5pt,breakable:false)[#text(fill:accent,weight:"bold",str(n)+".") #copy]
+// A small reference table: bold column heads over a hairline, rows beneath.
+#let ref-table(head,rows) = block(width:242pt,above:6pt,below:12pt,breakable:false)[
+  #content-mark()
+  #set text(size:9pt)
+  #table(columns:(auto,1fr),stroke:none,inset:(x:0pt,y:3pt),column-gutter:14pt,
+    table.header(..head.map(h => text(weight:"bold",h))),
+    table.hline(stroke:.5pt+ink),
+    ..rows.flatten())
+]
+#let wide-illustration-plate(id,file,copy,width:366pt) = block(width:242pt,above:8pt,below:10pt,breakable:false)[
   #content-mark()
   #figure-anchor(block(width:366pt)[
     #align(center,image("../assets/illustrations/" + file,width:width))
     #caption(id,copy)
   ])
 ]
+#let wide-illustration(id,file,copy,width:366pt) = if width <= 242pt {
+  rail-figure(image("../assets/illustrations/" + file,width:width),copy)
+} else { wide-illustration-plate(id,file,copy,width:width) }
 #let figure-group(items,mode:"columns") = block(width:242pt,above:6pt,below:8pt,breakable:false)[
   #content-mark()
   #figure-anchor(block(width:366pt)[
@@ -146,7 +202,7 @@
 #let illustration-plate(id,file,copy,width:320pt) = {
   pagebreak(weak:true)
   content-mark()
-  place(top+left,dx:-112pt,block(width:96pt,text(size:11pt,weight:"bold")[Unpacking the equipment]))
+  place(top+left,dx:-112pt,block(width:96pt,{set par(leading:6pt);text(size:11pt,weight:"bold")[Unpacking the equipment]}))
   line(length:242pt,stroke:1.3pt+accent)
   v(22pt)
   wide-illustration(id,file,copy,width:width)
@@ -155,7 +211,7 @@
 #let launcher-detail() = block(above:7pt,below:9pt,breakable:false)[
   #content-mark()
   #image("../assets/screenshots/atease-detail.svg",width:242pt)
-  #caption("1-7 detail","AtEase folder tabs and program buttons.",width:242pt)
+  #caption("","AtEase folder tabs and program buttons.",width:242pt)
 ]
 #let verification(copy) = block(above:5pt,below:10pt,breakable:false)[
   #place(top+left,dx:-65pt,dy:2pt,polygon((0pt,6pt),(3pt,0pt),(6pt,6pt),fill:none,stroke:.45pt+accent))

@@ -9,37 +9,37 @@
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "30519928a8ef57df9936adf80bbf0dffaea56dfca02b999280d0d0b009a38784",
+    "paragraph_sha256": "f5849a5a7a153128a369ed3fcc11b60122dbaf63346a780be9b8afc0a61a0cad",
     "evidence": "owner-current H04; repo-verified D-README D-HARDWARE",
-    "preview": "This little computer began as an Apple IIc Monitor, a Raspberry Pi, and a willingness to spend rather more time on the combination than comm"
+    "preview": "This little computer began in the basement of Apple headquarters, which is remarkable, because Apple headquarters did not have a basement. A"
   },
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "4688c23405cc5e74dac02be1c2f2509f8d07a7ec8a2f961c2bc3cde0be930e71",
+    "paragraph_sha256": "6143251377c7ee91e4a786dbd397cbf2ee61b328a4ea6d854ebcaf3854fd95bc",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "The work went on under the nose of the vice president of the day, a man with firm opinions about computers that customers could open. The en"
+  },
+  {
+    "file": "manuscript\\00-front-matter.md",
+    "section": "Welcome to the Macintosh PiForma",
+    "paragraph_sha256": "e6b2e4af807a2262b7a06abec9bda26c1aa443b321142155bd774da8ee5c343e",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "Then, in 1985, the vice president was let go, and the mood changed. The CEO turned out to be rather more open-minded about unconventional id"
+  },
+  {
+    "file": "manuscript\\00-front-matter.md",
+    "section": "Welcome to the Macintosh PiForma",
+    "paragraph_sha256": "80c8825e18aa116ae3c4e177a73e4d89acc41a00b43d121599eeb61719d58d43",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "Only one PiForma was ever made, and this is it. Its story is almost entirely unknown; you may be the first person ever to read it."
+  },
+  {
+    "file": "manuscript\\00-front-matter.md",
+    "section": "Welcome to the Macintosh PiForma",
+    "paragraph_sha256": "cbbdf47ac5c731c384d2ea1ccf159b8583309916399d73fd082142f9dc12d368",
     "evidence": "owner-current H04; repo-verified D-README D-HARDWARE",
-    "preview": "PiForma is a one-off experiment, not a Macintosh manufactured by Apple. Its name is a small joke; its carrying bag is a surprisingly serious"
-  },
-  {
-    "file": "manuscript\\00-front-matter.md",
-    "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "e0769eb9c7700ae1cbbfbc1afc4b383f006d2358a14eeebb8026bdd1bf0bcded",
-    "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "The monitor came from Bob, whose collection ran to some fifty Macintoshes and related pieces. This one was beyond saving: corrosion had reac"
-  },
-  {
-    "file": "manuscript\\00-front-matter.md",
-    "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "d544143d5874eb0332fd8613ad636d0b75cbff787e4d96c1654994094909a7b9",
-    "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "The official story is more dramatic. The PiForma began as a shadow project: a rogue engineer, working late with whatever parts were lying ar"
-  },
-  {
-    "file": "manuscript\\00-front-matter.md",
-    "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "9183e8fda98130804300f12c3f3417cf643c74b123e87e52ce41cdc449356e1c",
-    "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "Then, in 1985, the unnamed man was let go. The company suddenly needed new ways to put more Macintoshes in front of people, and the engineer"
+    "preview": "Inside, the old monitor’s case holds a modern display and a battery-powered computer, with a familiar-looking desktop, games, and a few dive"
   },
   {
     "file": "manuscript\\00-front-matter.md",
@@ -242,9 +242,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The forbidden latch",
-    "paragraph_sha256": "301343fe383bc9880a66aa0fdaf246e3ba7d8e07db6792dffdf3e3e9d0619f44",
+    "paragraph_sha256": "1d057eccf3b97064f1a207642cc9d91ba044428024edc18e6ee21bdf4968494e",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. The CEO would pref"
+    "preview": "The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would p"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -292,7 +292,7 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "The stand, keyboard and mouse",
     "evidence": "owner-current H01-setup",
-    "preview": "1. Open the collapsible stand and place it on the level table. Seat the support leg in its final position, as indicated by the arrow in Figure 1-4a. Check that it is stable before adding the computer."
+    "preview": "1. Open the collapsible stand and place it on the level table. Seat the support leg in its final position, as the arrow in the illustration shows. Check that it is stable before adding the computer."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -585,7 +585,7 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "A closer look, strictly off the record",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "1. Slide the top latch toward the open-padlock mark: upward as shown in Figure 1-6b."
+    "preview": "1. Slide the top latch toward the open-padlock mark: upward, as the illustration shows."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -609,9 +609,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "A closer look, strictly off the record",
-    "paragraph_sha256": "c16a59f88a4b9b858951dfaab20e7fae0fc9b9a928ddf7b78bc53d86ac50eae4",
+    "paragraph_sha256": "fb5054d75d143ef2b370dfdbe227fe6a9be0f5955455f5d2f73e99b58b0fbf40",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "Of course, you did not hear any of this from me. If the CEO asks, you were merely admiring the ventilation slits. I would appreciate remaini"
+    "preview": "Of course, you did not hear any of this from me. If anyone from management asks, you were merely admiring the ventilation slits. I would app"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -802,16 +802,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Carrying the bag",
-    "paragraph_sha256": "6236d177636fe0958d70321f44adaf966ce67355787c6b31a5aa959f06914aee",
+    "paragraph_sha256": "2a105f9da23dfcb2772e944e3ef8330d33cd327a420e076c23e061fbe27ed627",
     "evidence": "owner-current H01-carrying; needs-confirmation Q-BOSE",
     "preview": "Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immun"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "Carrying the bag",
-    "paragraph_sha256": "e8b40d413b4f35d2b4504fa59b6f753a49e3de5b79a6640e4740407131b4c408",
-    "evidence": "owner-current H01-carrying; needs-confirmation Q-BOSE",
-    "preview": "The Bose speakers and stands do not fit in this bag; carry them separately."
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -982,7 +975,7 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "System sound and startup chimes",
-    "paragraph_sha256": "b5f42590d16da77da30bc8b52a389a6650bf8a06cc49f05c5d3cd6573ba042fc",
+    "paragraph_sha256": "3c40d721cd577b74cc826e8d768986997d0772289b0289d43b5391021501a988",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "[ILLUSTRATION 2-3|inside-2.png|A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and batte"
   },
@@ -1066,9 +1059,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Finding your way around the desktop",
-    "paragraph_sha256": "76abc3b8b430708a17a1f02a6e41af81819a618dd4868129b9bd561b619cf6d2",
+    "paragraph_sha256": "26f3cbb125b59fc32e8d3005f0dddfb828808990da649b8e53886a61dcfdb021",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "Figure 1-7 in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right corner. T"
+    "preview": "The desktop picture in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1206,9 +1199,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Window controls",
-    "paragraph_sha256": "176757f45603c11d6aade8a8b059cdb7e7b6f9bf1724fac3f3995893ae9a49b1",
+    "paragraph_sha256": "455b3436b1ef27e59003707deca2663e267924fa07ccb7eede6c82cd077ceb4e",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF",
-    "preview": "The themed document window in Figure 3-2 has a close control at the upper left. At the upper right, the far-right control maximizes the wind"
+    "preview": "The themed document window pictured below has a close control at the upper left. At the upper right, the far-right control maximizes the win"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1348,9 +1341,51 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Apple-logo shortcuts",
-    "paragraph_sha256": "2bbe51d30317c41179389929ae36b61580d09d8d76d0d60ff7b0e6a949bd058a",
+    "paragraph_sha256": "6e9e168c0a31a320d04a3c52798a76ddede8610d572d62a12f1b6a849cb0c7c0",
     "evidence": "owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE",
     "preview": "The Apple logo on the front is a touch control. Besides the six-second hold described under “Leaving a full-screen program,” short taps open"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Apple-logo shortcuts",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE",
+    "preview": "| Apple logo | Opens |"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Apple-logo shortcuts",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE",
+    "preview": "|---|---|"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Apple-logo shortcuts",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE",
+    "preview": "| Tap once | The browser |"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Apple-logo shortcuts",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE",
+    "preview": "| Tap twice | Mac OS 9 |"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Apple-logo shortcuts",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE",
+    "preview": "| Tap three times | Winamp |"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Apple-logo shortcuts",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE",
+    "preview": "| Tap four times | RetroPie |"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Apple-logo shortcuts",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE",
+    "preview": "| Hold about six seconds | Closes the active application |"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1670,9 +1705,9 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Service and support",
-    "paragraph_sha256": "1f73355e2cbdb09d0cbc749d8e472055e704042bf2c9d9e0141c87a9f0e00dea",
+    "paragraph_sha256": "9c71cf432501e838f6b1b0678a076a48efd460ca5b8712dfe36c9930989536ec",
     "evidence": "owner-current H04-support; editorial-advice",
-    "preview": "The Macintosh PiForma is a one-off project made for enjoyment, not manufacture or sale. There is no service department, warranty desk, or he"
+    "preview": "Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful perso"
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
@@ -2014,7 +2049,7 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Credits and acknowledgments",
-    "paragraph_sha256": "19483a43f5da32d442a414431e1ddc0900e7f5c94a5df91abdf2c517c489ca45",
+    "paragraph_sha256": "9af0ecd84b9ff19d90044e32e0455ac1cd49e5cd6e9df05c2e4dbf4662695af0",
     "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
     "preview": "This build uses many good ideas by other people, adapted to a computer-shaped joke that became a useful project. The Apple manuals supplied "
   },

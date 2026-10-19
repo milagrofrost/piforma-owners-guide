@@ -22,6 +22,22 @@ def inline(s):
         result.append('#link('+q(m[2])+',text('+q(m[1])+'))');offset=m.end()
     result.append('#text('+q(plain(s[offset:]))+')')
     return ''.join(result)
+# Rich inline copy: links, **bold** and *italic*, each run kept as plain text.
+RICH=re.compile(r'\[([^\]]+)\]\(([^)]+)\)|\*\*(.+?)\*\*|\*(.+?)\*')
+def rich(s):
+    out=[];offset=0;s=s.replace('`','')
+    for m in RICH.finditer(s):
+        if m.start()>offset: out.append('#text('+q(s[offset:m.start()])+')')
+        if m[1]: out.append('#link('+q(m[2])+',text('+q(m[1])+'))')
+        elif m[3]: out.append('#strong[#text('+q(m[3])+')]')
+        else: out.append('#emph[#text('+q(m[4])+')]')
+        offset=m.end()
+    if offset<len(s): out.append('#text('+q(s[offset:])+')')
+    return ''.join(out)
+def directive(s):
+    """Apple sets the action of a numbered step in bold and its explanation in roman."""
+    m=re.match(r'^(.+?[.!?])\s+(?=[A-Z“"(])(.*)$',s)
+    return f'[#strong[{rich(m[1])}] {rich(m[2])}]' if m else f'[#strong[{rich(s)}]]'
 evidence=[]
 layout_file=P/'assets/illustration-layout.json'
 artwork_layout=json.loads(layout_file.read_text(encoding='utf-8'))['images'] if layout_file.exists() else {}
@@ -31,8 +47,18 @@ screen_assets={a['presentation']:a for a in json.loads(screen_manifest.read_text
 screen_placements=[]
 def convert(file):
     lines=file.read_text(encoding='utf-8').splitlines();blocks=[];buf=[];status='editorial-advice';section='';opening=True
+    top='';term=None;sidebar=None;rows=[]
+    def flush_table():
+        nonlocal rows
+        if not rows:return
+        cells=[[c.strip() for c in r.strip().strip('|').split('|')] for r in rows];rows=[]
+        cells=[r for r in cells if not all(set(c)<=set('-: ') for c in r)]
+        head='('+','.join(q(c) for c in cells[0])+',)'
+        body='('+','.join('('+','.join(f'[{rich(c)}]' for c in r)+',)' for r in cells[1:])+',)'
+        blocks.append(f'#ref-table({head},{body})')
     def flush():
-        nonlocal buf,opening
+        nonlocal buf,opening,term
+        flush_table()
         if not buf:return
         text=' '.join(buf);buf=[]
         evidence.append({'file':str(file.relative_to(P)),'section':section,'paragraph_sha256':hashlib.sha256(text.encode()).hexdigest(),'evidence':status,'preview':text[:140]})
@@ -59,15 +85,24 @@ def convert(file):
             copy=re.sub(r'^\[(VERIFY|MODEL TO CONFIRM):\s*','',text).rstrip(']')
             blocks.append(f'#verification({q(plain(copy))})')
         else:
-            function='opener' if opening and file.name.startswith(('01-','02-','03-','04-')) else 'para'
-            blocks.append(f'#{function}({q(plain(text))})')
+            if opening and file.name.startswith(('01-','02-','03-','04-')):blocks.append(f'#opener({q(plain(text))})')
+            elif term:blocks.append(f'#glossary-entry({q(term)},[{rich(text)}])');term=None
+            else:blocks.append(f'#para({"width:100%," if sidebar else ""}[{rich(text)}])')
         opening=False
     for line in lines:
         if line.startswith('<!-- evidence:'):
             flush();status=line.removeprefix('<!-- evidence:').removesuffix('-->').strip();continue
         if not line.strip():flush();continue
+        if line.startswith('|'):
+            if buf:flush()
+            rows.append(line);evidence.append({'file':str(file.relative_to(P)),'section':section,'evidence':status,'preview':line});continue
+        if line.startswith('#### '):
+            flush();sidebar=(line[5:],len(blocks));continue
+        if line.strip()=='---' and sidebar:
+            flush();title,start=sidebar;sidebar=None
+            blocks[start:]=[f'#sidebar({q(title)},[\n'+'\n'.join(blocks[start:])+'\n])'];continue
         if line.startswith('# '):
-            flush();section=line[2:];
+            flush();section=line[2:];top=section
             if file.name=='00-front-matter.md':
                 if section=='About this manual':blocks.append(f'#pagebreak()\n#current-title.update({q(section)})\n#heading(level:1,{q(section)})')
             elif file.name=='06-glossary-and-credits.md' and section=='Credits and acknowledgments':blocks.append(f'#pagebreak(to: "odd")\n#current-title.update({q(section)})\n#heading(level:1,{q(section)})')
@@ -76,19 +111,22 @@ def convert(file):
             continue
         if line.startswith('## '):
             flush();section=line[3:]
-            blocks.append(f'#glossary-term({q(section)})' if file.name=='06-glossary-and-credits.md' else f'#heading(level:2,{q(section)})')
+            if file.name=='06-glossary-and-credits.md' and top=='Glossary':term=section
+            elif file.name=='06-glossary-and-credits.md':blocks.append(f'#glossary-term({q(section)})')
+            else:blocks.append(f'#heading(level:2,{q(section)})')
             continue
         if line.startswith('### '):flush();section=line[4:];blocks.append(f'#subhead({q(section)})');continue
         m=re.match(r'^(\d+)\. (.*)',line)
         if m:
-            flush();blocks.append(f'#instruction({m[1]},text({q(plain(m[2]))}))')
+            flush()
+            blocks.append(f'#sb-item({m[1]},[{rich(m[2])}])' if sidebar else f'#instruction({m[1]},{directive(m[2])})')
             evidence.append({'file':str(file.relative_to(P)),'section':section,'evidence':status,'preview':line});opening=False;continue
         if line.startswith('- '):
             flush()
             if file.name=='05-technical-information.md' and ': ' in line:
                 label,copy=line[2:].split(': ',1)
                 blocks.append(f'#spec-row({q(label+":")},text({q(plain(copy))}))')
-            else:blocks.append(f'#bullet([{inline(line[2:])}])')
+            else:blocks.append(f'#bullet([{rich(line[2:])}])')
             evidence.append({'file':str(file.relative_to(P)),'section':section,'evidence':status,'preview':line});opening=False;continue
         if '<!--' in line: raise ValueError('Unsupported markup: '+line)
         buf.append(line)

@@ -46,6 +46,6 @@ Leave vents clear and watch for unusual heat, smell, swelling, damaged wiring, o
 <!-- evidence: owner-current H04-support; editorial-advice -->
 There isn’t any. Sorry.
 
-The Macintosh PiForma is a one-off project made for enjoyment, not manufacture or sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably return to the person who built it, assuming he is in the mood.
+Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably return to the person who built it, assuming he is in the mood.
 
 That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to the builder rather than continuing to experiment. Treat it kindly and perhaps neither of us will have to find out how extensive the service department’s paperwork is.

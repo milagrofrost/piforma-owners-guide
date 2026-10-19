@@ -1,3 +1,7 @@
+# Update — October 19, 2026 (Apple layout pass)
+
+The guide is 74 pages. The welcome tells one origin story only: the rogue engineer in the (nonexistent) basement, the unnamed vice president let go in 1985, and an open-minded CEO; management, not the CEO, dislikes the latch. The credits keep one real-world line saying Apple had no part in it. Layout now follows `piforma-manual/apple-manual-layout-rules.md`: 9.5 pt body, subsection heads in the left rail, no figure numbers (captions carry a red square; narrow figures caption in the rail), bold step actions, run-in glossary. The manuscript supports `**bold**`, `*italic*`, pipe tables, and sidebars (`#### Title` … `---`), rendered by `build-manuscript.py`. Still open from that study: facing art pages before chapters and rail definitions for key terms.
+
 # Update — October 19, 2026 (owner answers, round 2)
 
 The guide is 81 pages. The welcome now tells the origin story and addresses display visitors. Chapter 2 lists the chime selector positions, Chapter 1 explains the missing battery warning, and Chapter 3 adds Apple-logo tap shortcuts and the remaining AtEase buttons. The back matter adds a limited warranty, an FCC-style notice and a "Tell us what you think" page; `build-manuscript.py` turns any `# ` section after the credits into a heading. The tap shortcuts are owner-confirmed, so they are written as "tap … four times"; the verify-editorial guard against guessed gestures still applies to other phrasing.

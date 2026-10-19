@@ -3,17 +3,19 @@
 <!-- evidence: owner-current H04; repo-verified D-README D-HARDWARE -->
 Welcome to the Macintosh PiForma.
 
-This little computer began as an Apple IIc Monitor, a Raspberry Pi, and a willingness to spend rather more time on the combination than common sense might recommend. The old monitor’s case now holds a modern display and a battery-powered computer, with a familiar-looking desktop, games, and a few diversions that have earned their place mostly by being amusing.
-
-PiForma is a one-off experiment, not a Macintosh manufactured by Apple. Its name is a small joke; its carrying bag is a surprisingly serious undertaking. You can use it without knowing how the wiring works, although you will want to know which way the keyboard goes back into the bag.
+This little computer began in the basement of Apple headquarters, which is remarkable, because Apple headquarters did not have a basement. A rogue engineer came across an Apple IIc Monitor down there, emptied it, and Frankensteined a computer into the case from whatever parts were lying around, several of which had not, strictly speaking, been invented yet.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
-The monitor came from Bob, whose collection ran to some fifty Macintoshes and related pieces. This one was beyond saving: corrosion had reached its circuit board. Its electronics and picture tube came out, and the empty case sat on a shelf until the idea of putting a computer inside it would not go away.
+The work went on under the nose of the vice president of the day, a man with firm opinions about computers that customers could open. The engineer was in no hurry to show him a Macintosh with a latch, running open-source software and other people’s good ideas.
 
-The official story is more dramatic. The PiForma began as a shadow project: a rogue engineer, working late with whatever parts were lying around, built a portable computer that you can open. Nobody dared show it to management. A computer with a latch, running open-source software and other people’s good ideas, was about as far from a sealed, proprietary Macintosh as a Macintosh could get, and a certain unnamed man with strong opinions about closed cases would not have approved.
+Then, in 1985, the vice president was let go, and the mood changed. The CEO turned out to be rather more open-minded about unconventional ideas than anyone had expected. The project came up out of the basement, and the PiForma was given the green light. Management has learned to live with the latch.
 
-Then, in 1985, the unnamed man was let go. The company suddenly needed new ways to put more Macintoshes in front of people, and the engineer’s project came out of hiding at exactly the right moment. The CEO, against every instinct, gave it the green light. Management has since decided to call the latch a feature.
+Only one PiForma was ever made, and this is it. Its story is almost entirely unknown; you may be the first person ever to read it.
 
+<!-- evidence: owner-current H04; repo-verified D-README D-HARDWARE -->
+Inside, the old monitor’s case holds a modern display and a battery-powered computer, with a familiar-looking desktop, games, and a few diversions that have earned their place mostly by being amusing. Its name is a small joke; its carrying bag is a surprisingly serious undertaking. You can use it without knowing how the wiring works, although you will want to know which way the keyboard goes back into the bag.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 If you have found the PiForma on display, you are welcome to leaf through this guide without touching the computer. It explains what the PiForma does, what is inside it and how it works, laid out the way Apple laid out the manuals that came with its own computers.
 
 This guide starts with the things you need to touch, connect, and switch on. Later chapters explain the parts and programs behind the appearance. There is no required course in Raspberry Pi administration before your first game.
