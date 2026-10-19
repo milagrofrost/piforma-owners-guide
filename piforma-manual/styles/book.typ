@@ -18,7 +18,7 @@
   set document(title: "Macintosh PiForma Owner’s Guide — Working Proof", author: "Macintosh PiForma")
   set page(width:432pt,height:522pt,margin:(left:152pt,right:38pt,top:39pt,bottom:43pt),footer:folio(),footer-descent:17pt)
   set text(font:manual-font,size:10.5pt,fill:ink,lang:"en")
-  set par(leading:6pt,spacing:7pt,justify:false)
+  set par(leading:4.5pt,spacing:7pt,justify:false)
   set text(hyphenate:false)
   set list(marker:rect(width:3pt,height:3pt,fill:accent,stroke:none),indent:0pt,body-indent:10pt,spacing:6pt)
   set enum(indent:0pt,body-indent:13pt,spacing:7pt)
@@ -36,16 +36,16 @@
   show heading.where(level:3): it => block(above:10pt,below:6pt,sticky:true,[#content-mark()#text(size:10.5pt,weight:"bold",it.body)])
   content
 }
-#let para(copy,width:242pt) = block(width:width,above:0pt,below:7pt,breakable:false,
+#let para(copy,width:242pt) = block(width:width,above:0pt,below:12pt,breakable:false,
   [#content-mark()#copy])
 #let subhead(title) = heading(level:3,outlined:false,title)
-#let instruction(n,copy) = block(above:0pt,below:7pt,breakable:false)[
+#let instruction(n,copy) = block(above:0pt,below:8pt,breakable:false)[
   #content-mark()
   #grid(columns:(13pt,229pt),gutter:0pt,
     text(fill:accent,weight:"bold",str(n)+"."),
     block(width:229pt,copy))
 ]
-#let bullet(copy) = block(above:0pt,below:7pt,breakable:false)[
+#let bullet(copy) = block(above:0pt,below:8pt,breakable:false)[
   #content-mark()
   #grid(columns:(10pt,232pt),gutter:0pt,
     box(inset:(top:4pt),rect(width:3pt,height:3pt,fill:accent,stroke:none)),

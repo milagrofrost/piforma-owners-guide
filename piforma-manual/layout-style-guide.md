@@ -8,6 +8,8 @@ Editable source: `styles/book.typ`; content converter: `scripts/build-manuscript
 | Chapter opener | Small letterspaced CHAPTER, black number, 16 pt condensed serif title, 1.8 pt warm red rule; original 123 pt opening interval retained; chapters start on rectos. |
 | Section / subsection | 13 pt condensed bold with 1.4 pt red rule / 10.5 pt bold; fixed gaps and keep-with-next. |
 | Body | Times New Roman 10 pt at 85% horizontal scale, 6 pt leading, 8 pt paragraph gap; ragged right, automatic hyphenation disabled. Each paragraph stays whole. This remains a documented substitute for Apple's original lettering. |
+
+October 19, 2026: body is now EB Garamond 10.5 pt with 4.5 pt leading (11.3 pt line pitch) and a 12 pt paragraph gap, about half a line, after the Macintosh Plus manual's tight lines and clearly separated paragraphs. Numbered steps and bullets use an 8 pt gap.
 | Numbered instructions | `instruction`: 13 pt number column, 229 pt text column; red bold number; wrapped lines align with the instruction text. No step wording changed. |
 | Bullets | `bullet`: 10 pt marker column, 232 pt text; 3 pt red square and hanging continuation. Links remain live. |
 | Captions | `caption`: uncondensed 8 pt, 2.5 pt leading; 4 pt image gap, kept with illustration; left aligned to plate or individual photograph. |
