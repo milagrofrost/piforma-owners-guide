@@ -113,6 +113,9 @@ Underneath are the battery compartment, power switch, and optical tracking windo
 <!-- evidence: owner-current H01-power OWNER-TALK-2026-10-19; repo-verified D-HARDWARE -->
 If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of general use, or about four hours of emulated games, Nintendo 64 games especially. For longer sessions, keep the PiForma connected to external power when it is available.
 
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+The desktop has no battery gauge, and there is no low-battery warning. Check the battery display through the top slits now and then. When the battery runs out, the PiForma stops at once, just as if the power switch had been turned off, and unsaved work is lost. After a full drain, connect external power and allow a minute or two before it will start.
+
 Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the computer’s power switch is off. Use the cable and charging arrangement intended for this build.
 
 ### USB devices and controllers

@@ -23,8 +23,29 @@
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "Welcome to the Macintosh PiForma",
+    "paragraph_sha256": "e0769eb9c7700ae1cbbfbc1afc4b383f006d2358a14eeebb8026bdd1bf0bcded",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "The monitor came from Bob, whose collection ran to some fifty Macintoshes and related pieces. This one was beyond saving: corrosion had reac"
+  },
+  {
+    "file": "manuscript\\00-front-matter.md",
+    "section": "Welcome to the Macintosh PiForma",
+    "paragraph_sha256": "cc9f88a8bf1169e3d643d747a24d548e722d72d58acccd888afbb44e5fe46772",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "The official story is more dramatic. A rogue engineer assembled the PiForma from whatever parts were lying around, and the CEO, against ever"
+  },
+  {
+    "file": "manuscript\\00-front-matter.md",
+    "section": "Welcome to the Macintosh PiForma",
+    "paragraph_sha256": "9997062f9d73da9e924b9aa59ae51cff6a8404a5b4a9aacb1c2ea90c78b603e9",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "If you have found the PiForma on display, you are welcome to leaf through this guide without touching the computer. It explains what the PiF"
+  },
+  {
+    "file": "manuscript\\00-front-matter.md",
+    "section": "Welcome to the Macintosh PiForma",
     "paragraph_sha256": "afff44ef95c122a85b93a309ef8aaadbcd62e331a1c14f4383b5bed3e862c10e",
-    "evidence": "owner-current H04; repo-verified D-README D-HARDWARE",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "This guide starts with the things you need to touch, connect, and switch on. Later chapters explain the parts and programs behind the appear"
   },
   {
@@ -357,8 +378,15 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Power for a longer session",
+    "paragraph_sha256": "c7969c51739c8b8a096cc24a5947467bb8e26dd4a3ba810bce3d688f08aa9998",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "The desktop has no battery gauge, and there is no low-battery warning. Check the battery display through the top slits now and then. When th"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "Power for a longer session",
     "paragraph_sha256": "ca5f19eee520c8b7f69768ea78c256e008e8f48898a9a43f9befde1916b539b2",
-    "evidence": "owner-current H01-power OWNER-TALK-2026-10-19; repo-verified D-HARDWARE",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the comput"
   },
   {
@@ -858,15 +886,83 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "System sound and startup chimes",
+    "paragraph_sha256": "1cfaaaee13c27e7d581e50b78d88c1c20dec2d429850e7f8ee7bddc91f9bde4a",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "Turning the selector one click at a time gives these sounds, in order:"
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "1. The classic Macintosh startup chime."
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "2. An older Macintosh chime."
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "3. A Macintosh Plus floppy drive working at startup."
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "4. The Game Boy Advance startup sound."
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "5. The Apple II beep."
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "6. The PlayStation 2 startup sound."
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "7. A picture tube warming up."
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "8. The Windows 98 startup sound."
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "9. The two-note Windows 3.1 fanfare."
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
+    "paragraph_sha256": "89c979f7101ad1017c12f3acee2410b48659c70181a4e2a85b509bd981bb9573",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "The next three clicks are silent, and the one after that brings back the classic chime."
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
     "paragraph_sha256": "9d322770a017b254198aaf2dbd0e605a9331b86cf586b6824de8e662eef98e01",
-    "evidence": "repo-verified D-HARDWARE; owner-current H01-chime",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "Normal desktop sound uses an internal USB speaker. Changing its software volume is not necessarily a test of the separate startup-chime hard"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "System sound and startup chimes",
     "paragraph_sha256": "b5f42590d16da77da30bc8b52a389a6650bf8a06cc49f05c5d3cd6573ba042fc",
-    "evidence": "repo-verified D-HARDWARE; owner-current H01-chime",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "[ILLUSTRATION 2-3|inside-2.png|A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and batte"
   },
   {
@@ -1230,6 +1326,20 @@
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Apple-logo shortcuts",
+    "paragraph_sha256": "2bbe51d30317c41179389929ae36b61580d09d8d76d0d60ff7b0e6a949bd058a",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE",
+    "preview": "The Apple logo on the front is a touch control. Besides the six-second hold described under “Leaving a full-screen program,” short taps open"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Apple-logo shortcuts",
+    "paragraph_sha256": "d4febef6527b6f1997dc48b3960ab51042976fd6c556804e4b6a7e895be87b5a",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE",
+    "preview": "The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a Nintendo 64 controller"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
     "paragraph_sha256": "1ccb189b73e3770e9db02a9be279473f18205826062dc18b882134e6f87dd8cb",
     "evidence": "owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice",
@@ -1339,6 +1449,13 @@
     "paragraph_sha256": "1848c2e99f5e17ca62f9b7a72030b01bdfcb49f24169f35c8e0a26c3998bb814",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them in"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Diversions",
+    "paragraph_sha256": "bd4cc3cc4c30705d8499a576be3f779590a8d72e6ad98c3cdcf70b4470d8b4ec",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "The other AtEase buttons are mostly what they seem. America Online opens an America Online simulator, and Encarta opens Kiwix, a reader for "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1915,6 +2032,55 @@
     "section": "Credits and acknowledgments",
     "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
     "preview": "- The canonical related-projects page credits the Clippy fork to Felix Rieseberg’s upstream project and links the Flying Toasters application."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "PiForma Limited Warranty",
+    "paragraph_sha256": "300903876c12fb0f345bdd15216f79b34e10f3b51944cda9605624f1ecee9ae5",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; editorial-advice",
+    "preview": "The builder warrants that this PiForma was a working computer when it left the workbench. That is the whole of the warranty."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "PiForma Limited Warranty",
+    "paragraph_sha256": "0e8d78c7f9d502a3224efc72eb55906fa5a05e10831cbcf4d4afd25cbce60b7d",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; editorial-advice",
+    "preview": "There is no repair turnaround time and no promise that anything that breaks will ever be fixed. Repairs, if any, happen when the builder has"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "PiForma Limited Warranty",
+    "paragraph_sha256": "bfad8ab19d69cfba57a14f11f0a0de16680e31f9aba3e2a047c13f1d844a9f08",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; editorial-advice",
+    "preview": "In keeping with the company’s priorities of the era, this warranty is offered to consumers only. Enterprise customers should consult their e"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Radio and television interference",
+    "paragraph_sha256": "e4ba6406f182cc6b23c7c8242933cdcc60def8ce7ca60f1f2a3acacda1f1cb5c",
+    "evidence": "repo-verified D-HARDWARE; editorial-advice",
+    "preview": "The PiForma contains Wi-Fi and Bluetooth radios, a wireless charging receiver and a Raspberry Pi, all of which give off radio-frequency ener"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Radio and television interference",
+    "paragraph_sha256": "6999bfdaac03993a4fb069edc2c84af66dc651965c4dd1693870e02ddd032010",
+    "evidence": "repo-verified D-HARDWARE; editorial-advice",
+    "preview": "If it interferes with radio or television reception, which you can find out by switching it off and on, move it farther from the receiver. A"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Tell us what you think",
+    "paragraph_sha256": "5b4b86a8ed887a02091ab10de23daffe1216603f3408b2af8b3db8b45270c6c6",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; editorial-advice",
+    "preview": "Apple’s manuals ended with a reply card asking what you thought. This one does too, without the postage. If you have looked through the PiFo"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Tell us what you think",
+    "paragraph_sha256": "86ba0817ba3015e632230290300a1732c6b9a5085cb9722139bb398bbf7615cf",
+    "evidence": "owner-current OWNER-TALK-2026-10-19; editorial-advice",
+    "preview": "Compliments are forwarded to the CEO. Complaints are forwarded to the rogue engineer."
   },
   {
     "file": "manuscript\\07-troubleshooting.md",

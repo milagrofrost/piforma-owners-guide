@@ -117,6 +117,13 @@ The Control Strip sits at the bottom-left in the documented desktop arrangement.
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 [SCREENSHOT 3-4|piforma-control-strip.svg|The Control Strip at lower left, with a window popup visible above it. The rest of the desktop is omitted so the strip can be read clearly.]
 
+## Apple-logo shortcuts
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE -->
+The Apple logo on the front is a touch control. Besides the six-second hold described under “Leaving a full-screen program,” short taps open programs directly. Tap once for the browser, twice for Mac OS 9, three times for Winamp and four times for RetroPie. Leave about half a second between taps.
+
+The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a Nintendo 64 controller, wait for the desktop and tap the logo four times.
+
 ## Controllers and games
 
 <!-- evidence: owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice -->
@@ -165,6 +172,9 @@ A few of the diversions are shown here: Winamp and its playlist, LimeWire Simula
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them into that folder. The Weather Channel estimates your location from your internet connection and shows the nearest weather station. The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when the computer is idle. To stop them, hold the Apple logo for about six seconds.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+The other AtEase buttons are mostly what they seem. America Online opens an America Online simulator, and Encarta opens Kiwix, a reader for offline reference articles. Macintosh HD opens a file window. Mac OS 9 runs the real Mac OS 9 inside the SheepShaver emulator; it fills the screen, so leave it with the six-second hold. Terminal opens a command line, which is for the builder.
 
 [SCREENSHOT 3-7a|piforma-winamp.svg|Winamp and its playlist window open over the AtEase launcher.]
 

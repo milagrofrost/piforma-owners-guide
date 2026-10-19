@@ -44,6 +44,21 @@ An external plunger reaches the battery’s own button. The owner uses it to che
 <!-- evidence: repo-verified D-HARDWARE; owner-current H01-chime -->
 The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when selected, through the rear audio output socket. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. Some positions are silent or empty.
 
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+Turning the selector one click at a time gives these sounds, in order:
+
+1. The classic Macintosh startup chime.
+2. An older Macintosh chime.
+3. A Macintosh Plus floppy drive working at startup.
+4. The Game Boy Advance startup sound.
+5. The Apple II beep.
+6. The PlayStation 2 startup sound.
+7. A picture tube warming up.
+8. The Windows 98 startup sound.
+9. The two-note Windows 3.1 fanfare.
+
+The next three clicks are silent, and the one after that brings back the classic chime.
+
 Normal desktop sound uses an internal USB speaker. Changing its software volume is not necessarily a test of the separate startup-chime hardware.
 
 [ILLUSTRATION 2-3|inside-2.png|A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and battery-button plunger. The ordinary internal speaker is shown in Figure 2-1.]

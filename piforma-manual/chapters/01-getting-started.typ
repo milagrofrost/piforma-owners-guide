@@ -58,6 +58,7 @@
 #wide-illustration("1-4d", "1-4d.png", "Mouse underside: battery compartment, power switch, and optical tracking sensor.", width:273.714pt)
 #subhead("Power for a longer session")
 #para("If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of general use, or about four hours of emulated games, Nintendo 64 games especially. For longer sessions, keep the PiForma connected to external power when it is available.")
+#para("The desktop has no battery gauge, and there is no low-battery warning. Check the battery display through the top slits now and then. When the battery runs out, the PiForma stops at once, just as if the power switch had been turned off, and unsaved work is lost. After a full drain, connect external power and allow a minute or two before it will start.")
 #para("Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the computer’s power switch is off. Use the cable and charging arrangement intended for this build.")
 #subhead("USB devices and controllers")
 #para("Use the rear USB port for the USB hub when you need more than one external USB connection. The two Nintendo 64 controllers are in the accessory pouch. Chapter 3 explains how to approach the game launcher and its controls. Use only the leads or adapters supplied for these controllers; do not force a connector into the USB hub.")

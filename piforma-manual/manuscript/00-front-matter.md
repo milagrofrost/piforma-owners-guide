@@ -7,6 +7,13 @@ This little computer began as an Apple IIc Monitor, a Raspberry Pi, and a willin
 
 PiForma is a one-off experiment, not a Macintosh manufactured by Apple. Its name is a small joke; its carrying bag is a surprisingly serious undertaking. You can use it without knowing how the wiring works, although you will want to know which way the keyboard goes back into the bag.
 
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+The monitor came from Bob, whose collection ran to some fifty Macintoshes and related pieces. This one was beyond saving: corrosion had reached its circuit board. Its electronics and picture tube came out, and the empty case sat on a shelf until the idea of putting a computer inside it would not go away.
+
+The official story is more dramatic. A rogue engineer assembled the PiForma from whatever parts were lying around, and the CEO, against every instinct, approved a portable computer that you can open. It is built from open-source software and other people’s good ideas, which is about as far from a sealed, proprietary Macintosh as a Macintosh can get. Management has decided to call this a feature.
+
+If you have found the PiForma on display, you are welcome to leaf through this guide without touching the computer. It explains what the PiForma does, what is inside it and how it works, laid out the way Apple laid out the manuals that came with its own computers.
+
 This guide starts with the things you need to touch, connect, and switch on. Later chapters explain the parts and programs behind the appearance. There is no required course in Raspberry Pi administration before your first game.
 
 # About this manual

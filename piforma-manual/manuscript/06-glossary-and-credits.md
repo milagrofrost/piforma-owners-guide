@@ -108,3 +108,26 @@ This build uses many good ideas by other people, adapted to a computer-shaped jo
 - Replacement wheel/axle credited there: [Custom scroll wheel and axle](https://www.printables.com/model/1774131-scroll-wheel-and-axle-for-retro-wireless-computer).
 - Companion applications: [PiForma Panel](https://github.com/milagrofrost/piforma-panel), [AtEase Simulator](https://github.com/milagrofrost/AtEase-simulator), [ControlStrip Simulator](https://github.com/milagrofrost/ControlStrip-Simulator), [About This PiForma](https://github.com/milagrofrost/about-this-pi), and [Docs Viewer](https://github.com/milagrofrost/Macintosh-PiForma-docs-viewer).
 - The canonical related-projects page credits the Clippy fork to Felix Rieseberg’s upstream project and links the Flying Toasters application.
+
+# PiForma Limited Warranty
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19; editorial-advice -->
+The builder warrants that this PiForma was a working computer when it left the workbench. That is the whole of the warranty.
+
+There is no repair turnaround time and no promise that anything that breaks will ever be fixed. Repairs, if any, happen when the builder has a free weekend and the right part. Opening the Forbidden Latch voids this warranty, which costs you nothing, because there was never much of one to void.
+
+In keeping with the company’s priorities of the era, this warranty is offered to consumers only. Enterprise customers should consult their enterprise agreement, of which there is none.
+
+# Radio and television interference
+
+<!-- evidence: repo-verified D-HARDWARE; editorial-advice -->
+The PiForma contains Wi-Fi and Bluetooth radios, a wireless charging receiver and a Raspberry Pi, all of which give off radio-frequency energy. Unlike the computers this guide imitates, the assembled PiForma has not been tested against the FCC limits for a Class B computing device.
+
+If it interferes with radio or television reception, which you can find out by switching it off and on, move it farther from the receiver. Alternatively, switch off the television and play a tape through the PiForma’s rear composite input instead.
+
+# Tell us what you think
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19; editorial-advice -->
+Apple’s manuals ended with a reply card asking what you thought. This one does too, without the postage. If you have looked through the PiForma or this guide and have a thought, a question or a correction, tell the builder in person or open an issue on the project’s documentation repository, listed in the credits above.
+
+Compliments are forwarded to the CEO. Complaints are forwarded to the rogue engineer.

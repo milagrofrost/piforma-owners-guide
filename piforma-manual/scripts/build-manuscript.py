@@ -71,6 +71,8 @@ def convert(file):
             if file.name=='00-front-matter.md':
                 if section=='About this manual':blocks.append(f'#pagebreak()\n#current-title.update({q(section)})\n#heading(level:1,{q(section)})')
             elif file.name=='06-glossary-and-credits.md' and section=='Credits and acknowledgments':blocks.append(f'#pagebreak(to: "odd")\n#current-title.update({q(section)})\n#heading(level:1,{q(section)})')
+            # Back-matter notices after the credits: the warranty opens a page, the others follow it.
+            elif file.name=='06-glossary-and-credits.md' and section!='Glossary':blocks.append(('#pagebreak()\n' if section=='PiForma Limited Warranty' else '')+f'#current-title.update({q(section)})\n#heading(level:1,{q(section)})')
             continue
         if line.startswith('## '):
             flush();section=line[3:]

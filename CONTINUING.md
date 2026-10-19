@@ -1,6 +1,10 @@
+# Update — October 19, 2026 (owner answers, round 2)
+
+The guide is 81 pages. The welcome now tells the origin story and addresses display visitors. Chapter 2 lists the chime selector positions, Chapter 1 explains the missing battery warning, and Chapter 3 adds Apple-logo tap shortcuts and the remaining AtEase buttons. The back matter adds a limited warranty, an FCC-style notice and a "Tell us what you think" page; `build-manuscript.py` turns any `# ` section after the credits into a heading. The tap shortcuts are owner-confirmed, so they are written as "tap … four times"; the verify-editorial guard against guessed gestures still applies to other phrasing.
+
 # Update — October 19, 2026 (owner answers)
 
-The owner's spoken answers (fact register key OWNER-TALK-2026-10-19) are written in, bringing the guide to 75 pages. New facts include the AtEase tabs, quitting a game, Bose RoomMates, the rear audio output, browser, music, runtime, charging, weather, composite input, backups, display and weight. Bose power and stand assembly are still open. Builder to-do: a clickable audio-output switch.
+The owner's spoken answers (fact register key OWNER-TALK-2026-10-19) are written in, at that point 75 pages. New facts include the AtEase tabs, quitting a game, Bose RoomMates, the rear audio output, browser, music, runtime, charging, weather, composite input, backups, display and weight. Bose power and stand assembly are still open. Builder to-do: a clickable audio-output switch.
 
 # Update — October 19, 2026 (mechanical fixes)
 
