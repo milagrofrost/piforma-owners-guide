@@ -1287,15 +1287,29 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Leaving a full-screen program",
+    "paragraph_sha256": "6e958a60c6a714a8afe3302d097aa2622c678a8a3816b36a42095ce23874627e",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-19",
+    "preview": "[ILLUSTRATION 3-6a|closing-app-1.png|An application that has stopped responding, showing only the busy watch.]"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Leaving a full-screen program",
+    "paragraph_sha256": "38b666dfbb61969cf0ed86693c3c2f39cdce772252db6f0acc50a50fdbddac9e",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-19",
+    "preview": "[ILLUSTRATION 3-6b|closing-app-2.png|Touch and hold the Apple logo for about six seconds to close the active application.]"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Leaving a full-screen program",
     "paragraph_sha256": "d7891d3c4cdbcdbd2bc5ec82148c2f6c6b3d9a042ccc3224bc07844f221a7853",
-    "evidence": "owner-current OWNER-UPDATE-1; editorial-advice",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-19",
     "preview": "If EmulationStation remains after a game closes, it is a separate application. Use its own exit control when available, then choose View → S"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Leaving a full-screen program",
     "paragraph_sha256": "1961356d59953cb124e0381beb3401f6c92dbb80cf9c3fb84243f481d029ff89",
-    "evidence": "owner-current OWNER-UPDATE-1; editorial-advice",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-19",
     "preview": "Some emulators capture the mouse so the pointer stays inside their display. Use that emulator's documented release control if known. This gu"
   },
   {
@@ -1350,9 +1364,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Clippy and the other diversions",
-    "paragraph_sha256": "326c9b148de117d8f36619297189b33da24bac0060c36700ee2fb39f5bd588a8",
+    "paragraph_sha256": "448e51f14fb5b7397566964ecad008216bc23d7fb984577cc99db5ab855300ff",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 3-6a|piforma-clippy-message-entry.svg|Enter a question in the message field, then press Enter or click Send.]"
+    "preview": "[SCREENSHOT 3-8a|piforma-clippy-message-entry.svg|Enter a question in the message field, then press Enter or click Send.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1364,9 +1378,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Clippy and the other diversions",
-    "paragraph_sha256": "9de81a219775b1b745b33690073ab01227553ce017bb6978cb9d668b3f5be8e3",
+    "paragraph_sha256": "aff9533a6455f783a11a809c46713557489cd2074f3f0e2b99be535f2061ba1e",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 3-6b|piforma-clippy-conversation.svg|An example Chat with Clippy conversation. Its suggestions should be checked against the act"
+    "preview": "[SCREENSHOT 3-8b|piforma-clippy-conversation.svg|An example Chat with Clippy conversation. Its suggestions should be checked against the act"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1399,9 +1413,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "About This PiForma and the project guide",
-    "paragraph_sha256": "ef4de7d68391d9ad839299f6b5b28927cf310e880bbee7b851ad8c2031604874",
+    "paragraph_sha256": "50c4e62e660289ec22ecb9f73e13eaf1bf40e26d8507a6e59416d33796d051ff",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 3-8|piforma-guide-application.svg|PiForma Guide opens Macintosh PiForma Guided Tour. Choose a documentation stack; the bottom li"
+    "preview": "[SCREENSHOT 3-9|piforma-guide-application.svg|PiForma Guide opens Macintosh PiForma Guided Tour. Choose a documentation stack; the bottom li"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",

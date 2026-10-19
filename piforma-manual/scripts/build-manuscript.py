@@ -91,6 +91,20 @@ def convert(file):
         if '<!--' in line: raise ValueError('Unsupported markup: '+line)
         buf.append(line)
     flush()
+    # Adjacent figures listed as a group share one plate, in any chapter.
+    by_file={a['file']:a for a in artwork_sizes}
+    for group in json.loads(layout_file.read_text(encoding='utf-8')).get('groups',[]):
+        indexes=[i for i,b in enumerate(blocks) if b.startswith('#wide-illustration(') and any(q(name) in b for name in group['files'])]
+        if not indexes:continue
+        assert len(indexes)==len(group['files'])
+        assert indexes==list(range(indexes[0],indexes[0]+len(indexes))), 'Only adjacent figures can be grouped'
+        items=[]
+        for name in group['files']:
+            a=by_file[name]
+            trim=artwork_layout.get(name,{}).get('empty_canvas_trim')
+            trim_arg=',trim:('+','.join(f'{k}:{v}' for k,v in trim.items())+')' if trim else ''
+            items.append(f'(id:{q(a["figure"])},file:{q(name)},caption:{q(a["caption"])},width:{a["width_pt"]}pt{trim_arg})')
+        blocks[indexes[0]:indexes[-1]+1]=['#figure-group(('+','.join(items)+',),mode:'+q(group.get('mode','columns'))+')']
     # Presentation rules move only figure blocks, never source prose or captions.
     if file.name=='01-getting-started.md':
         # Startup reads as a procedure with its existing silent-chime explanation
@@ -104,19 +118,6 @@ def convert(file):
             if b.startswith('#wide-illustration("1-1",'):blocks[i]=b.replace('#wide-illustration(', '#illustration-plate(',1)
         setup=next(i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,"Putting it all together"'))
         blocks.insert(setup,'#pagebreak(weak:true)')
-        by_file={a['file']:a for a in artwork_sizes}
-        for group in json.loads(layout_file.read_text(encoding='utf-8')).get('groups',[]):
-            indexes=[i for i,b in enumerate(blocks) if b.startswith('#wide-illustration(') and any(q(name) in b for name in group['files'])]
-            if not indexes:continue
-            assert len(indexes)==len(group['files'])
-            assert indexes==list(range(indexes[0],indexes[0]+len(indexes))), 'Only adjacent figures can be grouped'
-            items=[]
-            for name in group['files']:
-                a=by_file[name]
-                trim=artwork_layout.get(name,{}).get('empty_canvas_trim')
-                trim_arg=',trim:('+','.join(f'{k}:{v}' for k,v in trim.items())+')' if trim else ''
-                items.append(f'(id:{q(a["figure"])},file:{q(name)},caption:{q(a["caption"])},width:{a["width_pt"]}pt{trim_arg})')
-            blocks[indexes[0]:indexes[-1]+1]=['#figure-group(('+','.join(items)+',),mode:'+q(group.get('mode','columns'))+')']
         for placement in json.loads(layout_file.read_text(encoding='utf-8')).get('placements',[]):
             i=next(i for i,b in enumerate(blocks) if b.startswith('#wide-illustration(') and q(placement['file']) in b)
             figure=blocks.pop(i)

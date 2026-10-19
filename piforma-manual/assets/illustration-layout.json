@@ -87,6 +87,16 @@
       "max_width_pt": 220,
       "max_height_pt": 210,
       "kind": "controller-photograph"
+    },
+    "closing-app-1.png": {
+      "max_width_pt": 176,
+      "max_height_pt": 140,
+      "kind": "paired-control-view"
+    },
+    "closing-app-2.png": {
+      "max_width_pt": 176,
+      "max_height_pt": 140,
+      "kind": "paired-control-view"
     }
   },
   "groups": [
@@ -101,6 +111,13 @@
       "files": [
         "1-3d.png",
         "1-3e.png"
+      ],
+      "mode": "columns"
+    },
+    {
+      "files": [
+        "closing-app-1.png",
+        "closing-app-2.png"
       ],
       "mode": "columns"
     }

@@ -141,6 +141,11 @@ A full-screen game can cover the menu bar and window controls. First use its own
 
 On the current PiForma, holding the Apple-logo touch control for about six seconds closes only the active application. Use this confirmed action when you need to leave a full-screen application without an accessible close control. It does not close everything or replace normal shutdown. Unsaved work may be lost.
 
+<!-- evidence: owner-current OWNER-IMAGES-2026-10-19 -->
+[ILLUSTRATION 3-6a|closing-app-1.png|An application that has stopped responding, showing only the busy watch.]
+
+[ILLUSTRATION 3-6b|closing-app-2.png|Touch and hold the Apple logo for about six seconds to close the active application.]
+
 If EmulationStation remains after a game closes, it is a separate application. Use its own exit control when available, then choose View → Show Desktop to find the launcher. Do not extend the logo hold experimentally to discover another action.
 
 Some emulators capture the mouse so the pointer stays inside their display. Use that emulator's documented release control if known. This guide supplies no unverified keyboard shortcut for releasing it. If you cannot regain control, follow the frozen-application checks in Appendix B.
@@ -164,11 +169,11 @@ A few of them are shown here: Winamp and its playlist, LimeWire Simulator, the W
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 Clippy is the assistant at the lower-right corner of the desktop. In the Chat with Clippy window, click the message field, type your question, then press Enter or click Send. The field itself reminds you how to send. Read the reply in the conversation area; use its scroll bar to revisit a longer conversation.
 
-[SCREENSHOT 3-6a|piforma-clippy-message-entry.svg|Enter a question in the message field, then press Enter or click Send.]
+[SCREENSHOT 3-8a|piforma-clippy-message-entry.svg|Enter a question in the message field, then press Enter or click Send.]
 
 Clippy can offer suggestions, but check them against the PiForma's actual setup before changing settings or installing anything. He is enthusiastic. We have given him his own corner of the screen, which has only encouraged him.
 
-[SCREENSHOT 3-6b|piforma-clippy-conversation.svg|An example Chat with Clippy conversation. Its suggestions should be checked against the actual PiForma setup.]
+[SCREENSHOT 3-8b|piforma-clippy-conversation.svg|An example Chat with Clippy conversation. Its suggestions should be checked against the actual PiForma setup.]
 
 Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the page's links to follow its contents. Online material needs a working network connection. Locally supplied diversions and documents may remain available without one.
 
@@ -182,7 +187,7 @@ Docs Viewer presents the project's hardware, software, maintenance and other doc
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 The installed launcher calls this application PiForma Guide, and its window is titled Macintosh PiForma Guided Tour. Click PiForma Guide in AtEase, then choose a stack such as Meet PiForma, Hardware or Software to begin reading. It is the built-in guide to the computer and its functions. The bottom line reports documentation status and identifies the snapshot; it is worth checking when the machine and a document seem to disagree.
 
-[SCREENSHOT 3-8|piforma-guide-application.svg|PiForma Guide opens Macintosh PiForma Guided Tour. Choose a documentation stack; the bottom line shows documentation status and the snapshot information.]
+[SCREENSHOT 3-9|piforma-guide-application.svg|PiForma Guide opens Macintosh PiForma Guided Tour. Choose a documentation stack; the bottom line shows documentation status and the snapshot information.]
 
 ## Wi-Fi and Bluetooth
 

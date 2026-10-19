@@ -1,3 +1,7 @@
+# Update — October 19, 2026
+
+`closing-app-1.png` and `closing-app-2.png` now appear side by side as Figures 3-6a/b under the six-second hold in "Leaving a full-screen program". Figure groups in `illustration-layout.json` now work in every chapter, not only Chapter 1. The diversion screenshots stay 3-7a–d; Clippy is now 3-8a/b and PiForma Guide 3-9, so figure numbers run in page order.
+
 # Update — October 18, 2026
 
 Seven owner-supplied images were added, bringing the guide to 73 pages. Figure 1-5 (`complete-setup.png`) shows the assembled setup at the end of the Bose section. Chapter 3 adds the controllers photo (`piforma-n64.png`, Figure 3-5a), the EmulationStation N64 list (3-5b) and four diversions (3-7a–d: Winamp, LimeWire Simulator, the Weather Channel, Flying Toasters); the Clippy and PiForma Guide figures were renumbered 3-6a/b and 3-8. The new screenshots are `assets/illustrations/12.png`–`16.png`, processed by `scripts/prepare-screenshots.py`. The manuscript lock was re-baselined after the copy-preservation check passed.
