@@ -19,4 +19,5 @@
 #end-section("Appendix A: Technical Information",[#include "chapters/05-technical-information.typ"])
 #end-section("Appendix B: When Something Goes Wrong",[#include "chapters/07-troubleshooting.typ"])
 #end-section("Glossary",[#include "chapters/06-glossary-and-credits.typ"])
+#end-section("Index",[#include "chapters/08-index.typ"])
 #back-cover()

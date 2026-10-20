@@ -5,7 +5,7 @@ it raises on unknown HTML instead of silently dropping prose. Generated files
 can be inspected, but edit manuscript/*.md then rerun to retain one prose source.
 """
 from pathlib import Path
-import re, json, argparse, subprocess, hashlib, shutil, os
+import re, json, argparse, subprocess, hashlib, shutil, os,importlib.util
 import pymupdf as pdf
 from PIL import Image, ImageDraw
 P=Path(__file__).resolve().parents[1]
@@ -219,6 +219,12 @@ def call(args):
     if r.returncode:raise RuntimeError(r.stderr)
 for source,name in [('main.typ','macintosh-piforma-working-proof'),('first-chapter.typ','chapter-1-working-proof'),('artwork-preview.typ','new-artwork-proof')]:
     call([typst,'compile',str(P/source),str(P/'output'/f'{name}.pdf')])
+# The index reads its page numbers from the compiled proof, then the proof is
+# compiled again with the index filled in. The index follows every page it lists.
+spec=importlib.util.spec_from_file_location('build_index',P/'scripts/build-index.py');build_index=importlib.util.module_from_spec(spec);spec.loader.exec_module(build_index)
+if build_index.build(P/'output/macintosh-piforma-working-proof.pdf'):
+    call([typst,'compile',str(P/'main.typ'),str(P/'output/macintosh-piforma-working-proof.pdf')])
+    assert not build_index.build(P/'output/macintosh-piforma-working-proof.pdf'),'Index page numbers did not settle'
 call([typst,'compile','--format','png','--ppi',str(opts.ppi),str(P/'main.typ'),str(out/'page-{p}.png')])
 doc=pdf.open(P/'output/macintosh-piforma-working-proof.pdf');issues=[];fonts=[]
 for i,page in enumerate(doc):
