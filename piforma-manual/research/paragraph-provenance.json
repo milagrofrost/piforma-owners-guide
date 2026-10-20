@@ -550,9 +550,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Your first session",
-    "paragraph_sha256": "f20795a5e6fb62b138a8370067fb944be4180de708fc1187c7c03aa9692aac4a",
+    "paragraph_sha256": "418f5573c738f734c594164d3939febcd87ae97a8be0c0c8c29c5cd8e397cd88",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 1-7|piforma-desktop-overview.svg|The PiForma desktop: persistent system menu bar across the top, AtEase in the center, Control S"
+    "preview": "[ILLUSTRATION 1-8a|desktop-labeled.png|The PiForma desktop: the menu bar across the top, AtEase in the center, the Control Strip at lower le"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -1454,9 +1454,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "The menu bar and Control Strip",
-    "paragraph_sha256": "104e71423c0d2b78927fc94a4ead89d22a1ff5a93f12024c748951d9cd71be4f",
+    "paragraph_sha256": "7df0db0279cd597d7aff07de77a1e22bf73372f87ea7ef025382106adf256a42",
     "evidence": "repo-verified P-MENU P-ACTIONS C-README C-MAIN",
-    "preview": "The Control Strip sits at the bottom-left in the documented desktop arrangement. Click a configured program's pane to launch it when closed "
+    "preview": "The Control Strip sits at the bottom-left of the desktop. The original Macintosh Control Strip held control panels; the PiForma’s works more"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1741,9 +1741,23 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Wi-Fi and Bluetooth",
-    "paragraph_sha256": "c413d3e2de6bc8d5217bf0e44f1f953dedccd9bd95f185d4f7c9bdf84ca4f435",
+    "paragraph_sha256": "fcdf72eef6002f0ebfaedc07bcfa5f776ae19415675326a3654ee52fb62f26d6",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
     "preview": "The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks t"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Wi-Fi and Bluetooth",
+    "paragraph_sha256": "c331cd404a9f943ac9af8e80edbe1b5a838f09dcd53d7a4615c8d36769646fe9",
+    "evidence": "owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20",
+    "preview": "[ILLUSTRATION 3-10|wifi-menu.png|The Wi-Fi status menu: the network the PiForma has joined, and the volume slider.]"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Wi-Fi and Bluetooth",
+    "paragraph_sha256": "b1c31b7dd646b03b7fd72427ddebebf6d7f43b07a44cf2ca523ef7e1af5816ae",
+    "evidence": "owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20",
+    "preview": "To join a different network, click the network’s name at the top of the menu to reach the wireless settings. This guide won’t go further tha"
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
@@ -2071,9 +2085,9 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Control Strip",
-    "paragraph_sha256": "8561e7532e4c4783151a5fbab2e43d7bbc7f5d740ecd577db97d2fd61498b506",
+    "paragraph_sha256": "652bb091878ae585e12246ac8dc9868af49411c3de37d736aa233d12f89f73cd",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
-    "preview": "The small program-launching and window-focus strip supplied by ControlStrip Simulator."
+    "preview": "The strip at the lower left of the desktop. On the PiForma it works like a dock, holding a pane for each open program and for programs kept "
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",

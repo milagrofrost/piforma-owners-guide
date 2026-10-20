@@ -118,7 +118,7 @@ Save periodically and before quitting or shutting down. A failed save, an error 
 <!-- evidence: repo-verified P-MENU P-ACTIONS C-README C-MAIN -->
 Apple menu → About This PiForma opens system information. View → Show Desktop minimizes your programs into the Control Strip and reveals the desktop. Special → Shut Down requests an operating-system shutdown; Special → Sleep Display only blanks or sleeps the display. A sleeping screen is not a stopped computer.
 
-The Control Strip sits at the bottom-left in the documented desktop arrangement. Click a configured program's pane to launch it when closed or return to its detected windows when open. Some running programs appear as temporary panes. Use the ordinary pane action; window-list details can differ between versions.
+The Control Strip sits at the bottom-left of the desktop. The original Macintosh Control Strip held control panels; the PiForma’s works more like a dock. It holds a pane for every program you have open, and for programs kept there for quick access. Click a program's pane to launch it when closed or return to its windows when open. Some running programs appear as temporary panes. Use the ordinary pane action; window-list details can differ between versions.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 [SCREENSHOT 3-4|piforma-control-strip.svg|The Control Strip at lower left, with a window popup visible above it. The rest of the desktop is omitted so the strip can be read clearly.]
@@ -230,4 +230,9 @@ The installed launcher calls this application PiForma Guide, and its window is t
 Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse's USB wireless receiver is a third, separate connection. A working keyboard does not prove that a website can be reached, and a lost internet connection does not mean the mouse needs pairing.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
-The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. That's a feature, not a bug. A green status means the PiForma has joined a Wi-Fi network, though not necessarily that the internet can be reached. The same menu lets you change Wi-Fi settings and adjust the sound. If a connection fails, see Appendix B.
+The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. That's a feature, not a bug. The first line names the network the PiForma has joined, Green Ice in the picture, and a green status means it has joined, though not necessarily that the internet can be reached. The slider below it sets the volume.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20 -->
+[ILLUSTRATION 3-10|wifi-menu.png|The Wi-Fi status menu: the network the PiForma has joined, and the volume slider.]
+
+To join a different network, click the network’s name at the top of the menu to reach the wireless settings. This guide won’t go further than that. It is 1985, wireless networking has not been invented, and frankly nobody here is sure how the PiForma manages it. If a connection fails, see Appendix B.

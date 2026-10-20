@@ -27,7 +27,7 @@ The video signal accepted by the rear RCA input, used to show an external source
 
 ## Control Strip
 
-The small program-launching and window-focus strip supplied by ControlStrip Simulator.
+The strip at the lower left of the desktop. On the PiForma it works like a dock, holding a pane for each open program and for programs kept there for quick access. It is supplied by ControlStrip Simulator.
 
 ## Desktop
 

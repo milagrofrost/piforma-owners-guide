@@ -8,7 +8,7 @@
 #glossary-entry("Chime selector",[#text("The rear dial that chooses a startup sound; some settings are silent.")])
 #glossary-entry("Clippy",[#text("The assistant at the lower-right corner of the desktop. Type a question in its Chat with Clippy window; check its suggestions against the actual setup.")])
 #glossary-entry("Composite video",[#text("The video signal accepted by the rear RCA input, used to show an external source on the PiForma screen. The jack carries video only, not audio.")])
-#glossary-entry("Control Strip",[#text("The small program-launching and window-focus strip supplied by ControlStrip Simulator.")])
+#glossary-entry("Control Strip",[#text("The strip at the lower left of the desktop. On the PiForma it works like a dock, holding a pane for each open program and for programs kept there for quick access. It is supplied by ControlStrip Simulator.")])
 #glossary-entry("Desktop",[#text("The working screen with its background, launchers, menu bar, and application windows.")])
 #glossary-entry("Docs Viewer",[#text("Macintosh PiForma Docs Viewer, the program for reading the project’s hardware, software and maintenance documents, with an offline snapshot. It is separate from About This PiForma.")])
 #glossary-entry("EmulationStation",[#text("The game-list menu of RetroPie, opened from AtEase. It is a separate application from the games it starts.")])

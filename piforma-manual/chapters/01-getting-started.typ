@@ -95,7 +95,7 @@
 #para([#text("If the startup picture never appears, press the source selector at the back until the screen shows HDMI. If nothing happens at all when you switch on, turn to “If the PiForma doesn’t start” at the end of this chapter.")])
 #heading(level:2,"Your first session")
 #para([#text("Once the desktop appears, try this short tour. You need not change any settings or make a file.")])
-#screen-figure("1-7","piforma-desktop-overview.svg","The PiForma desktop: persistent system menu bar across the top, AtEase in the center, Control Strip at lower left, and Clippy at lower right.",width:366pt)
+#wide-illustration("1-8a", "desktop-labeled.png", "The PiForma desktop: the menu bar across the top, AtEase in the center, the Control Strip at lower left and Clippy at lower right.", width:366.000pt)
 #instruction(1,[#strong[#text("Move the mouse on its pad and watch the pointer follow it.")] #text("Point at an item by moving the pointer over it. To click, press and release the left mouse button once. The other left button can wait for Chapter 3.")])
 #instruction(2,[#strong[#text("Find the menu bar at the top of the screen and the folder-like AtEase launcher beneath it.")] #text("If a window covers the launcher, choose View → Show Desktop from the top menu bar. This minimizes your programs into the Control Strip without quitting them.")])
 #instruction(3,[#strong[#text("In AtEase, click a folder tab if needed, then click a program button once.")] #text("AtEase buttons take a single click, not a double-click. Wait for the program’s window to appear before clicking again. Use a windowed program for this first exercise; a full-screen game will cover the desktop.")])

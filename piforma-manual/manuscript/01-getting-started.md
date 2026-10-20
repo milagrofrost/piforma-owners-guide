@@ -186,7 +186,7 @@ If the startup picture never appears, press the source selector at the back unti
 Once the desktop appears, try this short tour. You need not change any settings or make a file.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
-[SCREENSHOT 1-7|piforma-desktop-overview.svg|The PiForma desktop: persistent system menu bar across the top, AtEase in the center, Control Strip at lower left, and Clippy at lower right.]
+[ILLUSTRATION 1-8a|desktop-labeled.png|The PiForma desktop: the menu bar across the top, AtEase in the center, the Control Strip at lower left and Clippy at lower right.]
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20; editorial-advice -->
 1. Move the mouse on its pad and watch the pointer follow it. Point at an item by moving the pointer over it. To click, press and release the left mouse button once. The other left button can wait for Chapter 3.
