@@ -217,11 +217,12 @@
   #place(top+left,dx:-53pt,block(width:48pt,text(size:8.5pt,weight:"bold")[Verify]))
   #para(text(size:8.5pt)[#copy])
 ]
-// A black-and-white photograph bleeds across the left-hand page that faces
+// A black-and-white photograph fills the whole left-hand page that faces
 // a chapter opening, the way the old Apple guides gave each chapter a plate.
+// The source files are pre-cropped to the page shape; "cover" guards the rest.
 #let art-page(file) = {
   pagebreak(to:"even")
-  place(horizon+left,dx:-152pt,dy:2pt,image("../assets/illustrations/"+file,width:432pt))
+  place(top+left,dx:-152pt,dy:-39pt,image("../assets/illustrations/"+file,width:432pt,height:522pt,fit:"cover"))
 }
 #let chapter(n,title,body,art:none) = {
   if art != none { art-page(art) }
