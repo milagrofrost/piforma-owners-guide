@@ -47,7 +47,7 @@ screen_assets={a['presentation']:a for a in json.loads(screen_manifest.read_text
 screen_placements=[]
 def convert(file):
     lines=file.read_text(encoding='utf-8').splitlines();blocks=[];buf=[];status='editorial-advice';section='';opening=True
-    top='';term=None;sidebar=None;rows=[]
+    top='';term=None;sidebar=None;rows=[];rail=None
     def flush_table():
         nonlocal rows
         if not rows:return
@@ -57,7 +57,7 @@ def convert(file):
         body='('+','.join('('+','.join(f'[{rich(c)}]' for c in r)+',)' for r in cells[1:])+',)'
         blocks.append(f'#ref-table({head},{body})')
     def flush():
-        nonlocal buf,opening,term
+        nonlocal buf,opening,term,rail
         flush_table()
         if not buf:return
         text=' '.join(buf);buf=[]
@@ -87,7 +87,9 @@ def convert(file):
         else:
             if opening and file.name.startswith(('01-','02-','03-','04-')):blocks.append(f'#opener({q(plain(text))})')
             elif term:blocks.append(f'#glossary-entry({q(term)},[{rich(text)}])');term=None
+            elif rail and not sidebar:blocks.append(f'#rail-def({q(rail[0])},[{rich(rail[1])}],[{rich(text)}])')
             else:blocks.append(f'#para({"width:100%," if sidebar else ""}[{rich(text)}])')
+            rail=None
         opening=False
     for line in lines:
         if line.startswith('<!-- evidence:'):
@@ -96,6 +98,9 @@ def convert(file):
         if line.startswith('|'):
             if buf:flush()
             rows.append(line);evidence.append({'file':str(file.relative_to(P)),'section':section,'evidence':status,'preview':line});continue
+        # [RAIL term|definition] on its own line sets a rail definition beside the next paragraph.
+        m=re.fullmatch(r'\[RAIL ([^|]+)\|(.+)\]',line.strip())
+        if m:flush();rail=(m[1],m[2]);continue
         if line.startswith('#### '):
             flush();sidebar=(line[5:],len(blocks));continue
         if line.strip()=='---' and sidebar:

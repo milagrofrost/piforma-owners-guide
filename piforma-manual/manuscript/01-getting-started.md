@@ -56,6 +56,8 @@ Before connecting anything, find the power switch on the right side, the green s
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
 The one USB port at the back is a USB-C port. A single device plugged straight into it needs a USB-C plug of its own or an adapter. For more than one device, or for older USB plugs, use the USB hub. The keyboard communicates over Bluetooth; the mouse uses a USB wireless receiver, which stays plugged in inside the case. A keyboard problem and a mouse problem therefore call for different checks.
 
+[RAIL Source selector|The rear button that moves the screen to its next input: HDMI for the Raspberry Pi, AV1 for the RCA input.]
+
 At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general audio connection. The audio socket sends sound out to external speakers or headphones. Press the source selector to switch to HDMI for the Raspberry Pi picture. Only two inputs are in use: HDMI for the Raspberry Pi and AV1 for the RCA input. The selector also passes AV2 and VGA, which had nothing connected when the PiForma was built.
 
 <!-- evidence: owner-current OWNER-REAR-OUTLINE -->

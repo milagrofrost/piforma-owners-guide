@@ -14,12 +14,16 @@ This is a conversion, not a restoration of a stock Macintosh. The old case was a
 
 ## Raspberry Pi, memory and storage
 
+[RAIL microSD|The small storage card that holds the operating system, the programs and your files.]
+
 <!-- evidence: repo-verified D-HARDWARE D-SOFTWARE D-BOM -->
 A Raspberry Pi runs the programs. RAM holds the work the computer is doing now; the microSD storage card keeps the operating system, applications, and saved files when power is off. Saving transfers your work into a file that can remain after shutdown.
 
 The computer runs Raspberry Pi OS beneath its Macintosh-inspired appearance. Appendix A lists the hardware and software specifications.
 
 ## The display and source selector
+
+[RAIL Composite video|The older video signal used by VCRs and early game consoles. The RCA jack carries picture only, not sound.]
 
 <!-- evidence: repo-verified D-HARDWARE -->
 An LCD screen replaces the original monitor display. The Raspberry Pi supplies its picture over HDMI. A rear RCA input supplies composite video from an external source: a VCR, an older games console or anything else with a composite video output. Its sound comes in separately, through the external audio adapter.
@@ -79,6 +83,8 @@ Turn the side volume knob clockwise to raise normal system volume and counterclo
 
 <!-- evidence: owner-current H01-usb; repo-verified D-HARDWARE D-SOFTWARE -->
 One rear USB-C port is available to the user. The Raspberry Pi’s own ports are inside the case and out of reach. Use the hub for several devices, or for devices with older USB plugs.
+
+[RAIL Bluetooth LE|Bluetooth Low Energy, the wireless link the converted keyboard uses.]
 
 The keyboard uses Bluetooth LE and the mouse uses its USB wireless receiver, which is plugged into the Raspberry Pi inside the case and stays there. Wi-Fi and Bluetooth are handled by the operating system. External audio input uses a separate USB capture adapter and audio-loop helper, not the rear composite-video RCA jack.
 

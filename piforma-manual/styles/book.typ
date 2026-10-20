@@ -51,6 +51,18 @@
 #let para(copy,width:242pt) = block(width:width,above:0pt,below:10pt,breakable:false,
   [#content-mark()#copy])
 #let subhead(title) = heading(level:3,outlined:false,title)
+// Apple sets a short definition in the left rail beside the paragraph where
+// a term is first used: a glossary entry right where the reader needs it.
+// It is placed, so it takes no room in the column and moves no page breaks.
+#let rail-def(term,copy,body) = block(width:242pt,above:0pt,below:10pt,breakable:false)[
+  #content-mark()
+  #place(top+left,dx:-112pt,dy:1pt,block(width:96pt)[
+    #set text(size:8pt)
+    #set par(leading:3.6pt,spacing:0pt)
+    #text(weight:"bold",term + ":") #copy
+  ])
+  #body
+]
 #let instruction(n,copy) = block(above:0pt,below:7pt,breakable:false)[
   #content-mark()
   #grid(columns:(13pt,229pt),gutter:0pt,

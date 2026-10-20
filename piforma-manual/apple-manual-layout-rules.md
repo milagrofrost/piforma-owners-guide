@@ -13,7 +13,7 @@ The page has two zones: a narrow **left rail** of about 96 pt and a **main colum
 | Main section heads are 14 pt bold under a thick red rule across the main column | Marks a new topic | 13 pt bold under the red rule |
 | **Subsection heads sit in the left rail**, under a fine red rule, level with the first line of their text | Lets you scan the rail for "The keyboard" or "The power cord" | All subsection heads moved to the rail |
 | Important and Warning labels go in the rail with a triangle | Stands out without breaking the text | Already did this |
-| Short definitions sit in the rail next to the bold term they explain | A glossary entry right where it's needed | Not used yet. It needs content: which terms get rail notes. |
+| Short definitions sit in the rail next to the bold term they explain | A glossary entry right where it's needed | Eight terms have one: source selector, microSD, composite video, Bluetooth LE, AtEase, EmulationStation, save state, emulator. Write `[RAIL term|definition]` on its own line before the paragraph; `rail-def()` places it, so it never moves page breaks. |
 
 ## Pictures
 

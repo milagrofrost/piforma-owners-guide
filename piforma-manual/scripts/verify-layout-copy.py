@@ -16,6 +16,7 @@ for name,digest in lock.items():
         if not buf:return
         s=' '.join(buf);buf.clear()
         if s.startswith(('[ILLUSTRATION ','[SCREENSHOT ')):s=s.split('|',2)[2].rstrip(']')
+        if s.startswith('[RAIL '):s=s[6:].rstrip(']').replace('|',' ',1)
         s=re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',s).replace('**','').replace('`','')
         s=re.sub(r'^(?:#+ |\d+\. |- )','',s)
         ok=normal(s) in rendered

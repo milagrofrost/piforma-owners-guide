@@ -5,6 +5,8 @@ The PiForma wears a familiar face, but Raspberry Pi OS does the work underneath.
 
 ## Finding your way around the desktop
 
+[RAIL AtEase|The folder-like launcher that opens programs with a single click.]
+
 <!-- evidence: repo-verified P-MENU A-APP D-ATEASE; editorial-advice -->
 The desktop is the working screen behind your application windows. PiForma Panel supplies the menu bar at the top; AtEase is the folder-like launcher for programs. The Control Strip provides another way to open or return to programs.
 
@@ -149,12 +151,16 @@ The accessory pouch holds two game controllers. Plug a controller into the rear 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [ILLUSTRATION 3-5a|piforma-n64.png|Two game controllers and a racing game on the PiForma screen.]
 
+[RAIL EmulationStation|RetroPie’s game-list menu. It is separate from the games it starts.]
+
 Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game. Follow the game's own instructions for play. Buttons can do different things in different games, so the A button won't always mean the same thing.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's game list. The bar along the bottom names the buttons for this screen, including A to launch the highlighted game and B to go back.]
 
 Before settling into a game, find out how that game pauses, saves and exits. The controllers are already set up, so if a screen asks you to set one up, read it carefully rather than redoing the setup just to make it go away. If you can't work out the controls, ask the builder.
+
+[RAIL Save state|An emulator’s snapshot of a game in progress, separate from the game’s own save.]
 
 A game can save in two ways: its own save, and the emulator's save state, a snapshot of the moment. Use whichever the game offers and check that it worked. Closing a game with the Apple logo does not save it.
 
@@ -172,6 +178,8 @@ On the current PiForma, holding the Apple-logo touch control for about six secon
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The same hold is how you quit a game. The game controllers use every button, so none is set aside for quitting. Hold the Apple logo for about six seconds: the game closes and EmulationStation returns. To leave EmulationStation too, hold the logo for another six seconds; EmulationStation closes and the desktop returns.
+
+[RAIL Emulator|A program that imitates another computer or games system so its software can run.]
 
 Some emulators trap the mouse pointer inside their window. If you can't get it back out, hold the Apple logo for about six seconds, or see Appendix B.
 

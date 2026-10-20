@@ -4,7 +4,7 @@
 #import "../styles/typography.typ": accent
 #opener("The PiForma wears a familiar face, but Raspberry Pi OS does the work underneath. This chapter explains the everyday business of pointing, typing, opening programs and keeping what you make. You need not learn the wiring to save a file.")
 #heading(level:2,"Finding your way around the desktop")
-#para([#text("The desktop is the working screen behind your application windows. PiForma Panel supplies the menu bar at the top; AtEase is the folder-like launcher for programs. The Control Strip provides another way to open or return to programs.")])
+#rail-def("AtEase",[#text("The folder-like launcher that opens programs with a single click.")],[#text("The desktop is the working screen behind your application windows. PiForma Panel supplies the menu bar at the top; AtEase is the folder-like launcher for programs. The Control Strip provides another way to open or return to programs.")])
 #para([#text("The desktop picture in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right corner. The clock appears at the upper right of the menu bar.")])
 #para([#text("Choose a menu by clicking its name, then click the command you want. An unavailable command may be dimmed. Read a dialog before answering: it may ask where to save a file, whether to discard changes, or whether to stop the computer.")])
 #block(breakable:false,sticky:true)[
@@ -80,17 +80,17 @@
 ]
 #wide-illustration("3-5a", "piforma-n64.png", "Two game controllers and a racing game on the PiForma screen.", width:220.000pt)
 #block(breakable:false,sticky:true)[
-#para([#text("Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game. Follow the game's own instructions for play. Buttons can do different things in different games, so the A button won't always mean the same thing.")])
+#rail-def("EmulationStation",[#text("RetroPie’s game-list menu. It is separate from the games it starts.")],[#text("Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game. Follow the game's own instructions for play. Buttons can do different things in different games, so the A button won't always mean the same thing.")])
 ]
 #screen-figure("3-5b","piforma-emulationstation-n64.svg","EmulationStation's game list. The bar along the bottom names the buttons for this screen, including A to launch the highlighted game and B to go back.",width:366pt)
 #para([#text("Before settling into a game, find out how that game pauses, saves and exits. The controllers are already set up, so if a screen asks you to set one up, read it carefully rather than redoing the setup just to make it go away. If you can't work out the controls, ask the builder.")])
-#para([#text("A game can save in two ways: its own save, and the emulator's save state, a snapshot of the moment. Use whichever the game offers and check that it worked. Closing a game with the Apple logo does not save it.")])
+#rail-def("Save state",[#text("An emulator’s snapshot of a game in progress, separate from the game’s own save.")],[#text("A game can save in two ways: its own save, and the emulator's save state, a snapshot of the moment. Use whichever the game offers and check that it worked. Closing a game with the Apple logo does not save it.")])
 #heading(level:2,"Leaving a full-screen program")
 #para([#text("A full-screen game can cover the menu bar and window controls. First use its own Quit or Exit command when available. Save before leaving whenever the program allows it.")])
 #para([#text("On the current PiForma, holding the Apple-logo touch control for about six seconds closes only the active application. Use it when a full-screen program gives you no way out. It closes one program, not the computer. Unsaved work may be lost.")])
 #figure-group(((id:"3-6a",file:"closing-app-1.png",caption:"An application has taken up the full screen with no way to exit.",width:176pt),(id:"3-6b",file:"closing-app-2.png",caption:"Touch and hold the Apple logo for about six seconds to close the active application.",width:176pt),),mode:"columns")
 #para([#text("The same hold is how you quit a game. The game controllers use every button, so none is set aside for quitting. Hold the Apple logo for about six seconds: the game closes and EmulationStation returns. To leave EmulationStation too, hold the logo for another six seconds; EmulationStation closes and the desktop returns.")])
-#para([#text("Some emulators trap the mouse pointer inside their window. If you can't get it back out, hold the Apple logo for about six seconds, or see Appendix B.")])
+#rail-def("Emulator",[#text("A program that imitates another computer or games system so its software can run.")],[#text("Some emulators trap the mouse pointer inside their window. If you can't get it back out, hold the Apple logo for about six seconds, or see Appendix B.")])
 #heading(level:2,"Diversions")
 #para([#text("The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experiments among them. A familiar old name may open a modern program in costume rather than the original software. The costume department has been busy.")])
 #para([#text("The browser is Chromium, dressed as Netscape Navigator; its AtEase button carries the Netscape name. Type an address in the address field to visit a site. Online pages need Wi-Fi; programs stored on the PiForma itself work without it.")])
