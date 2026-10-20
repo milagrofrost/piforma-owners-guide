@@ -45,6 +45,8 @@ An external plunger reaches the battery’s own button. Press it to check the ch
 <!-- evidence: repo-verified D-HARDWARE; owner-current H01-chime -->
 The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when selected, through the rear audio output socket. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. Some positions are silent or empty.
 
+[ILLUSTRATION 2-3|inside-2.png|A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and battery-button plunger.]
+
 #### Startup chimes
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
@@ -65,8 +67,6 @@ The next three clicks are silent, and the one after that brings back the classic
 ---
 
 Normal desktop sound uses an internal USB speaker. Changing its software volume is not necessarily a test of the separate startup-chime hardware.
-
-[ILLUSTRATION 2-3|inside-2.png|A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and battery-button plunger.]
 
 ## The physical controls
 
@@ -107,7 +107,7 @@ The matching mouse combines Bambu wireless mouse-kit electronics with a printed 
 ## Bose speakers and stands
 
 <!-- evidence: owner-current H03-bose OWNER-TALK-2026-10-19 -->
-The Bose speakers are an optional extra that connect to the rear audio output socket. The PiForma’s internal speaker works without them. Place them on stable supports with cables clear of the computer and its stand.
+The Bose speakers are an optional extra. They connect to the rear audio output socket. The PiForma’s internal speaker works without them. Place them on stable supports with cables clear of the computer and its stand.
 
 ## The bag and its fitted interior
 

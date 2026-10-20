@@ -86,7 +86,6 @@
   set par(leading:4.5pt,spacing:3pt)
   set outline.entry(fill:none)
   show outline.entry: it => {
-    if it.level == 1 and it.element.body == [How the Macintosh PiForma Works] { pagebreak() }
     [#content-mark()#text(weight:if it.level == 1 { "bold" } else { "regular" },it)]
   }
   outline(title:[Contents],depth:2,indent:8pt)

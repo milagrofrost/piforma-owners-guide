@@ -9,7 +9,7 @@ The PiForma wears a familiar face, but Raspberry Pi OS does the work underneath.
 The desktop is the working screen behind your application windows. PiForma Panel supplies the menu bar at the top; AtEase is the folder-like launcher for programs. The Control Strip provides another way to open or return to programs.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
-The desktop picture in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right corner. The clock appears at the upper right of the system bar.
+The desktop picture in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right corner. The clock appears at the upper right of the menu bar.
 
 Choose a menu by clicking its name, then click the command you want. An unavailable command may be dimmed. Read a dialog before answering: it may ask where to save a file, whether to discard changes, or whether to stop the computer.
 
@@ -73,7 +73,7 @@ Showing the desktop minimizes your programs into the Control Strip without savin
 ### Window controls
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF -->
-The themed document window in the menu-bar picture, near the start of this chapter, has a close control at the upper left. At the upper right, the far-right control maximizes the window; the control immediately to its left minimizes it to the Dock, or Control Strip. Minimizing puts the window out of the way while leaving it open. Use the program's Control Strip pane to return to it.
+The themed document window in the menu-bar picture, near the start of this chapter, has a close control at the upper left. At the upper right, the far-right control maximizes the window; the control immediately to its left minimizes it to the Control Strip. Minimizing puts the window out of the way while leaving it open. Use the program's Control Strip pane to return to it.
 
 Use the controls a window actually provides. Some windows omit controls or draw them differently. Clippy's chat, for example, has its close button at the upper right. Closing a window is not the same as minimizing it; save before closing work you want to keep.
 
@@ -151,10 +151,10 @@ The accessory pouch holds two game controllers. The rear USB port and hub provid
 
 Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game. Follow the game's own instructions for play. Controller assignments, player order and button meanings can differ between games; a button's label is not a universal promise about its action.
 
-Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a controller-configuration prompt appears, read it before proceeding; do not overwrite an existing setup merely to dismiss the prompt. If there are no usable prompts or known controls, ask the builder to identify the configured bindings.
-
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's game list. The bar along the bottom names the buttons for this screen, including A to launch the highlighted game and B to go back.]
+
+Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a controller-configuration prompt appears, read it before proceeding; do not overwrite an existing setup merely to dismiss the prompt. If there are no usable prompts or known controls, ask the builder to identify the configured bindings.
 
 A game's own save and an emulator's save state are different facilities. Use only a save facility the running game or emulator actually provides, and check that it reports success. Closing a game from outside does not guarantee a saved game or state.
 
@@ -224,10 +224,10 @@ Clippy can offer suggestions, but check them against the PiForma's actual setup 
 <!-- evidence: repo-verified ABOUT-README ABOUT-CONFIG VIEWER-README VIEWER-STACKS -->
 About This PiForma displays computer and operating-system information. Open it from the Apple menu.
 
-Docs Viewer presents the project's hardware, software, maintenance and other documents. Its Update Stack action checks for updated documentation. If an update fails, the viewer keeps its previous cached material; without a cache it can use its bundled offline snapshot. An offline document is useful, but its age still matters when comparing it with a changed machine.
+PiForma Guide is the built-in guide to the computer and its functions, with the project's hardware, software, maintenance and other documents. Its Update Stack button checks for updated documentation. If an update fails, the guide keeps its previous copy; without one it uses its bundled offline snapshot. An offline document is useful, but its age still matters when comparing it with a changed machine.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
-The installed launcher calls this application PiForma Guide, and its window is titled Macintosh PiForma Guided Tour. Click PiForma Guide in AtEase, then choose a stack such as Meet PiForma, Hardware or Software to begin reading. It is the built-in guide to the computer and its functions. The bottom line reports documentation status and identifies the snapshot; it is worth checking when the machine and a document seem to disagree.
+Click PiForma Guide in AtEase; its window is titled Macintosh PiForma Guided Tour. Choose a stack such as Meet PiForma, Hardware or Software to begin reading. The bottom line reports documentation status and identifies the snapshot; it is worth checking when the machine and a document seem to disagree.
 
 [SCREENSHOT 3-9|piforma-guide-application.svg|PiForma Guide opens Macintosh PiForma Guided Tour. Choose a documentation stack; the bottom line shows documentation status and the snapshot information.]
 

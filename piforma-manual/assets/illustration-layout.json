@@ -56,7 +56,7 @@
     },
     "1-6a.png": {
       "max_width_pt": 330,
-      "max_height_pt": 92,
+      "max_height_pt": 72,
       "kind": "control-detail"
     },
     "1-6b.png": {
@@ -261,6 +261,22 @@
     {
       "start": "The Wi-Fi status icon is at the far right",
       "end": "wifi-menu.png"
+    },
+    {
+      "start": "#subhead(\"Closing the bag\")",
+      "end": "bag-clasp.png"
+    },
+    {
+      "start": "The normal, management-approved way to read the battery",
+      "end": "\"1-6b.png\""
+    },
+    {
+      "start": "#heading(level:2,\"System sound and startup chimes\"",
+      "end": "inside-2.png"
+    },
+    {
+      "start": "Open RetroPie/EmulationStation from AtEase",
+      "end": "piforma-emulationstation-n64.svg"
     }
   ],
   "compositions": {

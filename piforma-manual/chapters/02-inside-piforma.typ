@@ -21,8 +21,11 @@
 #para([#text("An external plunger reaches the battery’s own button. Press it to check the charge, and sometimes to wake the pack. The normal check is to press the rear plunger and read the percentage through the top slits. The top latch can also be unlocked and lifted for a closer look; Chapter 1 describes the optional opening procedure.")])
 ]
 #wide-illustration("2-2", "inside-3.png", "The open top reveals the wireless charging receiver, battery-button plunger and battery display. The battery is at 84% in this photograph. Its display can also indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. For the normal check, read through the top slits as described in Chapter 1.", width:288.873pt)
+#block(breakable:false,sticky:true)[
 #heading(level:2,"System sound and startup chimes")
 #para([#text("The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when selected, through the rear audio output socket. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. Some positions are silent or empty.")])
+]
+#wide-illustration("2-3", "inside-2.png", "A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and battery-button plunger.", width:366.000pt)
 #sidebar("Startup chimes",[
 #para(width:100%,[#text("Turning the selector one click at a time gives these sounds, in order:")])
 #sb-item(1,[#text("The classic Macintosh startup chime.")])
@@ -37,7 +40,6 @@
 #para(width:100%,[#text("The next three clicks are silent, and the one after that brings back the classic chime.")])
 ])
 #para([#text("Normal desktop sound uses an internal USB speaker. Changing its software volume is not necessarily a test of the separate startup-chime hardware.")])
-#wide-illustration("2-3", "inside-2.png", "A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and battery-button plunger.", width:366.000pt)
 #heading(level:2,"The physical controls")
 #para([#text("The right-side power switch controls the computer’s power rail. The front Apple-logo sensor supplies software gestures. The rear source selector chooses the LCD input, while the rear chime dial chooses the startup sound. They do different jobs even when the desktop is not yet visible.")])
 #para([#text("Turn the side volume knob clockwise to raise normal system volume and counterclockwise to lower it. The installed knob has no usable push-to-mute action.")])
@@ -56,7 +58,7 @@
 #heading(level:2,"The matching mouse")
 #para([#text("The matching mouse combines Bambu wireless mouse-kit electronics with a printed Retro Wireless Computer Mouse shell. The scroll wheel and axle were replaced after the original wheel broke during modification. A USB wireless receiver provides the connection to the computer.")])
 #heading(level:2,"Bose speakers and stands")
-#para([#text("The Bose speakers are an optional extra that connect to the rear audio output socket. The PiForma’s internal speaker works without them. Place them on stable supports with cables clear of the computer and its stand.")])
+#para([#text("The Bose speakers are an optional extra. They connect to the rear audio output socket. The PiForma’s internal speaker works without them. Place them on stable supports with cables clear of the computer and its stand.")])
 #heading(level:2,"The bag and its fitted interior")
 #para([#text("The carrying bag is part of the build. It has a corrugated-plastic liner, a foam bottom, green velvet, alignment grooves, and a wireless charging transmitter concealed under the lining. Its cable reaches the back pocket.")])
 #para([#text("The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its intended side position. A loose fit and a correctly aligned charging position are not interchangeable.")])

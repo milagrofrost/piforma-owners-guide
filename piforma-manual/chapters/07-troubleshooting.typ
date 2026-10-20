@@ -5,15 +5,15 @@
 #para([#text("Start with what you can see and hear. Make one check at a time, then observe the result. Note any message before dismissing it. Stop using the PiForma if there is unusual heat, swelling, a hot smell or damaged power wiring; those symptoms are a reason to speak to the builder, not try another restart.")])
 #block(breakable:false)[
 #heading(level:2,"No green light, chime or picture")
-#para([#text("Check the right-side physical power control. Press the rear battery plunger and read the battery percentage through the top slits. Try the intended external power connection, then retry startup. A battery that previously showed full has sometimes needed a brief power connection; Chapter 1 describes this observation without promising a recovery time. If there is still no response, stop short of internal adjustments and consult the builder.")])
+#para([#text("Check the power switch on the right side. Press the rear battery plunger and read the battery percentage through the top slits. Try the intended external power connection, then retry startup. A battery that previously showed full has sometimes needed a brief power connection; Chapter 1 describes this observation without promising a recovery time. If there is still no response, stop short of internal adjustments and consult the builder.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"Battery does not appear to charge")
-#para([#text("Check the intended cable and external power connection without opening the computer. For the bag arrangement, check the rear/bottom seating in the foam indents and the charging cable in the back pocket. The battery display can indicate charging from the wireless receiver, but you cannot see it while the computer is packed in the bag. Check that the cord from the bag’s back pocket is plugged into a working USB charger. Whether the bag is charging remains uncertain until you unpack the computer and look. Do not substitute an unidentified supply.")])
+#para([#text("Check the intended cable and external power connection without opening the computer. For the bag arrangement, check the rear/bottom seating in the foam indents and that the cord from the bag’s back pocket is plugged into a working USB charger. The battery display can indicate charging from the wireless receiver, but you cannot see it while the computer is packed in the bag. Whether the bag is charging remains uncertain until you unpack the computer and look. Do not substitute an unidentified supply.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"Green light or chime, but no desktop")
-#para([#text("Allow approximately one to two minutes for startup, with some variation. A No Signal message and a moment of blank screen are normal at first. If the startup picture doesn't follow within about 15 seconds, press the rear source selector until the screen shows HDMI. A chime does not prove that the computer has finished booting. If the startup picture persists, note where it stops. If the image is blank, flickers or distorts, stop using the computer; do not tap the case or adjust internal cables while powered. Ask the builder to investigate a persistent display problem.")])
+#para([#text("Allow approximately one to two minutes for startup, with some variation. A No Signal message and a moment of blank screen are normal at first. If the startup picture doesn't follow within about 15 seconds, press the rear source selector until the screen shows HDMI. A chime does not prove that the computer has finished booting. If the startup picture persists, note where it stops. If the image flickers or distorts, stop using the computer; do not tap the case or adjust internal cables while powered. Ask the builder to investigate a persistent display problem.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"Mouse pointer does not move")
@@ -21,7 +21,7 @@
 ]
 #block(breakable:false)[
 #heading(level:2,"Keyboard does not type")
-#para([#text("If letters come out as capitals or the number keys type symbols, Caps Lock is down: press it again so it sits level with the other keys. Otherwise, check the switch on the right-hand edge, look at the nice!view display for battery level and an X that means it isn't connected, and click in the intended text field. Try another available text field. The keyboard uses Bluetooth; a working mouse does not prove that connection. If typing fails everywhere, check keyboard power, charge and connection with the builder. Use the configured pairing procedure, not guessed key combinations.")])
+#para([#text("If letters come out as capitals or the number keys type symbols, Caps Lock is down: press it again so it sits level with the other keys. Otherwise, check the switch on the right-hand edge, look at the nice!view display for battery level, an X that means it isn't connected, and profile 2 selected, and click in the intended text field. Try another available text field. The keyboard uses Bluetooth; a working mouse does not prove that connection. If typing fails everywhere, check keyboard power, charge and connection with the builder. Use the configured pairing procedure, not guessed key combinations.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"No sound, or no startup chime")

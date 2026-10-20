@@ -5,7 +5,7 @@
 #opener("The PiForma wears a familiar face, but Raspberry Pi OS does the work underneath. This chapter explains the everyday business of pointing, typing, opening programs and keeping what you make. You need not learn the wiring to save a file.")
 #heading(level:2,"Finding your way around the desktop")
 #para([#text("The desktop is the working screen behind your application windows. PiForma Panel supplies the menu bar at the top; AtEase is the folder-like launcher for programs. The Control Strip provides another way to open or return to programs.")])
-#para([#text("The desktop picture in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right corner. The clock appears at the upper right of the system bar.")])
+#para([#text("The desktop picture in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right corner. The clock appears at the upper right of the menu bar.")])
 #para([#text("Choose a menu by clicking its name, then click the command you want. An unavailable command may be dimmed. Read a dialog before answering: it may ask where to save a file, whether to discard changes, or whether to stop the computer.")])
 #block(breakable:false,sticky:true)[
 #subhead("Two menu bars, two different jobs")
@@ -41,7 +41,7 @@
 #para([#text("Use a program's Quit or Exit command to leave it. A window close control closes that window, which may leave other windows from the same program running. A save question gives you a chance to keep changes; Cancel returns you to the work so you can decide.")])
 #para([#text("Showing the desktop minimizes your programs into the Control Strip without saving or quitting them. Return to an open window by clicking its visible part or the appropriate Control Strip pane. Give the strip a moment to detect a newly opened program. Returning to a running program is different from deliberately opening another copy of it.")])
 #subhead("Window controls")
-#para([#text("The themed document window in the menu-bar picture, near the start of this chapter, has a close control at the upper left. At the upper right, the far-right control maximizes the window; the control immediately to its left minimizes it to the Dock, or Control Strip. Minimizing puts the window out of the way while leaving it open. Use the program's Control Strip pane to return to it.")])
+#para([#text("The themed document window in the menu-bar picture, near the start of this chapter, has a close control at the upper left. At the upper right, the far-right control maximizes the window; the control immediately to its left minimizes it to the Control Strip. Minimizing puts the window out of the way while leaving it open. Use the program's Control Strip pane to return to it.")])
 #para([#text("Use the controls a window actually provides. Some windows omit controls or draw them differently. Clippy's chat, for example, has its close button at the upper right. Closing a window is not the same as minimizing it; save before closing work you want to keep.")])
 #heading(level:2,"Files and folders")
 #para([#text("A file holds something the computer can keep: a document, picture, sound or other information. A folder groups files and other folders. A program is the tool you use; the document is the work you keep. Closing the tool does not substitute for saving the work.")])
@@ -77,9 +77,11 @@
 #para([#text("The accessory pouch holds two game controllers. The rear USB port and hub provide external USB connections. A controller with a different plug needs its matching supplied adapter; the shape of the controller does not establish its connection. Do not force a plug or substitute an unidentified adapter.")])
 ]
 #wide-illustration("3-5a", "piforma-n64.png", "Two game controllers and a racing game on the PiForma screen.", width:220.000pt)
+#block(breakable:false,sticky:true)[
 #para([#text("Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game. Follow the game's own instructions for play. Controller assignments, player order and button meanings can differ between games; a button's label is not a universal promise about its action.")])
-#para([#text("Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a controller-configuration prompt appears, read it before proceeding; do not overwrite an existing setup merely to dismiss the prompt. If there are no usable prompts or known controls, ask the builder to identify the configured bindings.")])
+]
 #screen-figure("3-5b","piforma-emulationstation-n64.svg","EmulationStation's game list. The bar along the bottom names the buttons for this screen, including A to launch the highlighted game and B to go back.",width:366pt)
+#para([#text("Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a controller-configuration prompt appears, read it before proceeding; do not overwrite an existing setup merely to dismiss the prompt. If there are no usable prompts or known controls, ask the builder to identify the configured bindings.")])
 #para([#text("A game's own save and an emulator's save state are different facilities. Use only a save facility the running game or emulator actually provides, and check that it reports success. Closing a game from outside does not guarantee a saved game or state.")])
 #heading(level:2,"Leaving a full-screen program")
 #para([#text("A full-screen game can cover the menu bar and window controls. First use its own Quit or Exit command when available. Save before leaving whenever the program allows it.")])
@@ -114,10 +116,8 @@
 #screen-figure("3-8b","piforma-clippy-conversation.svg","An example Chat with Clippy conversation. Its suggestions should be checked against the actual PiForma setup.",width:242pt)
 #heading(level:2,"About This PiForma and the project guide")
 #para([#text("About This PiForma displays computer and operating-system information. Open it from the Apple menu.")])
-#para([#text("Docs Viewer presents the project's hardware, software, maintenance and other documents. Its Update Stack action checks for updated documentation. If an update fails, the viewer keeps its previous cached material; without a cache it can use its bundled offline snapshot. An offline document is useful, but its age still matters when comparing it with a changed machine.")])
-#block(breakable:false,sticky:true)[
-#para([#text("The installed launcher calls this application PiForma Guide, and its window is titled Macintosh PiForma Guided Tour. Click PiForma Guide in AtEase, then choose a stack such as Meet PiForma, Hardware or Software to begin reading. It is the built-in guide to the computer and its functions. The bottom line reports documentation status and identifies the snapshot; it is worth checking when the machine and a document seem to disagree.")])
-]
+#para([#text("PiForma Guide is the built-in guide to the computer and its functions, with the project's hardware, software, maintenance and other documents. Its Update Stack button checks for updated documentation. If an update fails, the guide keeps its previous copy; without one it uses its bundled offline snapshot. An offline document is useful, but its age still matters when comparing it with a changed machine.")])
+#para([#text("Click PiForma Guide in AtEase; its window is titled Macintosh PiForma Guided Tour. Choose a stack such as Meet PiForma, Hardware or Software to begin reading. The bottom line reports documentation status and identifies the snapshot; it is worth checking when the machine and a document seem to disagree.")])
 #screen-figure("3-9","piforma-guide-application.svg","PiForma Guide opens Macintosh PiForma Guided Tour. Choose a documentation stack; the bottom line shows documentation status and the snapshot information.",width:300pt)
 #heading(level:2,"Wi-Fi and Bluetooth")
 #para([#text("Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse's USB wireless receiver is a third, separate connection. A working keyboard does not prove that a website can be reached, and a lost internet connection does not mean the mouse needs pairing.")])

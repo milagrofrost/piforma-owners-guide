@@ -33,10 +33,6 @@ The strip at the lower left of the desktop. On the PiForma it works like a dock,
 
 The working screen with its background, launchers, menu bar, and application windows.
 
-## Docs Viewer
-
-Macintosh PiForma Docs Viewer, the program for reading the project’s hardware, software and maintenance documents, with an offline snapshot. It is separate from About This PiForma.
-
 ## EmulationStation
 
 The game-list menu of RetroPie, opened from AtEase. It is a separate application from the games it starts.
@@ -60,6 +56,14 @@ The digital video connection that carries the Raspberry Pi’s picture to the Pi
 ## microSD
 
 The small storage card containing the PiForma’s operating system and saved files.
+
+## nice!view
+
+The small display above the keyboard’s number keys. It shows the keyboard’s battery level, Bluetooth status, Bluetooth profile and typing speed. The PiForma uses profile 2.
+
+## PiForma Guide
+
+The built-in guide to the computer, opened from AtEase; its window is titled Macintosh PiForma Guided Tour. Its program is the Docs Viewer listed in the credits. It is separate from About This PiForma.
 
 ## PiForma Panel
 
@@ -88,6 +92,10 @@ An emulator’s snapshot of a game in progress. It is a different facility from 
 ## Screen saver
 
 An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own when the computer is idle. Hold the Apple logo for about six seconds to stop it.
+
+## Source selector
+
+The rear button that moves the screen to its next input. HDMI shows the Raspberry Pi; AV1 shows the composite RCA input.
 
 ## USB hub
 

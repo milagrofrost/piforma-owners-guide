@@ -194,9 +194,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
-    "paragraph_sha256": "281df3a70c9111685a5804f7508140f24f9d2ff0a416e0169050f3fa38def52f",
+    "paragraph_sha256": "c4ac335677db79c6686ac4a47e623e463707cfef8d350f84f63535473033905d",
     "evidence": "owner-current H01-controls; repo-verified D-HARDWARE D-SOFTWARE",
-    "preview": "Before connecting anything, find the power control on the right side, the green status light at the front, and the chime-selector dial at th"
+    "preview": "Before connecting anything, find the power switch on the right side, the green status light at the front, and the chime-selector dial at the"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -215,9 +215,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
-    "paragraph_sha256": "9bc5660850b883045789f593632693659eb758ecf4e1b39cb2e3c86b3100de1c",
+    "paragraph_sha256": "626a8fb1402eeb0596e991971231886e3c2aeaad336d49e2603196d51013c6c9",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "[ILLUSTRATION 1-3e|1-3e.png|The physical power button on the opposite side. This is separate from the Apple-logo touch control.]"
+    "preview": "[ILLUSTRATION 1-3e|1-3e.png|The power switch on the opposite side. This is separate from the Apple-logo touch control.]"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -471,7 +471,7 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "Starting up the computer",
     "evidence": "owner-current H01-startup",
-    "preview": "1. Find the physical power control on the right side and switch the PiForma on."
+    "preview": "1. Find the power switch on the right side and switch the PiForma on."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -622,6 +622,13 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Stopping the computer",
+    "paragraph_sha256": "fd0b2b540fab6bacf8d0485ba163a76563a095efd5894f4b41567edea3af8237",
+    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "[SCREENSHOT 1-9|piforma-shutdown-menu.svg|Choose Shut Down from the Special menu after saving your work. This view shows the menu choice, no"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "Stopping the computer",
     "evidence": "owner-current H01-shutdown OWNER-TALK-2026-10-20; repo-verified P-MENU P-POWER; editorial-advice",
     "preview": "1. Save your work and leave any game or application using its own quit command when available. If a full-screen program gives you no way out, hold the Apple logo for about six seconds instead."
   },
@@ -641,7 +648,7 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "Stopping the computer",
     "evidence": "owner-current H01-shutdown OWNER-TALK-2026-10-20; repo-verified P-MENU P-POWER; editorial-advice",
-    "preview": "4. Once shutdown is complete, turn off the right-side physical power control. The green light at the front goes out. The wiring permits battery charging while this control is off."
+    "preview": "4. Once shutdown is complete, turn off the power switch on the right side. The green light at the front goes out. The wiring permits battery charging while the switch is off."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -649,13 +656,6 @@
     "paragraph_sha256": "013e41c3bf702257aa56f1568f52f645d5de60bcf54385cf5d4b126d27eadd81",
     "evidence": "owner-current H01-shutdown OWNER-TALK-2026-10-20; repo-verified P-MENU P-POWER; editorial-advice",
     "preview": "Never skip that last step. Shut Down stops the software but leaves the power on, and the battery drains quickly until the green light goes o"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "Stopping the computer",
-    "paragraph_sha256": "7326559a4d313ea2c42e039db048fe1b36616fedec5b1f5e939459868ed0a871",
-    "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 1-9|piforma-shutdown-menu.svg|Choose Special → Shut Down after saving your work. This view shows the menu choice, not completed "
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -764,9 +764,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "If the PiForma doesn’t start",
-    "paragraph_sha256": "f7bc898709c602fa6e3202485b8ef8bcfe6c896dcc25ea083b2cd702e6dd67a9",
+    "paragraph_sha256": "9f3f85dba03a217982dec153571d39ebb19f1117bad37dc73017a6f06ba7547b",
     "evidence": "owner-current H01-troubleshooting; editorial-advice",
-    "preview": "Most startup trouble comes down to the battery, so begin there. Then find the symptom that matches what you see and hear. Appendix B covers "
+    "preview": "Most startup trouble comes down to the battery, so begin there. Then find the symptom that matches what you see and hear. Appendix B repeats"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -792,9 +792,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Checking the battery",
-    "paragraph_sha256": "23261111b3b843c5cefff2c735ee40c15c1578f31369e115b7b99a624d908103",
+    "paragraph_sha256": "5172b628000ac435208f60406052c258faaef2fab0eed7f91909d88d7c8c0f7e",
     "evidence": "owner-current H01-battery OWNER-IMAGES-2026-10-14; repo-verified D-HARDWARE D-MAINTENANCE",
-    "preview": "Press the plunger as intended, look at the battery indication, and try the right-side power control again. If the battery is empty, apparent"
+    "preview": "Press the plunger as intended, look at the battery indication, and try the power switch again. If the battery is empty, apparently asleep, o"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -806,9 +806,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "If there is no green light",
-    "paragraph_sha256": "46c447b6981075e09bf0c54a6ef05691909aa822d825deee9e010ee22b9f115e",
+    "paragraph_sha256": "9e3c1bf65671ffe1c923b8a62df04bf97df2415f6f3e0da1ca0db76309c1a7d8",
     "evidence": "owner-current H01-troubleshooting",
-    "preview": "If there is no green light, no chime, and no picture, start with the physical power control, battery indication, plunger, and intended power"
+    "preview": "If there is no green light, no chime, and no picture, start with the power switch, battery indication, plunger, and intended power cable. Re"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -827,30 +827,23 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "If the light and chime work but the screen stays blank",
-    "paragraph_sha256": "2a8c156254d354800a7a1b036f6899680ca12aad995eef1aaa0699299affa5a9",
+    "paragraph_sha256": "04b87d59ca12ad014229a4924319970135f6621a026310104d9a26e68e47e55b",
     "evidence": "owner-current H01-troubleshooting OWNER-TALK-2026-10-20; repo-verified D-HARDWARE D-KNOWN",
     "preview": "No Signal and a moment of blank screen are normal at first. If the startup picture has not appeared after about 15 seconds, press the source"
   },
   {
     "file": "manuscript\\01-getting-started.md",
-    "section": "If the light and chime work but the screen stays blank",
-    "paragraph_sha256": "c83a0ee9c7883eab9319823398cf69b7863a0322a39d0e1229f0e13fbd88ecc6",
-    "evidence": "owner-current H01-troubleshooting OWNER-TALK-2026-10-20; repo-verified D-HARDWARE D-KNOWN",
-    "preview": "Do not disturb internal connections while the machine is powered; ask the builder to investigate a persistent blank, flickering or distorted"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
     "section": "If the desktop is slow to appear",
-    "paragraph_sha256": "325c9b37580769d49be6d4a40104682296773d4bdefd57d57a15c72e8bcd9318",
+    "paragraph_sha256": "f80e961d7a4eb939c642580011db7cc667be591b368774fb118af2cba9908133",
     "evidence": "owner-current H01-troubleshooting",
-    "preview": "Give the computer approximately one to two minutes to reach the desktop. Boot time can vary. If it remains at the startup picture or never r"
+    "preview": "Give the computer one to two minutes to reach the desktop. If it remains at the startup picture or never reaches a usable desktop, record wh"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "A closer look, strictly off the record",
-    "paragraph_sha256": "6a90e2f9c0cc078b0f858032b4455d0ba6bb50ec2dc07611741bc7160405d01c",
+    "paragraph_sha256": "34f2d994c9bad1019060722b7db5c357622058690fef8d13dd7109b12d1e2090",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14 OWNER-TALK-2026-10-20; editorial-advice",
-    "preview": "For an optional open-top look, first make sure the vice president isn’t looking. Then shut down the PiForma, switch off physical power, and "
+    "preview": "For an optional open-top look, first make sure the vice president isn’t looking. He was let go in 1985, but old habits die hard. Then shut d"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -978,6 +971,13 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "System sound and startup chimes",
+    "paragraph_sha256": "3ca11a2bc992738de0b49caf9faaa4ae86accf4cb9a01a6dcbf4d4864a02129a",
+    "evidence": "repo-verified D-HARDWARE; owner-current H01-chime",
+    "preview": "[ILLUSTRATION 2-3|inside-2.png|A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and batte"
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "System sound and startup chimes",
     "paragraph_sha256": "1cfaaaee13c27e7d581e50b78d88c1c20dec2d429850e7f8ee7bddc91f9bde4a",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "Turning the selector one click at a time gives these sounds, in order:"
@@ -1049,13 +1049,6 @@
     "paragraph_sha256": "9d322770a017b254198aaf2dbd0e605a9331b86cf586b6824de8e662eef98e01",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "Normal desktop sound uses an internal USB speaker. Changing its software volume is not necessarily a test of the separate startup-chime hard"
-  },
-  {
-    "file": "manuscript\\02-inside-piforma.md",
-    "section": "System sound and startup chimes",
-    "paragraph_sha256": "3ca11a2bc992738de0b49caf9faaa4ae86accf4cb9a01a6dcbf4d4864a02129a",
-    "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "[ILLUSTRATION 2-3|inside-2.png|A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and batte"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1137,9 +1130,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "Bose speakers and stands",
-    "paragraph_sha256": "1e73531f98a12a8777631b8f19cf9fe9f05e309aa21264ff28ff00f7fdef4711",
+    "paragraph_sha256": "1bd226304efbfc8e923bb4d644bf5296938b3d77135802b30e01e7fb6c4e0d0f",
     "evidence": "owner-current H03-bose OWNER-TALK-2026-10-19",
-    "preview": "The Bose speakers are an optional extra that connect to the rear audio output socket. The PiForma’s internal speaker works without them. Pla"
+    "preview": "The Bose speakers are an optional extra. They connect to the rear audio output socket. The PiForma’s internal speaker works without them. Pl"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1172,7 +1165,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Finding your way around the desktop",
-    "paragraph_sha256": "26f3cbb125b59fc32e8d3005f0dddfb828808990da649b8e53886a61dcfdb021",
+    "paragraph_sha256": "3f9d64a37ba58466f81819d1081d98e3668e24f9fed14dba584a36ea7860a46d",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
     "preview": "The desktop picture in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right "
   },
@@ -1326,7 +1319,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Window controls",
-    "paragraph_sha256": "1305b5b03f95cb034fe51bb785c0e34781a5d505de11214a4edcd6b2c58d1ca5",
+    "paragraph_sha256": "269fe357525315567450ad4f71109a2c072bcf54093141bfa1622c8c121d4f68",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF",
     "preview": "The themed document window in the menu-bar picture, near the start of this chapter, has a close control at the upper left. At the upper righ"
   },
@@ -1545,16 +1538,16 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "d1a7430edf1be1b2940b7b2bef356dd2dc456511e107de051d38c8b28da34b9d",
+    "paragraph_sha256": "0f2c34d59ec6fd64e88008c2c75db92cf5bdb74db92c567f9e74c2461d0dd406",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
-    "preview": "Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a c"
+    "preview": "[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's game list. The bar along the bottom names the buttons for this screen, "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "0f2c34d59ec6fd64e88008c2c75db92cf5bdb74db92c567f9e74c2461d0dd406",
+    "paragraph_sha256": "d1a7430edf1be1b2940b7b2bef356dd2dc456511e107de051d38c8b28da34b9d",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
-    "preview": "[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's game list. The bar along the bottom names the buttons for this screen, "
+    "preview": "Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a c"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1720,16 +1713,16 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "About This PiForma and the project guide",
-    "paragraph_sha256": "de64691153fef036ca796714465eb8bfbe037ab8a4381b980de15388b3799fde",
+    "paragraph_sha256": "5cc0eb39c472979fdb7bb618e2876c4979acd1882c6078122549de6ed2ed1cbf",
     "evidence": "repo-verified ABOUT-README ABOUT-CONFIG VIEWER-README VIEWER-STACKS",
-    "preview": "Docs Viewer presents the project's hardware, software, maintenance and other documents. Its Update Stack action checks for updated documenta"
+    "preview": "PiForma Guide is the built-in guide to the computer and its functions, with the project's hardware, software, maintenance and other document"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "About This PiForma and the project guide",
-    "paragraph_sha256": "01189eba85d0abd3e2b6558f3607e30bfc65a4fcdf8ed40ba774b0f8504c2514",
+    "paragraph_sha256": "1bf5ca6955bec37c20850e5d9e48cd8d1e6f9a9c9da15484b395f1e850f6f852",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "The installed launcher calls this application PiForma Guide, and its window is titled Macintosh PiForma Guided Tour. Click PiForma Guide in "
+    "preview": "Click PiForma Guide in AtEase; its window is titled Macintosh PiForma Guided Tour. Choose a stack such as Meet PiForma, Hardware or Software"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1853,7 +1846,7 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Cleaning, ventilation and unusual behavior",
-    "paragraph_sha256": "7588f7be83dad44e5c946a096998d320e6431a0ba1a9b2e96bcc420e0894dccd",
+    "paragraph_sha256": "14e38767dffeaf6ae5e3d7082401da4b607abe623e4cca27a96052f9763a5c80",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
     "preview": "Leave vents clear and keep the PiForma out of direct sun, which will toast it. Watch for unusual heat, smell, swelling, damaged wiring, a fl"
   },
@@ -2105,13 +2098,6 @@
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
-    "section": "Docs Viewer",
-    "paragraph_sha256": "60d23847a36414acc5c6e0d0b73eeadc956aa957525541a5bae093de9607d5f7",
-    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
-    "preview": "Macintosh PiForma Docs Viewer, the program for reading the project’s hardware, software and maintenance documents, with an offline snapshot."
-  },
-  {
-    "file": "manuscript\\06-glossary-and-credits.md",
     "section": "EmulationStation",
     "paragraph_sha256": "b20ee1b06c1bb3654b46f58dc3a048d38c498d09da4e6e79693284461fa889d0",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
@@ -2151,6 +2137,20 @@
     "paragraph_sha256": "cb0d154060d43d21ce7afaf48300a11e006592eee777e9367a66de350c11d2ca",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
     "preview": "The small storage card containing the PiForma’s operating system and saved files."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "nice!view",
+    "paragraph_sha256": "387a35e037dee7f7e73ad53504f743842c0996d6db9f206e7287c7a9919cc547",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "The small display above the keyboard’s number keys. It shows the keyboard’s battery level, Bluetooth status, Bluetooth profile and typing sp"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "PiForma Guide",
+    "paragraph_sha256": "e241e581a0a7d26921efcc1c6c094a3e48d4d6d08272dcaefc1b2d80d0ce4d18",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "The built-in guide to the computer, opened from AtEase; its window is titled Macintosh PiForma Guided Tour. Its program is the Docs Viewer l"
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -2200,6 +2200,13 @@
     "paragraph_sha256": "31146925d08f6f8cd896681697fe80498610d201f10baeb8f17348a419b3c938",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
     "preview": "An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own whe"
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Source selector",
+    "paragraph_sha256": "5c4a45d7f53f3970e4c441407c4c8c4323a4b06c0f3ab9f714fe67b0ffe93c25",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "The rear button that moves the screen to its next input. HDMI shows the Raspberry Pi; AV1 shows the composite RCA input."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -2323,21 +2330,21 @@
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "No green light, chime or picture",
-    "paragraph_sha256": "952cfeacefa79de2bc96e081251963cef380d417aea6dbbf62d10821ce88c0ff",
+    "paragraph_sha256": "c7de7e92a60bcaf29b8d564af2fb5bdc6ab6ec94dfa221208af70b81d8f701dc",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
-    "preview": "Check the right-side physical power control. Press the rear battery plunger and read the battery percentage through the top slits. Try the i"
+    "preview": "Check the power switch on the right side. Press the rear battery plunger and read the battery percentage through the top slits. Try the inte"
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "Battery does not appear to charge",
-    "paragraph_sha256": "b60c4bcceb76084cf4d4f6b02170d149d2b593423cf94792c4cee2be04973e33",
+    "paragraph_sha256": "4e58f7ec8dcd205dd1767f2f21debaf7109868242cc6f41b0204ee3e2a797e13",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "Check the intended cable and external power connection without opening the computer. For the bag arrangement, check the rear/bottom seating "
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "Green light or chime, but no desktop",
-    "paragraph_sha256": "daabd70e3c55051dde1bba030ffce7242a1b4b2e74f05bee15d7af6820c04e87",
+    "paragraph_sha256": "87a590106221e33483679730706b516354c917960ea5c0c83942056d61132403",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "Allow approximately one to two minutes for startup, with some variation. A No Signal message and a moment of blank screen are normal at firs"
   },
@@ -2351,7 +2358,7 @@
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "Keyboard does not type",
-    "paragraph_sha256": "77a3ff1790dc0c7792766167eba512fbf119d4eded941b625b0769faaa4767d9",
+    "paragraph_sha256": "f99069ce2cc36eb5e6be3f57dee5fa06223a2ee2dc5534b0527e77da5ba4327f",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "If letters come out as capitals or the number keys type symbols, Caps Lock is down: press it again so it sits level with the other keys. Oth"
   },

@@ -44,14 +44,14 @@ The molded edges in the bottom foam locate the rear/bottom of the computer. The 
 ## Taking a closer look
 
 <!-- evidence: owner-current H01-controls; repo-verified D-HARDWARE D-SOFTWARE -->
-Before connecting anything, find the power control on the right side, the green status light at the front, and the chime-selector dial at the back. The Apple logo at the front is also a touch control. It is separate from the physical power switch.
+Before connecting anything, find the power switch on the right side, the green status light at the front, and the chime-selector dial at the back. The Apple logo at the front is also a touch control. It is separate from the physical power switch.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14 -->
 [ILLUSTRATION 1-3b|1-3b.png|The front: screen, Apple-logo touch control, and power indicator.]
 
 [ILLUSTRATION 1-3d|1-3d.png|The side volume control.]
 
-[ILLUSTRATION 1-3e|1-3e.png|The physical power button on the opposite side. This is separate from the Apple-logo touch control.]
+[ILLUSTRATION 1-3e|1-3e.png|The power switch on the opposite side. This is separate from the Apple-logo touch control.]
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
 The one USB port at the back is a USB-C port. A single device plugged straight into it needs a USB-C plug of its own or an adapter. For more than one device, or for older USB plugs, use the USB hub. The keyboard communicates over Bluetooth; the mouse uses a USB wireless receiver, which stays plugged in inside the case. A keyboard problem and a mouse problem therefore call for different checks.
@@ -160,7 +160,7 @@ Stop using it, too, if the screen starts to flicker. A flicker probably means th
 ## Starting up the computer
 
 <!-- evidence: owner-current H01-startup -->
-1. Find the physical power control on the right side and switch the PiForma on.
+1. Find the power switch on the right side and switch the PiForma on.
 2. Look for the green light at the front.
 3. Listen for a startup chime. Depending on the rear selector’s position, there may be no sound.
 4. Watch for the startup picture or sequence. The desktop normally follows in about one to two minutes; allow for some variation.
@@ -213,16 +213,17 @@ Take the power cable from the brown pouch. The original rear AC inlet supplies t
 
 ## Stopping the computer
 
+[SCREENSHOT 1-9|piforma-shutdown-menu.svg|Choose Shut Down from the Special menu after saving your work. This view shows the menu choice, not completed shutdown.]
+
 <!-- evidence: owner-current H01-shutdown OWNER-TALK-2026-10-20; repo-verified P-MENU P-POWER; editorial-advice -->
 1. Save your work and leave any game or application using its own quit command when available. If a full-screen program gives you no way out, hold the Apple logo for about six seconds instead.
 2. In the PiForma Panel menu bar, choose Special → Shut Down.
 3. If a confirmation appears, choose Shut Down. Let the operating system finish shutting down before removing physical power. A blank screen alone can also mean the display is asleep, so do not use darkness as the only confirmation.
-4. Once shutdown is complete, turn off the right-side physical power control. The green light at the front goes out. The wiring permits battery charging while this control is off.
+4. Once shutdown is complete, turn off the power switch on the right side. The green light at the front goes out. The wiring permits battery charging while the switch is off.
 
 Never skip that last step. Shut Down stops the software but leaves the power on, and the battery drains quickly until the green light goes out. That matters most in the bag, where you can’t see the light.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
-[SCREENSHOT 1-9|piforma-shutdown-menu.svg|Choose Special → Shut Down after saving your work. This view shows the menu choice, not completed shutdown.]
 
 <!-- evidence: owner-current H01-shutdown; editorial-advice -->
 The physical power switch can cut the computer’s power. Reserve an abrupt power-off for a last resort when the system will not respond, rather than treating it as the normal way to stop. It can lose unsaved work or damage files.
@@ -266,7 +267,7 @@ Lift and carry the closed bag carefully. The padding offers useful protection ag
 ## If the PiForma doesn’t start
 
 <!-- evidence: owner-current H01-troubleshooting; editorial-advice -->
-Most startup trouble comes down to the battery, so begin there. Then find the symptom that matches what you see and hear. Appendix B covers problems after startup.
+Most startup trouble comes down to the battery, so begin there. Then find the symptom that matches what you see and hear. Appendix B repeats these checks in brief and covers problems after startup.
 
 ### Checking the battery
 
@@ -277,14 +278,14 @@ The normal, management-approved way to read the battery is to press the rear bat
 
 [ILLUSTRATION 1-6a|1-6b.png|Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where to look.]
 
-Press the plunger as intended, look at the battery indication, and try the right-side power control again. If the battery is empty, apparently asleep, or refuses to start despite showing charge, connect the intended external power supply and try again.
+Press the plunger as intended, look at the battery indication, and try the power switch again. If the battery is empty, apparently asleep, or refuses to start despite showing charge, connect the intended external power supply and try again.
 
 The builder has sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief connection before taking anything apart, but do not count on one minute as a fixed recovery time. This is an observed oddity, not an established diagnosis.
 
 ### If there is no green light
 
 <!-- evidence: owner-current H01-troubleshooting -->
-If there is no green light, no chime, and no picture, start with the physical power control, battery indication, plunger, and intended power cable. Retry the startup sequence after the battery check or brief external-power connection. If they do not help, stop short of internal troubleshooting and consult the builder.
+If there is no green light, no chime, and no picture, start with the power switch, battery indication, plunger, and intended power cable. Retry the startup sequence after the battery check or brief external-power connection. If they do not help, stop short of internal troubleshooting and consult the builder.
 
 ### If the light is on but there is no chime
 
@@ -296,19 +297,17 @@ If it never sounds, there may be a problem with the chime module, its speaker, o
 ### If the light and chime work but the screen stays blank
 
 <!-- evidence: owner-current H01-troubleshooting OWNER-TALK-2026-10-20; repo-verified D-HARDWARE D-KNOWN -->
-No Signal and a moment of blank screen are normal at first. If the startup picture has not appeared after about 15 seconds, press the source selector at the back until the screen shows HDMI. A chime does not prove that the Pi has completed its boot.
-
-Do not disturb internal connections while the machine is powered; ask the builder to investigate a persistent blank, flickering or distorted picture.
+No Signal and a moment of blank screen are normal at first. If the startup picture has not appeared after about 15 seconds, press the source selector at the back until the screen shows HDMI. A chime does not prove that the Pi has completed its boot. If the picture stays blank, flickers or distorts, ask the builder rather than disturbing anything inside.
 
 ### If the desktop is slow to appear
 
 <!-- evidence: owner-current H01-troubleshooting -->
-Give the computer approximately one to two minutes to reach the desktop. Boot time can vary. If it remains at the startup picture or never reaches a usable desktop, record what you see rather than repeatedly interrupting power.
+Give the computer one to two minutes to reach the desktop. If it remains at the startup picture or never reaches a usable desktop, record what you see rather than repeatedly interrupting power.
 
 ### A closer look, strictly off the record
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14 OWNER-TALK-2026-10-20; editorial-advice -->
-For an optional open-top look, first make sure the vice president isn’t looking. Then shut down the PiForma, switch off physical power, and disconnect external power. Opening the compartment is for looking, not changing internal wiring.
+For an optional open-top look, first make sure the vice president isn’t looking. He was let go in 1985, but old habits die hard. Then shut down the PiForma, switch off physical power, and disconnect external power. Opening the compartment is for looking, not changing internal wiring.
 
 1. Slide the top latch toward the open-padlock mark: upward, as the illustration shows.
 2. With the latch unlocked, lift at the slider to open the upper compartment.
