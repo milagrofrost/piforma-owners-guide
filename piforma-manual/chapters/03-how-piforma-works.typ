@@ -16,7 +16,7 @@
 #para([#text("Click means press and release the left button once. A click selects an item or operates a button. Double-click means two quick clicks without moving the pointer between them; many file views use it to open an item. AtEase program buttons need only one click. Repeated clicking while a program starts can produce more windows than you intended.")])
 #para([#text("To drag, point at the object, hold the left button, move the mouse, then release. Drag a window by its title bar, rather than by its contents. Dragging a file may move or copy it, so practice with windows before rearranging your work.")])
 #para([#text("Roll the wheel to scroll through a longer page or list. Point over the area you want to scroll. Scroll bars provide another way to reach material outside a window's visible area.")])
-#para([#text("The right button may show a menu of actions for the item under the pointer. Its behavior depends on the program. This is the mysterious “second left click” in the illustration; it is a real right button, despite our best efforts. The Sync button is unnecessary for the normal one-receiver setup.")])
+#para([#text("The right button may show a menu of actions for the item under the pointer. Its behavior depends on the program. This is the mysterious “second left click” in the Chapter 1 illustration; it is a real right button, despite our best efforts. The Sync button is unnecessary with the mouse’s one USB wireless receiver.")])
 #heading(level:2,"Using the keyboard")
 #para([#text("Switch the keyboard on at its right-hand edge. It uses Bluetooth, independently of the mouse's USB wireless receiver. First click in the window or text field where you want to type. The insertion point marks where new text will go; moving the mouse pointer alone does not move it.")])
 #para([#text("Use the letter, number and punctuation keys to enter text. Hold Shift while typing a letter for a capital or a key's shifted symbol. Return commonly ends a paragraph in a document; in a dialog it may accept the current choice, so read the dialog first. Use the arrow keys to move through text where the program supports them.")])
@@ -30,7 +30,7 @@
 #launcher-detail()
 ])
 #annotated("Show Desktop",none,[
-#para([#text("If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This reveals the desktop without quitting the programs. You can then select another AtEase button. If the launcher is absent rather than covered, see Appendix B.")])
+#para([#text("If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This minimizes your programs into the Control Strip without quitting them. You can then select another AtEase button. If the launcher is absent rather than covered, see Appendix B.")])
 #screen-figure("3-1","piforma-show-desktop.svg","View → Show Desktop returns you to the launcher without quitting the open applications.",width:242pt)
 ])
 #heading(level:2,"Working with application windows")
@@ -61,7 +61,7 @@
 #para([#text("Save periodically and before quitting or shutting down. A failed save, an error message or a dialog still waiting for an answer means you should check the result before closing. Where practical, reopen an important file to verify it. Do not assume an automatic save exists merely because no one has asked you to save yet.")])
 #block(breakable:false,sticky:true)[
 #heading(level:2,"The menu bar and Control Strip")
-#para([#text("Apple menu → About This PiForma opens system information. View → Show Desktop reveals the desktop. Special → Shut Down requests an operating-system shutdown; Special → Sleep Display only blanks or sleeps the display. A sleeping screen is not a stopped computer.")])
+#para([#text("Apple menu → About This PiForma opens system information. View → Show Desktop minimizes your programs into the Control Strip and reveals the desktop. Special → Shut Down requests an operating-system shutdown; Special → Sleep Display only blanks or sleeps the display. A sleeping screen is not a stopped computer.")])
 #para([#text("The Control Strip sits at the bottom-left in the documented desktop arrangement. Click a configured program's pane to launch it when closed or return to its detected windows when open. Some running programs appear as temporary panes. Use the ordinary pane action; window-list details can differ between versions.")])
 ]
 #screen-figure("3-4","piforma-control-strip.svg","The Control Strip at lower left, with a window popup visible above it. The rest of the desktop is omitted so the strip can be read clearly.",width:176pt)

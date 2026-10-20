@@ -11,9 +11,8 @@ Set the carrying bag upright on a stable surface. Open the clasp, take it out of
 <!-- evidence: owner-current H01-unpacking -->
 1. Remove the small brown accessory pouch near the top. It contains two Nintendo 64 controllers, the USB hub, and the power cable. Set the pouch and its contents aside.
 2. Take out the mouse and the collapsible computer stand beneath the pouch.
-3. Remove this printed guide. If you are reading it, you have already done this step. Well done.
-4. Lift out the mouse pad beneath the guide.
-5. Remove the velvet-covered foam board beneath the mouse pad. Keep it flat; it protects the computer when everything is packed.
+3. Lift out the mouse pad beneath them.
+4. Remove the velvet-covered foam board beneath the mouse pad. Keep it flat; it protects the computer when everything is packed.
 
 <!-- evidence: owner-current H01-unpacking OWNER-TALK-2026-10-19 -->
 The PiForma is underneath the board, with its monitor/screen facing upward. The keyboard is tucked against one side of the computer. It is not another layer in the stack. Note which way it faces, as described under “The keyboard’s place” below, and lift the keyboard out first, before the computer.
@@ -119,7 +118,7 @@ Caps Lock deserves a warning. It is a vintage locking key, and on the PiForma it
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14 -->
 Use the left button for an ordinary click and the wheel for scrolling. The other button is the right button, although the illustration is maintaining a respectable air of mystery. Perhaps it is a second left click. We have never heard of a right click.
 
-The Sync button is not needed in the normal setup: this mouse is used with its one receiver. Leave it alone for ordinary use.
+The Sync button is not needed in the normal setup: this mouse is used with its one USB wireless receiver. Leave it alone for ordinary use.
 
 [ILLUSTRATION 1-4c|1-4c.png|The mouse buttons, scroll wheel, and Sync button. The second button is awaiting official recognition.]
 
@@ -241,8 +240,8 @@ To leave a full-screen program rather than stop the computer, see “Leaving a f
 3. Gently shift or wiggle it into its intended resting place. It should not move much when seated. Do not force it down or put pressure on the display.
 4. Switch the keyboard off and check that Caps Lock is up. Put it beside the computer: keys toward the bag wall, thicker edge toward the rear, thinner edge toward the front.
 5. Place the velvet-covered foam board above the computer.
-6. Put the mouse pad above the board, then this guide above the pad.
-7. Put the mouse and collapsible stand above the guide.
+6. Put the mouse pad above the board.
+7. Put the mouse and collapsible stand above the pad.
 8. Return the two controllers, hub, and power cable to the brown pouch and place that pouch at the top. Check that no loose item presses against the screen and close the bag gently.
 
 ### Charging in the bag

@@ -18,7 +18,7 @@
 #pagebreak()
 #wide-illustration("1-4b","1-4b.png","Keyboard controls. The USB port and power-switch callouts indicate their general location, not a directly visible socket or switch.",width:366pt)
 #pagebreak()
-#wide-illustration("1-4c","1-4c.png","The mouse buttons, scroll wheel, and Sync button. The second button is awaiting official recognition.",width:179.118pt)
+#wide-illustration("1-4c","1-4c.png","The mouse buttons, scroll wheel, and Sync button. The second button is awaiting official recognition.",width:154.693pt)
 #pagebreak()
 #wide-illustration("1-4d","1-4d.png","Mouse underside: battery compartment, power switch, and optical tracking sensor.",width:200.723pt)
 #pagebreak()

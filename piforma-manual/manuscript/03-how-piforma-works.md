@@ -34,7 +34,7 @@ To drag, point at the object, hold the left button, move the mouse, then release
 
 Roll the wheel to scroll through a longer page or list. Point over the area you want to scroll. Scroll bars provide another way to reach material outside a window's visible area.
 
-The right button may show a menu of actions for the item under the pointer. Its behavior depends on the program. This is the mysterious “second left click” in the illustration; it is a real right button, despite our best efforts. The Sync button is unnecessary for the normal one-receiver setup.
+The right button may show a menu of actions for the item under the pointer. Its behavior depends on the program. This is the mysterious “second left click” in the Chapter 1 illustration; it is a real right button, despite our best efforts. The Sync button is unnecessary with the mouse’s one USB wireless receiver.
 
 ## Using the keyboard
 
@@ -54,7 +54,7 @@ The vintage key legends do not establish a modern shortcut map. Follow commands 
 <!-- evidence: repo-verified A-APP D-ATEASE; owner-current OWNER-TALK-2026-10-19 -->
 AtEase has two folder tabs. At Ease Items holds the programs; sites holds a selection of websites the builder finds interesting, a collection still being tidied. Each tab shows only what fits in its window; there is no second page yet. Click a tab to switch between them, then click a button once. Allow time for the program to open. A launcher button starts a program; it is not the document you may later create inside it.
 
-If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This reveals the desktop without quitting the programs. You can then select another AtEase button. If the launcher is absent rather than covered, see Appendix B.
+If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This minimizes your programs into the Control Strip without quitting them. You can then select another AtEase button. If the launcher is absent rather than covered, see Appendix B.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 [SCREENSHOT 3-1|piforma-show-desktop.svg|View → Show Desktop returns you to the launcher without quitting the open applications.]
@@ -116,7 +116,7 @@ Save periodically and before quitting or shutting down. A failed save, an error 
 ## The menu bar and Control Strip
 
 <!-- evidence: repo-verified P-MENU P-ACTIONS C-README C-MAIN -->
-Apple menu → About This PiForma opens system information. View → Show Desktop reveals the desktop. Special → Shut Down requests an operating-system shutdown; Special → Sleep Display only blanks or sleeps the display. A sleeping screen is not a stopped computer.
+Apple menu → About This PiForma opens system information. View → Show Desktop minimizes your programs into the Control Strip and reveals the desktop. Special → Shut Down requests an operating-system shutdown; Special → Sleep Display only blanks or sleeps the display. A sleeping screen is not a stopped computer.
 
 The Control Strip sits at the bottom-left in the documented desktop arrangement. Click a configured program's pane to launch it when closed or return to its detected windows when open. Some running programs appear as temporary panes. Use the ordinary pane action; window-list details can differ between versions.
 

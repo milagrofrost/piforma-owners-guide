@@ -46,7 +46,7 @@
     },
     "1-4c.png": {
       "max_width_pt": 300,
-      "max_height_pt": 220,
+      "max_height_pt": 190,
       "kind": "labeled-drawing"
     },
     "1-4d.png": {
@@ -200,6 +200,10 @@
     {
       "start": "The nice!view display, above the number keys",
       "end": "niceview-labeled.png"
+    },
+    {
+      "start": "#subhead(\"The keyboard controls\")",
+      "end": "\"1-4b.png\""
     }
   ],
   "compositions": {

@@ -11,7 +11,7 @@ def check(name,ok):
     assert ok,name
 def in_order(text,needles):
     positions=[text.index(s) for s in needles];return positions==sorted(positions)
-check('Exact removal sequence',in_order(unpack,['1. Remove the small brown accessory pouch','2. Take out the mouse and the collapsible','3. Remove this printed guide','4. Lift out the mouse pad','5. Remove the velvet-covered foam board']))
+check('Exact removal sequence',in_order(unpack,['1. Remove the small brown accessory pouch','2. Take out the mouse and the collapsible','3. Lift out the mouse pad','4. Remove the velvet-covered foam board']))
 check('Pouch inventory',all(s in unpack for s in ['two Nintendo 64 controllers','USB hub','power cable']))
 check('Side keyboard and three orientations',all(s in unpack for s in ['not another layer','keys face the bag wall','thicker edge faces the rear','thinner edge faces the front']))
 check('Handle access and alternate removal',all(s in unpack for s in ['inside front wall','top side of the PiForma','handle outward','lay the bag on its back']))
@@ -29,7 +29,7 @@ check('Expected chapter headings',all((P/'manuscript'/name).exists() for name in
 check('Normal battery check uses rear plunger and slits',all(s in chapter for s in ['press the rear battery plunger','peer through the slits','do not have to open the compartment']))
 opening=chapter.split('### A closer look, strictly off the record',1)[1].split('### If there is no green light',1)[0]
 check('Unlock before lifting; close before locking',in_order(opening,['1. Slide the top latch toward the open-padlock','2. With the latch unlocked, lift at the slider','3. Close the compartment before sliding the latch']))
-check('New setup details preserved',all(s in chapter for s in ['Seat the support leg in its final position','port and switch themselves are not visible from above','one receiver','Eye Correction Laser','Forbidden Latch']))
+check('New setup details preserved',all(s in chapter for s in ['Seat the support leg in its final position','port and switch themselves are not visible from above','one USB wireless receiver','Eye Correction Laser','Forbidden Latch']))
 software=(P/'manuscript/03-how-piforma-works.md').read_text(encoding='utf-8')
 troubleshooting=(P/'manuscript/07-troubleshooting.md').read_text(encoding='utf-8')
 publication='\n'.join(f.read_text(encoding='utf-8') for f in (P/'manuscript').glob('*.md'))

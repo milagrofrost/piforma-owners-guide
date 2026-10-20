@@ -30,7 +30,7 @@ Use the intended external supply. A full-looking battery may still need the plun
 <!-- evidence: owner-current H03-care H01-packing; editorial-advice -->
 Put the folding stand on a solid flat table, open it securely, and center the PiForma. The stand may permit some side-to-side motion, so keep it away from bumps and do not use it on an unstable surface.
 
-Pack in the exact order in Chapter 1. Seat the computer in the bottom foam indents, orient the keyboard correctly, and replace the protective board before the pad, guide, mouse/stand, and pouch. Fasten the clasp as Chapter 1 shows. The bag’s padding helps; it does not justify dropping it.
+Pack in the exact order in Chapter 1. Seat the computer in the bottom foam indents, orient the keyboard correctly, and replace the protective board before the pad, mouse/stand, and pouch. Fasten the clasp as Chapter 1 shows. The bag’s padding helps; it does not justify dropping it.
 
 ## Bose speakers and stands
 

@@ -30,7 +30,7 @@
 ]
 #block(breakable:false)[
 #heading(level:2,"A website or network service will not open")
-#para([#text("Try another known page or service. Check the Wi-Fi status icon at the far right of the menu bar; its menu can take 20 or 30 seconds to open. If another device on that network also fails, the problem may be outside the PiForma. Bluetooth and the mouse receiver do not establish Wi-Fi access. Keep error wording; ask for the installed reconnect procedure if needed.")])
+#para([#text("Try another known page or service. Check the Wi-Fi status icon at the far right of the menu bar; its menu can take 20 or 30 seconds to open. If another device on that network also fails, the problem may be outside the PiForma. Bluetooth and the mouse’s USB wireless receiver do not establish Wi-Fi access. Keep error wording; ask for the installed reconnect procedure if needed.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"A program will not respond")

@@ -85,7 +85,7 @@ The keyboard uses Bluetooth LE and the mouse uses its USB wireless receiver, whi
 ## The converted Apple keyboard
 
 <!-- evidence: repo-verified D-HARDWARE D-BOM; historic-record H03 -->
-The vintage Apple keyboard has been converted to Bluetooth LE using Matt Chesters’ keyboard-conversion project. It has its own battery, a nice!view display, a volume dial on its left-hand edge, and a power switch and USB-C charging port on its right-hand edge. It communicates separately from the mouse receiver. Appendix A and the credits identify the conversion and its source.
+The vintage Apple keyboard has been converted to Bluetooth LE using Matt Chesters’ keyboard-conversion project. It has its own battery, a nice!view display, a volume dial on its left-hand edge, and a power switch and USB-C charging port on its right-hand edge. It communicates separately from the mouse’s USB wireless receiver. Appendix A and the credits identify the conversion and its source.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
 The keyboard has been painted, not retrobrighted. Old Apple keyboards yellow with age. Today they are often bleached back to their original color, a process called retrobrighting, but in the old days the fix was a coat of paint in the nearest matching color. That is the source of the slight orange-peel texture you can feel on the case.
@@ -97,7 +97,7 @@ The nice!view display, above the number keys, shows four things. The battery lev
 
 The keyboard’s small 100 mAh battery lasts a couple of weeks of being switched on with light use. When the battery level runs low, charge it from the USB-C port on the right-hand edge.
 
-Pressing the display itself changes the Bluetooth profile, one step per press. Leave it alone: there is no reason to press it unless you want the keyboard to talk to a different device, and it should stay on profile 2 for the PiForma. The 3D-printed key around the display is a little too wide for its opening, so it tends to stick down when pressed. If it does, wedge it back up.
+Pressing down on the display changes the Bluetooth profile, one step per press; press on its plastic surround rather than the screen. Leave it alone: there is no reason to press it unless you want the keyboard to talk to a different device, and it should stay on profile 2 for the PiForma. The 3D-printed key around the display is a little too wide for its opening, so it tends to stick down when pressed. If it does, wedge it back up.
 
 ## The matching mouse
 

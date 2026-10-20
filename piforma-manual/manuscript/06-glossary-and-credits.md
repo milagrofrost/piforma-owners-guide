@@ -95,7 +95,7 @@ An accessory that provides several USB connections from one computer port.
 
 ## Wi-Fi
 
-The wireless network connection, managed by the operating system’s network tools. Bluetooth and the mouse receiver do not provide it.
+The wireless network connection, managed by the operating system’s network tools. Bluetooth and the mouse’s USB wireless receiver do not provide it.
 
 # Credits and acknowledgments
 

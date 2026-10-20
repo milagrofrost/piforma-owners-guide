@@ -120,19 +120,13 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "Unpacking the equipment",
     "evidence": "owner-current H01-unpacking",
-    "preview": "3. Remove this printed guide. If you are reading it, you have already done this step. Well done."
+    "preview": "3. Lift out the mouse pad beneath them."
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Unpacking the equipment",
     "evidence": "owner-current H01-unpacking",
-    "preview": "4. Lift out the mouse pad beneath the guide."
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "Unpacking the equipment",
-    "evidence": "owner-current H01-unpacking",
-    "preview": "5. Remove the velvet-covered foam board beneath the mouse pad. Keep it flat; it protects the computer when everything is packed."
+    "preview": "4. Remove the velvet-covered foam board beneath the mouse pad. Keep it flat; it protects the computer when everything is packed."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -385,9 +379,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The mouse controls",
-    "paragraph_sha256": "0de8d32b1911b1a4941384b2f4d24d92f000074bb467828ea944226918ef184a",
+    "paragraph_sha256": "c8c279959aa124f014ebebf79025c2445ace2199613ea0d2eae6ee23531a2490",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "The Sync button is not needed in the normal setup: this mouse is used with its one receiver. Leave it alone for ordinary use."
+    "preview": "The Sync button is not needed in the normal setup: this mouse is used with its one USB wireless receiver. Leave it alone for ordinary use."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -718,13 +712,13 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "Packing the equipment",
     "evidence": "owner-current H01-packing OWNER-TALK-2026-10-20",
-    "preview": "6. Put the mouse pad above the board, then this guide above the pad."
+    "preview": "6. Put the mouse pad above the board."
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Packing the equipment",
     "evidence": "owner-current H01-packing OWNER-TALK-2026-10-20",
-    "preview": "7. Put the mouse and collapsible stand above the guide."
+    "preview": "7. Put the mouse and collapsible stand above the pad."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -1101,7 +1095,7 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The converted Apple keyboard",
-    "paragraph_sha256": "fa74f37a65fd8fb0e676e34a02d0a28baa38abe81e3ea1bce655c5e3d64248bd",
+    "paragraph_sha256": "3f62486bf2acd14cdd4fb2458c3164d4b233248c466bda2171381a1333d24c79",
     "evidence": "repo-verified D-HARDWARE D-BOM; historic-record H03",
     "preview": "The vintage Apple keyboard has been converted to Bluetooth LE using Matt Chesters’ keyboard-conversion project. It has its own battery, a ni"
   },
@@ -1136,9 +1130,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The converted Apple keyboard",
-    "paragraph_sha256": "2b9ae912f395a7f129bb3f62c797a2b90a05189ed2e8350d9c37c0011c0c52d9",
+    "paragraph_sha256": "c2e6f652696dd7738f9f80aa6ea8bfeeb2cb8ced98e2916cfcc57c52ce602912",
     "evidence": "owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20",
-    "preview": "Pressing the display itself changes the Bluetooth profile, one step per press. Leave it alone: there is no reason to press it unless you wan"
+    "preview": "Pressing down on the display changes the Bluetooth profile, one step per press; press on its plastic surround rather than the screen. Leave "
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1248,7 +1242,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Using the mouse",
-    "paragraph_sha256": "e755919d01fca89eec440b10467af8ab15d2bf27655b90bbb0c959d17c2a62b1",
+    "paragraph_sha256": "43289d2fc0a60902c6d7d8bed5d64b69cf9a2e4734b94e843ac6cf674ca96401",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
     "preview": "The right button may show a menu of actions for the item under the pointer. Its behavior depends on the program. This is the mysterious “sec"
   },
@@ -1297,9 +1291,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Opening programs with AtEase",
-    "paragraph_sha256": "3603ce7c9d3d6df22b3727e494b6f8da9cdb913fce2d7266edb5a6733885a206",
+    "paragraph_sha256": "2a354c2f0d5118783a936e7e79cc4984de1eee49fd359cb2b658c37ab9c0c3a9",
     "evidence": "repo-verified A-APP D-ATEASE; owner-current OWNER-TALK-2026-10-19",
-    "preview": "If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This reveals the desktop without quitting the prog"
+    "preview": "If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This minimizes your programs into the Control Stri"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1453,9 +1447,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "The menu bar and Control Strip",
-    "paragraph_sha256": "f550f15405cfa4f6fac091bd8c1e641598b92777a1b7f75870dba3e3d810bfbc",
+    "paragraph_sha256": "d5e24e99ebd21c0f44adbc62c11023716eb7fbaacc3530d0b0d0ac130511943c",
     "evidence": "repo-verified P-MENU P-ACTIONS C-README C-MAIN",
-    "preview": "Apple menu → About This PiForma opens system information. View → Show Desktop reveals the desktop. Special → Shut Down requests an operating"
+    "preview": "Apple menu → About This PiForma opens system information. View → Show Desktop minimizes your programs into the Control Strip and reveals the"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1810,7 +1804,7 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Stand, bag and transport",
-    "paragraph_sha256": "dbcafa840ef09f5753142b3c95180a096d6d99c6dad93d95624f7ed2aa0fd527",
+    "paragraph_sha256": "09becc4c1841801fbf45fa835f5b6ea715f98109b0d40f6c8d93476df6862c49",
     "evidence": "owner-current H03-care H01-packing; editorial-advice",
     "preview": "Pack in the exact order in Chapter 1. Seat the computer in the bottom foam indents, orient the keyboard correctly, and replace the protectiv"
   },
@@ -2196,9 +2190,9 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Wi-Fi",
-    "paragraph_sha256": "73d17e39d45a2dfd1ac34a0c2e8dcc7e6acd3a77f9b45807738e6a3643879388",
+    "paragraph_sha256": "136f969e84db724fb36cab0799a903a8e737e3ac017176fb5efebcb851d2b494",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
-    "preview": "The wireless network connection, managed by the operating system’s network tools. Bluetooth and the mouse receiver do not provide it."
+    "preview": "The wireless network connection, managed by the operating system’s network tools. Bluetooth and the mouse’s USB wireless receiver do not pro"
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -2357,7 +2351,7 @@
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "A website or network service will not open",
-    "paragraph_sha256": "99547418d097fff49f9fbe422de5443f216767703b4720266f88d85e3b6e6c71",
+    "paragraph_sha256": "2e30f32283dad0ca2cbe7bb0d81d41750cd2b15d2085343c1d51e9bd2e48cf8c",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "Try another known page or service. Check the Wi-Fi status icon at the far right of the menu bar; its menu can take 20 or 30 seconds to open."
   },

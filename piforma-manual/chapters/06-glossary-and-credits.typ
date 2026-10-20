@@ -25,7 +25,7 @@
 #glossary-entry("Save state",[#text("An emulator’s snapshot of a game in progress. It is a different facility from the game’s own save.")])
 #glossary-entry("Screen saver",[#text("An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own when the computer is idle. Hold the Apple logo for about six seconds to stop it.")])
 #glossary-entry("USB hub",[#text("An accessory that provides several USB connections from one computer port.")])
-#glossary-entry("Wi-Fi",[#text("The wireless network connection, managed by the operating system’s network tools. Bluetooth and the mouse receiver do not provide it.")])
+#glossary-entry("Wi-Fi",[#text("The wireless network connection, managed by the operating system’s network tools. Bluetooth and the mouse’s USB wireless receiver do not provide it.")])
 #pagebreak(to: "odd")
 #current-title.update("Credits and acknowledgments")
 #heading(level:1,"Credits and acknowledgments")

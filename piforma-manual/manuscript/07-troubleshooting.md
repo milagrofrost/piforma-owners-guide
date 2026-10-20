@@ -31,7 +31,7 @@ For a missing startup chime, remember that some rear selector positions are sile
 
 ## A website or network service will not open
 
-Try another known page or service. Check the Wi-Fi status icon at the far right of the menu bar; its menu can take 20 or 30 seconds to open. If another device on that network also fails, the problem may be outside the PiForma. Bluetooth and the mouse receiver do not establish Wi-Fi access. Keep error wording; ask for the installed reconnect procedure if needed.
+Try another known page or service. Check the Wi-Fi status icon at the far right of the menu bar; its menu can take 20 or 30 seconds to open. If another device on that network also fails, the problem may be outside the PiForma. Bluetooth and the mouse’s USB wireless receiver do not establish Wi-Fi access. Keep error wording; ask for the installed reconnect procedure if needed.
 
 ## A program will not respond
 

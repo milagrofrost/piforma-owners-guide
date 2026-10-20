@@ -7,9 +7,8 @@
 #para([#text("Set the carrying bag upright on a stable surface. Open the clasp, take it out of the strap loop, and pull the loop back out through the grommets; “Closing the bag,” near the end of this chapter, shows the clasp. Leave room nearby for each item as you take it out.")])
 #instruction(1,[#strong[#text("Remove the small brown accessory pouch near the top.")] #text("It contains two Nintendo 64 controllers, the USB hub, and the power cable. Set the pouch and its contents aside.")])
 #instruction(2,[#strong[#text("Take out the mouse and the collapsible computer stand beneath the pouch.")]])
-#instruction(3,[#strong[#text("Remove this printed guide.")] #text("If you are reading it, you have already done this step. Well done.")])
-#instruction(4,[#strong[#text("Lift out the mouse pad beneath the guide.")]])
-#instruction(5,[#strong[#text("Remove the velvet-covered foam board beneath the mouse pad.")] #text("Keep it flat; it protects the computer when everything is packed.")])
+#instruction(3,[#strong[#text("Lift out the mouse pad beneath them.")]])
+#instruction(4,[#strong[#text("Remove the velvet-covered foam board beneath the mouse pad.")] #text("Keep it flat; it protects the computer when everything is packed.")])
 #para([#text("The PiForma is underneath the board, with its monitor/screen facing upward. The keyboard is tucked against one side of the computer. It is not another layer in the stack. Note which way it faces, as described under “The keyboard’s place” below, and lift the keyboard out first, before the computer.")])
 #para([#text("Lift the PiForma by its handle and case. Do not push on the screen: pressing on the display can damage the screen or its mounts.")])
 #illustration-plate("1-1", "bag-arrangement.png", "Arrangement in the carrying bag.", width:320.000pt)
@@ -50,8 +49,10 @@
 #para([#text("Center the PiForma exactly: not to the left, not to the right, but in the middle of the stand as you set it down. Seen from the side, it should rest on the stand as in the second photograph.")])
 #wide-illustration("1-4e", "stand-centered.png", "Lower the PiForma straight down onto the middle of the stand.", width:180.000pt)
 #wide-illustration("1-4f", "stand-profile.png", "Seen from the side: the PiForma resting on its stand.", width:242.000pt)
+#block(breakable:false,sticky:true)[
 #subhead("The keyboard controls")
 #para([#text("The overhead view identifies the keyboard's volume dial, on the left, and its nice!view status display. The power switch and USB-C charging port are on the right-hand edge, where the keyboard’s ADB port used to be. Their labels in the overhead view show only the general location, because the port and switch themselves are not visible from above; the close-up of the right edge shows them. Charge the keyboard from that USB-C port.")])
+]
 #wide-illustration("1-4b", "1-4b.png", "Keyboard controls. The USB port and power-switch callouts indicate their general location, not a directly visible socket or switch.", width:366.000pt)
 #wide-illustration("1-4g", "keyboard-switch-usbc.png", "The keyboard’s right-hand edge: power switch and USB-C charging port.", width:242.000pt)
 #para([#text("The volume dial on the keyboard does the same job as the knob on the side of the PiForma. There are two so that you can change the volume during a console game with the keyboard packed away, or reach the nearer one when the keyboard is in front of you. The nice!view display shows the keyboard’s battery level and connection; Chapter 2 explains it. You don’t need to press it.")])
@@ -59,9 +60,9 @@
 #block(breakable:false,sticky:true)[
 #subhead("The mouse controls")
 #para([#text("Use the left button for an ordinary click and the wheel for scrolling. The other button is the right button, although the illustration is maintaining a respectable air of mystery. Perhaps it is a second left click. We have never heard of a right click.")])
-#para([#text("The Sync button is not needed in the normal setup: this mouse is used with its one receiver. Leave it alone for ordinary use.")])
+#para([#text("The Sync button is not needed in the normal setup: this mouse is used with its one USB wireless receiver. Leave it alone for ordinary use.")])
 ]
-#wide-illustration("1-4c", "1-4c.png", "The mouse buttons, scroll wheel, and Sync button. The second button is awaiting official recognition.", width:179.118pt)
+#wide-illustration("1-4c", "1-4c.png", "The mouse buttons, scroll wheel, and Sync button. The second button is awaiting official recognition.", width:154.693pt)
 #block(breakable:false,sticky:true)[
 #para([#text("Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery; it is not recharged. The illustration calls that last item the Eye Correction Laser. Its job is to follow the mouse pad, not improve your eyesight. Keep it pointed at the desk; no eye treatments are included.")])
 ]
@@ -122,8 +123,8 @@
 #instruction(3,[#strong[#text("Gently shift or wiggle it into its intended resting place.")] #text("It should not move much when seated. Do not force it down or put pressure on the display.")])
 #instruction(4,[#strong[#text("Switch the keyboard off and check that Caps Lock is up.")] #text("Put it beside the computer: keys toward the bag wall, thicker edge toward the rear, thinner edge toward the front.")])
 #instruction(5,[#strong[#text("Place the velvet-covered foam board above the computer.")]])
-#instruction(6,[#strong[#text("Put the mouse pad above the board, then this guide above the pad.")]])
-#instruction(7,[#strong[#text("Put the mouse and collapsible stand above the guide.")]])
+#instruction(6,[#strong[#text("Put the mouse pad above the board.")]])
+#instruction(7,[#strong[#text("Put the mouse and collapsible stand above the pad.")]])
 #instruction(8,[#strong[#text("Return the two controllers, hub, and power cable to the brown pouch and place that pouch at the top.")] #text("Check that no loose item presses against the screen and close the bag gently.")])
 #subhead("Charging in the bag")
 #para([#text("Seating the rear/bottom in the molded foam indents aligns the bag’s wireless-charging arrangement. A hidden transmitter sits under the velvet, and its USB cord comes out of the small pocket on the back of the bag. To charge in the bag, plug that cord into a USB charger. This is a slow, trickle-charging arrangement, not fast charging.")])
