@@ -1,6 +1,8 @@
-# Update — October 20, 2026 (audio switch done)
+# Update — October 20, 2026 (facing art pages)
 
-The guide is 76 pages. **The must-do audio switch exists:** the Wi-Fi status menu now ends with Sound Options, which opens a control panel for choosing the sound output (don't name the program; the owner prefers "a control panel"). Clicking the network name opens a wireless network manager that scans for a few seconds. Chapter 3 shows both (`status-menu.png` replaces `wifi-menu.png`; `wifi-manager.png` is new) and adds "Choosing where sound goes"; Chapter 1's Bose section, Appendix B and the glossary (new Sound Options entry, shorter Wi-Fi and PiForma Guide entries so the glossary keeps to two pages) follow it. The only open items left are the Credits "tall tale" line, facing art pages, rail definitions and the Index, which stays the very last step.
+The guide is 78 pages. **Facing art pages:** Chapters 1–3 open opposite a full-width black-and-white photograph on the left-hand page: Chapter 1 the glamor shot (`art-glamor.jpg`), Chapter 2 the outdoor chassis (`art-chassis.jpg`), Chapter 3 the workbench build (`art-workbench.jpg`). `chapter()` in `styles/book.typ` takes `art:` and calls `art-page()`; `main.typ` and `first-chapter.typ` set it. Chapter 4 has no art yet. Full-size B&W masters are in the project folder under `guide/art/`.
+
+**The must-do audio switch exists:** the Wi-Fi status menu now ends with Sound Options, which opens a control panel for choosing the sound output (don't name the program; the owner prefers "a control panel"). Clicking the network name opens a wireless network manager that scans for a few seconds. Chapter 3 shows both (`status-menu.png` replaces `wifi-menu.png`; `wifi-manager.png` is new) and adds "Choosing where sound goes"; Chapter 1's Bose section, Appendix B and the glossary (new Sound Options entry, shorter Wi-Fi and PiForma Guide entries so the glossary keeps to two pages) follow it. The only open items left are the Credits "tall tale" line, rail definitions and the Index, which stays the very last step.
 
 # Update — October 20, 2026 (plain-English pass)
 

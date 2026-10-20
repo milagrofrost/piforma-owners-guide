@@ -217,7 +217,14 @@
   #place(top+left,dx:-53pt,block(width:48pt,text(size:8.5pt,weight:"bold")[Verify]))
   #para(text(size:8.5pt)[#copy])
 ]
-#let chapter(n,title,body) = {
+// A black-and-white photograph bleeds across the left-hand page that faces
+// a chapter opening, the way the old Apple guides gave each chapter a plate.
+#let art-page(file) = {
+  pagebreak(to:"even")
+  place(top+left,dx:-152pt,dy:60pt,image("../assets/illustrations/"+file,width:432pt))
+}
+#let chapter(n,title,body,art:none) = {
+  if art != none { art-page(art) }
   pagebreak(to:"odd")
   if n == 1 { counter(page).update(1) }
   phase.update("body")

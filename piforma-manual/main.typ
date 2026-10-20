@@ -12,9 +12,9 @@
   #include "chapters/00-front-matter.typ"
 ])
 #set page(numbering:"1")
-#chapter(1,"Getting Started",[#include "chapters/01-getting-started.typ"])
-#chapter(2,"Inside the Macintosh PiForma",[#include "chapters/02-inside-piforma.typ"])
-#chapter(3,"How the Macintosh PiForma Works",[#include "chapters/03-how-piforma-works.typ"])
+#chapter(1,"Getting Started",[#include "chapters/01-getting-started.typ"],art:"art-glamor.jpg")
+#chapter(2,"Inside the Macintosh PiForma",[#include "chapters/02-inside-piforma.typ"],art:"art-chassis.jpg")
+#chapter(3,"How the Macintosh PiForma Works",[#include "chapters/03-how-piforma-works.typ"],art:"art-workbench.jpg")
 #chapter(4,"Caring for Your Macintosh PiForma",[#include "chapters/04-caring-for-piforma.typ"])
 #end-section("Appendix A: Technical Information",[#include "chapters/05-technical-information.typ"])
 #end-section("Appendix B: When Something Goes Wrong",[#include "chapters/07-troubleshooting.typ"])
