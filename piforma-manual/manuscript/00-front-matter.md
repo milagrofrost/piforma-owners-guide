@@ -8,7 +8,7 @@ This little computer began in the basement of Apple headquarters, which is remar
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The work went on under the nose of the vice president of the day, a man with firm opinions about customers opening their computers. In short, they shouldn’t. The engineer was in no hurry to show him a Macintosh with easy access to its insides, running open-source software and other people’s good ideas.
 
-Then, in 1985, the vice president was let go, and the mood changed. The CEO turned out to be rather more open-minded about unconventional ideas than anyone had expected, and saw in the PiForma an experiment in something nobody had a name for yet: a Macintosh clone, built from someone else’s parts. Clones would not officially arrive for another ten years; this one simply got there first. The project came up out of the basement, and the PiForma was given the green light. Management has learned to live with the latch.
+Then, in 1985, the vice president was let go, and the mood changed. The CEO turned out to be rather more open-minded about unconventional ideas than anyone had expected, and saw in the PiForma an experiment in something nobody had a name for yet: a Macintosh clone, built from someone else’s parts. Clones would not officially arrive for another ten years; this one simply got there first. The project came up out of the basement, and the PiForma was given the green light.
 
 Only one PiForma was ever made, and this is it. Its story is almost entirely unknown; you may be the first person ever to read it.
 
