@@ -13,7 +13,15 @@ The desktop picture in Chapter 1 shows these parts together. The launcher has At
 
 Choose a menu by clicking its name, then click the command you want. An unavailable command may be dimmed. Read a dialog before answering: it may ask where to save a file, whether to discard changes, or whether to stop the computer.
 
-The Macintosh appearance does not make every classic Macintosh command applicable. Use the commands shown by the running program. Its menus and the desktop's top menu bar can have different jobs.
+### Two menu bars, two different jobs
+
+<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF OWNER-TALK-2026-10-20 -->
+Here the PiForma parts company with a real Macintosh. On a Macintosh, the menu bar at the top of the screen belongs to whichever program is in front, and its menus change when you switch programs. **On the PiForma, the menu bar at the top never changes.** It is a system menu bar, and its commands are the same whichever program you are using.
+
+Each program keeps its own menus inside its own window. For document work, use that program's own File → Save, Edit → Copy, Edit → Paste, and other available commands. The top File menu and a document window's File menu have different jobs, so be sure you are opening the one you mean. The Macintosh appearance does not make every classic Macintosh command applicable; use the commands the running program shows.
+
+<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
+[SCREENSHOT 3-2|piforma-application-menus.svg|The persistent system menu bar remains above the document window. Use the application's own File menu for Save and its other document commands. The themed window's close control is at upper left; minimize and maximize are at upper right.]
 
 ## Using the mouse
 
@@ -31,7 +39,7 @@ The right button may show a menu of actions for the item under the pointer. Its 
 ## Using the keyboard
 
 <!-- evidence: owner-current H01-keyboard OWNER-IMAGES-2026-10-14; editorial-advice -->
-Switch the keyboard on at its upper-right edge. It uses Bluetooth, independently of the mouse's USB receiver. First click in the window or text field where you want to type. The insertion point marks where new text will go; moving the mouse pointer alone does not move it.
+Switch the keyboard on at its right-hand edge. It uses Bluetooth, independently of the mouse's USB wireless receiver. First click in the window or text field where you want to type. The insertion point marks where new text will go; moving the mouse pointer alone does not move it.
 
 Use the letter, number and punctuation keys to enter text. Hold Shift while typing a letter for a capital or a key's shifted symbol. Return commonly ends a paragraph in a document; in a dialog it may accept the current choice, so read the dialog first. Use the arrow keys to move through text where the program supports them.
 
@@ -60,23 +68,14 @@ Where a normal window has a title bar, drag it to a more useful position. Where 
 
 Use a program's Quit or Exit command to leave it. A window close control closes that window, which may leave other windows from the same program running. A save question gives you a chance to keep changes; Cancel returns you to the work so you can decide.
 
-Showing the desktop hides windows from view without saving or quitting them. Return to an open window by clicking its visible part or the appropriate Control Strip pane. Give the strip a moment to detect a newly opened program. Returning to a running program is different from deliberately opening another copy of it.
+Showing the desktop minimizes your programs into the Control Strip without saving or quitting them. Return to an open window by clicking its visible part or the appropriate Control Strip pane. Give the strip a moment to detect a newly opened program. Returning to a running program is different from deliberately opening another copy of it.
 
 ### Window controls
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF -->
-The themed document window pictured below has a close control at the upper left. At the upper right, the far-right control maximizes the window; the control immediately to its left minimizes it to the Dock, or Control Strip. Minimizing puts the window out of the way while leaving it open. Use the program's Control Strip pane to return to it.
+The themed document window in the menu-bar picture, near the start of this chapter, has a close control at the upper left. At the upper right, the far-right control maximizes the window; the control immediately to its left minimizes it to the Dock, or Control Strip. Minimizing puts the window out of the way while leaving it open. Use the program's Control Strip pane to return to it.
 
 Use the controls a window actually provides. Some windows omit controls or draw them differently. Clippy's chat, for example, has its close button at the upper right. Closing a window is not the same as minimizing it; save before closing work you want to keep.
-
-### Two menu bars, two different jobs
-
-<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF -->
-PiForma OS uses a persistent system menu bar at the top of the desktop. Its system commands do not change to match the active application. This differs from the classic Macintosh global application menu bar, whose contents follow the active program.
-
-Individual programs can provide application-local menu bars inside their own windows. For document work, use that application's own File → Save, Edit → Copy, Edit → Paste, and other available commands. The top system File menu and a document window's File menu have different jobs. Be sure you are opening the one you mean.
-
-[SCREENSHOT 3-2|piforma-application-menus.svg|The persistent system menu bar remains above the document window. Use the application's own File menu for Save and its other document commands. The themed window's close control is at upper left; minimize and maximize are at upper right.]
 
 ## Files and folders
 
@@ -92,7 +91,14 @@ PiForma Panel's File → Open Home Folder opens your home folder in a file windo
 
 Keep related work in a folder you can recognize. Give documents meaningful names and note which folder contains them. Before moving, renaming or deleting a file, close it in its program and make sure you know which item is selected. Leave unfamiliar system and application files alone.
 
-Moving a file changes where you find it; copying leaves another copy. Neither should be confused with saving edits in an open document. The PiForma has no backup arrangement for its microSD card, and management prefers not to discuss it. The build is documented well enough to rebuild from scratch if the card ever fails, but your own files would not survive that. Copy any work you value to a USB drive or another computer. Two copies on the same card do not protect against failure of that card.
+Moving a file changes where you find it; copying leaves another copy. Neither should be confused with saving edits in an open document.
+
+### Backups
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 OWNER-TALK-2026-10-20 -->
+The PiForma has no backup arrangement for its microSD card, and management prefers not to discuss it. The build is documented well enough to rebuild from scratch if the card ever fails, but your own files would not survive that. Two copies on the same card do not protect against failure of that card.
+
+**Copy any work you value to a USB drive or another computer.**
 
 ## Saving and reopening your work
 
@@ -121,6 +127,9 @@ The Control Strip sits at the bottom-left in the documented desktop arrangement.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19; repo-verified D-SOFTWARE -->
 The Apple logo on the front is a touch control. Besides the six-second hold described under “Leaving a full-screen program,” short taps open programs directly. Leave about half a second between taps.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
+Each touch blinks the green light at the front off and on again, so you can see that the PiForma felt it: one tap, one blink; two taps, two blinks. Keep objects away from the logo, or the sensor may take them for a touch.
 
 | Apple logo | Opens |
 |---|---|
@@ -157,7 +166,7 @@ A full-screen game can cover the menu bar and window controls. First use its own
 On the current PiForma, holding the Apple-logo touch control for about six seconds closes only the active application. Use this confirmed action when you need to leave a full-screen application without an accessible close control. It does not close everything or replace normal shutdown. Unsaved work may be lost.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-19 -->
-[ILLUSTRATION 3-6a|closing-app-1.png|An application that has stopped responding, showing only the busy watch.]
+[ILLUSTRATION 3-6a|closing-app-1.png|An application has taken up the full screen with no way to exit.]
 
 [ILLUSTRATION 3-6b|closing-app-2.png|Touch and hold the Apple logo for about six seconds to close the active application.]
 
@@ -206,7 +215,7 @@ Clippy can offer suggestions, but check them against the PiForma's actual setup 
 ## About This PiForma and the project guide
 
 <!-- evidence: repo-verified ABOUT-README ABOUT-CONFIG VIEWER-README VIEWER-STACKS -->
-About This PiForma displays computer and operating-system information. Open it from the Apple menu. It is useful when describing the machine to the builder, but it is not the same program as Macintosh PiForma Docs Viewer.
+About This PiForma displays computer and operating-system information. Open it from the Apple menu.
 
 Docs Viewer presents the project's hardware, software, maintenance and other documents. Its Update Stack action checks for updated documentation. If an update fails, the viewer keeps its previous cached material; without a cache it can use its bundled offline snapshot. An offline document is useful, but its age still matters when comparing it with a changed machine.
 
@@ -218,11 +227,7 @@ The installed launcher calls this application PiForma Guide, and its window is t
 ## Wi-Fi and Bluetooth
 
 <!-- evidence: repo-verified D-SOFTWARE; editorial-advice -->
-Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse's USB receiver is a third, separate connection. A working keyboard does not prove that a website can be reached, and a lost internet connection does not mean the mouse needs pairing.
+Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse's USB wireless receiver is a third, separate connection. A working keyboard does not prove that a website can be reached, and a lost internet connection does not mean the mouse needs pairing.
 
-Use only a network you are authorized to join, with its correct name and password. Network menus depend on the installed desktop configuration; this guide does not specify an unconfirmed menu path or pairing sequence. For a failed connection, use Appendix B before changing saved settings.
-
-## Ending a session
-
-<!-- evidence: owner-current H01-shutdown; repo-verified P-MENU P-POWER -->
-Save in each application, leave games and programs using their own exit commands, then choose Special → Shut Down. Let the operating system finish before switching off physical power, as described in Chapter 1. A menu disappearing or the display going dark is not by itself proof of completion. If a shutdown error appears, keep its wording for the builder.
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
+The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. That's a feature, not a bug. A green status means the PiForma has joined a Wi-Fi network, though not necessarily that the internet can be reached. The same menu lets you change Wi-Fi settings and adjust the sound. If a connection fails, see Appendix B.

@@ -10,7 +10,7 @@ The case began as an Apple IIc Monitor. Its original CRT had been removed before
 
 This is a conversion, not a restoration of a stock Macintosh. The old case was a good place to start and a rather particular place to fit everything else.
 
-[ILLUSTRATION 2-1|inside-1.png|The internal assembly, with the Raspberry Pi, display hardware, power adapter, 5V power rail and ordinary internal speaker identified. This is a component tour, not a disassembly procedure.]
+[ILLUSTRATION 2-1|inside-1.png|The internal assembly, with the Raspberry Pi, display hardware, power adapter, 5V power rail and ordinary internal speaker identified.]
 
 ## Raspberry Pi, memory and storage
 
@@ -27,7 +27,8 @@ An LCD screen replaces the original monitor display. The Raspberry Pi supplies i
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The screen in this first revision is, frankly, of modest quality: a little dim, with colors that are not quite right, and neither brightness nor color can be adjusted from the computer. We apologize for the economy. You make do with what you have.
 
-The rear physical source control cycles through HDMI, RCA, VGA, and RCA2 in the documented build. HDMI and RCA are the normally useful inputs; the existence of other controller modes does not mean that matching external sockets have been fitted. Select HDMI to return to the Pi’s picture.
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
+Each press of the rear source selector moves the screen to its next input. Only two are in use: HDMI, for the Raspberry Pi, and AV1, for the composite RCA input. The selector also passes AV2 and VGA, which have nothing connected. A small label at the top left of the screen names the current input. Press until it shows HDMI to return to the Pi’s picture.
 
 ## The battery and charging paths
 
@@ -35,9 +36,9 @@ The rear physical source control cycles through HDMI, RCA, VGA, and RCA2 in the 
 The internal battery lets you use the PiForma without a power cord. The intended external power cable supplies its charger, and the battery can charge while the computer's physical switch is off. The switch does not disconnect the charger from external power. Appendix A describes the internal power path.
 
 <!-- evidence: owner-current H01-battery; repo-verified D-HARDWARE; needs-confirmation Q-BATTERY -->
-An external plunger reaches the battery’s own button. The owner uses it to check charge and sometimes wake the pack. The normal check is to press the rear plunger and read the percentage through the top slits. The owner has also confirmed that the top latch can be unlocked and lifted for a closer look; Chapter 1 describes the optional opening procedure.
+An external plunger reaches the battery’s own button. Press it to check the charge, and sometimes to wake the pack. The normal check is to press the rear plunger and read the percentage through the top slits. The top latch can also be unlocked and lifted for a closer look; Chapter 1 describes the optional opening procedure.
 
-[ILLUSTRATION 2-2|inside-3.png|The open top reveals the wireless charging receiver, battery-button plunger and battery display. The battery is at 84% in this photograph, as confirmed by the owner. Its display can also indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. For the normal check, read through the top slits as described in Chapter 1.]
+[ILLUSTRATION 2-2|inside-3.png|The open top reveals the wireless charging receiver, battery-button plunger and battery display. The battery is at 84% in this photograph. Its display can also indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. For the normal check, read through the top slits as described in Chapter 1.]
 
 ## System sound and startup chimes
 
@@ -65,7 +66,7 @@ The next three clicks are silent, and the one after that brings back the classic
 
 Normal desktop sound uses an internal USB speaker. Changing its software volume is not necessarily a test of the separate startup-chime hardware.
 
-[ILLUSTRATION 2-3|inside-2.png|A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and battery-button plunger. The ordinary internal speaker appears in the first photograph of the interior.]
+[ILLUSTRATION 2-3|inside-2.png|A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and battery-button plunger.]
 
 ## The physical controls
 
@@ -77,19 +78,31 @@ Turn the side volume knob clockwise to raise normal system volume and counterclo
 ## Ports, wireless links and adapters
 
 <!-- evidence: owner-current H01-usb; repo-verified D-HARDWARE D-SOFTWARE -->
-One rear USB port is available to the user. The Pi board’s own connectors should not be mistaken for externally accessible ports. Use the hub for multiple peripherals.
+One rear USB-C port is available to the user. The Pi board’s own connectors should not be mistaken for externally accessible ports. Use the hub for several devices, or for devices with older USB plugs.
 
-The keyboard uses Bluetooth LE and the mouse uses its USB receiver. Wi-Fi and Bluetooth belong to the operating system’s network and device tools. External audio input uses a separate USB capture adapter and audio-loop helper, not the rear composite-video RCA jack.
+The keyboard uses Bluetooth LE and the mouse uses its USB wireless receiver, which is plugged into the Raspberry Pi inside the case and stays there. Wi-Fi and Bluetooth belong to the operating system’s network and device tools. External audio input uses a separate USB capture adapter and audio-loop helper, not the rear composite-video RCA jack.
 
 ## The converted Apple keyboard
 
 <!-- evidence: repo-verified D-HARDWARE D-BOM; historic-record H03 -->
-The vintage Apple keyboard has been converted to Bluetooth LE using Matt Chesters’ keyboard-conversion project. It has its own battery, USB-C charging port, nice!view display and power switch near the upper-right edge. It communicates separately from the mouse receiver. Appendix A and the credits identify the conversion and its source.
+The vintage Apple keyboard has been converted to Bluetooth LE using Matt Chesters’ keyboard-conversion project. It has its own battery, a nice!view display, a volume dial on its left-hand edge, and a power switch and USB-C charging port on its right-hand edge. It communicates separately from the mouse receiver. Appendix A and the credits identify the conversion and its source.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
+The keyboard has been painted, not retrobrighted. Old Apple keyboards yellow with age. Today they are often bleached back to their original color, a process called retrobrighting, but in the old days the fix was a coat of paint in the nearest matching color. That is the source of the slight orange-peel texture you can feel on the case.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20 -->
+The nice!view display, above the number keys, shows four things. The battery level is the keyboard’s own charge. The Bluetooth status shows an X when the keyboard isn’t connected, as in the photograph, where the PiForma was switched off; once connected, it shows a wireless symbol. The Bluetooth selector shows which of five Bluetooth profiles is in use, and the PiForma is profile 2. The graph shows your typing speed in letters per minute, not words.
+
+[ILLUSTRATION 2-4|niceview-labeled.png|The nice!view display: battery level, Bluetooth status, Bluetooth selector and letters per minute.]
+
+The keyboard’s small 100 mAh battery lasts a couple of weeks of being switched on with light use. When the battery level runs low, charge it from the USB-C port on the right-hand edge.
+
+Pressing the display itself changes the Bluetooth profile, one step per press. Leave it alone: there is no reason to press it unless you want the keyboard to talk to a different device, and it should stay on profile 2 for the PiForma. The 3D-printed key around the display is a little too wide for its opening, so it tends to stick down when pressed. If it does, wedge it back up.
 
 ## The matching mouse
 
 <!-- evidence: repo-verified D-HARDWARE -->
-The matching mouse combines Bambu wireless mouse-kit electronics with a printed Retro Wireless Computer Mouse shell. The scroll wheel and axle were replaced after the original wheel broke during modification. A USB receiver provides the connection to the computer.
+The matching mouse combines Bambu wireless mouse-kit electronics with a printed Retro Wireless Computer Mouse shell. The scroll wheel and axle were replaced after the original wheel broke during modification. A USB wireless receiver provides the connection to the computer.
 
 ## Bose speakers and stands
 

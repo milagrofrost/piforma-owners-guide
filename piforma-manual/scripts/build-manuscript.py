@@ -163,11 +163,14 @@ def convert(file):
             figure=blocks.pop(i)
             anchor=next(i for i,b in enumerate(blocks) if placement['after_text'] in b)
             blocks.insert(anchor+1,figure)
-        for keep in json.loads(layout_file.read_text(encoding='utf-8')).get('keep_together',[]):
-            start=next(i for i,b in enumerate(blocks) if keep['start'] in b)
-            end=next(i for i,b in enumerate(blocks) if keep['end'] in b)
-            assert start<=end
-            blocks[start:end+1]=['#block(breakable:false)[\n'+'\n'.join(blocks[start:end+1])+'\n]']
+    # Keep a passage on the same page as the picture it describes, in any chapter.
+    for keep in json.loads(layout_file.read_text(encoding='utf-8')).get('keep_together',[]):
+        start=next((i for i,b in enumerate(blocks) if keep['start'] in b),None)
+        if start is None:continue
+        end=next(i for i,b in enumerate(blocks) if i>=start and keep['end'] in b)
+        # The text is held together and made sticky to the picture that follows it;
+        # nesting the picture's own unbreakable block inside another loses its caption height.
+        if end>start:blocks[start:end]=['#block(breakable:false,sticky:true)[\n'+'\n'.join(blocks[start:end])+'\n]']
     if file.name=='03-how-piforma-works.md':
         start=next(i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,"Opening programs with AtEase"'))
         first,second,screen=blocks[start+1:start+4]

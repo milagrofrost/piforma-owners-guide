@@ -260,10 +260,17 @@
 }
 #let cover() = {
   set page(margin:0pt,footer:none)
-  place(top+left,dx:84pt,dy:28pt,text(size:22pt,fill:rgb("777772"))[Macintosh PiForma])
-  place(top+left,dx:84pt,dy:60pt,text(size:22pt,fill:rgb("777772"))[Owner’s Guide])
+  place(top+left,dx:40pt,dy:28pt,image("../assets/logo/piforma-logo.svg",width:58pt))
+  place(top+left,dx:112pt,dy:28pt,text(size:22pt,fill:rgb("777772"))[Macintosh PiForma])
+  place(top+left,dx:112pt,dy:60pt,text(size:22pt,fill:rgb("777772"))[Owner’s Guide])
   place(top+left,dx:105pt,dy:218pt,image("../assets/illustrations/piforma-cover.png",width:290pt))
-  place(top+left,dx:84pt,dy:477pt,text(size:8pt)[Working manuscript proof · October 19, 2026])
+  place(top+left,dx:84pt,dy:477pt,text(size:8pt)[Working manuscript proof · October 20, 2026])
+}
+// The outside back cover carries the bag, in color, on an even page.
+#let back-cover() = {
+  set page(margin:0pt,footer:none,header:none)
+  pagebreak(to:"even",weak:true)
+  place(top+center,dy:72pt,image("../assets/illustrations/bag-front-color.png",height:378pt))
 }
 #let cover-reverse() = {
   set page(margin:0pt,footer:none)

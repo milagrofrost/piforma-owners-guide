@@ -15,8 +15,8 @@ This appendix describes the PiForma’s hardware, connections and software. Use 
 - Battery runtime: typically about six hours, or about four hours of emulated games.
 - Main battery: Anker Prime 26K 300W.
 - Internal charger: 100W USB-C adapter.
-- Keyboard: Apple A9M0330 ADB keyboard, BLE conversion, ZMK, USB-C charging, nice!view.
-- Mouse: Bambu kit electronics in a printed shell, USB receiver.
+- Keyboard: Apple A9M0330 ADB keyboard, painted, BLE conversion, ZMK, 100 mAh battery, USB-C charging, nice!view, volume dial.
+- Mouse: Bambu kit electronics in a printed shell, USB wireless receiver.
 - Startup sound: YS-M3, CK1028 selector, separate salvaged speaker.
 - Normal sound: internal USB speaker, or the rear audio output socket for speakers or headphones.
 
@@ -30,11 +30,11 @@ Power path: rear AC inlet → internal charger → main battery → original pow
 <!-- evidence: repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19 -->
 - Apple-logo sensor: TTP223 on BCM GPIO23, active-low.
 - EC11 volume encoder: BCM GPIO17/27; push input GPIO22 exists in software but is not physically usable on the installed knob.
-- Display source: physical switch to LCD controller source control, not a GPIO relay selector in this build.
+- Display source: physical switch to LCD controller source control, not a GPIO relay selector in this build. Inputs in use: HDMI (Raspberry Pi) and AV1 (composite RCA); AV2 and VGA are unused.
 - Composite RCA input: video only.
 - Rear audio socket: output to external speakers or headphones.
 - External audio: USB capture source and audio-loop helper.
-- External USB access: one rear port; do not infer exterior access from the Pi’s board connector count.
+- External USB access: one rear USB-C port; do not infer exterior access from the Pi’s board connector count.
 
 ## Software, services and recovery
 
@@ -48,4 +48,4 @@ Use the canonical repository's software page, service inventory, configuration a
 <!-- evidence: repo-verified D-HARDWARE D-BOM; historic-record H03-dosbox -->
 The build credits Matt Chesters’ `zmk-apple-desktop-bus-keyboard` conversion. Special keys follow the deployed keymap.
 
-The keyboard conversion uses a Seeed XIAO nRF52840, MCP23017 I/O expander, custom board, small battery and nice!view display.
+The keyboard conversion uses a Seeed XIAO nRF52840, MCP23017 I/O expander, custom board, 100 mAh battery and nice!view display. Profile 2 of its five Bluetooth profiles is paired with the PiForma.

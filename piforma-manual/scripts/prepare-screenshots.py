@@ -6,7 +6,7 @@ P=Path(__file__).resolve().parents[1];dest=P/'assets/screenshots';(dest/'origina
 items=[
  (1,'piforma-desktop-overview',None,366),
  (2,'piforma-shutdown-menu',(0,0,460,145),242),
- (3,'piforma-about-system',(0,0,745,490),366),
+ (3,'piforma-about-system',(0,0,745,490),300),
  (4,'piforma-guide-application',(0,25,824,570),366),
  (5,'piforma-clippy-conversation',(222,124,603,504),242),
  (6,'piforma-control-strip',(0,525,230,602),176),

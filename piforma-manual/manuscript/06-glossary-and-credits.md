@@ -102,6 +102,7 @@ The wireless network connection, managed by the operating system’s network too
 <!-- evidence: repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS -->
 This build uses many good ideas by other people, adapted to a computer-shaped joke that became a useful project. The Apple manuals supplied visual and organizational references, not PiForma specifications or approval. Apple had no part in the PiForma; the story in the welcome is a tall tale. Their text has not been copied into this guide.
 
+- The builder on GitHub: [github.com/milagrofrost](https://github.com/milagrofrost).
 - Canonical build records: [Macintosh-PiForma-docs](https://github.com/milagrofrost/Macintosh-PiForma-docs).
 - Keyboard conversion credited in those records: [Matt Chesters’ ZMK ADB keyboard project](https://github.com/mattchesters/zmk-apple-desktop-bus-keyboard).
 - Mouse shell credited in the hardware record: [Retro Wireless Computer Mouse](https://www.printables.com/model/1339297-retro-wireless-computer-mouse).
@@ -121,7 +122,7 @@ In keeping with the company’s priorities of the era, this warranty is offered 
 # Radio and television interference
 
 <!-- evidence: repo-verified D-HARDWARE; editorial-advice -->
-The PiForma contains Wi-Fi and Bluetooth radios, a wireless charging receiver and a Raspberry Pi, all of which give off radio-frequency energy. Unlike the computers this guide imitates, the assembled PiForma has not been tested against the FCC limits for a Class B computing device.
+The only part of the PiForma that broadcasts anything on purpose is its Raspberry Pi, whose Wi-Fi and Bluetooth radios are certified to FCC rules. Everything else in the case should keep its radio-frequency energy to itself.
 
 If it interferes with radio or television reception, which you can find out by switching it off and on, move it farther from the receiver. Alternatively, switch off the television and play a tape through the PiForma’s rear composite input instead.
 

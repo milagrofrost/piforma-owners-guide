@@ -1,13 +1,14 @@
 # Getting Started
 
 <!-- evidence: owner-current H01; editorial-advice -->
-This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how to check a reluctant battery, shut down properly, and return everything to the bag. The packing order is worth a little attention. The foam has opinions.
+This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how to shut down properly, return everything to the bag, and coax a reluctant battery. The packing order is worth a little attention.
 
 ## Unpacking the equipment
 
-<!-- evidence: owner-current H01-unpacking -->
-Set the carrying bag upright on a stable surface and open it. Leave room nearby for each item as you take it out.
+<!-- evidence: owner-current H01-unpacking OWNER-TALK-2026-10-20 -->
+Set the carrying bag upright on a stable surface. Open the clasp, take it out of the strap loop, and pull the loop back out through the grommets; “Closing the bag,” near the end of this chapter, shows the clasp. Leave room nearby for each item as you take it out.
 
+<!-- evidence: owner-current H01-unpacking -->
 1. Remove the small brown accessory pouch near the top. It contains two Nintendo 64 controllers, the USB hub, and the power cable. Set the pouch and its contents aside.
 2. Take out the mouse and the collapsible computer stand beneath the pouch.
 3. Remove this printed guide. If you are reading it, you have already done this step. Well done.
@@ -20,7 +21,7 @@ The PiForma is underneath the board, with its monitor/screen facing upward. The 
 Lift the PiForma by its handle and case. Do not push on the screen: pressing on the display can damage the screen or its mounts.
 
 <!-- evidence: owner-current OWNER-BAG-ARRANGEMENT H01-unpacking -->
-[ILLUSTRATION 1-1|bag-arrangement.png|Arrangement in the carrying bag. The printed guide is not shown; it lies beneath the mouse and stand, above the mouse pad.]
+[ILLUSTRATION 1-1|bag-arrangement.png|Arrangement in the carrying bag.]
 
 ### Finding the handle
 
@@ -46,9 +47,10 @@ The molded edges in the bottom foam locate the rear/bottom of the computer. The 
 <!-- evidence: owner-current H01-controls; repo-verified D-HARDWARE D-SOFTWARE -->
 Before connecting anything, find the power control on the right side, the green status light at the front, and the chime-selector dial at the back. The Apple logo at the front is also a touch control. It is separate from the physical power switch.
 
-The owner’s current arrangement has one externally accessible USB port at the back. The USB hub lets you attach more than one USB device. The keyboard communicates over Bluetooth; the mouse uses a USB receiver. A keyboard connection problem and a missing mouse receiver therefore call for different checks.
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
+The one USB port at the back is a USB-C port. A single device plugged straight into it needs a USB-C plug of its own or an adapter. For more than one device, or for older USB plugs, use the USB hub. The keyboard communicates over Bluetooth; the mouse uses a USB wireless receiver, which stays plugged in inside the case. A keyboard problem and a mouse problem therefore call for different checks.
 
-At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general audio connection. The audio socket sends sound out to external speakers or headphones. Use the source selector’s HDMI setting for the Raspberry Pi picture.
+At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general audio connection. The audio socket sends sound out to external speakers or headphones. Press the source selector to switch to HDMI for the Raspberry Pi picture. Only two inputs are in use: HDMI for the Raspberry Pi and AV1 for the RCA input. The selector also passes AV2 and VGA, which have nothing connected.
 
 <!-- evidence: owner-current OWNER-REAR-OUTLINE -->
 [ILLUSTRATION 1-3a|rear-inputs.png|Rear controls and connections. The RCA input is composite video; the audio socket is an output for speakers or headphones.]
@@ -60,7 +62,7 @@ At the rear are a display-source selector, a composite-video RCA input and an au
 
 The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would prefer you to admire it without touching it. I have gone rogue and made it conveniently openable. Please pretend I never told you; I would like to keep both my job and my continued existence.
 
-“A closer look, strictly off the record”, later in this chapter, explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.
+“A closer look, strictly off the record”, at the end of this chapter, explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.
 
 [ILLUSTRATION 1-3c|1-3c.png|The top of the PiForma and its Forbidden Latch.]
 
@@ -79,27 +81,38 @@ Leave room to move your hands and take occasional breaks. Put speakers and their
 
 ### The stand, keyboard and mouse
 
-<!-- evidence: owner-current H01-setup -->
+<!-- evidence: owner-current H01-setup OWNER-TALK-2026-10-20 -->
 1. Open the collapsible stand and place it on the level table. Seat the support leg in its final position, as the arrow in the illustration shows. Check that it is stable before adding the computer.
-2. Place the PiForma on the stand and center it. Check that it rests securely rather than leaning toward one side.
-3. Put the keyboard directly in front. Turn it on with the switch near its top-right edge.
+2. Lower the PiForma onto the stand, exactly in the center. Check that it rests securely rather than leaning toward one side.
+3. Put the keyboard directly in front. Turn it on with the switch on its right-hand edge.
 4. Put the mouse on its pad beside the keyboard. Its power switch is underneath; turn it on if necessary.
-
-The mouse can ordinarily remain on between uses because it enters a low-power idle state. You can still switch it off for transport or prolonged storage. This does not switch off the keyboard, which has its own control and Bluetooth connection.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14 -->
 The stand illustration deliberately shows one support leg short of its final position. Move it into the seat indicated by the arrow before placing the PiForma on top. The partly assembled position is not the position for supporting the computer.
 
 [ILLUSTRATION 1-4a|1-4a.png|Seat the support leg in the position indicated by the arrow, then check the stand before adding the computer.]
 
+<!-- evidence: owner-current OWNER-IMAGES-2026-10-20 OWNER-TALK-2026-10-20 -->
+Center the PiForma exactly: not to the left, not to the right, but in the middle of the stand as you set it down. Seen from the side, it should rest on the stand as in the second photograph.
+
+[ILLUSTRATION 1-4e|stand-centered.png|Lower the PiForma straight down onto the middle of the stand.]
+
+[ILLUSTRATION 1-4f|stand-profile.png|Seen from the side: the PiForma resting on its stand.]
+
 ### The keyboard controls
 
-The overhead view identifies the keyboard's volume control and nice!view status display. The USB charging port and power switch are in the indicated area near the top-right edge; their labels show the general location because the port and switch themselves are not visible from above. The USB-C port sits on the right, where the keyboard’s ADB port used to be; charge the keyboard there.
-
-<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
-Caps Lock deserves a warning. It is a vintage locking key, and on the PiForma it behaves like a Shift key held down. While it is down, letters come out as capitals and the number keys type symbols. Make sure Caps Lock is up, level with Shift and Option, before you start and before you pack the keyboard away.
+<!-- evidence: owner-current OWNER-IMAGES-2026-10-14 OWNER-IMAGES-2026-10-20 -->
+The overhead view identifies the keyboard's volume dial, on the left, and its nice!view status display. The power switch and USB-C charging port are on the right-hand edge, where the keyboard’s ADB port used to be. Their labels in the overhead view show only the general location, because the port and switch themselves are not visible from above; the close-up of the right edge shows them. Charge the keyboard from that USB-C port.
 
 [ILLUSTRATION 1-4b|1-4b.png|Keyboard controls. The USB port and power-switch callouts indicate their general location, not a directly visible socket or switch.]
+
+[ILLUSTRATION 1-4g|keyboard-switch-usbc.png|The keyboard’s right-hand edge: power switch and USB-C charging port.]
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
+The volume dial on the keyboard does the same job as the knob on the side of the PiForma. There are two so that you can change the volume during a console game with the keyboard packed away, or reach the nearer one when the keyboard is in front of you. The nice!view display shows the keyboard’s battery level and connection; Chapter 2 explains it. You don’t need to press it.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 OWNER-TALK-2026-10-20 -->
+Caps Lock deserves a warning. It is a vintage locking key, and on the PiForma it behaves like a Shift key held down. While it is down, letters come out as capitals and the number keys type symbols, and the keyboard keeps sending Shift, which runs down its battery. Make sure Caps Lock is up, level with Shift and Option, before you start and before you pack the keyboard away.
 
 ### The mouse controls
 
@@ -114,20 +127,12 @@ Underneath are the battery compartment, power switch, and optical tracking windo
 
 [ILLUSTRATION 1-4d|1-4d.png|Mouse underside: battery compartment, power switch, and optical tracking sensor.]
 
-### Power for a longer session
-
-<!-- evidence: owner-current H01-power OWNER-TALK-2026-10-19; repo-verified D-HARDWARE -->
-If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of general use, or about four hours of emulated games, Nintendo 64 games especially. For longer sessions, keep the PiForma connected to external power when it is available.
-
-<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
-The desktop has no battery gauge, and there is no low-battery warning. Check the battery display through the top slits now and then. When the battery runs out, the PiForma stops at once, just as if the power switch had been turned off, and unsaved work is lost. After a full drain, connect external power and allow a minute or two before it will start.
-
-Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the computer’s power switch is off. Use the cable and charging arrangement intended for this build.
+The mouse can ordinarily stay on between uses, because it drops into a low-power idle state. You can still switch it off for transport or long storage. Its switch has no effect on the keyboard, which has its own switch and Bluetooth connection.
 
 ### USB devices and controllers
 
-<!-- evidence: owner-current H01-usb; repo-verified D-MAINTENANCE -->
-Use the rear USB port for the USB hub when you need more than one external USB connection. The two Nintendo 64 controllers are in the accessory pouch. Chapter 3 explains how to approach the game launcher and its controls. Use only the leads or adapters supplied for these controllers; do not force a connector into the USB hub.
+<!-- evidence: owner-current H01-usb OWNER-TALK-2026-10-20; repo-verified D-MAINTENANCE -->
+Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two Nintendo 64 controllers are in the accessory pouch. Chapter 3 explains how to approach the game launcher and its controls. Use only the leads or adapters supplied for these controllers; do not force a connector into the USB hub.
 
 ### Bose speakers and stands
 
@@ -146,12 +151,14 @@ The external audio adapter brings sound from an external source into the PiForma
 
 ## Important safety instructions
 
-<!-- evidence: editorial-advice; owner-current H01-safety; repo-verified D-SAFETY D-HARDWARE -->
-Keep liquids away, protect the display, and leave ventilation openings clear. Use a stable stand on a level table. Do not carry the computer by cables or press on the screen to move it.
+<!-- evidence: editorial-advice; owner-current H01-safety OWNER-TALK-2026-10-20; repo-verified D-SAFETY D-HARDWARE -->
+Keep liquids away, protect the display, and leave ventilation openings clear. Keep the PiForma out of direct sun. Use a stable stand on a level table. Do not carry the computer by cables or press on the screen to move it.
 
 The power switch does not disconnect external charging power from the internal charger. Switching the computer off alone does not make internal electrical work safe. Do not disassemble it with charging power connected. Internal repairs and battery disconnection belong with someone familiar with this particular build, not in a first-start procedure.
 
 Stop using the computer if it becomes unusually hot, smells hot, or has damaged power wiring or a damaged battery. Do not keep retrying power-on in that condition. Use the intended charging equipment. This privately built device has no claimed electrical-safety certification.
+
+Stop using it, too, if the screen starts to flicker. A flicker probably means the HDMI connection between the Raspberry Pi and the screen is wearing out, and it needs the builder’s attention before the next session.
 
 ## Starting up the computer
 
@@ -162,6 +169,107 @@ Stop using the computer if it becomes unusually hot, smells hot, or has damaged 
 4. Watch for the startup picture or sequence. The desktop normally follows in about one to two minutes; allow for some variation.
 
 A silent startup does not by itself mean that the computer has failed. Use the green light and display as well as the chime when checking what has happened.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20 -->
+The first thing on the screen is always No Signal. Don’t panic: the screen wakes up before the Raspberry Pi does, and there is no way to skip the message. It shows once, the screen goes blank, and the startup picture should appear within 10 to 15 seconds.
+
+[ILLUSTRATION 1-6c|no-signal.png|Every startup begins with this. It is normal.]
+
+The startup picture looks like an old Macintosh that has failed its startup test, sad face, error codes and all. That is the builder’s sense of humor. Nothing has crashed and no ROM has failed. The label at the top left names the input the screen is showing, and it should say HDMI.
+
+[ILLUSTRATION 1-6d|boot-screen.png|The startup picture. The sad face is a joke; the label at the top left shows the HDMI input.]
+
+If the startup picture never appears, press the source selector at the back until the screen shows HDMI. If nothing happens at all when you switch on, turn to “If the PiForma doesn’t start” at the end of this chapter.
+
+## Your first session
+
+<!-- evidence: repo-verified A-APP P-MENU P-ACTIONS ABOUT-CONFIG; editorial-advice; owner-current OWNER-TALK-2026-10-20 -->
+Once the desktop appears, try this short tour. You need not change any settings or make a file.
+
+<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
+[SCREENSHOT 1-7|piforma-desktop-overview.svg|The PiForma desktop: persistent system menu bar across the top, AtEase in the center, Control Strip at lower left, and Clippy at lower right.]
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-20; editorial-advice -->
+1. Move the mouse on its pad and watch the pointer follow it. Point at an item by moving the pointer over it. To click, press and release the left mouse button once. The other left button can wait for Chapter 3.
+2. Find the menu bar at the top of the screen and the folder-like AtEase launcher beneath it. If a window covers the launcher, choose View → Show Desktop from the top menu bar. This minimizes your programs into the Control Strip without quitting them.
+3. In AtEase, click a folder tab if needed, then click a program button once. AtEase buttons take a single click, not a double-click. Wait for the program’s window to appear before clicking again. Use a windowed program for this first exercise; a full-screen game will cover the desktop.
+4. Explore the program's visible controls. When finished, use the program's own Quit or Exit command if it has one, or its window close control. If asked to save something you want to keep, save it before continuing. Closing one window may leave other windows from the same program open.
+5. Choose View → Show Desktop to return to the launcher. You can now open another program in the same way.
+
+<!-- evidence: repo-verified A-APP P-MENU ABOUT-CONFIG; editorial-advice -->
+For a small practice window with a known menu entry, choose Apple menu → About This PiForma. Read the information, close that window using its close control, and return to AtEase. Opening a program, leaving it, and finding your way back are most of the battle. Chapter 3 explains windows, typing, files and games in more detail.
+
+<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 H01-about -->
+[SCREENSHOT 1-8|piforma-about-system.svg|Apple menu → About This PiForma opens the information window. The figures shown describe that running session, rather than fixed memory-use specifications.]
+
+If the launcher or menu bar is missing, see Appendix B rather than trying unfamiliar touch gestures. When you have finished using the computer, follow “Stopping the computer” below.
+
+## Power for a longer session
+
+<!-- evidence: owner-current H01-power OWNER-TALK-2026-10-19; repo-verified D-HARDWARE -->
+If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of general use, or about four hours of emulated games, Nintendo 64 games especially. For longer sessions, keep the PiForma connected to external power when it is available.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+The desktop has no battery gauge, and there is no low-battery warning. Check the battery display through the top slits now and then. When the battery runs out, the PiForma stops at once, just as if the power switch had been turned off, and unsaved work is lost. After a full drain, connect external power and allow a minute or two before it will start.
+
+Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the computer’s power switch is off. Use the cable and charging arrangement intended for this build.
+
+## Stopping the computer
+
+<!-- evidence: owner-current H01-shutdown OWNER-TALK-2026-10-20; repo-verified P-MENU P-POWER; editorial-advice -->
+1. Save your work and leave any game or application using its own quit command when available. If a full-screen program gives you no way out, hold the Apple logo for about six seconds instead.
+2. In the PiForma Panel menu bar, choose Special → Shut Down.
+3. If a confirmation appears, choose Shut Down. Let the operating system finish shutting down before removing physical power. A blank screen alone can also mean the display is asleep, so do not use darkness as the only confirmation.
+4. Once shutdown is complete, turn off the right-side physical power control. The green light at the front goes out. The wiring permits battery charging while this control is off.
+
+Never skip that last step. Shut Down stops the software but leaves the power on, and the battery drains quickly until the green light goes out. That matters most in the bag, where you can’t see the light.
+
+<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
+[SCREENSHOT 1-9|piforma-shutdown-menu.svg|Choose Special → Shut Down after saving your work. This view shows the menu choice, not completed shutdown.]
+
+<!-- evidence: owner-current H01-shutdown; editorial-advice -->
+The physical power switch can cut the computer’s power. Reserve an abrupt power-off for a last resort when the system will not respond, rather than treating it as the normal way to stop. It can lose unsaved work or damage files.
+
+<!-- evidence: owner-current OWNER-UPDATE-1; needs-confirmation Q-GESTURE Q-SHUTDOWN -->
+To leave a full-screen program rather than stop the computer, see “Leaving a full-screen program” in Chapter 3. A hold of about six seconds closes only the active application on the current PiForma.
+
+## Packing the equipment
+
+<!-- evidence: owner-current H01-packing OWNER-TALK-2026-10-20 -->
+1. Shut down properly, switch off physical power so the green light is out, and disconnect external cables as needed. Make sure the computer and accessories are cool and dry before putting them away.
+2. Place the PiForma in the bag with its monitor/screen facing upward. Its rear/bottom must seat in the molded indents in the bottom foam insert.
+3. Gently shift or wiggle it into its intended resting place. It should not move much when seated. Do not force it down or put pressure on the display.
+4. Switch the keyboard off and check that Caps Lock is up. Put it beside the computer: keys toward the bag wall, thicker edge toward the rear, thinner edge toward the front.
+5. Place the velvet-covered foam board above the computer.
+6. Put the mouse pad above the board, then this guide above the pad.
+7. Put the mouse and collapsible stand above the guide.
+8. Return the two controllers, hub, and power cable to the brown pouch and place that pouch at the top. Check that no loose item presses against the screen and close the bag gently.
+
+### Charging in the bag
+
+<!-- evidence: owner-current H01-alignment OWNER-TALK-2026-10-20; repo-verified D-HARDWARE D-MAINTENANCE -->
+Seating the rear/bottom in the molded foam indents aligns the bag’s wireless-charging arrangement. A hidden transmitter sits under the velvet, and its USB cord comes out of the small pocket on the back of the bag. To charge in the bag, plug that cord into a USB charger. This is a slow, trickle-charging arrangement, not fast charging.
+
+[ILLUSTRATION 1-7a|bag-back-charging.png|The wireless charger’s USB cord comes out of the small back pocket. Plug it into a USB charger.]
+
+Physical fit does not prove that charging has started. Check the foam seating and that the cord from the back pocket has power. The battery display can show charging from the wireless receiver, but it is hidden while the computer is packed in the bag, so this is rather a hope-and-pray arrangement.
+
+### Closing the bag
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20 -->
+The bag closes like an old canvas military bag. Feed the strap loop through the four grommets around the top, pass the clasp through the loop, and snap the clasp shut. To open the bag, do the same in reverse.
+
+[ILLUSTRATION 1-7b|bag-clasp.png|Pass the clasp through the strap loop and snap it shut.]
+
+### Carrying the bag
+
+<!-- evidence: owner-current H01-carrying; needs-confirmation Q-BOSE -->
+Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immune to hard impacts. Cushioning is not armor. The Bose speakers and stands do not fit in this bag; carry them separately.
+
+## If the PiForma doesn’t start
+
+<!-- evidence: owner-current H01-troubleshooting; editorial-advice -->
+Most startup trouble comes down to the battery, so begin there. Then find the symptom that matches what you see and hear. Appendix B covers problems after startup.
 
 ### Checking the battery
 
@@ -174,26 +282,26 @@ The normal, management-approved way to read the battery is to press the rear bat
 
 Press the plunger as intended, look at the battery indication, and try the right-side power control again. If the battery is empty, apparently asleep, or refuses to start despite showing charge, connect the intended external power supply and try again.
 
-The owner has sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief connection before taking anything apart, but do not count on one minute as a fixed recovery time. This is an observed oddity, not an established diagnosis.
+The builder has sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief connection before taking anything apart, but do not count on one minute as a fixed recovery time. This is an observed oddity, not an established diagnosis.
 
 ### If there is no green light
 
 <!-- evidence: owner-current H01-troubleshooting -->
-If there is no green light, no chime, and no picture, start with the physical power control, battery indication, plunger, and intended power cable. Retry the startup sequence after the battery check or brief external-power connection. These observations do not yet separate every power fault from every display fault. If they do not help, stop short of internal troubleshooting and consult the builder.
+If there is no green light, no chime, and no picture, start with the physical power control, battery indication, plunger, and intended power cable. Retry the startup sequence after the battery check or brief external-power connection. If they do not help, stop short of internal troubleshooting and consult the builder.
 
 ### If the light is on but there is no chime
 
 <!-- evidence: owner-current H01-chime; repo-verified D-HARDWARE D-MAINTENANCE -->
-Some positions on the rear chime-selector dial are intentionally silent or empty. With the PiForma powered on, move the dial through several positions in either direction and listen for an available sound, as the owner suggests.
+Some positions on the rear chime-selector dial are intentionally silent or empty. With the PiForma powered on, move the dial through several positions in either direction and listen for an available sound.
 
 If it never sounds, there may be a problem with the chime module, its speaker, or its power, but silence alone is not a diagnosis. The startup chime uses its own sound hardware; normal desktop audio is a separate path. Internal checks should be made only by someone familiar with the build and with power safely disconnected.
 
 ### If the light and chime work but the screen stays blank
 
-<!-- evidence: owner-current H01-troubleshooting; repo-verified D-HARDWARE D-KNOWN -->
-Allow time for the startup picture. Check that the display source is set for the Raspberry Pi’s HDMI connection. If the screen remains blank, the display side of the system needs attention; a chime does not prove that the Pi has completed its boot.
+<!-- evidence: owner-current H01-troubleshooting OWNER-TALK-2026-10-20; repo-verified D-HARDWARE D-KNOWN -->
+No Signal and a moment of blank screen are normal at first. If the startup picture has not appeared after about 15 seconds, press the source selector at the back until the screen shows HDMI. A chime does not prove that the Pi has completed its boot.
 
-Do not disturb internal connections while the machine is powered; ask the builder to investigate a persistent blank or distorted picture. Appendix B provides other checks by symptom.
+Do not disturb internal connections while the machine is powered; ask the builder to investigate a persistent blank, flickering or distorted picture.
 
 ### If the desktop is slow to appear
 
@@ -202,8 +310,8 @@ Give the computer approximately one to two minutes to reach the desktop. Boot ti
 
 ### A closer look, strictly off the record
 
-<!-- evidence: owner-current OWNER-IMAGES-2026-10-14; editorial-advice -->
-For an optional open-top look, first shut down the PiForma, switch off physical power, and disconnect external power. Opening the compartment is for looking, not changing internal wiring.
+<!-- evidence: owner-current OWNER-IMAGES-2026-10-14 OWNER-TALK-2026-10-20; editorial-advice -->
+For an optional open-top look, first make sure the vice president isn’t looking. Then shut down the PiForma, switch off physical power, and disconnect external power. Opening the compartment is for looking, not changing internal wiring.
 
 1. Slide the top latch toward the open-padlock mark: upward, as the illustration shows.
 2. With the latch unlocked, lift at the slider to open the upper compartment.
@@ -212,68 +320,3 @@ For an optional open-top look, first shut down the PiForma, switch off physical 
 [ILLUSTRATION 1-6b|1-6a.png|Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to lock.]
 
 Of course, you did not hear any of this from me. If anyone from management asks, you were merely admiring the ventilation slits. I would appreciate remaining employed. And alive.
-
-## Your first session
-
-<!-- evidence: repo-verified A-APP P-MENU P-ACTIONS ABOUT-CONFIG; editorial-advice -->
-Once the desktop appears, try this short tour. You need not change any settings or make a file.
-
-<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
-[SCREENSHOT 1-7|piforma-desktop-overview.svg|The PiForma desktop: persistent system menu bar across the top, AtEase in the center, Control Strip at lower left, and Clippy at lower right.]
-
-1. Move the mouse on its pad and watch the pointer follow it. Point at an item by moving the pointer over it. To click, press and release the left mouse button once. The other left button can wait for Chapter 3.
-2. Find the menu bar at the top of the screen and the folder-like AtEase launcher beneath it. If a window covers the launcher, choose View → Show Desktop from the top menu bar. This reveals the desktop without quitting your programs.
-3. In AtEase, click a folder tab if needed, then click a program button once. Wait for its window to appear before clicking again. Use a windowed program for this first exercise; a full-screen game will cover the desktop.
-4. Explore the program's visible controls. When finished, use its own Quit or Exit command if it has one, or its window close control. If asked to save something you want to keep, save it before continuing. Closing one window may leave other windows from the same program open.
-5. Choose View → Show Desktop to return to the launcher. You can now open another program in the same way.
-
-For a small practice window with a known menu entry, choose Apple menu → About This PiForma. Read the information, close that window using its close control, and return to AtEase. Opening a program, leaving it, and finding your way back are most of the battle. Chapter 3 explains windows, typing, files and games in more detail.
-
-<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 H01-about -->
-[SCREENSHOT 1-8|piforma-about-system.svg|Apple menu → About This PiForma opens the information window. The figures shown describe that running session, rather than fixed memory-use specifications.]
-
-The About window is not the project guide. To read the guide itself, click PiForma Guide in AtEase; Chapter 3 describes it.
-
-If the launcher or menu bar is missing, see Appendix B rather than trying unfamiliar touch gestures. When you have finished using the computer, follow “Stopping the computer” below.
-
-## Stopping the computer
-
-<!-- evidence: owner-current H01-shutdown; repo-verified P-MENU P-POWER; editorial-advice -->
-1. Save your work and leave any game or application using its own quit command when available.
-2. In the PiForma Panel menu bar, choose Special → Shut Down.
-3. If a confirmation appears, choose Shut Down. Let the operating system finish shutting down before removing physical power. A blank screen alone can also mean the display is asleep, so do not use darkness as the only confirmation.
-4. Once shutdown is complete, turn off the right-side physical power control. The wiring permits battery charging while this control is off.
-
-<!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
-[SCREENSHOT 1-9|piforma-shutdown-menu.svg|Choose Special → Shut Down after saving your work. This view shows the menu choice, not completed shutdown.]
-
-The physical power switch can cut the computer’s power. Reserve an abrupt power-off for a last resort when the system will not respond, rather than treating it as the normal way to stop. It can lose unsaved work or damage files.
-
-<!-- evidence: owner-current OWNER-UPDATE-1; needs-confirmation Q-GESTURE Q-SHUTDOWN -->
-To leave a full-screen program rather than stop the computer, see “Leaving a full-screen program” in Chapter 3. A hold of about six seconds closes only the active application on the current PiForma.
-
-## Packing the equipment
-
-<!-- evidence: owner-current H01-packing -->
-1. Shut down properly, switch off physical power, and disconnect external cables as needed. Make sure the computer and accessories are cool and dry before putting them away.
-2. Place the PiForma in the bag with its monitor/screen facing upward. Its rear/bottom must seat in the molded indents in the bottom foam insert.
-3. Gently shift or wiggle it into its intended resting place. It should not move much when seated. Do not force it down or put pressure on the display.
-4. Put the keyboard beside the computer: keys toward the bag wall, thicker edge toward the rear, thinner edge toward the front.
-5. Place the velvet-covered foam board above the computer.
-6. Put the mouse pad above the board, then this guide above the pad.
-7. Put the mouse and collapsible stand above the guide.
-8. Return the two controllers, hub, and power cable to the brown pouch and place that pouch at the top. Check that no loose item presses against the screen and close the bag gently.
-
-### Checking the charging alignment
-
-<!-- evidence: owner-current H01-alignment; repo-verified D-HARDWARE D-MAINTENANCE -->
-Seating the rear/bottom in the molded foam indents aligns the bag’s wireless-charging arrangement. A hidden transmitter sits under the velvet, with its USB power cable routed into a back pocket. This is a slow, trickle-charging arrangement, not fast charging.
-
-Physical fit does not prove that charging has started. Check the foam seating and that the charging cable in the back pocket has power. The battery display can indicate whether power from the wireless receiver is charging the battery, but the display is hidden while the computer is packed in the bag. Without a USB power monitor on the bag charger's supply, it is rather a hope-and-pray arrangement.
-
-A USB power monitor in the bag charger's USB supply connection can show whether it is drawing power. That gives you more evidence than a hopeful glance at the bag, but it is not a direct measurement of energy reaching the battery. Do not press the computer farther into the bag in search of a better fit.
-
-### Carrying the bag
-
-<!-- evidence: owner-current H01-carrying; needs-confirmation Q-BOSE -->
-Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immune to hard impacts. Cushioning is not armor. The Bose speakers and stands do not fit in this bag; carry them separately.

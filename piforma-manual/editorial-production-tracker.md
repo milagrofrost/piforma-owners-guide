@@ -35,6 +35,8 @@ Publication copy contains operating instructions and necessary limits, not produ
 
 October 19, 2026: Speaker models, connection and travel are now in the guide (1984 Bose RoomMate, rear audio output socket, carried separately; optional extra). Still open: power requirements and stand assembly. Builder to-do: a clickable switch between the internal speaker and the rear audio socket, in AtEase or the Apple menu, replacing the current command.
 
+**October 20, 2026: the owner made this switch an absolute must-do before the guide is printed.** Once it exists, rewrite the Bose section's "ask the builder" sentence and the matching note in Appendix B.
+
 ### 01-getting-started.md — Bringing sound into the PiForma
 
 [VERIFY: Identify the actual adapter and its input sockets before connecting an external source. The software’s device name does not establish the supplied adapter’s exact model or acceptable signal levels. The rear composite-video RCA jack is not this audio input.]
