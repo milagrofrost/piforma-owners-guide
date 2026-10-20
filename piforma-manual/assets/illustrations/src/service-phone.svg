@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" width="520" height="400">
+<g stroke="#222" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="230" cy="352" rx="190" ry="18" fill="#d9d8d3" stroke="none"/>
+<!-- base -->
+<path d="M90 340 L120 190 C130 170 330 170 340 190 L370 340 Z" fill="#fff"/>
+<path d="M90 340 H370" fill="none"/>
+<!-- rotary dial -->
+<circle cx="230" cy="268" r="58" fill="#e9e8e4"/>
+<g fill="#fff">
+<circle cx="250.0" cy="233.4" r="9"/>
+<circle cx="232.1" cy="228.1" r="9"/>
+<circle cx="213.7" cy="231.5" r="9"/>
+<circle cx="198.9" cy="242.8" r="9"/>
+<circle cx="190.9" cy="259.7" r="9"/>
+<circle cx="191.4" cy="278.4" r="9"/>
+<circle cx="200.3" cy="294.8" r="9"/>
+<circle cx="215.7" cy="305.3" r="9"/>
+<circle cx="234.2" cy="307.8" r="9"/>
+<circle cx="251.8" cy="301.5" r="9"/>
+</g>
+<circle cx="230" cy="268" r="18" fill="#fff"/>
+<path d="M276 300 L292 318" fill="none" stroke-width="3"/>
+<!-- handset resting in its cradle -->
+<path d="M96 168 C96 140 120 128 150 132 L310 132 C340 128 364 140 364 168 C364 186 348 192 334 186 L326 160 L134 160 L126 186 C112 192 96 186 96 168 Z" fill="#fff"/>
+<!-- coiled cord -->
+<path d="M90 300 C82 292 74 316 82 316 C90 316 82 292 74 300 C74 292 66 316 74 316 C82 316 74 292 66 300 C66 292 58 316 66 316 C74 316 66 292 58 300 C58 292 50 316 58 316 C66 316 58 292 50 300 C40 320 40 350 64 362" fill="none" stroke-width="2"/>
+<!-- the sign -->
+<path d="M330 186 L400 120" fill="none" stroke-width="1.6"/>
+<g transform="rotate(8 430 112)">
+<rect x="372" y="84" width="128" height="62" fill="#fff"/>
+<circle cx="398" cy="96" r="4" fill="#222"/>
+</g>
+</g>
+<g font-family="EB Garamond" fill="#222" text-anchor="middle" transform="rotate(8 430 112)">
+<text x="440" y="114" font-size="20" font-weight="bold">BACK IN</text>
+<text x="440" y="136" font-size="20" font-weight="bold">1986</text>
+</g>
+</svg>

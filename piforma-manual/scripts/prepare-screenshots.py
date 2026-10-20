@@ -18,7 +18,7 @@ items=[
  (12,'piforma-limewire-simulator',None,280),
  (13,'piforma-flying-toasters',None,242),
  (14,'piforma-winamp',None,300),
- (15,'piforma-weatherstar',None,242),
+ (15,'piforma-weatherstar',None,200),
  (16,'piforma-emulationstation-n64',None,366),
 ]
 manifest=[]

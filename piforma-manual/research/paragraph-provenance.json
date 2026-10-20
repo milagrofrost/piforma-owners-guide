@@ -942,6 +942,13 @@
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
+    "section": "The display and source selector",
+    "paragraph_sha256": "1d74a6c31f16fe968acae53e6ee253965cc233f0cdf367bcaaf29b4f4f1df420",
+    "evidence": "owner-current OWNER-TALK-2026-10-20",
+    "preview": "[ILLUSTRATION 2-1b|source-cycle.png|Each press of the source selector moves the screen to its next input. HDMI shows the Raspberry Pi; AV1 s"
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
     "section": "The battery and charging paths",
     "paragraph_sha256": "af767d16aae9d9a4492dbf35812578541eccbacccfd3203113d7e136db540190",
     "evidence": "repo-verified D-HARDWARE D-BOM D-SAFETY",
@@ -1136,6 +1143,13 @@
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
+    "section": "Bose speakers and stands",
+    "paragraph_sha256": "5ecb0dc318e7223cf06890213a173550a692ea10eb55b3c7dc5826afe0337d82",
+    "evidence": "owner-current H03-bose OWNER-TALK-2026-10-19",
+    "preview": "[ILLUSTRATION 2-6|bose-speaker.png|A Bose RoomMate speaker on its stand. The pair are optional, and travel outside the bag.]"
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
     "section": "The bag and its fitted interior",
     "paragraph_sha256": "1677c5e81bd341661bdab68e3c11163e8515e4b98383c962e5ebfa21323deb3d",
     "evidence": "repo-verified D-HARDWARE; owner-current H01-packing",
@@ -1147,6 +1161,13 @@
     "paragraph_sha256": "279f04906f37eacd9f4a769aba0af75002b4f7bf944172736d02c3b47c0dd8bf",
     "evidence": "repo-verified D-HARDWARE; owner-current H01-packing",
     "preview": "The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its i"
+  },
+  {
+    "file": "manuscript\\02-inside-piforma.md",
+    "section": "The bag and its fitted interior",
+    "paragraph_sha256": "f3273c21821eb9d44c91d10ac31a8030c453eea4133c4791442d5c85829322c1",
+    "evidence": "repo-verified D-HARDWARE; owner-current H01-packing",
+    "preview": "[ILLUSTRATION 2-7|carrying-bag.png|The carrying bag, closed: the strap loop runs through four grommets and the clasp holds it.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1259,6 +1280,13 @@
     "paragraph_sha256": "ece21ab8b3a352be23b0d3e8451893b119a32b8dda350878a8493adb48bdf7a6",
     "evidence": "owner-current H01-keyboard OWNER-IMAGES-2026-10-14; editorial-advice",
     "preview": "Use an application's own Cut, Copy and Paste commands when available. Copy leaves the original selection in place; Cut removes it; Paste ins"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Using the keyboard",
+    "paragraph_sha256": "86bd5a25edddbf609a507a53d3f9a0a19d00f4879ca986dcda6b59a0453451f7",
+    "evidence": "owner-current H01-keyboard OWNER-IMAGES-2026-10-14; editorial-advice",
+    "preview": "[ILLUSTRATION 3-2b|text-selection.png|A selected word shows white on black. Choose Copy or Cut from the Edit menu, click with the I-beam poi"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1818,6 +1846,13 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Charging and storage",
+    "paragraph_sha256": "e71e07d73b71c7f44872640edeb87600391ce45d888e786d800208e9819b4d68",
+    "evidence": "owner-current H03-battery; repo-verified D-HARDWARE; needs-confirmation Q-POWER",
+    "preview": "[ILLUSTRATION 4-1|battery-habit.png|The builder’s habit: recharge before the battery display falls below roughly 25 to 50 percent.]"
+  },
+  {
+    "file": "manuscript\\04-caring-for-piforma.md",
+    "section": "Charging and storage",
     "paragraph_sha256": "759b82aec6c180ce27f3b2eb561e41e8c233f95ba0ff89163a13e744d8d47c68",
     "evidence": "owner-current H03-battery; repo-verified D-HARDWARE; needs-confirmation Q-POWER",
     "preview": "Use the PiForma's own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 "
@@ -1891,6 +1926,13 @@
     "paragraph_sha256": "0e45a9aebd97df76af26011da88b518464d3f6c7d3e37ec8d08963ada828005d",
     "evidence": "owner-current H04-support; editorial-advice",
     "preview": "That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to the builder rather than conti"
+  },
+  {
+    "file": "manuscript\\04-caring-for-piforma.md",
+    "section": "Service and support",
+    "paragraph_sha256": "1989db02ffd88681b59f17c2f073b707b3b3eda88db3da488ebc91bf4876d3f6",
+    "evidence": "owner-current H04-support; editorial-advice",
+    "preview": "[ILLUSTRATION 4-3|service-phone.png|The service department, standing by.]"
   },
   {
     "file": "manuscript\\05-technical-information.md",

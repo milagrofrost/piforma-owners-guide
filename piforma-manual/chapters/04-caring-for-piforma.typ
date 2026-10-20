@@ -16,6 +16,7 @@
 #block(breakable:false)[
 #heading(level:2,"Charging and storage")
 #para([#text("The builder prefers to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That's a habit, not a rule from the battery maker.")])
+#wide-illustration("4-1", "battery-habit.png", "The builder’s habit: recharge before the battery display falls below roughly 25 to 50 percent.", width:220.000pt)
 #para([#text("Use the PiForma's own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 describes. Bag charging requires the foam alignment and a USB charger on the cord from the bag’s back pocket. The battery display can indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. Always switch the PiForma off before it goes into the bag; left on, it drains the battery quickly.")])
 ]
 #block(breakable:false)[
@@ -27,16 +28,15 @@
 #heading(level:2,"Bose speakers and stands")
 #para([#text("The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer. Carry the speakers and their stands separately.")])
 ]
-#block(breakable:false)[
 #heading(level:2,"Cleaning, ventilation and unusual behavior")
 #para([#text("Switch off and disconnect charging power before ordinary exterior cleaning. Use a soft dry cloth gently on the case; keep liquids and solvents away from openings and internal parts.")])
 #para([#text("To clean the screen, wipe it gently with a washcloth that is only very slightly damp, wrung out until no water drips. No soap is needed.")])
 #para([#text("Leave vents clear and keep the PiForma out of direct sun, which will toast it. Watch for unusual heat, smell, swelling, damaged wiring, a flickering screen, or electrical behavior that is out of character. Stop using the machine in that condition. A desktop that still appears is no reason to ignore any of these.")])
-#para([#text("The Raspberry Pi sits behind the top left of the screen. To check its temperature, rest a hand on the top left of the case. Warm is normal; if it feels too hot, shut down and switch off. The Pi protects itself by slowing down when it gets very hot, but it doesn’t switch itself off, so it is up to you.")])
-]
+#rail-pic("pi-location-rail.png",[#text("The Raspberry Pi sits behind the top left of the screen (dashed). Rest a hand on the case top above it (red).")],[#text("The Raspberry Pi sits behind the top left of the screen. To check its temperature, rest a hand on the top left of the case. Warm is normal; if it feels too hot, shut down and switch off. The Pi protects itself by slowing down when it gets very hot, but it doesn’t switch itself off, so it is up to you.")])
 #block(breakable:false)[
 #heading(level:2,"Service and support")
 #para([#text("There isn’t any. Sorry.")])
 #para([#text("Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably return to the person who built it, assuming he is in the mood.")])
 #para([#text("That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to the builder rather than continuing to experiment. Treat it kindly and perhaps neither of us will have to find out how extensive the service department’s paperwork is.")])
+#wide-illustration("4-3", "service-phone.png", "The service department, standing by.", width:190.000pt)
 ]

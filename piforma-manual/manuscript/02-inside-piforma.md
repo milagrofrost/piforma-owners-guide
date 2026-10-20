@@ -34,6 +34,8 @@ The screen in this first revision is, frankly, of modest quality: a little dim, 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
 Each press of the rear source selector moves the screen to its next input. Only two are in use: HDMI, for the Raspberry Pi, and AV1, for the composite RCA input. The selector also passes AV2 and VGA, which had nothing connected when the PiForma was built. A small label at the top left of the screen names the current input. Press until it shows HDMI to return to the Pi’s picture.
 
+[ILLUSTRATION 2-1b|source-cycle.png|Each press of the source selector moves the screen to its next input. HDMI shows the Raspberry Pi; AV1 shows the RCA input.]
+
 ## The battery and charging paths
 
 <!-- evidence: repo-verified D-HARDWARE D-BOM D-SAFETY -->
@@ -115,9 +117,13 @@ The matching mouse combines Bambu wireless mouse-kit electronics with a printed 
 <!-- evidence: owner-current H03-bose OWNER-TALK-2026-10-19 -->
 The Bose speakers are an optional extra. They connect to the rear audio output socket. The PiForma’s internal speaker works without them. Place them on stable supports with cables clear of the computer and its stand.
 
+[ILLUSTRATION 2-6|bose-speaker.png|A Bose RoomMate speaker on its stand. The pair are optional, and travel outside the bag.]
+
 ## The bag and its fitted interior
 
 <!-- evidence: repo-verified D-HARDWARE; owner-current H01-packing -->
 The carrying bag is part of the build. It has a corrugated-plastic liner, a foam bottom, green velvet, alignment grooves, and a wireless charging transmitter concealed under the lining. Its cable reaches the back pocket.
 
 The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its intended side position. A computer that only roughly fits won't charge; it has to sit in the grooves.
+
+[ILLUSTRATION 2-7|carrying-bag.png|The carrying bag, closed: the strap loop runs through four grommets and the clasp holds it.]

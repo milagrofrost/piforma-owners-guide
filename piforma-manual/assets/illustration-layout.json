@@ -152,6 +152,36 @@
       "max_width_pt": 242,
       "max_height_pt": 233,
       "kind": "screen-photograph"
+    },
+    "source-cycle.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 120,
+      "kind": "line-drawing"
+    },
+    "text-selection.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 130,
+      "kind": "line-drawing"
+    },
+    "battery-habit.png": {
+      "max_width_pt": 220,
+      "max_height_pt": 80,
+      "kind": "line-drawing"
+    },
+    "service-phone.png": {
+      "max_width_pt": 190,
+      "max_height_pt": 160,
+      "kind": "line-drawing"
+    },
+    "bose-speaker.png": {
+      "max_width_pt": 150,
+      "max_height_pt": 190,
+      "kind": "line-drawing"
+    },
+    "carrying-bag.png": {
+      "max_width_pt": 170,
+      "max_height_pt": 185,
+      "kind": "line-drawing"
     }
   },
   "groups": [

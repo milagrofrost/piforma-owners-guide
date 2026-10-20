@@ -87,6 +87,7 @@ def convert(file):
         else:
             if opening and file.name.startswith(('01-','02-','03-','04-')):blocks.append(f'#opener({q(plain(text))})')
             elif term:blocks.append(f'#glossary-entry({q(term)},[{rich(text)}])');term=None
+            elif rail and rail[0]=='pic' and not sidebar:blocks.append(f'#rail-pic({q(rail[1])},[{rich(rail[2])}],[{rich(text)}])')
             elif rail and not sidebar:blocks.append(f'#rail-def({q(rail[0])},[{rich(rail[1])}],[{rich(text)}])')
             else:blocks.append(f'#para({"width:100%," if sidebar else ""}[{rich(text)}])')
             rail=None
@@ -101,6 +102,9 @@ def convert(file):
         # [RAIL term|definition] on its own line sets a rail definition beside the next paragraph.
         m=re.fullmatch(r'\[RAIL ([^|]+)\|(.+)\]',line.strip())
         if m:flush();rail=(m[1],m[2]);continue
+        # [RAILPIC file|caption] sets a small drawing in the rail beside the next paragraph.
+        m=re.fullmatch(r'\[RAILPIC ([^|]+)\|(.+)\]',line.strip())
+        if m:flush();rail=('pic',m[1],m[2]);continue
         if line.startswith('#### '):
             flush();sidebar=(line[5:],len(blocks));continue
         if line.strip()=='---' and sidebar:
@@ -195,6 +199,7 @@ def convert(file):
     if file.name in ['04-caring-for-piforma.md','07-troubleshooting.md']:
         starts=[i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,')]
         for start,end in reversed(list(zip(starts,starts[1:]+[len(blocks)]))):
+            if 'Cleaning, ventilation' in blocks[start]:continue
             blocks[start:end]=['#block(breakable:false)[\n'+'\n'.join(blocks[start:end])+'\n]']
     if file.name=='02-inside-piforma.md':
         i=next(i for i,b in enumerate(blocks) if '#heading(level:2,"The battery and charging paths"' in b)

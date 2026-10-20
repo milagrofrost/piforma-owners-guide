@@ -23,6 +23,8 @@ The keyboard’s nice!view display shows its battery level, as Chapter 2 explain
 <!-- evidence: owner-current H03-battery; repo-verified D-HARDWARE; needs-confirmation Q-POWER -->
 The builder prefers to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That's a habit, not a rule from the battery maker.
 
+[ILLUSTRATION 4-1|battery-habit.png|The builder’s habit: recharge before the battery display falls below roughly 25 to 50 percent.]
+
 Use the PiForma's own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 describes. Bag charging requires the foam alignment and a USB charger on the cord from the bag’s back pocket. The battery display can indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. Always switch the PiForma off before it goes into the bag; left on, it drains the battery quickly.
 
 ## Stand, bag and transport
@@ -47,6 +49,8 @@ To clean the screen, wipe it gently with a washcloth that is only very slightly 
 
 Leave vents clear and keep the PiForma out of direct sun, which will toast it. Watch for unusual heat, smell, swelling, damaged wiring, a flickering screen, or electrical behavior that is out of character. Stop using the machine in that condition. A desktop that still appears is no reason to ignore any of these.
 
+[RAILPIC pi-location-rail.png|The Raspberry Pi sits behind the top left of the screen (dashed). Rest a hand on the case top above it (red).]
+
 <!-- evidence: owner-current OWNER-TALK-2026-10-20; repo-verified D-HARDWARE; editorial-advice -->
 The Raspberry Pi sits behind the top left of the screen. To check its temperature, rest a hand on the top left of the case. Warm is normal; if it feels too hot, shut down and switch off. The Pi protects itself by slowing down when it gets very hot, but it doesn’t switch itself off, so it is up to you.
 
@@ -58,3 +62,5 @@ There isn’t any. Sorry.
 Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably return to the person who built it, assuming he is in the mood.
 
 That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to the builder rather than continuing to experiment. Treat it kindly and perhaps neither of us will have to find out how extensive the service department’s paperwork is.
+
+[ILLUSTRATION 4-3|service-phone.png|The service department, standing by.]

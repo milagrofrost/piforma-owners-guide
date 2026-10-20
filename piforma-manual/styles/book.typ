@@ -51,6 +51,21 @@
 #let para(copy,width:242pt) = block(width:width,above:0pt,below:10pt,breakable:false,
   [#content-mark()#copy])
 #let subhead(title) = heading(level:3,outlined:false,title)
+// A small drawing can sit in the rail beside the paragraph it explains, with
+// its caption under it, as Apple set its marginal pictures. Like a rail
+// definition it is placed, so it takes no room in the column.
+#let rail-pic(file,copy,body) = block(width:242pt,above:0pt,below:10pt,breakable:false)[
+  #content-mark()
+  // Anchored to the paragraph's last line, so it never runs off the page foot.
+  #place(bottom+left,dx:-112pt,block(width:96pt)[
+    #image("../assets/illustrations/" + file,width:96pt)
+    #v(3pt)
+    #set text(size:8pt)
+    #set par(leading:3.6pt,spacing:0pt)
+    #copy
+  ])
+  #body
+]
 // Apple sets a short definition in the left rail beside the paragraph where
 // a term is first used: a glossary entry right where the reader needs it.
 // It is placed, so it takes no room in the column and moves no page breaks.
@@ -153,7 +168,12 @@
       block(width:242pt)[
         #set text(size:8.5pt)
         #set par(leading:4.2pt,spacing:6pt)
-        #columns(2,gutter:12pt,body)
+        // Typst does not balance columns, so give the pair a height near half
+        // the copy's single-column height and let the second column fill it.
+        #context {
+          let h = measure(block(width:115pt,body)).height
+          block(height:h/2 + 12pt,columns(2,gutter:12pt,body))
+        }
       ])
   ])
 ]
@@ -258,9 +278,17 @@
   ]
   // Give each chapter a quiet opening leaf, rather than starting the next
   // procedure in whatever small space remains beneath its introduction.
+  // Each opener carries one quiet drawing in the lower left, below its text.
   context {
-    if chapter-number.get() == 1 {
+    let n = chapter-number.get()
+    if n == 1 {
       place(top+left,dx:-136pt,dy:267pt,image("../assets/illustrations/piforma-bw.png",width:200pt))
+    } else if n == 2 {
+      place(top+left,dx:-96pt,dy:250pt,image("../assets/illustrations/raspberry-pi.png",width:210pt))
+    } else if n == 3 {
+      place(top+left,dx:-96pt,dy:236pt,image("../assets/illustrations/classic-window.png",width:210pt))
+    } else if n == 4 {
+      place(top+left,dx:-90pt,dy:226pt,image("../assets/illustrations/handle-with-care.png",width:170pt))
     }
   }
   pagebreak()
@@ -298,7 +326,8 @@
   place(top+left,dx:40pt,dy:28pt,image("../assets/logo/piforma-logo.svg",width:58pt))
   place(top+left,dx:112pt,dy:28pt,text(size:22pt,fill:rgb("777772"))[Macintosh PiForma])
   place(top+left,dx:112pt,dy:60pt,text(size:22pt,fill:rgb("777772"))[Owner’s Guide])
-  place(top+left,dx:105pt,dy:218pt,image("../assets/illustrations/piforma-cover.png",width:290pt))
+  // About 20% larger than the first proof, so the machine carries the cover.
+  place(top+left,dx:66pt,dy:196pt,image("../assets/illustrations/piforma-cover.png",width:348pt))
   place(top+left,dx:84pt,dy:477pt,text(size:8pt)[Working manuscript proof · October 20, 2026])
 }
 // The outside back cover carries the bag, in color, on an even page.
