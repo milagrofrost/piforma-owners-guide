@@ -421,9 +421,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Bose speakers and stands",
-    "paragraph_sha256": "4d89c7c82cc22ca631c51478fdb06d850c543c55cbdc451ac57b9b253e85ec5c",
+    "paragraph_sha256": "1c035832efe33ce16a66fe29432fcf6d3003db4b0f32d7ed5aa6b747087737f7",
     "evidence": "owner-current H01-bose OWNER-TALK-2026-10-19; editorial-advice",
-    "preview": "Connect the speakers to the rear audio output socket. Switching sound between the internal speaker and the rear socket is not yet a menu cho"
+    "preview": "Connect the speakers to the rear audio output socket, then send the sound there with Sound Options, in the Wi-Fi status menu at the far righ"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -964,9 +964,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "System sound and startup chimes",
-    "paragraph_sha256": "0fc0a30b89de30fe63396e8994285505636a96e3c6993d53036c60f1975dff14",
+    "paragraph_sha256": "1d0544c829e02c22c88ffbe5adb122336807d4179ac090b4737aee82a0867b3a",
     "evidence": "repo-verified D-HARDWARE; owner-current H01-chime",
-    "preview": "The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when selec"
+    "preview": "The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when chose"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1741,23 +1741,37 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Wi-Fi and Bluetooth",
-    "paragraph_sha256": "fcdf72eef6002f0ebfaedc07bcfa5f776ae19415675326a3654ee52fb62f26d6",
+    "paragraph_sha256": "8c62dfa9850805caa7140b495ecc0f60ef8e5d28795f4046b23cdd1090a68d91",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
     "preview": "The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks t"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Wi-Fi and Bluetooth",
-    "paragraph_sha256": "c331cd404a9f943ac9af8e80edbe1b5a838f09dcd53d7a4615c8d36769646fe9",
+    "paragraph_sha256": "461ec93d5de7f968951beb5b89cc892cb13c8c1bbfda08fb7ce8b6d5ea6ecc7d",
     "evidence": "owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20",
-    "preview": "[ILLUSTRATION 3-10|wifi-menu.png|The Wi-Fi status menu: the network the PiForma has joined, and the volume slider.]"
+    "preview": "[ILLUSTRATION 3-10a|status-menu.png|The Wi-Fi status menu: the network the PiForma has joined, the volume slider and Sound Options.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Wi-Fi and Bluetooth",
-    "paragraph_sha256": "b1c31b7dd646b03b7fd72427ddebebf6d7f43b07a44cf2ca523ef7e1af5816ae",
+    "paragraph_sha256": "d14667ec84cdb3e7a79f0e743d75e387369b6fa240b05d7b2b3ba043a4cf95ec",
     "evidence": "owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20",
-    "preview": "To join a different network, click the network’s name at the top of the menu to reach the wireless settings. This guide won’t go further tha"
+    "preview": "To join a different network, click the network’s name at the top of the menu. A wireless network manager opens. Give it a few seconds while "
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Wi-Fi and Bluetooth",
+    "paragraph_sha256": "0a543548290c48df169f42680d2448bc5286aaae04dfd99e16a710622b0cfb99",
+    "evidence": "owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20",
+    "preview": "[ILLUSTRATION 3-10b|wifi-manager.png|The wireless network manager after its scan. Click the network you want to join.]"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Choosing where sound goes",
+    "paragraph_sha256": "bb62ba2b29a0f39587e0e39e12c64958c0101789d640b16fc212c7dddf12344b",
+    "evidence": "owner-current OWNER-TALK-2026-10-20",
+    "preview": "Sound Options, at the bottom of the same menu, opens a control panel for changing the sound output. Choose the internal speaker, or the rear"
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
@@ -2148,9 +2162,9 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "PiForma Guide",
-    "paragraph_sha256": "e241e581a0a7d26921efcc1c6c094a3e48d4d6d08272dcaefc1b2d80d0ce4d18",
+    "paragraph_sha256": "77bf9cb23d126b65995df23da444783c9169cf56deb869c28652ddaaa1ad8f7b",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
-    "preview": "The built-in guide to the computer, opened from AtEase; its window is titled Macintosh PiForma Guided Tour. Its program is the Docs Viewer l"
+    "preview": "The built-in guide to the computer, opened from AtEase. Its window is titled Macintosh PiForma Guided Tour, and its program is the Docs View"
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -2203,6 +2217,13 @@
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Sound Options",
+    "paragraph_sha256": "f804ad4e8ccf30906ed21c765ada2c7316e4789aa92b6c9eac1945132e948938",
+    "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
+    "preview": "The Wi-Fi status menu item for choosing the sound output: internal speaker or rear audio socket."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Source selector",
     "paragraph_sha256": "5c4a45d7f53f3970e4c441407c4c8c4323a4b06c0f3ab9f714fe67b0ffe93c25",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
@@ -2218,9 +2239,9 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Wi-Fi",
-    "paragraph_sha256": "136f969e84db724fb36cab0799a903a8e737e3ac017176fb5efebcb851d2b494",
+    "paragraph_sha256": "72bdb3f989014416a79d71e3b8291585fe06bee011135fad65143ab1f7aa6d2f",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
-    "preview": "The wireless network connection, managed by the operating system’s network tools. Bluetooth and the mouse’s USB wireless receiver do not pro"
+    "preview": "The wireless network connection, chosen from the Wi-Fi status menu at the far right of the menu bar."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -2365,7 +2386,7 @@
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "No sound, or no startup chime",
-    "paragraph_sha256": "4e721ce6c9bc4c8880563dddeab18ccc70bf827a78a2f46350ede2f70fd0c8e7",
+    "paragraph_sha256": "7b727c4e23c0863c74fa5f90467574c701c9baa48c57bfa15a4de014abedfc6d",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "For normal program sound, turn the side volume control or the keyboard's volume dial up a little and check that the program has something pl"
   },
@@ -2379,7 +2400,7 @@
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "A website or network service will not open",
-    "paragraph_sha256": "320c3a20ce9331bddcb18bb711dfa148f8972c0614514297c4fc96da8ee89ec2",
+    "paragraph_sha256": "8b324aff0e9813a47777f854328bb5c8f5394e3e052c4f4f39c7662cc7d92030",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "Try another known page or service. Check the Wi-Fi status icon at the far right of the menu bar; its menu can take 20 or 30 seconds to open."
   },

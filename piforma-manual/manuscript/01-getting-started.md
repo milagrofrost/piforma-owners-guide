@@ -136,7 +136,7 @@ Plug the USB hub into the rear USB-C port when you need more than one USB connec
 <!-- evidence: owner-current H01-bose OWNER-TALK-2026-10-19; editorial-advice -->
 The Bose speakers are an optional extra, not part of the PiForma package; they do not fit in the bag. The pair shown are 1984 Bose RoomMate speakers. They are almost as large as the PiForma’s screen, which makes for a great deal of sound from a very small picture, and they were chosen because their proportions match.
 
-Connect the speakers to the rear audio output socket. Switching sound between the internal speaker and the rear socket is not yet a menu choice; ask the builder if it needs changing. Give the speakers a stable place beside the working area, with cables out of the way and no strain on the PiForma. Their stands should not make the table or the computer’s folding stand unstable.
+Connect the speakers to the rear audio output socket, then send the sound there with Sound Options, in the Wi-Fi status menu at the far right of the menu bar. Chapter 3 shows the menu. Give the speakers a stable place beside the working area, with cables out of the way and no strain on the PiForma. Their stands should not make the table or the computer’s folding stand unstable.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [ILLUSTRATION 1-5|complete-setup.png|The complete setup: the PiForma on its stand, the keyboard in front, the mouse on its pad, a Bose speaker on its stand at each side and a game controller at the left.]

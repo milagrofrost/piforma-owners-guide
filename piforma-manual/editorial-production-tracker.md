@@ -37,6 +37,8 @@ October 19, 2026: Speaker models, connection and travel are now in the guide (19
 
 **October 20, 2026: the owner made this switch an absolute must-do before the guide is printed.** Once it exists, rewrite the Bose section's "ask the builder" sentence and the matching note in Appendix B.
 
+**Done October 20, 2026 (evening):** the Wi-Fi status menu now ends with Sound Options, which opens a control panel for choosing the sound output. Chapter 1's Bose section, Chapter 3 ("Choosing where sound goes"), Appendix B and the glossary describe it; the "ask the builder" sentence is gone. Clicking the network name now opens a wireless network manager.
+
 ### 01-getting-started.md — Bringing sound into the PiForma
 
 [VERIFY: Identify the actual adapter and its input sockets before connecting an external source. The software’s device name does not establish the supplied adapter’s exact model or acceptable signal levels. The rear composite-video RCA jack is not this audio input.]

@@ -25,12 +25,12 @@
 ]
 #block(breakable:false)[
 #heading(level:2,"No sound, or no startup chime")
-#para([#text("For normal program sound, turn the side volume control or the keyboard's volume dial up a little and check that the program has something playing and its own sound is enabled. Pressing the knob doesn't mute. Start with the volume low. If sound has been switched to the rear audio socket, it plays only through whatever is plugged in there, not the internal speaker.")])
+#para([#text("For normal program sound, turn the side volume control or the keyboard's volume dial up a little and check that the program has something playing and its own sound is enabled. Pressing the knob doesn't mute. Start with the volume low. If sound has been switched to the rear audio socket, it plays only through whatever is plugged in there, not the internal speaker. Switch it back with Sound Options in the Wi-Fi status menu at the far right of the menu bar.")])
 #para([#text("For a missing startup chime, remember that some rear selector positions are silent. Turn the dial a click at a time with the power on, as Chapter 1 describes; not every position plays. The chime and normal program sound use separate hardware; one can work while the other doesn't. Describe which sound is missing before asking for help.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"A website or network service will not open")
-#para([#text("Try another known page or service. Check the Wi-Fi status icon at the far right of the menu bar; its menu can take 20 or 30 seconds to open. If another device on that network also fails, the problem may be outside the PiForma. Note any error message, and ask the builder if Wi-Fi won’t reconnect.")])
+#para([#text("Try another known page or service. Check the Wi-Fi status icon at the far right of the menu bar; its menu can take 20 or 30 seconds to open. If another device on that network also fails, the problem may be outside the PiForma. To try another network, click the network’s name in that menu to open the wireless network manager. Note any error message, and ask the builder if Wi-Fi won’t reconnect.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"A program will not respond")

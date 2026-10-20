@@ -63,7 +63,7 @@ The small display above the keyboard’s number keys. It shows the keyboard’s 
 
 ## PiForma Guide
 
-The built-in guide to the computer, opened from AtEase; its window is titled Macintosh PiForma Guided Tour. Its program is the Docs Viewer listed in the credits. It is separate from About This PiForma.
+The built-in guide to the computer, opened from AtEase. Its window is titled Macintosh PiForma Guided Tour, and its program is the Docs Viewer listed in the credits.
 
 ## PiForma Panel
 
@@ -93,6 +93,10 @@ An emulator’s snapshot of a game in progress. It is a different facility from 
 
 An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own when the computer is idle. Hold the Apple logo for about six seconds to stop it.
 
+## Sound Options
+
+The Wi-Fi status menu item for choosing the sound output: internal speaker or rear audio socket.
+
 ## Source selector
 
 The rear button that moves the screen to its next input. HDMI shows the Raspberry Pi; AV1 shows the composite RCA input.
@@ -103,7 +107,7 @@ An accessory that provides several USB connections from one computer port.
 
 ## Wi-Fi
 
-The wireless network connection, managed by the operating system’s network tools. Bluetooth and the mouse’s USB wireless receiver do not provide it.
+The wireless network connection, chosen from the Wi-Fi status menu at the far right of the menu bar.
 
 # Credits and acknowledgments
 

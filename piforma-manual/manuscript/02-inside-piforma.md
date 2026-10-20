@@ -43,7 +43,7 @@ An external plunger reaches the battery’s own button. Press it to check the ch
 ## System sound and startup chimes
 
 <!-- evidence: repo-verified D-HARDWARE; owner-current H01-chime -->
-The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when selected, through the rear audio output socket. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. Some positions are silent or empty.
+The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when chosen in Sound Options, through the rear audio output socket. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. Some positions are silent or empty.
 
 [ILLUSTRATION 2-3|inside-2.png|A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and battery-button plunger.]
 

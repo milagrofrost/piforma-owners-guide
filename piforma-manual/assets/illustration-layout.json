@@ -143,9 +143,14 @@
       "max_height_pt": 190,
       "kind": "owner-labeled-screenshot"
     },
-    "wifi-menu.png": {
+    "status-menu.png": {
       "max_width_pt": 190,
-      "max_height_pt": 110,
+      "max_height_pt": 132,
+      "kind": "screen-photograph"
+    },
+    "wifi-manager.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 233,
       "kind": "screen-photograph"
     }
   },
@@ -260,7 +265,7 @@
     },
     {
       "start": "The Wi-Fi status icon is at the far right",
-      "end": "wifi-menu.png"
+      "end": "status-menu.png"
     },
     {
       "start": "#subhead(\"Closing the bag\")",
@@ -281,6 +286,10 @@
     {
       "start": "Open Home Folder opens your home folder",
       "end": "piforma-open-home-folder.svg"
+    },
+    {
+      "start": "To join a different network, click",
+      "end": "wifi-manager.png"
     }
   ],
   "compositions": {

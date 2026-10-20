@@ -23,7 +23,7 @@
 #wide-illustration("2-2", "inside-3.png", "The open top reveals the wireless charging receiver, battery-button plunger and battery display. The battery is at 84% in this photograph. Its display can also indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. For the normal check, read through the top slits as described in Chapter 1.", width:288.873pt)
 #block(breakable:false,sticky:true)[
 #heading(level:2,"System sound and startup chimes")
-#para([#text("The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when selected, through the rear audio output socket. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. Some positions are silent or empty.")])
+#para([#text("The startup chime and ordinary system audio are separate. Ordinary sound plays through the internal speaker behind the screen or, when chosen in Sound Options, through the rear audio output socket. A separate sound module and speaker play the startup chime; the rear selector chooses among its sounds. Some positions are silent or empty.")])
 ]
 #wide-illustration("2-3", "inside-2.png", "A rear oblique view identifies the separate chime assembly, battery, AC power inlet, chime selector and battery-button plunger.", width:366.000pt)
 #sidebar("Startup chimes",[

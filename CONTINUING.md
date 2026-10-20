@@ -1,3 +1,7 @@
+# Update — October 20, 2026 (audio switch done)
+
+The guide is 76 pages. **The must-do audio switch exists:** the Wi-Fi status menu now ends with Sound Options, which opens a control panel for choosing the sound output (don't name the program; the owner prefers "a control panel"). Clicking the network name opens a wireless network manager that scans for a few seconds. Chapter 3 shows both (`status-menu.png` replaces `wifi-menu.png`; `wifi-manager.png` is new) and adds "Choosing where sound goes"; Chapter 1's Bose section, Appendix B and the glossary (new Sound Options entry, shorter Wi-Fi and PiForma Guide entries so the glossary keeps to two pages) follow it. The only open items left are the Credits "tall tale" line, facing art pages, rail definitions and the Index, which stays the very last step.
+
 # Update — October 20, 2026 (plain-English pass)
 
 The guide is 74 pages. At the owner's request, about 50 cautious, disclaimer-style sentences were rewritten in plain English across Chapters 1–4 and the appendices (for example "a button's label is not a universal promise about its action" became "Buttons can do different things in different games"). Protected strings in `verify-editorial.py` were kept; `build-manuscript.py` now finds the startup side note by "A silent startup doesn". The home-folder screenshot is 300 pt wide and kept with its paragraph, so every picture in Chapter 3 shares a page with its text.

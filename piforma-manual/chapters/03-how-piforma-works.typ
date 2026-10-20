@@ -124,7 +124,12 @@
 #heading(level:2,"Wi-Fi and Bluetooth")
 #para([#text("Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse's USB wireless receiver is a third, separate connection. So if a website won't load, the keyboard and mouse aren't to blame, and if the keyboard stops, Wi-Fi isn't either.")])
 #block(breakable:false,sticky:true)[
-#para([#text("The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. That's a feature, not a bug. The first line names the network the PiForma has joined, Green Ice in the picture, and a green status means it has joined, though not necessarily that the internet can be reached. The slider below it sets the volume.")])
+#para([#text("The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. That's a feature, not a bug. The first line names the network the PiForma has joined, Green Ice in the picture, and a green status means it has joined, though not necessarily that the internet can be reached. The slider below it sets the volume, and Sound Options at the bottom chooses where the sound goes.")])
 ]
-#wide-illustration("3-10", "wifi-menu.png", "The Wi-Fi status menu: the network the PiForma has joined, and the volume slider.", width:190.000pt)
-#para([#text("To join a different network, click the network’s name at the top of the menu to reach the wireless settings. This guide won’t go further than that. It is 1985, wireless networking has not been invented, and frankly nobody here is sure how the PiForma manages it. If a connection fails, see Appendix B.")])
+#wide-illustration("3-10a", "status-menu.png", "The Wi-Fi status menu: the network the PiForma has joined, the volume slider and Sound Options.", width:190.000pt)
+#block(breakable:false,sticky:true)[
+#para([#text("To join a different network, click the network’s name at the top of the menu. A wireless network manager opens. Give it a few seconds while it scans for nearby wireless signals, whatever those are; it is 1985, after all, and wireless networking has not been invented. Then click the name of the network you want to join. If a connection fails, see Appendix B.")])
+]
+#wide-illustration("3-10b", "wifi-manager.png", "The wireless network manager after its scan. Click the network you want to join.", width:242.000pt)
+#subhead("Choosing where sound goes")
+#para([#text("Sound Options, at the bottom of the same menu, opens a control panel for changing the sound output. Choose the internal speaker, or the rear audio socket for speakers or headphones such as the Bose speakers in Chapter 1.")])
