@@ -15,7 +15,7 @@
 #chapter(1,"Getting Started",[#include "chapters/01-getting-started.typ"],art:"art-glamor.jpg")
 #chapter(2,"Inside the Macintosh PiForma",[#include "chapters/02-inside-piforma.typ"],art:"art-chassis.jpg")
 #chapter(3,"How the Macintosh PiForma Works",[#include "chapters/03-how-piforma-works.typ"],art:"art-workbench.jpg")
-#chapter(4,"Caring for Your Macintosh PiForma",[#include "chapters/04-caring-for-piforma.typ"])
+#chapter(4,"Caring for Your Macintosh PiForma",[#include "chapters/04-caring-for-piforma.typ"],art:"art-bezel.jpg")
 #end-section("Appendix A: Technical Information",[#include "chapters/05-technical-information.typ"])
 #end-section("Appendix B: When Something Goes Wrong",[#include "chapters/07-troubleshooting.typ"])
 #end-section("Glossary",[#include "chapters/06-glossary-and-credits.typ"])

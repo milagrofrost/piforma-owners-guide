@@ -36,6 +36,6 @@ The page has two zones: a narrow **left rail** of about 96 pt and a **main colum
 
 ## Page breaks
 
-- **Chapters always start on a right-hand page.** The page facing the opener is a full-page sketch of the computer (in the Plus, a gray tinted leaf comes first). **The PiForma guide already starts chapters on right-hand pages; Chapters 1–3 now have a facing black-and-white photo (`art-page()` in `styles/book.typ`, set by `art:` in `main.typ`); Chapter 4 has none yet.**
+- **Chapters always start on a right-hand page.** The page facing the opener is a full-page sketch of the computer (in the Plus, a gray tinted leaf comes first). **The PiForma guide already starts chapters on right-hand pages; Every chapter now has a facing black-and-white picture (`art-page()` in `styles/book.typ`, set by `art:` in `main.typ`).**
 - **Sections don't force page breaks.** A new section starts wherever the last one ended. Apple only moves a section to a new page to keep a step next to its picture, and accepts some white space at the bottom of a page to do it. The PiForma guide works the same way.
 - **A thin black line across the full page is not a break.** It sets off a sidebar.

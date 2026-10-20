@@ -221,7 +221,7 @@
 // a chapter opening, the way the old Apple guides gave each chapter a plate.
 #let art-page(file) = {
   pagebreak(to:"even")
-  place(top+left,dx:-152pt,dy:60pt,image("../assets/illustrations/"+file,width:432pt))
+  place(horizon+left,dx:-152pt,dy:2pt,image("../assets/illustrations/"+file,width:432pt))
 }
 #let chapter(n,title,body,art:none) = {
   if art != none { art-page(art) }
