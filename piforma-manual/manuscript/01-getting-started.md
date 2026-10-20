@@ -129,7 +129,7 @@ The mouse can ordinarily stay on between uses, because it drops into a low-power
 ### USB devices and controllers
 
 <!-- evidence: owner-current H01-usb OWNER-TALK-2026-10-20; repo-verified D-MAINTENANCE -->
-Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two game controllers are in the accessory pouch. Chapter 3 explains how to approach the game launcher and its controls. Use only the leads or adapters supplied for these controllers; do not force a connector into the USB hub.
+Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two game controllers are in the accessory pouch. Chapter 3 explains the game launcher. Use the leads or adapters that came with the controllers, and don't force a plug into the hub.
 
 ### Bose speakers and stands
 
@@ -144,16 +144,16 @@ Connect the speakers to the rear audio output socket. Switching sound between th
 ### Bringing sound into the PiForma
 
 <!-- evidence: owner-current H01-audio; repo-verified D-SOFTWARE D-AUDIO -->
-The external audio adapter brings sound from an external source into the PiForma over USB so it can play through the normal speakers. This is external audio into the computer, not the computer’s ordinary audio output. Use the adapter intended for this setup. The rear RCA jack carries composite video; it is not an audio input.
+The external audio adapter brings sound from another device, such as a VCR or a games console, into the PiForma over USB, so it plays through the PiForma’s speakers. That makes it external audio into the computer; sound going out uses the rear audio socket. The rear RCA jack carries only the picture.
 
 ## Important safety instructions
 
 <!-- evidence: editorial-advice; owner-current H01-safety OWNER-TALK-2026-10-20; repo-verified D-SAFETY D-HARDWARE -->
 Keep liquids away, protect the display, and leave ventilation openings clear. Keep the PiForma out of direct sun. Use a stable stand on a level table. Do not carry the computer by cables or press on the screen to move it.
 
-The power switch does not disconnect external charging power from the internal charger. Switching the computer off alone does not make internal electrical work safe. Do not disassemble it with charging power connected. Internal repairs and battery disconnection belong with someone familiar with this particular build, not in a first-start procedure.
+The power switch does not disconnect external charging power from the internal charger. Switching it off doesn't make the inside safe to work on. Never open it up with charging power connected, and leave internal repairs to the builder.
 
-Stop using the computer if it becomes unusually hot, smells hot, or has damaged power wiring or a damaged battery. Do not keep retrying power-on in that condition. Use the intended charging equipment. This privately built device has no claimed electrical-safety certification.
+Stop using the computer if it becomes unusually hot, smells hot, or has damaged power wiring or a damaged battery. Don't keep trying to switch it on. Charge it only with its own power cable. It was built at home, so it carries no safety certification.
 
 Stop using it, too, if the screen starts to flicker. A flicker probably means the HDMI connection between the Raspberry Pi and the screen is wearing out, and it needs the builder’s attention before the next session.
 
@@ -165,7 +165,7 @@ Stop using it, too, if the screen starts to flicker. A flicker probably means th
 3. Listen for a startup chime. Depending on the rear selector’s position, there may be no sound.
 4. Watch for the startup picture or sequence. The desktop normally follows in about one to two minutes; allow for some variation.
 
-A silent startup does not by itself mean that the computer has failed. Use the green light and display as well as the chime when checking what has happened.
+A silent startup doesn't mean anything has failed, because some chime positions are silent. Go by the green light and the screen as well.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20 -->
 The first thing on the screen is always No Signal. Don’t panic: the screen wakes up before the Raspberry Pi does, and there is no way to skip the message. It shows once, the screen goes blank, and the startup picture should appear within 10 to 15 seconds.
@@ -209,7 +209,7 @@ If the internal battery is charged, you do not need a power cord for a short ses
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The desktop has no battery gauge, and there is no low-battery warning. Check the battery display through the top slits now and then. When the battery runs out, the PiForma stops at once, just as if the power switch had been turned off, and unsaved work is lost. After a full drain, connect external power and allow a minute or two before it will start.
 
-Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the computer’s power switch is off. Use the cable and charging arrangement intended for this build.
+Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the computer’s power switch is off. Use that cable rather than another charger.
 
 ## Stopping the computer
 
@@ -218,7 +218,7 @@ Take the power cable from the brown pouch. The original rear AC inlet supplies t
 <!-- evidence: owner-current H01-shutdown OWNER-TALK-2026-10-20; repo-verified P-MENU P-POWER; editorial-advice -->
 1. Save your work and leave any game or application using its own quit command when available. If a full-screen program gives you no way out, hold the Apple logo for about six seconds instead.
 2. In the PiForma Panel menu bar, choose Special → Shut Down.
-3. If a confirmation appears, choose Shut Down. Let the operating system finish shutting down before removing physical power. A blank screen alone can also mean the display is asleep, so do not use darkness as the only confirmation.
+3. If a confirmation appears, choose Shut Down. Let the operating system finish shutting down before removing physical power. A dark screen can also just mean the display is asleep, so give shutdown time to finish.
 4. Once shutdown is complete, turn off the power switch on the right side. The green light at the front goes out. The wiring permits battery charging while the switch is off.
 
 Never skip that last step. Shut Down stops the software but leaves the power on, and the battery drains quickly until the green light goes out. That matters most in the bag, where you can’t see the light.
@@ -226,7 +226,7 @@ Never skip that last step. Shut Down stops the software but leaves the power on,
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 
 <!-- evidence: owner-current H01-shutdown; editorial-advice -->
-The physical power switch can cut the computer’s power. Reserve an abrupt power-off for a last resort when the system will not respond, rather than treating it as the normal way to stop. It can lose unsaved work or damage files.
+Switching off without shutting down first is a last resort, for a computer that won’t respond. It can lose unsaved work or damage files.
 
 <!-- evidence: owner-current OWNER-UPDATE-1; needs-confirmation Q-GESTURE Q-SHUTDOWN -->
 To leave a full-screen program rather than stop the computer, see “Leaving a full-screen program” in Chapter 3. A hold of about six seconds closes only the active application on the current PiForma.
@@ -278,31 +278,31 @@ The normal, management-approved way to read the battery is to press the rear bat
 
 [ILLUSTRATION 1-6a|1-6b.png|Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where to look.]
 
-Press the plunger as intended, look at the battery indication, and try the power switch again. If the battery is empty, apparently asleep, or refuses to start despite showing charge, connect the intended external power supply and try again.
+Press the plunger, read the battery, and try the power switch again. If the battery is empty, seems asleep, or won't start despite showing charge, plug in the power cable and try again.
 
-The builder has sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief connection before taking anything apart, but do not count on one minute as a fixed recovery time. This is an observed oddity, not an established diagnosis.
+The builder has sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief connection before taking anything apart, but do not count on one minute as a fixed recovery time. Nobody knows why it works; it just sometimes does.
 
 ### If there is no green light
 
 <!-- evidence: owner-current H01-troubleshooting -->
-If there is no green light, no chime, and no picture, start with the power switch, battery indication, plunger, and intended power cable. Retry the startup sequence after the battery check or brief external-power connection. If they do not help, stop short of internal troubleshooting and consult the builder.
+If there is no green light, no chime, and no picture, start with the power switch, battery indication, plunger and power cable. Then try again. If that doesn't help, don't go looking inside; ask the builder.
 
 ### If the light is on but there is no chime
 
 <!-- evidence: owner-current H01-chime; repo-verified D-HARDWARE D-MAINTENANCE -->
 Some positions on the rear chime-selector dial are intentionally silent or empty. With the PiForma powered on, move the dial through several positions in either direction and listen for an available sound.
 
-If it never sounds, there may be a problem with the chime module, its speaker, or its power, but silence alone is not a diagnosis. The startup chime uses its own sound hardware; normal desktop audio is a separate path. Internal checks should be made only by someone familiar with the build and with power safely disconnected.
+If it never sounds, the chime module may need attention, which is a job for the builder. The chime has its own sound hardware, so desktop sound can still work without it.
 
 ### If the light and chime work but the screen stays blank
 
 <!-- evidence: owner-current H01-troubleshooting OWNER-TALK-2026-10-20; repo-verified D-HARDWARE D-KNOWN -->
-No Signal and a moment of blank screen are normal at first. If the startup picture has not appeared after about 15 seconds, press the source selector at the back until the screen shows HDMI. A chime does not prove that the Pi has completed its boot. If the picture stays blank, flickers or distorts, ask the builder rather than disturbing anything inside.
+No Signal and a moment of blank screen are normal at first. If the startup picture has not appeared after about 15 seconds, press the source selector at the back until the screen shows HDMI. The chime plays before the computer has finished starting, so wait for the picture. If the picture stays blank, flickers or distorts, ask the builder rather than disturbing anything inside.
 
 ### If the desktop is slow to appear
 
 <!-- evidence: owner-current H01-troubleshooting -->
-Give the computer one to two minutes to reach the desktop. If it remains at the startup picture or never reaches a usable desktop, record what you see rather than repeatedly interrupting power.
+Give the computer one to two minutes to reach the desktop. If it stays on the startup picture, note what you see and tell the builder rather than switching it off and on repeatedly.
 
 ### A closer look, strictly off the record
 

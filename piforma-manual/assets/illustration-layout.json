@@ -277,6 +277,10 @@
     {
       "start": "Open RetroPie/EmulationStation from AtEase",
       "end": "piforma-emulationstation-n64.svg"
+    },
+    {
+      "start": "Open Home Folder opens your home folder",
+      "end": "piforma-open-home-folder.svg"
     }
   ],
   "compositions": {

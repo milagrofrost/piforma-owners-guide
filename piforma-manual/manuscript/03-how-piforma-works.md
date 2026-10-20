@@ -21,7 +21,7 @@ Here the PiForma parts company with a real Macintosh. On a Macintosh, the menu b
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 [SCREENSHOT 3-2|piforma-application-menus.svg|The persistent system menu bar remains above the document window. Use the application's own File menu for Save and its other document commands. The themed window's close control is at upper left; minimize and maximize are at upper right.]
 
-Each program keeps its own menus inside its own window. For document work, use that program's own File → Save, Edit → Copy, Edit → Paste, and other available commands. The top File menu and a document window's File menu have different jobs, so be sure you are opening the one you mean. The Macintosh appearance does not make every classic Macintosh command applicable; use the commands the running program shows.
+Each program keeps its own menus inside its own window. For document work, use that program's own File → Save, Edit → Copy, Edit → Paste, and other available commands. The top File menu and a document window's File menu have different jobs, so be sure you are opening the one you mean. It looks like a Macintosh, but not every classic Macintosh command works; use the commands each program shows.
 
 ## Using the mouse
 
@@ -47,12 +47,12 @@ To replace text, select it by dragging across it, then type the replacement. Del
 
 Use an application's own Cut, Copy and Paste commands when available. Copy leaves the original selection in place; Cut removes it; Paste inserts the copied or cut material at the insertion point. Check the selection before cutting, and the insertion point before pasting.
 
-The vintage key legends do not establish a modern shortcut map. Follow commands displayed by the program instead of assuming that an Apple-labeled key performs a particular action. Pairing and special key combinations are not covered here. If ordinary typing fails, use the keyboard checks in Appendix B.
+The vintage keys don't map neatly onto modern shortcuts, and the Apple key may not do what it did in 1985. Use the commands each program shows in its menus. If ordinary typing fails, use the keyboard checks in Appendix B.
 
 ## Opening programs with AtEase
 
 <!-- evidence: repo-verified A-APP D-ATEASE; owner-current OWNER-TALK-2026-10-19 -->
-AtEase has two folder tabs. At Ease Items holds the programs; sites holds a selection of websites the builder finds interesting, a collection still being tidied. Each tab shows only what fits in its window; there is no second page yet. Click a tab to switch between them, then click a button once. Allow time for the program to open. A launcher button starts a program; it is not the document you may later create inside it.
+AtEase has two folder tabs. At Ease Items holds the programs; sites holds a selection of websites the builder finds interesting, a collection still being tidied. Each tab shows only what fits in its window; there is no second page yet. Click a tab to switch between them, then click a button once. Allow time for the program to open. A launcher button starts a program, not a document.
 
 If application windows cover the launcher, choose View → Show Desktop from PiForma Panel. This minimizes your programs into the Control Strip without quitting them. You can then select another AtEase button. If the launcher is absent rather than covered, see Appendix B.
 
@@ -68,7 +68,7 @@ Where a normal window has a title bar, drag it to a more useful position. Where 
 
 Use a program's Quit or Exit command to leave it. A window close control closes that window, which may leave other windows from the same program running. A save question gives you a chance to keep changes; Cancel returns you to the work so you can decide.
 
-Showing the desktop minimizes your programs into the Control Strip without saving or quitting them. Return to an open window by clicking its visible part or the appropriate Control Strip pane. Give the strip a moment to detect a newly opened program. Returning to a running program is different from deliberately opening another copy of it.
+Showing the desktop minimizes your programs into the Control Strip without saving or quitting them. Return to an open window by clicking its visible part or the appropriate Control Strip pane. Give the strip a moment to detect a newly opened program. Return to a running program from the Control Strip rather than opening it again from AtEase.
 
 ### Window controls
 
@@ -82,7 +82,7 @@ Use the controls a window actually provides. Some windows omit controls or draw 
 <!-- evidence: repo-verified P-MENU P-ACTIONS D-SOFTWARE; editorial-advice -->
 A file holds something the computer can keep: a document, picture, sound or other information. A folder groups files and other folders. A program is the tool you use; the document is the work you keep. Closing the tool does not substitute for saving the work.
 
-PiForma Panel's File → Open Home Folder opens your home folder in a file window. Browse by opening the folders shown there. Many file views open a folder or file with a double-click; use the view's Open command if its click setting differs. Opening a document starts the associated program when an association is available. An unfamiliar file type may instead ask which program to use.
+PiForma Panel's File → Open Home Folder opens your home folder in a file window. Browse by opening the folders shown there. Many file views open a folder or file with a double-click; use the view's Open command if its click setting differs. Opening a document starts the program that goes with it; an unfamiliar file may ask which program to use.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 [SCREENSHOT 3-3a|piforma-open-home-folder.svg|Use the system File menu's Open Home Folder command to reach your files.]
@@ -91,7 +91,7 @@ PiForma Panel's File → Open Home Folder opens your home folder in a file windo
 
 Keep related work in a folder you can recognize. Give documents meaningful names and note which folder contains them. Before moving, renaming or deleting a file, close it in its program and make sure you know which item is selected. Leave unfamiliar system and application files alone.
 
-Moving a file changes where you find it; copying leaves another copy. Neither should be confused with saving edits in an open document.
+Moving or copying a file doesn't save the changes in an open document; only Save does that.
 
 ### Backups
 
@@ -106,19 +106,19 @@ The PiForma has no backup arrangement for its microSD card, and management prefe
 Programs do not all save in the same way. Use this sequence in a document application that offers Save and Open commands; a web page or game may use a different system.
 
 1. Choose Save from the application's own menu. On the first save, it will usually ask for a name and location.
-2. Select a folder you can find again, enter a useful filename, and confirm with the dialog's Save control. Keep the format or filename extension the program supplies unless you understand the alternative.
+2. Select a folder you can find again, enter a useful filename, and confirm with the dialog's Save control. Keep the file type the program suggests.
 3. If warned that a file already exists, check its name and folder. Replacing it may overwrite earlier work. Cancel and choose a different name if you want both versions.
 4. After further changes, use Save again. Where offered, Save As lets you choose another name or location; read the dialog to see which copy you will be editing afterward.
 5. To return later, use the application's Open command and find the saved file, or open the file from its folder. Check that the expected work appears.
 
-Save periodically and before quitting or shutting down. A failed save, an error message or a dialog still waiting for an answer means you should check the result before closing. Where practical, reopen an important file to verify it. Do not assume an automatic save exists merely because no one has asked you to save yet.
+Save often, and always before quitting or shutting down. If a save fails or a dialog is still waiting, deal with it before closing. Don't count on any program saving for you.
 
 ## The menu bar and Control Strip
 
 <!-- evidence: repo-verified P-MENU P-ACTIONS C-README C-MAIN -->
 Apple menu → About This PiForma opens system information. View → Show Desktop minimizes your programs into the Control Strip and reveals the desktop. Special → Shut Down requests an operating-system shutdown; Special → Sleep Display only blanks or sleeps the display. A sleeping screen is not a stopped computer.
 
-The Control Strip sits at the bottom-left of the desktop. The original Macintosh Control Strip held control panels; the PiForma’s works more like a dock. It holds a pane for every program you have open, and for programs kept there for quick access. Click a program's pane to launch it when closed or return to its windows when open. Some running programs appear as temporary panes. Use the ordinary pane action; window-list details can differ between versions.
+The Control Strip sits at the bottom-left of the desktop. The original Macintosh Control Strip held control panels; the PiForma’s works more like a dock. It holds a pane for every program you have open, and for programs kept there for quick access. Click a program's pane to launch it when closed or return to its windows when open. Some running programs appear as temporary panes.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 [SCREENSHOT 3-4|piforma-control-strip.svg|The Control Strip at lower left, with a window popup visible above it. The rest of the desktop is omitted so the strip can be read clearly.]
@@ -144,26 +144,26 @@ The RetroPie shortcut is the useful one. To play games without unpacking the key
 ## Controllers and games
 
 <!-- evidence: owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice -->
-The accessory pouch holds two game controllers. The rear USB port and hub provide external USB connections. A controller with a different plug needs its matching supplied adapter; the shape of the controller does not establish its connection. Do not force a plug or substitute an unidentified adapter.
+The accessory pouch holds two game controllers. Plug a controller into the rear USB port, or both into the hub. If a controller has an older plug, use the adapter that came with it, and don't force anything.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [ILLUSTRATION 3-5a|piforma-n64.png|Two game controllers and a racing game on the PiForma screen.]
 
-Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game. Follow the game's own instructions for play. Controller assignments, player order and button meanings can differ between games; a button's label is not a universal promise about its action.
+Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game. Follow the game's own instructions for play. Buttons can do different things in different games, so the A button won't always mean the same thing.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's game list. The bar along the bottom names the buttons for this screen, including A to launch the highlighted game and B to go back.]
 
-Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a controller-configuration prompt appears, read it before proceeding; do not overwrite an existing setup merely to dismiss the prompt. If there are no usable prompts or known controls, ask the builder to identify the configured bindings.
+Before settling into a game, find out how that game pauses, saves and exits. The controllers are already set up, so if a screen asks you to set one up, read it carefully rather than redoing the setup just to make it go away. If you can't work out the controls, ask the builder.
 
-A game's own save and an emulator's save state are different facilities. Use only a save facility the running game or emulator actually provides, and check that it reports success. Closing a game from outside does not guarantee a saved game or state.
+A game can save in two ways: its own save, and the emulator's save state, a snapshot of the moment. Use whichever the game offers and check that it worked. Closing a game with the Apple logo does not save it.
 
 ## Leaving a full-screen program
 
 <!-- evidence: owner-current OWNER-UPDATE-1; editorial-advice -->
 A full-screen game can cover the menu bar and window controls. First use its own Quit or Exit command when available. Save before leaving whenever the program allows it.
 
-On the current PiForma, holding the Apple-logo touch control for about six seconds closes only the active application. Use this confirmed action when you need to leave a full-screen application without an accessible close control. It does not close everything or replace normal shutdown. Unsaved work may be lost.
+On the current PiForma, holding the Apple-logo touch control for about six seconds closes only the active application. Use it when a full-screen program gives you no way out. It closes one program, not the computer. Unsaved work may be lost.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-19 -->
 [ILLUSTRATION 3-6a|closing-app-1.png|An application has taken up the full screen with no way to exit.]
@@ -173,16 +173,16 @@ On the current PiForma, holding the Apple-logo touch control for about six secon
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The same hold is how you quit a game. The game controllers use every button, so none is set aside for quitting. Hold the Apple logo for about six seconds: the game closes and EmulationStation returns. To leave EmulationStation too, hold the logo for another six seconds; EmulationStation closes and the desktop returns.
 
-Some emulators capture the mouse so the pointer stays inside their display. Use that emulator's documented release control if known. This guide supplies no unverified keyboard shortcut for releasing it. If you cannot regain control, follow the frozen-application checks in Appendix B.
+Some emulators trap the mouse pointer inside their window. If you can't get it back out, hold the Apple logo for about six seconds, or see Appendix B.
 
 ## Diversions
 
 
 <!-- evidence: repo-verified D-SOFTWARE D-RELATED -->
-The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experiments among them. Use the labels in your installed launcher. A familiar old name may open a modern program or themed web application rather than the original software. The costume department has been busy.
+The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experiments among them. A familiar old name may open a modern program in costume rather than the original software. The costume department has been busy.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
-The browser is Chromium, dressed as Netscape Navigator; its AtEase button carries the Netscape name. Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the page's links to follow its contents. Online material needs a working network connection. Locally supplied diversions and documents may remain available without one.
+The browser is Chromium, dressed as Netscape Navigator; its AtEase button carries the Netscape name. Type an address in the address field to visit a site. Online pages need Wi-Fi; programs stored on the PiForma itself work without it.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The other AtEase buttons are mostly what they seem. America Online opens an America Online simulator, and Encarta opens Kiwix, a reader for offline reference articles, at least as of this writing. Macintosh HD opens a file window. Mac OS 9 runs the real Mac OS 9 inside the SheepShaver emulator; it fills the screen, so leave it with the six-second hold. Terminal opens a command line, which is for the builder.
@@ -224,7 +224,7 @@ Clippy can offer suggestions, but check them against the PiForma's actual setup 
 <!-- evidence: repo-verified ABOUT-README ABOUT-CONFIG VIEWER-README VIEWER-STACKS -->
 About This PiForma displays computer and operating-system information. Open it from the Apple menu.
 
-PiForma Guide is the built-in guide to the computer and its functions, with the project's hardware, software, maintenance and other documents. Its Update Stack button checks for updated documentation. If an update fails, the guide keeps its previous copy; without one it uses its bundled offline snapshot. An offline document is useful, but its age still matters when comparing it with a changed machine.
+PiForma Guide is the built-in guide to the computer and its functions, with the project's hardware, software, maintenance and other documents. Its Update Stack button checks for updated documentation. If an update fails, the guide keeps its previous copy; without one it uses its bundled offline snapshot. An offline copy may be out of date if the PiForma has changed since.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 Click PiForma Guide in AtEase; its window is titled Macintosh PiForma Guided Tour. Choose a stack such as Meet PiForma, Hardware or Software to begin reading. The bottom line reports documentation status and identifies the snapshot; it is worth checking when the machine and a document seem to disagree.
@@ -234,7 +234,7 @@ Click PiForma Guide in AtEase; its window is titled Macintosh PiForma Guided Tou
 ## Wi-Fi and Bluetooth
 
 <!-- evidence: repo-verified D-SOFTWARE; editorial-advice -->
-Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse's USB wireless receiver is a third, separate connection. A working keyboard does not prove that a website can be reached, and a lost internet connection does not mean the mouse needs pairing.
+Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse's USB wireless receiver is a third, separate connection. So if a website won't load, the keyboard and mouse aren't to blame, and if the keyboard stops, Wi-Fi isn't either.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
 The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. That's a feature, not a bug. The first line names the network the PiForma has joined, Green Ice in the picture, and a green status means it has joined, though not necessarily that the internet can be reached. The slider below it sets the volume.

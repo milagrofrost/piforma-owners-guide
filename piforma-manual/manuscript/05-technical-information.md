@@ -34,7 +34,7 @@ Power path: rear AC inlet → internal charger → main battery → original pow
 - Composite RCA input: video only.
 - Rear audio socket: output to external speakers or headphones.
 - External audio: USB capture source and audio-loop helper.
-- External USB access: one rear USB-C port; do not infer exterior access from the Pi’s board connector count.
+- External USB access: one rear USB-C port; the Pi’s other ports are inside the case.
 
 ## Software, services and recovery
 

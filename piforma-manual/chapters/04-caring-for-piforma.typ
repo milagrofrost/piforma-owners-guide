@@ -6,7 +6,7 @@
 #block(breakable:false)[
 #heading(level:2,"Handling the computer and display")
 #para([#text("Use the carrying handle as described in Chapter 1 and watch the keyboard as the computer comes out of the bag. Avoid impacts, pressure on the display, and pulling on connected cables.")])
-#para([#text("The display connections need gentle handling. Do not try to cure a flicker by tapping the case or moving internal parts while powered. Record the symptom and let the builder investigate.")])
+#para([#text("Don't try to cure a flicker by tapping the case or poking inside; tell the builder.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"Keyboard and mouse care")
@@ -15,8 +15,8 @@
 ]
 #block(breakable:false)[
 #heading(level:2,"Charging and storage")
-#para([#text("The builder prefers to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. This is a personal usage preference, not a manufacturer storage-charge specification.")])
-#para([#text("Use the intended external supply. A full-looking battery may still need the plunger or a brief power connection before startup, as Chapter 1 describes. Bag charging requires the foam alignment and a USB charger on the cord from the bag’s back pocket. The battery display can indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. Always switch the PiForma off before it goes into the bag; left on, it drains the battery quickly.")])
+#para([#text("The builder prefers to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That's a habit, not a rule from the battery maker.")])
+#para([#text("Use the PiForma's own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 describes. Bag charging requires the foam alignment and a USB charger on the cord from the bag’s back pocket. The battery display can indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. Always switch the PiForma off before it goes into the bag; left on, it drains the battery quickly.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"Stand, bag and transport")
@@ -25,7 +25,7 @@
 ]
 #block(breakable:false)[
 #heading(level:2,"Bose speakers and stands")
-#para([#text("The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer. Do not assume the stands can be carried by the speakers or folded while attached.")])
+#para([#text("The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer. Carry the speakers and their stands separately.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"Cleaning, ventilation and unusual behavior")

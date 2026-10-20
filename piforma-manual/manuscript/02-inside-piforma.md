@@ -1,12 +1,12 @@
 # Inside the Macintosh PiForma
 
 <!-- evidence: repo-verified D-HARDWARE D-BOM; editorial-advice -->
-The PiForma’s familiar case is the starting point, not the specification of the computer inside it. This chapter introduces the parts and their jobs. Appendix A keeps the finer details close at hand without requiring you to read a wiring inventory before switching on.
+The PiForma looks like a 1985 monitor, but the computer inside is entirely modern. This chapter introduces the parts and what they do. Appendix A has the finer details for anyone who wants the wiring.
 
 ## The monitor that became a computer
 
 <!-- evidence: repo-verified D-HARDWARE -->
-The case began as an Apple IIc Monitor. Its original CRT had been removed before this build. The plastic case, metal chassis, power switch, AC inlet, and rear openings were reused; the computer and display inside are different equipment.
+The case began as an Apple IIc Monitor. Its original CRT had been removed before this build. The plastic case, metal chassis, power switch, AC inlet, and rear openings were reused; the computer and screen inside are new.
 
 This is a conversion, not a restoration of a stock Macintosh. The old case was a good place to start and a rather particular place to fit everything else.
 
@@ -33,7 +33,7 @@ Each press of the rear source selector moves the screen to its next input. Only 
 ## The battery and charging paths
 
 <!-- evidence: repo-verified D-HARDWARE D-BOM D-SAFETY -->
-The internal battery lets you use the PiForma without a power cord. The intended external power cable supplies its charger, and the battery can charge while the computer's physical switch is off. The switch does not disconnect the charger from external power. Appendix A describes the internal power path.
+The internal battery lets you use the PiForma without a power cord. The power cable feeds its charger, and the battery can charge while the computer's physical switch is off. The switch does not disconnect the charger from external power. Appendix A describes the internal power path.
 
 <!-- evidence: owner-current H01-battery; repo-verified D-HARDWARE; needs-confirmation Q-BATTERY -->
 An external plunger reaches the battery’s own button. Press it to check the charge, and sometimes to wake the pack. The normal check is to press the rear plunger and read the percentage through the top slits. The top latch can also be unlocked and lifted for a closer look; Chapter 1 describes the optional opening procedure.
@@ -66,21 +66,21 @@ The next three clicks are silent, and the one after that brings back the classic
 
 ---
 
-Normal desktop sound uses an internal USB speaker. Changing its software volume is not necessarily a test of the separate startup-chime hardware.
+Normal desktop sound uses an internal USB speaker. Its volume has nothing to do with the startup chime, which has its own hardware.
 
 ## The physical controls
 
 <!-- evidence: owner-current H01-controls; repo-verified D-HARDWARE D-SOFTWARE -->
-The right-side power switch controls the computer’s power rail. The front Apple-logo sensor supplies software gestures. The rear source selector chooses the LCD input, while the rear chime dial chooses the startup sound. They do different jobs even when the desktop is not yet visible.
+The right-side power switch controls the computer’s power rail. The Apple logo on the front is a touch control for shortcuts. The rear source selector chooses the LCD input, while the rear chime dial chooses the startup sound.
 
-Turn the side volume knob clockwise to raise normal system volume and counterclockwise to lower it. The installed knob has no usable push-to-mute action.
+Turn the side volume knob clockwise to raise normal system volume and counterclockwise to lower it. Pressing the knob does nothing; it has no mute.
 
 ## Ports, wireless links and adapters
 
 <!-- evidence: owner-current H01-usb; repo-verified D-HARDWARE D-SOFTWARE -->
-One rear USB-C port is available to the user. The Pi board’s own connectors should not be mistaken for externally accessible ports. Use the hub for several devices, or for devices with older USB plugs.
+One rear USB-C port is available to the user. The Raspberry Pi’s own ports are inside the case and out of reach. Use the hub for several devices, or for devices with older USB plugs.
 
-The keyboard uses Bluetooth LE and the mouse uses its USB wireless receiver, which is plugged into the Raspberry Pi inside the case and stays there. Wi-Fi and Bluetooth belong to the operating system’s network and device tools. External audio input uses a separate USB capture adapter and audio-loop helper, not the rear composite-video RCA jack.
+The keyboard uses Bluetooth LE and the mouse uses its USB wireless receiver, which is plugged into the Raspberry Pi inside the case and stays there. Wi-Fi and Bluetooth are handled by the operating system. External audio input uses a separate USB capture adapter and audio-loop helper, not the rear composite-video RCA jack.
 
 ## The converted Apple keyboard
 
@@ -114,4 +114,4 @@ The Bose speakers are an optional extra. They connect to the rear audio output s
 <!-- evidence: repo-verified D-HARDWARE; owner-current H01-packing -->
 The carrying bag is part of the build. It has a corrugated-plastic liner, a foam bottom, green velvet, alignment grooves, and a wireless charging transmitter concealed under the lining. Its cable reaches the back pocket.
 
-The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its intended side position. A loose fit and a correctly aligned charging position are not interchangeable.
+The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its intended side position. A computer that only roughly fits won't charge; it has to sit in the grooves.

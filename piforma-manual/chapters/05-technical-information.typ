@@ -29,7 +29,7 @@
 #spec-row("Composite RCA input:",text("video only."))
 #spec-row("Rear audio socket:",text("output to external speakers or headphones."))
 #spec-row("External audio:",text("USB capture source and audio-loop helper."))
-#spec-row("External USB access:",text("one rear USB-C port; do not infer exterior access from the Pi’s board connector count."))
+#spec-row("External USB access:",text("one rear USB-C port; the Pi’s other ports are inside the case."))
 ])
 #heading(level:2,"Software, services and recovery")
 #para([#text("The software includes Raspberry Pi OS, X11/LXDE, Openbox, LightDM, PCManFM, PipeWire, and WirePlumber. System services include apple-gesture-button, volume-knob, atease, and flyingtoasters. User services include piforma-panel, controlstrip-simulator, and the optional usb-audio-loop.")])

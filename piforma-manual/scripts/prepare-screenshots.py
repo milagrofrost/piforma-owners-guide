@@ -13,7 +13,7 @@ items=[
  (7,'piforma-show-desktop',(0,0,420,120),242),
  (8,'piforma-application-menus',(0,0,824,290),366),
  (9,'piforma-open-home-folder',(0,0,375,140),242),
- (10,'piforma-home-folder',None,366),
+ (10,'piforma-home-folder',None,300),
  (11,'piforma-clippy-message-entry',(240,438,584,482),242),
  (12,'piforma-limewire-simulator',None,280),
  (13,'piforma-flying-toasters',None,242),

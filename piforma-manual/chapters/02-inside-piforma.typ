@@ -2,9 +2,9 @@
 #import "../styles/book.typ": *
 #import "../styles/screenshots.typ": screen-figure
 #import "../styles/typography.typ": accent
-#opener("The PiForma’s familiar case is the starting point, not the specification of the computer inside it. This chapter introduces the parts and their jobs. Appendix A keeps the finer details close at hand without requiring you to read a wiring inventory before switching on.")
+#opener("The PiForma looks like a 1985 monitor, but the computer inside is entirely modern. This chapter introduces the parts and what they do. Appendix A has the finer details for anyone who wants the wiring.")
 #heading(level:2,"The monitor that became a computer")
-#para([#text("The case began as an Apple IIc Monitor. Its original CRT had been removed before this build. The plastic case, metal chassis, power switch, AC inlet, and rear openings were reused; the computer and display inside are different equipment.")])
+#para([#text("The case began as an Apple IIc Monitor. Its original CRT had been removed before this build. The plastic case, metal chassis, power switch, AC inlet, and rear openings were reused; the computer and screen inside are new.")])
 #para([#text("This is a conversion, not a restoration of a stock Macintosh. The old case was a good place to start and a rather particular place to fit everything else.")])
 #wide-illustration("2-1", "inside-1.png", "The internal assembly, with the Raspberry Pi, display hardware, power adapter, 5V power rail and ordinary internal speaker identified.", width:366.000pt)
 #heading(level:2,"Raspberry Pi, memory and storage")
@@ -17,7 +17,7 @@
 #pagebreak(weak:true)
 #block(breakable:false,sticky:true)[
 #heading(level:2,"The battery and charging paths")
-#para([#text("The internal battery lets you use the PiForma without a power cord. The intended external power cable supplies its charger, and the battery can charge while the computer's physical switch is off. The switch does not disconnect the charger from external power. Appendix A describes the internal power path.")])
+#para([#text("The internal battery lets you use the PiForma without a power cord. The power cable feeds its charger, and the battery can charge while the computer's physical switch is off. The switch does not disconnect the charger from external power. Appendix A describes the internal power path.")])
 #para([#text("An external plunger reaches the battery’s own button. Press it to check the charge, and sometimes to wake the pack. The normal check is to press the rear plunger and read the percentage through the top slits. The top latch can also be unlocked and lifted for a closer look; Chapter 1 describes the optional opening procedure.")])
 ]
 #wide-illustration("2-2", "inside-3.png", "The open top reveals the wireless charging receiver, battery-button plunger and battery display. The battery is at 84% in this photograph. Its display can also indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. For the normal check, read through the top slits as described in Chapter 1.", width:288.873pt)
@@ -39,13 +39,13 @@
 #sb-item(9,[#text("The two-note Windows 3.1 fanfare.")])
 #para(width:100%,[#text("The next three clicks are silent, and the one after that brings back the classic chime.")])
 ])
-#para([#text("Normal desktop sound uses an internal USB speaker. Changing its software volume is not necessarily a test of the separate startup-chime hardware.")])
+#para([#text("Normal desktop sound uses an internal USB speaker. Its volume has nothing to do with the startup chime, which has its own hardware.")])
 #heading(level:2,"The physical controls")
-#para([#text("The right-side power switch controls the computer’s power rail. The front Apple-logo sensor supplies software gestures. The rear source selector chooses the LCD input, while the rear chime dial chooses the startup sound. They do different jobs even when the desktop is not yet visible.")])
-#para([#text("Turn the side volume knob clockwise to raise normal system volume and counterclockwise to lower it. The installed knob has no usable push-to-mute action.")])
+#para([#text("The right-side power switch controls the computer’s power rail. The Apple logo on the front is a touch control for shortcuts. The rear source selector chooses the LCD input, while the rear chime dial chooses the startup sound.")])
+#para([#text("Turn the side volume knob clockwise to raise normal system volume and counterclockwise to lower it. Pressing the knob does nothing; it has no mute.")])
 #heading(level:2,"Ports, wireless links and adapters")
-#para([#text("One rear USB-C port is available to the user. The Pi board’s own connectors should not be mistaken for externally accessible ports. Use the hub for several devices, or for devices with older USB plugs.")])
-#para([#text("The keyboard uses Bluetooth LE and the mouse uses its USB wireless receiver, which is plugged into the Raspberry Pi inside the case and stays there. Wi-Fi and Bluetooth belong to the operating system’s network and device tools. External audio input uses a separate USB capture adapter and audio-loop helper, not the rear composite-video RCA jack.")])
+#para([#text("One rear USB-C port is available to the user. The Raspberry Pi’s own ports are inside the case and out of reach. Use the hub for several devices, or for devices with older USB plugs.")])
+#para([#text("The keyboard uses Bluetooth LE and the mouse uses its USB wireless receiver, which is plugged into the Raspberry Pi inside the case and stays there. Wi-Fi and Bluetooth are handled by the operating system. External audio input uses a separate USB capture adapter and audio-loop helper, not the rear composite-video RCA jack.")])
 #heading(level:2,"The converted Apple keyboard")
 #para([#text("The vintage Apple keyboard has been converted to Bluetooth LE using Matt Chesters’ keyboard-conversion project. It has its own battery, a nice!view display, a volume dial on its left-hand edge, and a power switch and USB-C charging port on its right-hand edge. It communicates separately from the mouse’s USB wireless receiver. Appendix A and the credits identify the conversion and its source.")])
 #para([#text("The keyboard has been painted, not retrobrighted. Old Apple keyboards yellow with age. Today they are often bleached back to their original color, a process called retrobrighting, but in the old days the fix was a coat of paint in the nearest matching color. That is the source of the slight orange-peel texture you can feel on the case.")])
@@ -61,4 +61,4 @@
 #para([#text("The Bose speakers are an optional extra. They connect to the rear audio output socket. The PiForma’s internal speaker works without them. Place them on stable supports with cables clear of the computer and its stand.")])
 #heading(level:2,"The bag and its fitted interior")
 #para([#text("The carrying bag is part of the build. It has a corrugated-plastic liner, a foam bottom, green velvet, alignment grooves, and a wireless charging transmitter concealed under the lining. Its cable reaches the back pocket.")])
-#para([#text("The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its intended side position. A loose fit and a correctly aligned charging position are not interchangeable.")])
+#para([#text("The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its intended side position. A computer that only roughly fits won't charge; it has to sit in the grooves.")])

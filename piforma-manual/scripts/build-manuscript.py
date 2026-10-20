@@ -149,7 +149,7 @@ def convert(file):
     if file.name=='01-getting-started.md':
         # Startup reads as a procedure with its existing silent-chime explanation
         # alongside it. Prose stays in the manuscript in its original order.
-        note=next(i for i,b in enumerate(blocks) if b.startswith('#para(') and 'A silent startup does not by itself' in b)
+        note=next(i for i,b in enumerate(blocks) if b.startswith('#para(') and 'A silent startup doesn' in b)
         start=next(i for i,b in enumerate(blocks[:note]) if b.startswith('#heading(level:2,"Starting up the computer"'))+1
         assert all(b.startswith('#instruction(') for b in blocks[start:note])
         note_copy=blocks[note].removeprefix('#para(').removesuffix(')')
