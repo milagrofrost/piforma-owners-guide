@@ -2,10 +2,10 @@
 #import "../styles/book.typ": *
 #import "../styles/screenshots.typ": screen-figure
 #import "../styles/typography.typ": accent
-#opener("This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how to shut down properly, return everything to the bag, and coax a reluctant battery. The packing order is worth a little attention.")
+#opener("This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how to shut down properly, return everything to the bag, and keep the battery in good spirits. The packing order is worth a little attention.")
 #heading(level:2,"Unpacking the equipment")
 #para([#text("Set the carrying bag upright on a stable surface. Open the clasp, take it out of the strap loop, and pull the loop back out through the grommets; “Closing the bag,” near the end of this chapter, shows the clasp. Leave room nearby for each item as you take it out.")])
-#instruction(1,[#strong[#text("Remove the small brown accessory pouch near the top.")] #text("It contains two Nintendo 64 controllers, the USB hub, and the power cable. Set the pouch and its contents aside.")])
+#instruction(1,[#strong[#text("Remove the small brown accessory pouch near the top.")] #text("It contains two game controllers, the USB hub, and the power cable. Set the pouch and its contents aside.")])
 #instruction(2,[#strong[#text("Take out the mouse and the collapsible computer stand beneath the pouch.")]])
 #instruction(3,[#strong[#text("Lift out the mouse pad beneath them.")]])
 #instruction(4,[#strong[#text("Remove the velvet-covered foam board beneath the mouse pad.")] #text("Keep it flat; it protects the computer when everything is packed.")])
@@ -19,12 +19,15 @@
 #para([#text("Notice the keyboard’s orientation before moving it: the keys face the bag wall, the thicker edge faces the rear of the bag, and the thinner edge faces the front. Remember these three directions when you pack it again.")])
 #para([#text("The molded edges in the bottom foam locate the rear/bottom of the computer. The first photograph shows the empty base; the second shows the PiForma and keyboard in place. Match the keyboard's orientation, rather than merely finding a gap large enough to hold it.")])
 #figure-group(((id:"1-2a",file:"1-2a.png",caption:"The bottom foam insert. Seat the rear/bottom of the PiForma against the molded edges.",width:176pt),(id:"1-2b",file:"1-2b.png",caption:"PiForma and keyboard inside the bag. Keys face the bag wall; the thick edge goes toward the rear, the thin edge toward the front.",width:176pt),),mode:"columns")
+#block(breakable:false,sticky:true)[
 #heading(level:2,"Taking a closer look")
 #para([#text("Before connecting anything, find the power control on the right side, the green status light at the front, and the chime-selector dial at the back. The Apple logo at the front is also a touch control. It is separate from the physical power switch.")])
-#wide-illustration("1-3b", "1-3b.png", "The front: screen, Apple-logo touch control, and power indicator.", width:366.000pt)
+#wide-illustration("1-3b", "1-3b.png", "The front: screen, Apple-logo touch control, and power indicator.", width:273.972pt)
+]
+#figure-group(((id:"1-3d",file:"1-3d.png",caption:"The side volume control.",width:176pt),(id:"1-3e",file:"1-3e.png",caption:"The physical power button on the opposite side. This is separate from the Apple-logo touch control.",width:176pt),),mode:"columns")
 #block(breakable:false,sticky:true)[
 #para([#text("The one USB port at the back is a USB-C port. A single device plugged straight into it needs a USB-C plug of its own or an adapter. For more than one device, or for older USB plugs, use the USB hub. The keyboard communicates over Bluetooth; the mouse uses a USB wireless receiver, which stays plugged in inside the case. A keyboard problem and a mouse problem therefore call for different checks.")])
-#para([#text("At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general audio connection. The audio socket sends sound out to external speakers or headphones. Press the source selector to switch to HDMI for the Raspberry Pi picture. Only two inputs are in use: HDMI for the Raspberry Pi and AV1 for the RCA input. The selector also passes AV2 and VGA, which have nothing connected.")])
+#para([#text("At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general audio connection. The audio socket sends sound out to external speakers or headphones. Press the source selector to switch to HDMI for the Raspberry Pi picture. Only two inputs are in use: HDMI for the Raspberry Pi and AV1 for the RCA input. The selector also passes AV2 and VGA, which had nothing connected when the PiForma was built.")])
 ]
 #wide-illustration("1-3a", "rear-inputs.png", "Rear controls and connections. The RCA input is composite video; the audio socket is an output for speakers or headphones.", width:366.000pt)
 #block(breakable:false,sticky:true)[
@@ -33,10 +36,8 @@
 #para([#text("“A closer look, strictly off the record”, at the end of this chapter, explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.")])
 ]
 #wide-illustration("1-3c", "1-3c.png", "The top of the PiForma and its Forbidden Latch.", width:300.000pt)
-#figure-group(((id:"1-3d",file:"1-3d.png",caption:"The side volume control.",width:176pt),(id:"1-3e",file:"1-3e.png",caption:"The physical power button on the opposite side. This is separate from the Apple-logo touch control.",width:176pt),),mode:"columns")
 #heading(level:2,"Basic ergonomics")
-#para([#text("Choose a solid, level table with room for the stand, keyboard, mouse pad, and cables. Place the screen at a comfortable viewing angle, the keyboard directly in front of you, and the mouse beside it. Keep light from reflecting directly off the display. Adjust your chair rather than spending the afternoon leaning toward the computer.")])
-#para([#text("Leave room to move your hands and take occasional breaks. Put speakers and their stands where they will not tip, block the screen, or pull on the computer’s cables. A small computer still deserves a sensible place to sit.")])
+#para([#text("Choose a solid, level table with room for the stand, keyboard, mouse pad, and cables. Place the screen at a comfortable viewing angle, out of glare, with the keyboard directly in front of you and the mouse beside it. Put speakers where they will not tip, block the screen, or pull on the computer’s cables. Adjust your chair rather than spending the afternoon leaning toward the computer.")])
 #pagebreak(weak:true)
 #heading(level:2,"Putting it all together")
 #subhead("The stand, keyboard and mouse")
@@ -46,8 +47,10 @@
 #instruction(4,[#strong[#text("Put the mouse on its pad beside the keyboard.")] #text("Its power switch is underneath; turn it on if necessary.")])
 #para([#text("The stand illustration deliberately shows one support leg short of its final position. Move it into the seat indicated by the arrow before placing the PiForma on top. The partly assembled position is not the position for supporting the computer.")])
 #wide-illustration("1-4a", "1-4a.png", "Seat the support leg in the position indicated by the arrow, then check the stand before adding the computer.", width:200.000pt)
+#block(breakable:false,sticky:true)[
 #para([#text("Center the PiForma exactly: not to the left, not to the right, but in the middle of the stand as you set it down. Seen from the side, it should rest on the stand as in the second photograph.")])
 #wide-illustration("1-4e", "stand-centered.png", "Lower the PiForma straight down onto the middle of the stand.", width:180.000pt)
+]
 #wide-illustration("1-4f", "stand-profile.png", "Seen from the side: the PiForma resting on its stand.", width:242.000pt)
 #block(breakable:false,sticky:true)[
 #subhead("The keyboard controls")
@@ -64,16 +67,16 @@
 ]
 #wide-illustration("1-4c", "1-4c.png", "The mouse buttons, scroll wheel, and Sync button. The second button is awaiting official recognition.", width:154.693pt)
 #block(breakable:false,sticky:true)[
-#para([#text("Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery; it is not recharged. The illustration calls that last item the Eye Correction Laser. Its job is to follow the mouse pad, not improve your eyesight. Keep it pointed at the desk; no eye treatments are included.")])
+#para([#text("Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery. The illustration calls that last item the Eye Correction Laser. Its job is to follow the mouse pad, not improve your eyesight. Keep it pointed at the desk; no eye treatments are included.")])
 ]
 #wide-illustration("1-4d", "1-4d.png", "Mouse underside: battery compartment, power switch, and optical tracking sensor.", width:200.723pt)
 #para([#text("The mouse can ordinarily stay on between uses, because it drops into a low-power idle state. You can still switch it off for transport or long storage. Its switch has no effect on the keyboard, which has its own switch and Bluetooth connection.")])
 #subhead("USB devices and controllers")
-#para([#text("Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two Nintendo 64 controllers are in the accessory pouch. Chapter 3 explains how to approach the game launcher and its controls. Use only the leads or adapters supplied for these controllers; do not force a connector into the USB hub.")])
+#para([#text("Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two game controllers are in the accessory pouch. Chapter 3 explains how to approach the game launcher and its controls. Use only the leads or adapters supplied for these controllers; do not force a connector into the USB hub.")])
 #subhead("Bose speakers and stands")
 #para([#text("The Bose speakers are an optional extra, not part of the PiForma package; they do not fit in the bag. The pair shown are 1984 Bose RoomMate speakers. They are almost as large as the PiForma’s screen, which makes for a great deal of sound from a very small picture, and they were chosen because their proportions match.")])
 #para([#text("Connect the speakers to the rear audio output socket. Switching sound between the internal speaker and the rear socket is not yet a menu choice; ask the builder if it needs changing. Give the speakers a stable place beside the working area, with cables out of the way and no strain on the PiForma. Their stands should not make the table or the computer’s folding stand unstable.")])
-#wide-illustration("1-5", "complete-setup.png", "The complete setup: the PiForma on its stand, the keyboard in front, the mouse on its pad, a Bose speaker on its stand at each side and a Nintendo 64 controller at the left.", width:263.115pt)
+#wide-illustration("1-5", "complete-setup.png", "The complete setup: the PiForma on its stand, the keyboard in front, the mouse on its pad, a Bose speaker on its stand at each side and a game controller at the left.", width:263.115pt)
 #subhead("Bringing sound into the PiForma")
 #para([#text("The external audio adapter brings sound from an external source into the PiForma over USB so it can play through the normal speakers. This is external audio into the computer, not the computer’s ordinary audio output. Use the adapter intended for this setup. The rear RCA jack carries composite video; it is not an audio input.")])
 #heading(level:2,"Important safety instructions")
@@ -88,13 +91,17 @@
 #instruction(3,[#strong[#text("Listen for a startup chime.")] #text("Depending on the rear selector’s position, there may be no sound.")])
 #instruction(4,[#strong[#text("Watch for the startup picture or sequence.")] #text("The desktop normally follows in about one to two minutes; allow for some variation.")])
 ])
+#block(breakable:false,sticky:true)[
 #para([#text("The first thing on the screen is always No Signal. Don’t panic: the screen wakes up before the Raspberry Pi does, and there is no way to skip the message. It shows once, the screen goes blank, and the startup picture should appear within 10 to 15 seconds.")])
+]
 #wide-illustration("1-6c", "no-signal.png", "Every startup begins with this. It is normal.", width:200.000pt)
 #para([#text("The startup picture looks like an old Macintosh that has failed its startup test, sad face, error codes and all. That is the builder’s sense of humor. Nothing has crashed and no ROM has failed. The label at the top left names the input the screen is showing, and it should say HDMI.")])
 #wide-illustration("1-6d", "boot-screen.png", "The startup picture. The sad face is a joke; the label at the top left shows the HDMI input.", width:220.000pt)
 #para([#text("If the startup picture never appears, press the source selector at the back until the screen shows HDMI. If nothing happens at all when you switch on, turn to “If the PiForma doesn’t start” at the end of this chapter.")])
+#block(breakable:false,sticky:true)[
 #heading(level:2,"Your first session")
 #para([#text("Once the desktop appears, try this short tour. You need not change any settings or make a file.")])
+]
 #wide-illustration("1-8a", "desktop-labeled.png", "The PiForma desktop: the menu bar across the top, AtEase in the center, the Control Strip at lower left and Clippy at lower right.", width:366.000pt)
 #instruction(1,[#strong[#text("Move the mouse on its pad and watch the pointer follow it.")] #text("Point at an item by moving the pointer over it. To click, press and release the left mouse button once. The other left button can wait for Chapter 3.")])
 #instruction(2,[#strong[#text("Find the menu bar at the top of the screen and the folder-like AtEase launcher beneath it.")] #text("If a window covers the launcher, choose View → Show Desktop from the top menu bar. This minimizes your programs into the Control Strip without quitting them.")])
@@ -102,10 +109,10 @@
 #instruction(4,[#strong[#text("Explore the program's visible controls.")] #text("When finished, use the program's own Quit or Exit command if it has one, or its window close control. If asked to save something you want to keep, save it before continuing. Closing one window may leave other windows from the same program open.")])
 #instruction(5,[#strong[#text("Choose View → Show Desktop to return to the launcher.")] #text("You can now open another program in the same way.")])
 #para([#text("For a small practice window with a known menu entry, choose Apple menu → About This PiForma. Read the information, close that window using its close control, and return to AtEase. Opening a program, leaving it, and finding your way back are most of the battle. Chapter 3 explains windows, typing, files and games in more detail.")])
-#screen-figure("1-8","piforma-about-system.svg","Apple menu → About This PiForma opens the information window. The figures shown describe that running session, rather than fixed memory-use specifications.",width:300pt)
+#screen-figure("1-8","piforma-about-system.svg","Apple menu → About This PiForma opens the information window.",width:300pt)
 #para([#text("If the launcher or menu bar is missing, see Appendix B rather than trying unfamiliar touch gestures. When you have finished using the computer, follow “Stopping the computer” below.")])
 #heading(level:2,"Power for a longer session")
-#para([#text("If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of general use, or about four hours of emulated games, Nintendo 64 games especially. For longer sessions, keep the PiForma connected to external power when it is available.")])
+#para([#text("If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of general use, or about four hours of emulated games, especially graphics-intensive ones. For longer sessions, keep the PiForma connected to external power when it is available.")])
 #para([#text("The desktop has no battery gauge, and there is no low-battery warning. Check the battery display through the top slits now and then. When the battery runs out, the PiForma stops at once, just as if the power switch had been turned off, and unsaved work is lost. After a full drain, connect external power and allow a minute or two before it will start.")])
 #para([#text("Take the power cable from the brown pouch. The original rear AC inlet supplies the internal charger. The battery can charge while the computer’s power switch is off. Use the cable and charging arrangement intended for this build.")])
 #heading(level:2,"Stopping the computer")
@@ -126,8 +133,10 @@
 #instruction(6,[#strong[#text("Put the mouse pad above the board.")]])
 #instruction(7,[#strong[#text("Put the mouse and collapsible stand above the pad.")]])
 #instruction(8,[#strong[#text("Return the two controllers, hub, and power cable to the brown pouch and place that pouch at the top.")] #text("Check that no loose item presses against the screen and close the bag gently.")])
+#block(breakable:false,sticky:true)[
 #subhead("Charging in the bag")
 #para([#text("Seating the rear/bottom in the molded foam indents aligns the bag’s wireless-charging arrangement. A hidden transmitter sits under the velvet, and its USB cord comes out of the small pocket on the back of the bag. To charge in the bag, plug that cord into a USB charger. This is a slow, trickle-charging arrangement, not fast charging.")])
+]
 #wide-illustration("1-7a", "bag-back-charging.png", "The wireless charger’s USB cord comes out of the small back pocket. Plug it into a USB charger.", width:131.250pt)
 #para([#text("Physical fit does not prove that charging has started. Check the foam seating and that the cord from the back pocket has power. The battery display can show charging from the wireless receiver, but it is hidden while the computer is packed in the bag, so this is rather a hope-and-pray arrangement.")])
 #subhead("Closing the bag")

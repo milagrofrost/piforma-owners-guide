@@ -18,10 +18,10 @@ Choose a menu by clicking its name, then click the command you want. An unavaila
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF OWNER-TALK-2026-10-20 -->
 Here the PiForma parts company with a real Macintosh. On a Macintosh, the menu bar at the top of the screen belongs to whichever program is in front, and its menus change when you switch programs. **On the PiForma, the menu bar at the top never changes.** It is a system menu bar, and its commands are the same whichever program you are using.
 
-Each program keeps its own menus inside its own window. For document work, use that program's own File → Save, Edit → Copy, Edit → Paste, and other available commands. The top File menu and a document window's File menu have different jobs, so be sure you are opening the one you mean. The Macintosh appearance does not make every classic Macintosh command applicable; use the commands the running program shows.
-
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 [SCREENSHOT 3-2|piforma-application-menus.svg|The persistent system menu bar remains above the document window. Use the application's own File menu for Save and its other document commands. The themed window's close control is at upper left; minimize and maximize are at upper right.]
+
+Each program keeps its own menus inside its own window. For document work, use that program's own File → Save, Edit → Copy, Edit → Paste, and other available commands. The top File menu and a document window's File menu have different jobs, so be sure you are opening the one you mean. The Macintosh appearance does not make every classic Macintosh command applicable; use the commands the running program shows.
 
 ## Using the mouse
 
@@ -139,22 +139,22 @@ Each touch blinks the green light at the front off and on again, so you can see 
 | Tap four times | RetroPie |
 | Hold about six seconds | Closes the active application |
 
-The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a Nintendo 64 controller, wait for the desktop and tap the logo four times.
+The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a game controller, wait for the desktop and tap the logo four times.
 
 ## Controllers and games
 
 <!-- evidence: owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice -->
-The accessory pouch holds two Nintendo 64 controllers. The rear USB port and hub provide external USB connections. A controller with a different plug needs its matching supplied adapter; the shape of the controller does not establish its connection. Do not force a plug or substitute an unidentified adapter.
+The accessory pouch holds two game controllers. The rear USB port and hub provide external USB connections. A controller with a different plug needs its matching supplied adapter; the shape of the controller does not establish its connection. Do not force a plug or substitute an unidentified adapter.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
-[ILLUSTRATION 3-5a|piforma-n64.png|Two Nintendo 64 controllers and a racing game on the PiForma screen.]
+[ILLUSTRATION 3-5a|piforma-n64.png|Two game controllers and a racing game on the PiForma screen.]
 
 Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game. Follow the game's own instructions for play. Controller assignments, player order and button meanings can differ between games; a button's label is not a universal promise about its action.
 
 Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a controller-configuration prompt appears, read it before proceeding; do not overwrite an existing setup merely to dismiss the prompt. If there are no usable prompts or known controls, ask the builder to identify the configured bindings.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
-[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's Nintendo 64 game list. The bar along the bottom names the buttons for this screen, including A to launch the highlighted game and B to go back.]
+[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's game list. The bar along the bottom names the buttons for this screen, including A to launch the highlighted game and B to go back.]
 
 A game's own save and an emulator's save state are different facilities. Use only a save facility the running game or emulator actually provides, and check that it reports success. Closing a game from outside does not guarantee a saved game or state.
 
@@ -171,7 +171,7 @@ On the current PiForma, holding the Apple-logo touch control for about six secon
 [ILLUSTRATION 3-6b|closing-app-2.png|Touch and hold the Apple logo for about six seconds to close the active application.]
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
-The same hold is how you quit a game. The Nintendo 64 controllers use every button, so none is set aside for quitting. Hold the Apple logo for about six seconds: the game closes and EmulationStation returns. To leave EmulationStation too, hold the logo for another six seconds; EmulationStation closes and the desktop returns.
+The same hold is how you quit a game. The game controllers use every button, so none is set aside for quitting. Hold the Apple logo for about six seconds: the game closes and EmulationStation returns. To leave EmulationStation too, hold the logo for another six seconds; EmulationStation closes and the desktop returns.
 
 Some emulators capture the mouse so the pointer stays inside their display. Use that emulator's documented release control if known. This guide supplies no unverified keyboard shortcut for releasing it. If you cannot regain control, follow the frozen-application checks in Appendix B.
 
@@ -184,21 +184,28 @@ The project includes a browser and a collection of themed diversions, with Clipp
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The browser is Chromium, dressed as Netscape Navigator; its AtEase button carries the Netscape name. Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the page's links to follow its contents. Online material needs a working network connection. Locally supplied diversions and documents may remain available without one.
 
-<!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
-A few of the diversions are shown here: Winamp and its playlist, LimeWire Simulator, the Weather Channel and the Flying Toasters.
-
-<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
-Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them into that folder. The Weather Channel estimates your location from your internet connection and shows the nearest weather station. The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when the computer is idle. To stop them, hold the Apple logo for about six seconds.
-
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The other AtEase buttons are mostly what they seem. America Online opens an America Online simulator, and Encarta opens Kiwix, a reader for offline reference articles, at least as of this writing. Macintosh HD opens a file window. Mac OS 9 runs the real Mac OS 9 inside the SheepShaver emulator; it fills the screen, so leave it with the six-second hold. Terminal opens a command line, which is for the builder.
 
+Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them into that folder.
+
+<!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [SCREENSHOT 3-7a|piforma-winamp.svg|Winamp and its playlist window open over the AtEase launcher.]
 
-[SCREENSHOT 3-7b|piforma-limewire-simulator.svg|LimeWire Simulator, a period-styled take on the old file-sharing program.]
+LimeWire Simulator is a period-styled take on the old file-sharing program.
 
+[SCREENSHOT 3-7b|piforma-limewire-simulator.svg|LimeWire Simulator.]
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+The Weather Channel estimates your location from your internet connection and shows the nearest weather station.
+
+<!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [SCREENSHOT 3-7c|piforma-weatherstar.svg|The Weather Channel diversion showing current conditions in WeatherStar 4000+ style.]
 
+<!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
+The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when the computer is idle. To stop them, hold the Apple logo for about six seconds.
+
+<!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [SCREENSHOT 3-7d|piforma-flying-toasters.svg|The Flying Toasters, airborne.]
 
 ## Clippy

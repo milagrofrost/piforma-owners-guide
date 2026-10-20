@@ -16,14 +16,14 @@
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "d1fe5ea29f2fc0555e44e3f2e5d1ca3a5a4e8137f671fbdeafddfed603e38c0d",
+    "paragraph_sha256": "296b0126ad2f176083ce8895a500f872d55436cf9ddcad0017620c4e405a449f",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "The work went on under the nose of the vice president of the day, a man with firm opinions about computers that customers could open. The en"
+    "preview": "The work went on under the nose of the vice president of the day, a man with firm opinions about customers opening their computers. In short"
   },
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "e6b2e4af807a2262b7a06abec9bda26c1aa443b321142155bd774da8ee5c343e",
+    "paragraph_sha256": "5ea63882dfea2df754753799b6c5b0b9eb98a21fdcfef6998c8ce6066ed2cdf9",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "Then, in 1985, the vice president was let go, and the mood changed. The CEO turned out to be rather more open-minded about unconventional id"
   },
@@ -93,7 +93,7 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Getting Started",
-    "paragraph_sha256": "aa72e6d248acf3f52edd104202933221aeb1cd49ed00b4426a55821c1455959c",
+    "paragraph_sha256": "a781ffb157a2f1dab88237448c31ed0a5335434d6c28d356686c9826bd5d9a6b",
     "evidence": "owner-current H01; editorial-advice",
     "preview": "This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how t"
   },
@@ -108,7 +108,7 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "Unpacking the equipment",
     "evidence": "owner-current H01-unpacking",
-    "preview": "1. Remove the small brown accessory pouch near the top. It contains two Nintendo 64 controllers, the USB hub, and the power cable. Set the pouch and its contents aside."
+    "preview": "1. Remove the small brown accessory pouch near the top. It contains two game controllers, the USB hub, and the power cable. Set the pouch and its contents aside."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -201,6 +201,27 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
+    "paragraph_sha256": "ee85ac7d699765b3571242d3a273b7664d3d4c8e5f298237647f5f616b4e0adb",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
+    "preview": "[ILLUSTRATION 1-3b|1-3b.png|The front: screen, Apple-logo touch control, and power indicator.]"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "Taking a closer look",
+    "paragraph_sha256": "74c3c833253cdc32bf4d63fb89de46d250cb5ec7ac19fa77debd6f538d2930fd",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
+    "preview": "[ILLUSTRATION 1-3d|1-3d.png|The side volume control.]"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "Taking a closer look",
+    "paragraph_sha256": "9bc5660850b883045789f593632693659eb758ecf4e1b39cb2e3c86b3100de1c",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
+    "preview": "[ILLUSTRATION 1-3e|1-3e.png|The physical power button on the opposite side. This is separate from the Apple-logo touch control.]"
+  },
+  {
+    "file": "manuscript\\01-getting-started.md",
+    "section": "Taking a closer look",
     "paragraph_sha256": "24946f61eca4ad741c874fc14679eb19712ac0a56fd3e6e909bca6412c746fee",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
     "preview": "The one USB port at the back is a USB-C port. A single device plugged straight into it needs a USB-C plug of its own or an adapter. For more"
@@ -208,7 +229,7 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
-    "paragraph_sha256": "d63f0c4e5eef0293826ad5e3343d49204ee8b2a68ccf00733bba8d22514af333",
+    "paragraph_sha256": "f6f48891b063f22350fd9f085478c8aa7612eaee5cf308b21da2d56553564e09",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
     "preview": "At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general"
   },
@@ -221,59 +242,31 @@
   },
   {
     "file": "manuscript\\01-getting-started.md",
-    "section": "Taking a closer look",
-    "paragraph_sha256": "ee85ac7d699765b3571242d3a273b7664d3d4c8e5f298237647f5f616b4e0adb",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "[ILLUSTRATION 1-3b|1-3b.png|The front: screen, Apple-logo touch control, and power indicator.]"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
     "section": "The forbidden latch",
     "paragraph_sha256": "1d057eccf3b97064f1a207642cc9d91ba044428024edc18e6ee21bdf4968494e",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
+    "evidence": "owner-current OWNER-REAR-OUTLINE",
     "preview": "The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would p"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The forbidden latch",
     "paragraph_sha256": "d4d2d296a3757c7192bc8bb530339909c3e84022103e9d0e69ff8be0a0b994c6",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
+    "evidence": "owner-current OWNER-REAR-OUTLINE",
     "preview": "“A closer look, strictly off the record”, at the end of this chapter, explains how it opens. You can check the charge through the top slits "
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The forbidden latch",
     "paragraph_sha256": "cc5983c9f0cae97c0e9293cd96a3b6cceb1152918cf18fba6747da0fa2a01caf",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
+    "evidence": "owner-current OWNER-REAR-OUTLINE",
     "preview": "[ILLUSTRATION 1-3c|1-3c.png|The top of the PiForma and its Forbidden Latch.]"
   },
   {
     "file": "manuscript\\01-getting-started.md",
-    "section": "The forbidden latch",
-    "paragraph_sha256": "74c3c833253cdc32bf4d63fb89de46d250cb5ec7ac19fa77debd6f538d2930fd",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "[ILLUSTRATION 1-3d|1-3d.png|The side volume control.]"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "The forbidden latch",
-    "paragraph_sha256": "9bc5660850b883045789f593632693659eb758ecf4e1b39cb2e3c86b3100de1c",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "[ILLUSTRATION 1-3e|1-3e.png|The physical power button on the opposite side. This is separate from the Apple-logo touch control.]"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
     "section": "Basic ergonomics",
-    "paragraph_sha256": "b94e6c0b6cbdcd75d857930a9e4806fe869c9f84d6032599d98c0f204cc3657f",
+    "paragraph_sha256": "4b4566f1beb4f72b355a1aac2b6119eeba52a920ba05af5fce667aa2f8d495ae",
     "evidence": "editorial-advice",
-    "preview": "Choose a solid, level table with room for the stand, keyboard, mouse pad, and cables. Place the screen at a comfortable viewing angle, the k"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "Basic ergonomics",
-    "paragraph_sha256": "92f7dee8fa94175d8a451e0b2767e9a7ef38dfc544f7d4db3e6f12455b46b214",
-    "evidence": "editorial-advice",
-    "preview": "Leave room to move your hands and take occasional breaks. Put speakers and their stands where they will not tip, block the screen, or pull o"
+    "preview": "Choose a solid, level table with room for the stand, keyboard, mouse pad, and cables. Place the screen at a comfortable viewing angle, out o"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -393,9 +386,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The mouse controls",
-    "paragraph_sha256": "7992e787dce8434c9bbb5cf28d70f2c1c4b6324dcda7aa786fe7d8c5e65f9788",
+    "paragraph_sha256": "22544285336ec672db53a0f51f7cef661dfb550cc2d9bcb07c3753f9995ac827",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery; it is not recharged. Th"
+    "preview": "Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery. The illustration calls "
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -414,9 +407,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "USB devices and controllers",
-    "paragraph_sha256": "6c07e99ce6313c3e06ff092ccd0298bd1e7002e6781c60ba266d0976dd740468",
+    "paragraph_sha256": "e471f92ae2629ad8d29c073f9e81aa0a8538beb0f9edd00cd0e750ce859d3090",
     "evidence": "owner-current H01-usb OWNER-TALK-2026-10-20; repo-verified D-MAINTENANCE",
-    "preview": "Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two Ninten"
+    "preview": "Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two game c"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -435,7 +428,7 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Bose speakers and stands",
-    "paragraph_sha256": "237735255ab3ea53910c942d384c6462bcfa70b46d4699870f9d19e3c8626c27",
+    "paragraph_sha256": "2fe57c84ac5d591c6d53adeec3f8347666cc873a2d8b226c197654041f5db1cc",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "[ILLUSTRATION 1-5|complete-setup.png|The complete setup: the PiForma on its stand, the keyboard in front, the mouse on its pad, a Bose speak"
   },
@@ -594,9 +587,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Your first session",
-    "paragraph_sha256": "a2b0f40c3c859d21d3ac01af00f5a05cd1732ed3a28079ce7adeefadb1678a35",
+    "paragraph_sha256": "a21b26b9a33ebee76bb556bfcfa51453559b4dffc92162f3450db5de9c1baab5",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11 H01-about",
-    "preview": "[SCREENSHOT 1-8|piforma-about-system.svg|Apple menu → About This PiForma opens the information window. The figures shown describe that runni"
+    "preview": "[SCREENSHOT 1-8|piforma-about-system.svg|Apple menu → About This PiForma opens the information window.]"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -608,7 +601,7 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Power for a longer session",
-    "paragraph_sha256": "2a8e6b88a6c5b0c2694f4914be3504a6e04f47af188018131937bc3b58086a4a",
+    "paragraph_sha256": "9d5f4ffa8b33429ea364b27e569df37c2b1c23bb9c55bdd83dded785779cf380",
     "evidence": "owner-current H01-power OWNER-TALK-2026-10-19; repo-verified D-HARDWARE",
     "preview": "If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of gener"
   },
@@ -950,7 +943,7 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The display and source selector",
-    "paragraph_sha256": "169f4f8423c0cd0478da3810376f4b1f22a6834e916e93b89bdcf6228bd932b1",
+    "paragraph_sha256": "531a522880566a4edb1bf139b9d56b6188f3290c7b1b45848a8348c9d592436a",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
     "preview": "Each press of the rear source selector moves the screen to its next input. Only two are in use: HDMI, for the Raspberry Pi, and AV1, for the"
   },
@@ -1200,16 +1193,16 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Two menu bars, two different jobs",
-    "paragraph_sha256": "bf217b62b08e9ec221a9b53004dba96c7f02faf585a3515d485f15262421309b",
-    "evidence": "owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF OWNER-TALK-2026-10-20",
-    "preview": "Each program keeps its own menus inside its own window. For document work, use that program's own File → Save, Edit → Copy, Edit → Paste, an"
+    "paragraph_sha256": "67c6337067cad6b784c7852cf7d856be3772c663584d8ad51af86bb41578d88a",
+    "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
+    "preview": "[SCREENSHOT 3-2|piforma-application-menus.svg|The persistent system menu bar remains above the document window. Use the application's own Fi"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Two menu bars, two different jobs",
-    "paragraph_sha256": "67c6337067cad6b784c7852cf7d856be3772c663584d8ad51af86bb41578d88a",
+    "paragraph_sha256": "bf217b62b08e9ec221a9b53004dba96c7f02faf585a3515d485f15262421309b",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 3-2|piforma-application-menus.svg|The persistent system menu bar remains above the document window. Use the application's own Fi"
+    "preview": "Each program keeps its own menus inside its own window. For document work, use that program's own File → Save, Edit → Copy, Edit → Paste, an"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1524,23 +1517,23 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Apple-logo shortcuts",
-    "paragraph_sha256": "d4febef6527b6f1997dc48b3960ab51042976fd6c556804e4b6a7e895be87b5a",
+    "paragraph_sha256": "152fd58aea841af61476096f3a205d7be30f46237aa6c871d9bb48949d97c558",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
-    "preview": "The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a Nintendo 64 controller"
+    "preview": "The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a game controller, wait "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "1ccb189b73e3770e9db02a9be279473f18205826062dc18b882134e6f87dd8cb",
+    "paragraph_sha256": "d571e59295737c03157debe3618c149a5a849c6424a824ece1ac593903ba3735",
     "evidence": "owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice",
-    "preview": "The accessory pouch holds two Nintendo 64 controllers. The rear USB port and hub provide external USB connections. A controller with a diffe"
+    "preview": "The accessory pouch holds two game controllers. The rear USB port and hub provide external USB connections. A controller with a different pl"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "8ada0350cb0d5cf3483b46c07af92e82bc1e5834de939640c9089718ed4598d6",
+    "paragraph_sha256": "cb0cb69927a582eb6ff5424242f09d0698d1bbcd7114846d123d05dcc3fbce17",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
-    "preview": "[ILLUSTRATION 3-5a|piforma-n64.png|Two Nintendo 64 controllers and a racing game on the PiForma screen.]"
+    "preview": "[ILLUSTRATION 3-5a|piforma-n64.png|Two game controllers and a racing game on the PiForma screen.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1559,9 +1552,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "03043d77a1a8b88cad177109034bbe7dd56e63bd071ffc3386c98dcef37c6d00",
+    "paragraph_sha256": "0f2c34d59ec6fd64e88008c2c75db92cf5bdb74db92c567f9e74c2461d0dd406",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
-    "preview": "[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's Nintendo 64 game list. The bar along the bottom names the buttons for t"
+    "preview": "[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's game list. The bar along the bottom names the buttons for this screen, "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1601,9 +1594,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Leaving a full-screen program",
-    "paragraph_sha256": "1287cc30b57536f9377f42ddd9c4aeb12f10860e61f10c6118ad7aece8d87dd2",
+    "paragraph_sha256": "47705773cc2c1c7f7f8333610edd67d1c895f999933b207805558c8c7aa7fb93",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "The same hold is how you quit a game. The Nintendo 64 controllers use every button, so none is set aside for quitting. Hold the Apple logo f"
+    "preview": "The same hold is how you quit a game. The game controllers use every button, so none is set aside for quitting. Hold the Apple logo for abou"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1629,20 +1622,6 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
-    "paragraph_sha256": "f3c1ebafc443c1ca9b4fbfd4668f31d1e546ba73caab68e76f165a40866ef2af",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
-    "preview": "A few of the diversions are shown here: Winamp and its playlist, LimeWire Simulator, the Weather Channel and the Flying Toasters."
-  },
-  {
-    "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Diversions",
-    "paragraph_sha256": "1848c2e99f5e17ca62f9b7a72030b01bdfcb49f24169f35c8e0a26c3998bb814",
-    "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them in"
-  },
-  {
-    "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Diversions",
     "paragraph_sha256": "3dcabada950a1077039ebcd7e67841f09f4100feb57144dd9f5e7a5d5db4a068",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "The other AtEase buttons are mostly what they seem. America Online opens an America Online simulator, and Encarta opens Kiwix, a reader for "
@@ -1650,29 +1629,57 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
-    "paragraph_sha256": "30ff1c0fcc24a8040abce9950385cf1879004c77e7ecfbc0c067812c8d8fdcae",
+    "paragraph_sha256": "316a29d8b88b5ee253a17bed06af13e59ca990fe09d5fd6ce10e389e8dde2fa9",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them in"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Diversions",
+    "paragraph_sha256": "30ff1c0fcc24a8040abce9950385cf1879004c77e7ecfbc0c067812c8d8fdcae",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "[SCREENSHOT 3-7a|piforma-winamp.svg|Winamp and its playlist window open over the AtEase launcher.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
-    "paragraph_sha256": "52b82fe750a1a07e488d6a9fe6a2a4705667ac83840303bbf5f484cf4c6ede0e",
+    "paragraph_sha256": "4fc6277b10017ddc4bffcbe1dda07640ba36c6dfff3cc3ab6332fc43f616faaa",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "LimeWire Simulator is a period-styled take on the old file-sharing program."
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Diversions",
+    "paragraph_sha256": "5f00df00c875f14a788df28d83e382bce0f520d538c31c0aa88d3b1e4b6f70ff",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
+    "preview": "[SCREENSHOT 3-7b|piforma-limewire-simulator.svg|LimeWire Simulator.]"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Diversions",
+    "paragraph_sha256": "9fd0d4ad2e63b704631d863f9edb7c9b35c7206cd21933042c6890c94463f010",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "[SCREENSHOT 3-7b|piforma-limewire-simulator.svg|LimeWire Simulator, a period-styled take on the old file-sharing program.]"
+    "preview": "The Weather Channel estimates your location from your internet connection and shows the nearest weather station."
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
     "paragraph_sha256": "43571a30ada7b6e9b06ec25ad4f916986f3e9319d662c28dfd1baffab781ddce",
-    "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "[SCREENSHOT 3-7c|piforma-weatherstar.svg|The Weather Channel diversion showing current conditions in WeatherStar 4000+ style.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
-    "paragraph_sha256": "a748ae5eaa2a2a08864f93d490503bc40ad48cf77b366973862bdc95884620fa",
+    "paragraph_sha256": "e13fafec2b6b19043770f74497f167e5670753d217753ed6f0734b0a4d984636",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
+    "preview": "The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Diversions",
+    "paragraph_sha256": "a748ae5eaa2a2a08864f93d490503bc40ad48cf77b366973862bdc95884620fa",
+    "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "[SCREENSHOT 3-7d|piforma-flying-toasters.svg|The Flying Toasters, airborne.]"
   },
   {
@@ -1925,7 +1932,7 @@
     "file": "manuscript\\05-technical-information.md",
     "section": "Hardware inventory and identification",
     "evidence": "repo-verified D-HARDWARE D-BOM; owner-current OWNER-TALK-2026-10-19",
-    "preview": "- Battery runtime: typically about six hours, or about four hours of emulated games."
+    "preview": "- Battery runtime: typically about six hours, or about four hours of emulated games, especially graphics-intensive ones."
   },
   {
     "file": "manuscript\\05-technical-information.md",
@@ -1986,7 +1993,7 @@
     "file": "manuscript\\05-technical-information.md",
     "section": "Connections and GPIO",
     "evidence": "repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19",
-    "preview": "- Display source: physical switch to LCD controller source control, not a GPIO relay selector in this build. Inputs in use: HDMI (Raspberry Pi) and AV1 (composite RCA); AV2 and VGA are unused."
+    "preview": "- Display source: physical switch to LCD controller source control, not a GPIO relay selector in this build. Inputs in use: HDMI (Raspberry Pi) and AV1 (composite RCA); AV2 and VGA had nothing connected at the initial build."
   },
   {
     "file": "manuscript\\05-technical-information.md",

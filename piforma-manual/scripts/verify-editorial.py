@@ -12,7 +12,7 @@ def check(name,ok):
 def in_order(text,needles):
     positions=[text.index(s) for s in needles];return positions==sorted(positions)
 check('Exact removal sequence',in_order(unpack,['1. Remove the small brown accessory pouch','2. Take out the mouse and the collapsible','3. Lift out the mouse pad','4. Remove the velvet-covered foam board']))
-check('Pouch inventory',all(s in unpack for s in ['two Nintendo 64 controllers','USB hub','power cable']))
+check('Pouch inventory',all(s in unpack for s in ['two game controllers','USB hub','power cable']))
 check('Side keyboard and three orientations',all(s in unpack for s in ['not another layer','keys face the bag wall','thicker edge faces the rear','thinner edge faces the front']))
 check('Handle access and alternate removal',all(s in unpack for s in ['inside front wall','top side of the PiForma','handle outward','lay the bag on its back']))
 check('Startup sequence',in_order(chapter.split('## Starting up the computer',1)[1],['physical power control on the right side','green light at the front','startup chime','startup picture or sequence','one to two minutes']))

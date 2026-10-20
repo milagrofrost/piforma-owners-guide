@@ -192,7 +192,7 @@ def convert(file):
         for start,end in reversed(list(zip(starts,starts[1:]+[len(blocks)]))):
             blocks[start:end]=['#block(breakable:false)[\n'+'\n'.join(blocks[start:end])+'\n]']
     if file.name=='02-inside-piforma.md':
-        i=next(i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,"The battery and charging paths"'))
+        i=next(i for i,b in enumerate(blocks) if '#heading(level:2,"The battery and charging paths"' in b)
         blocks.insert(i,'#pagebreak(weak:true)')
     return '\n'.join(blocks)+'\n'
 for file in sorted((P/'manuscript').glob('*.md')):

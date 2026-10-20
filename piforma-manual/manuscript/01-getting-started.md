@@ -1,7 +1,7 @@
 # Getting Started
 
 <!-- evidence: owner-current H01; editorial-advice -->
-This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how to shut down properly, return everything to the bag, and coax a reluctant battery. The packing order is worth a little attention.
+This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how to shut down properly, return everything to the bag, and keep the battery in good spirits. The packing order is worth a little attention.
 
 ## Unpacking the equipment
 
@@ -9,7 +9,7 @@ This chapter will help you unpack your Macintosh PiForma, set up its traveling c
 Set the carrying bag upright on a stable surface. Open the clasp, take it out of the strap loop, and pull the loop back out through the grommets; “Closing the bag,” near the end of this chapter, shows the clasp. Leave room nearby for each item as you take it out.
 
 <!-- evidence: owner-current H01-unpacking -->
-1. Remove the small brown accessory pouch near the top. It contains two Nintendo 64 controllers, the USB hub, and the power cable. Set the pouch and its contents aside.
+1. Remove the small brown accessory pouch near the top. It contains two game controllers, the USB hub, and the power cable. Set the pouch and its contents aside.
 2. Take out the mouse and the collapsible computer stand beneath the pouch.
 3. Lift out the mouse pad beneath them.
 4. Remove the velvet-covered foam board beneath the mouse pad. Keep it flat; it protects the computer when everything is packed.
@@ -46,16 +46,20 @@ The molded edges in the bottom foam locate the rear/bottom of the computer. The 
 <!-- evidence: owner-current H01-controls; repo-verified D-HARDWARE D-SOFTWARE -->
 Before connecting anything, find the power control on the right side, the green status light at the front, and the chime-selector dial at the back. The Apple logo at the front is also a touch control. It is separate from the physical power switch.
 
+<!-- evidence: owner-current OWNER-IMAGES-2026-10-14 -->
+[ILLUSTRATION 1-3b|1-3b.png|The front: screen, Apple-logo touch control, and power indicator.]
+
+[ILLUSTRATION 1-3d|1-3d.png|The side volume control.]
+
+[ILLUSTRATION 1-3e|1-3e.png|The physical power button on the opposite side. This is separate from the Apple-logo touch control.]
+
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
 The one USB port at the back is a USB-C port. A single device plugged straight into it needs a USB-C plug of its own or an adapter. For more than one device, or for older USB plugs, use the USB hub. The keyboard communicates over Bluetooth; the mouse uses a USB wireless receiver, which stays plugged in inside the case. A keyboard problem and a mouse problem therefore call for different checks.
 
-At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general audio connection. The audio socket sends sound out to external speakers or headphones. Press the source selector to switch to HDMI for the Raspberry Pi picture. Only two inputs are in use: HDMI for the Raspberry Pi and AV1 for the RCA input. The selector also passes AV2 and VGA, which have nothing connected.
+At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general audio connection. The audio socket sends sound out to external speakers or headphones. Press the source selector to switch to HDMI for the Raspberry Pi picture. Only two inputs are in use: HDMI for the Raspberry Pi and AV1 for the RCA input. The selector also passes AV2 and VGA, which had nothing connected when the PiForma was built.
 
 <!-- evidence: owner-current OWNER-REAR-OUTLINE -->
 [ILLUSTRATION 1-3a|rear-inputs.png|Rear controls and connections. The RCA input is composite video; the audio socket is an output for speakers or headphones.]
-
-<!-- evidence: owner-current OWNER-IMAGES-2026-10-14 -->
-[ILLUSTRATION 1-3b|1-3b.png|The front: screen, Apple-logo touch control, and power indicator.]
 
 ### The forbidden latch
 
@@ -65,16 +69,10 @@ The slider on top releases the upper compartment. Its official designation, at l
 
 [ILLUSTRATION 1-3c|1-3c.png|The top of the PiForma and its Forbidden Latch.]
 
-[ILLUSTRATION 1-3d|1-3d.png|The side volume control.]
-
-[ILLUSTRATION 1-3e|1-3e.png|The physical power button on the opposite side. This is separate from the Apple-logo touch control.]
-
 ## Basic ergonomics
 
 <!-- evidence: editorial-advice -->
-Choose a solid, level table with room for the stand, keyboard, mouse pad, and cables. Place the screen at a comfortable viewing angle, the keyboard directly in front of you, and the mouse beside it. Keep light from reflecting directly off the display. Adjust your chair rather than spending the afternoon leaning toward the computer.
-
-Leave room to move your hands and take occasional breaks. Put speakers and their stands where they will not tip, block the screen, or pull on the computer’s cables. A small computer still deserves a sensible place to sit.
+Choose a solid, level table with room for the stand, keyboard, mouse pad, and cables. Place the screen at a comfortable viewing angle, out of glare, with the keyboard directly in front of you and the mouse beside it. Put speakers where they will not tip, block the screen, or pull on the computer’s cables. Adjust your chair rather than spending the afternoon leaning toward the computer.
 
 ## Putting it all together
 
@@ -122,7 +120,7 @@ The Sync button is not needed in the normal setup: this mouse is used with its o
 
 [ILLUSTRATION 1-4c|1-4c.png|The mouse buttons, scroll wheel, and Sync button. The second button is awaiting official recognition.]
 
-Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery; it is not recharged. The illustration calls that last item the Eye Correction Laser. Its job is to follow the mouse pad, not improve your eyesight. Keep it pointed at the desk; no eye treatments are included.
+Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery. The illustration calls that last item the Eye Correction Laser. Its job is to follow the mouse pad, not improve your eyesight. Keep it pointed at the desk; no eye treatments are included.
 
 [ILLUSTRATION 1-4d|1-4d.png|Mouse underside: battery compartment, power switch, and optical tracking sensor.]
 
@@ -131,7 +129,7 @@ The mouse can ordinarily stay on between uses, because it drops into a low-power
 ### USB devices and controllers
 
 <!-- evidence: owner-current H01-usb OWNER-TALK-2026-10-20; repo-verified D-MAINTENANCE -->
-Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two Nintendo 64 controllers are in the accessory pouch. Chapter 3 explains how to approach the game launcher and its controls. Use only the leads or adapters supplied for these controllers; do not force a connector into the USB hub.
+Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two game controllers are in the accessory pouch. Chapter 3 explains how to approach the game launcher and its controls. Use only the leads or adapters supplied for these controllers; do not force a connector into the USB hub.
 
 ### Bose speakers and stands
 
@@ -141,7 +139,7 @@ The Bose speakers are an optional extra, not part of the PiForma package; they d
 Connect the speakers to the rear audio output socket. Switching sound between the internal speaker and the rear socket is not yet a menu choice; ask the builder if it needs changing. Give the speakers a stable place beside the working area, with cables out of the way and no strain on the PiForma. Their stands should not make the table or the computer’s folding stand unstable.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
-[ILLUSTRATION 1-5|complete-setup.png|The complete setup: the PiForma on its stand, the keyboard in front, the mouse on its pad, a Bose speaker on its stand at each side and a Nintendo 64 controller at the left.]
+[ILLUSTRATION 1-5|complete-setup.png|The complete setup: the PiForma on its stand, the keyboard in front, the mouse on its pad, a Bose speaker on its stand at each side and a game controller at the left.]
 
 ### Bringing sound into the PiForma
 
@@ -199,14 +197,14 @@ Once the desktop appears, try this short tour. You need not change any settings 
 For a small practice window with a known menu entry, choose Apple menu → About This PiForma. Read the information, close that window using its close control, and return to AtEase. Opening a program, leaving it, and finding your way back are most of the battle. Chapter 3 explains windows, typing, files and games in more detail.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 H01-about -->
-[SCREENSHOT 1-8|piforma-about-system.svg|Apple menu → About This PiForma opens the information window. The figures shown describe that running session, rather than fixed memory-use specifications.]
+[SCREENSHOT 1-8|piforma-about-system.svg|Apple menu → About This PiForma opens the information window.]
 
 If the launcher or menu bar is missing, see Appendix B rather than trying unfamiliar touch gestures. When you have finished using the computer, follow “Stopping the computer” below.
 
 ## Power for a longer session
 
 <!-- evidence: owner-current H01-power OWNER-TALK-2026-10-19; repo-verified D-HARDWARE -->
-If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of general use, or about four hours of emulated games, Nintendo 64 games especially. For longer sessions, keep the PiForma connected to external power when it is available.
+If the internal battery is charged, you do not need a power cord for a short session. A full charge typically lasts about six hours of general use, or about four hours of emulated games, especially graphics-intensive ones. For longer sessions, keep the PiForma connected to external power when it is available.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The desktop has no battery gauge, and there is no low-battery warning. Check the battery display through the top slits now and then. When the battery runs out, the PiForma stops at once, just as if the power switch had been turned off, and unsaved work is lost. After a full drain, connect external power and allow a minute or two before it will start.

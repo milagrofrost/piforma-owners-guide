@@ -11,7 +11,7 @@
 #spec-row("Display:",text("9-inch LCD kit, working mode 800 × 480; about 640 × 480 shows inside the bezel, a little more across. Software is sized for 640 × 480. Brightness and color are fixed."))
 #spec-row("Size:",text("the original monitor’s exterior, unchanged."))
 #spec-row("Weight:",text("8 lb 13 oz (4.0 kg), close to the original monitor."))
-#spec-row("Battery runtime:",text("typically about six hours, or about four hours of emulated games."))
+#spec-row("Battery runtime:",text("typically about six hours, or about four hours of emulated games, especially graphics-intensive ones."))
 #spec-row("Main battery:",text("Anker Prime 26K 300W."))
 #spec-row("Internal charger:",text("100W USB-C adapter."))
 #spec-row("Keyboard:",text("Apple A9M0330 ADB keyboard, painted, BLE conversion, ZMK, 100 mAh battery, USB-C charging, nice!view, volume dial."))
@@ -25,7 +25,7 @@
 #reference-plate([
 #spec-row("Apple-logo sensor:",text("TTP223 on BCM GPIO23, active-low."))
 #spec-row("EC11 volume encoder:",text("BCM GPIO17/27; push input GPIO22 exists in software but is not physically usable on the installed knob."))
-#spec-row("Display source:",text("physical switch to LCD controller source control, not a GPIO relay selector in this build. Inputs in use: HDMI (Raspberry Pi) and AV1 (composite RCA); AV2 and VGA are unused."))
+#spec-row("Display source:",text("physical switch to LCD controller source control, not a GPIO relay selector in this build. Inputs in use: HDMI (Raspberry Pi) and AV1 (composite RCA); AV2 and VGA had nothing connected at the initial build."))
 #spec-row("Composite RCA input:",text("video only."))
 #spec-row("Rear audio socket:",text("output to external speakers or headphones."))
 #spec-row("External audio:",text("USB capture source and audio-loop helper."))

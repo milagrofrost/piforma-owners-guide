@@ -28,7 +28,7 @@ An LCD screen replaces the original monitor display. The Raspberry Pi supplies i
 The screen in this first revision is, frankly, of modest quality: a little dim, with colors that are not quite right, and neither brightness nor color can be adjusted from the computer. We apologize for the economy. You make do with what you have.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
-Each press of the rear source selector moves the screen to its next input. Only two are in use: HDMI, for the Raspberry Pi, and AV1, for the composite RCA input. The selector also passes AV2 and VGA, which have nothing connected. A small label at the top left of the screen names the current input. Press until it shows HDMI to return to the Pi’s picture.
+Each press of the rear source selector moves the screen to its next input. Only two are in use: HDMI, for the Raspberry Pi, and AV1, for the composite RCA input. The selector also passes AV2 and VGA, which had nothing connected when the PiForma was built. A small label at the top left of the screen names the current input. Press until it shows HDMI to return to the Pi’s picture.
 
 ## The battery and charging paths
 

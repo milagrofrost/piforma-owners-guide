@@ -12,7 +12,7 @@ This appendix describes the PiForma’s hardware, connections and software. Use 
 - Display: 9-inch LCD kit, working mode 800 × 480; about 640 × 480 shows inside the bezel, a little more across. Software is sized for 640 × 480. Brightness and color are fixed.
 - Size: the original monitor’s exterior, unchanged.
 - Weight: 8 lb 13 oz (4.0 kg), close to the original monitor.
-- Battery runtime: typically about six hours, or about four hours of emulated games.
+- Battery runtime: typically about six hours, or about four hours of emulated games, especially graphics-intensive ones.
 - Main battery: Anker Prime 26K 300W.
 - Internal charger: 100W USB-C adapter.
 - Keyboard: Apple A9M0330 ADB keyboard, painted, BLE conversion, ZMK, 100 mAh battery, USB-C charging, nice!view, volume dial.
@@ -30,7 +30,7 @@ Power path: rear AC inlet → internal charger → main battery → original pow
 <!-- evidence: repo-verified D-GESTURE D-SOFTWARE; owner-current OWNER-TALK-2026-10-19 -->
 - Apple-logo sensor: TTP223 on BCM GPIO23, active-low.
 - EC11 volume encoder: BCM GPIO17/27; push input GPIO22 exists in software but is not physically usable on the installed knob.
-- Display source: physical switch to LCD controller source control, not a GPIO relay selector in this build. Inputs in use: HDMI (Raspberry Pi) and AV1 (composite RCA); AV2 and VGA are unused.
+- Display source: physical switch to LCD controller source control, not a GPIO relay selector in this build. Inputs in use: HDMI (Raspberry Pi) and AV1 (composite RCA); AV2 and VGA had nothing connected at the initial build.
 - Composite RCA input: video only.
 - Rear audio socket: output to external speakers or headphones.
 - External audio: USB capture source and audio-loop helper.

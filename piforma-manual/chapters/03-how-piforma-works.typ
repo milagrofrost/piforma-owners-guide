@@ -7,10 +7,12 @@
 #para([#text("The desktop is the working screen behind your application windows. PiForma Panel supplies the menu bar at the top; AtEase is the folder-like launcher for programs. The Control Strip provides another way to open or return to programs.")])
 #para([#text("The desktop picture in Chapter 1 shows these parts together. The launcher has At Ease Items and sites tabs; Clippy occupies the lower-right corner. The clock appears at the upper right of the system bar.")])
 #para([#text("Choose a menu by clicking its name, then click the command you want. An unavailable command may be dimmed. Read a dialog before answering: it may ask where to save a file, whether to discard changes, or whether to stop the computer.")])
+#block(breakable:false,sticky:true)[
 #subhead("Two menu bars, two different jobs")
 #para([#text("Here the PiForma parts company with a real Macintosh. On a Macintosh, the menu bar at the top of the screen belongs to whichever program is in front, and its menus change when you switch programs. ")#strong[#text("On the PiForma, the menu bar at the top never changes.")]#text(" It is a system menu bar, and its commands are the same whichever program you are using.")])
-#para([#text("Each program keeps its own menus inside its own window. For document work, use that program's own File → Save, Edit → Copy, Edit → Paste, and other available commands. The top File menu and a document window's File menu have different jobs, so be sure you are opening the one you mean. The Macintosh appearance does not make every classic Macintosh command applicable; use the commands the running program shows.")])
+]
 #screen-figure("3-2","piforma-application-menus.svg","The persistent system menu bar remains above the document window. Use the application's own File menu for Save and its other document commands. The themed window's close control is at upper left; minimize and maximize are at upper right.",width:366pt)
+#para([#text("Each program keeps its own menus inside its own window. For document work, use that program's own File → Save, Edit → Copy, Edit → Paste, and other available commands. The top File menu and a document window's File menu have different jobs, so be sure you are opening the one you mean. The Macintosh appearance does not make every classic Macintosh command applicable; use the commands the running program shows.")])
 #heading(level:2,"Using the mouse")
 #para([#text("Move the mouse across its pad to move the pointer. If you reach the edge, lift the mouse, set it down nearer the center and continue. The mouse need not point at the screen; the little eye underneath follows the surface below it.")])
 #para([#text("Click means press and release the left button once. A click selects an item or operates a button. Double-click means two quick clicks without moving the pointer between them; many file views use it to open an item. AtEase program buttons need only one click. Repeated clicking while a program starts can produce more windows than you intended.")])
@@ -69,31 +71,41 @@
 #para([#text("The Apple logo on the front is a touch control. Besides the six-second hold described under “Leaving a full-screen program,” short taps open programs directly. Leave about half a second between taps.")])
 #para([#text("Each touch blinks the green light at the front off and on again, so you can see that the PiForma felt it: one tap, one blink; two taps, two blinks. Keep objects away from the logo, or the sensor may take them for a touch.")])
 #ref-table(("Apple logo","Opens",),(([#text("Tap once")],[#text("The browser")],),([#text("Tap twice")],[#text("Mac OS 9")],),([#text("Tap three times")],[#text("Winamp")],),([#text("Tap four times")],[#text("RetroPie")],),([#text("Hold about six seconds")],[#text("Closes the active application")],),))
-#para([#text("The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a Nintendo 64 controller, wait for the desktop and tap the logo four times.")])
+#para([#text("The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a game controller, wait for the desktop and tap the logo four times.")])
 #block(breakable:false,sticky:true)[
 #heading(level:2,"Controllers and games")
-#para([#text("The accessory pouch holds two Nintendo 64 controllers. The rear USB port and hub provide external USB connections. A controller with a different plug needs its matching supplied adapter; the shape of the controller does not establish its connection. Do not force a plug or substitute an unidentified adapter.")])
+#para([#text("The accessory pouch holds two game controllers. The rear USB port and hub provide external USB connections. A controller with a different plug needs its matching supplied adapter; the shape of the controller does not establish its connection. Do not force a plug or substitute an unidentified adapter.")])
 ]
-#wide-illustration("3-5a", "piforma-n64.png", "Two Nintendo 64 controllers and a racing game on the PiForma screen.", width:220.000pt)
+#wide-illustration("3-5a", "piforma-n64.png", "Two game controllers and a racing game on the PiForma screen.", width:220.000pt)
 #para([#text("Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game. Follow the game's own instructions for play. Controller assignments, player order and button meanings can differ between games; a button's label is not a universal promise about its action.")])
 #para([#text("Before settling into a game, find out how that game pauses, saves and exits. Use the game's visible menu or established instructions. If a controller-configuration prompt appears, read it before proceeding; do not overwrite an existing setup merely to dismiss the prompt. If there are no usable prompts or known controls, ask the builder to identify the configured bindings.")])
-#screen-figure("3-5b","piforma-emulationstation-n64.svg","EmulationStation's Nintendo 64 game list. The bar along the bottom names the buttons for this screen, including A to launch the highlighted game and B to go back.",width:366pt)
+#screen-figure("3-5b","piforma-emulationstation-n64.svg","EmulationStation's game list. The bar along the bottom names the buttons for this screen, including A to launch the highlighted game and B to go back.",width:366pt)
 #para([#text("A game's own save and an emulator's save state are different facilities. Use only a save facility the running game or emulator actually provides, and check that it reports success. Closing a game from outside does not guarantee a saved game or state.")])
 #heading(level:2,"Leaving a full-screen program")
 #para([#text("A full-screen game can cover the menu bar and window controls. First use its own Quit or Exit command when available. Save before leaving whenever the program allows it.")])
 #para([#text("On the current PiForma, holding the Apple-logo touch control for about six seconds closes only the active application. Use this confirmed action when you need to leave a full-screen application without an accessible close control. It does not close everything or replace normal shutdown. Unsaved work may be lost.")])
 #figure-group(((id:"3-6a",file:"closing-app-1.png",caption:"An application has taken up the full screen with no way to exit.",width:176pt),(id:"3-6b",file:"closing-app-2.png",caption:"Touch and hold the Apple logo for about six seconds to close the active application.",width:176pt),),mode:"columns")
-#para([#text("The same hold is how you quit a game. The Nintendo 64 controllers use every button, so none is set aside for quitting. Hold the Apple logo for about six seconds: the game closes and EmulationStation returns. To leave EmulationStation too, hold the logo for another six seconds; EmulationStation closes and the desktop returns.")])
+#para([#text("The same hold is how you quit a game. The game controllers use every button, so none is set aside for quitting. Hold the Apple logo for about six seconds: the game closes and EmulationStation returns. To leave EmulationStation too, hold the logo for another six seconds; EmulationStation closes and the desktop returns.")])
 #para([#text("Some emulators capture the mouse so the pointer stays inside their display. Use that emulator's documented release control if known. This guide supplies no unverified keyboard shortcut for releasing it. If you cannot regain control, follow the frozen-application checks in Appendix B.")])
 #heading(level:2,"Diversions")
 #para([#text("The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experiments among them. Use the labels in your installed launcher. A familiar old name may open a modern program or themed web application rather than the original software. The costume department has been busy.")])
 #para([#text("The browser is Chromium, dressed as Netscape Navigator; its AtEase button carries the Netscape name. Browser links and pages use their own controls. Enter an address in the browser's address field when you want a particular site; use the page's links to follow its contents. Online material needs a working network connection. Locally supplied diversions and documents may remain available without one.")])
-#para([#text("A few of the diversions are shown here: Winamp and its playlist, LimeWire Simulator, the Weather Channel and the Flying Toasters.")])
-#para([#text("Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them into that folder. The Weather Channel estimates your location from your internet connection and shows the nearest weather station. The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when the computer is idle. To stop them, hold the Apple logo for about six seconds.")])
 #para([#text("The other AtEase buttons are mostly what they seem. America Online opens an America Online simulator, and Encarta opens Kiwix, a reader for offline reference articles, at least as of this writing. Macintosh HD opens a file window. Mac OS 9 runs the real Mac OS 9 inside the SheepShaver emulator; it fills the screen, so leave it with the six-second hold. Terminal opens a command line, which is for the builder.")])
+#block(breakable:false,sticky:true)[
+#para([#text("Winamp is the QMMP music player wearing a Winamp skin. It plays the songs in the Music folder in your home folder; to add more, copy them into that folder.")])
+]
 #screen-figure("3-7a","piforma-winamp.svg","Winamp and its playlist window open over the AtEase launcher.",width:300pt)
-#screen-figure("3-7b","piforma-limewire-simulator.svg","LimeWire Simulator, a period-styled take on the old file-sharing program.",width:280pt)
+#block(breakable:false,sticky:true)[
+#para([#text("LimeWire Simulator is a period-styled take on the old file-sharing program.")])
+]
+#screen-figure("3-7b","piforma-limewire-simulator.svg","LimeWire Simulator.",width:280pt)
+#block(breakable:false,sticky:true)[
+#para([#text("The Weather Channel estimates your location from your internet connection and shows the nearest weather station.")])
+]
 #screen-figure("3-7c","piforma-weatherstar.svg","The Weather Channel diversion showing current conditions in WeatherStar 4000+ style.",width:242pt)
+#block(breakable:false,sticky:true)[
+#para([#text("The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when the computer is idle. To stop them, hold the Apple logo for about six seconds.")])
+]
 #screen-figure("3-7d","piforma-flying-toasters.svg","The Flying Toasters, airborne.",width:242pt)
 #heading(level:2,"Clippy")
 #para([#text("Clippy is the assistant at the lower-right corner of the desktop. In the Chat with Clippy window, click the message field, type your question, then press Enter or click Send. The field itself reminds you how to send. Read the reply in the conversation area; use its scroll bar to revisit a longer conversation.")])
@@ -103,10 +115,14 @@
 #heading(level:2,"About This PiForma and the project guide")
 #para([#text("About This PiForma displays computer and operating-system information. Open it from the Apple menu.")])
 #para([#text("Docs Viewer presents the project's hardware, software, maintenance and other documents. Its Update Stack action checks for updated documentation. If an update fails, the viewer keeps its previous cached material; without a cache it can use its bundled offline snapshot. An offline document is useful, but its age still matters when comparing it with a changed machine.")])
+#block(breakable:false,sticky:true)[
 #para([#text("The installed launcher calls this application PiForma Guide, and its window is titled Macintosh PiForma Guided Tour. Click PiForma Guide in AtEase, then choose a stack such as Meet PiForma, Hardware or Software to begin reading. It is the built-in guide to the computer and its functions. The bottom line reports documentation status and identifies the snapshot; it is worth checking when the machine and a document seem to disagree.")])
-#screen-figure("3-9","piforma-guide-application.svg","PiForma Guide opens Macintosh PiForma Guided Tour. Choose a documentation stack; the bottom line shows documentation status and the snapshot information.",width:366pt)
+]
+#screen-figure("3-9","piforma-guide-application.svg","PiForma Guide opens Macintosh PiForma Guided Tour. Choose a documentation stack; the bottom line shows documentation status and the snapshot information.",width:300pt)
 #heading(level:2,"Wi-Fi and Bluetooth")
 #para([#text("Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse's USB wireless receiver is a third, separate connection. A working keyboard does not prove that a website can be reached, and a lost internet connection does not mean the mouse needs pairing.")])
+#block(breakable:false,sticky:true)[
 #para([#text("The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. That's a feature, not a bug. The first line names the network the PiForma has joined, Green Ice in the picture, and a green status means it has joined, though not necessarily that the internet can be reached. The slider below it sets the volume.")])
+]
 #wide-illustration("3-10", "wifi-menu.png", "The Wi-Fi status menu: the network the PiForma has joined, and the volume slider.", width:190.000pt)
 #para([#text("To join a different network, click the network’s name at the top of the menu to reach the wireless settings. This guide won’t go further than that. It is 1985, wireless networking has not been invented, and frankly nobody here is sure how the PiForma manages it. If a connection fails, see Appendix B.")])
