@@ -232,6 +232,12 @@
 #block(height:1fr,above:0pt,below:0pt)
 #v(0pt)
 #screen-figure("3-8b","piforma-clippy-conversation.svg","An example Chat with Clippy conversation. Its suggestions should be checked against the actual PiForma setup.",width:242pt)
+#clippy-aside[#text(weight:"bold")[It looks like you’re trying to operate a Macintosh PiForma!]
+
+Have you considered reading the owner’s guide? The whole thing, front to back?
+
+○ #h(2pt) I am literally reading it right now\
+○ #h(2pt) Don’t show me this tip again]
 #pagebreak(weak:true)
 #heading(level:2,"About This PiForma and the project guide")
 #para([#text("About This PiForma displays computer and operating-system information. Open it from the Apple menu.")])

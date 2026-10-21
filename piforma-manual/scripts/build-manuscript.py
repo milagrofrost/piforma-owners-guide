@@ -192,6 +192,11 @@ def convert(file):
                       'Controllers and games','Diversions','About This PiForma and the project guide','Wi-Fi and Bluetooth']:
             i=next(i for i,b in enumerate(blocks) if '#heading(level:2,'+q(title) in b)
             blocks.insert(i,'#pagebreak(weak:true)')
+        # Clippy keeps the reader company in the spare space under his own screenshot.
+        i=next(i for i,b in enumerate(blocks) if 'piforma-clippy-conversation.svg' in b)
+        blocks[i]+=('\n#clippy-aside[#text(weight:"bold")[It looks like you’re trying to operate a Macintosh PiForma!]\n\n'
+                    'Have you considered reading the owner’s guide? The whole thing, front to back?\n\n'
+                    '○ #h(2pt) I am literally reading it right now\\\n○ #h(2pt) Don’t show me this tip again]')
         # Spread each page's leftover space between its blocks instead of leaving it
         # at the foot; full pages get none. The chapter's last page keeps its space below.
         i=next(i for i,b in enumerate(blocks) if '#heading(level:2,' in b)+1

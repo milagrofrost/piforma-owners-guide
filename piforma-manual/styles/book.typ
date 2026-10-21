@@ -346,3 +346,17 @@
   pagebreak()
   place(top+left,metadata("intentional-cover-reverse"))
 }
+
+// Clippy, offering help to someone already reading the guide. Placed in the
+// spare space at the foot of a page, so it never moves the text.
+#let clippy-aside(body) = place(bottom+left,dx:-112pt,dy:-2pt,
+  grid(columns:(78pt,auto),column-gutter:14pt,align:bottom,
+    image("../assets/illustrations/clippy-aside.png",width:78pt),
+    move(dy:-28pt,{
+      place(top+left,dx:-9pt,dy:24pt,polygon(fill:rgb("#FFFFE1"),stroke:0.6pt+ink,(9pt,0pt),(0pt,8pt),(9pt,12pt)))
+      block(width:196pt,fill:rgb("#FFFFE1"),stroke:0.6pt+ink,radius:6pt,inset:(x:9pt,y:8pt))[
+        #set text(size:8.5pt)
+        #set par(leading:4pt,spacing:6pt,justify:false)
+        #body]
+      place(top+left,dx:-0.3pt,dy:24.6pt,rect(width:1pt,height:10.8pt,fill:rgb("#FFFFE1")))
+    })))
