@@ -11,7 +11,7 @@ Then, in 1985, the vice president was let go, and the mood changed. The CEO turn
 Only one PiForma was ever made, and this is it. Its story is almost entirely unknown; you may be the first person ever to read it.
 
 <!-- evidence: owner-current H04; repo-verified D-README D-HARDWARE -->
-Inside, the old monitor’s case holds a modern display and a battery-powered computer, with a familiar-looking desktop, games, and a few diversions that have earned their place mostly by being amusing. Its name is a small joke; its carrying bag is a surprisingly serious undertaking. You can use it without knowing how the wiring works, although you will want to know which way the keyboard goes back into the bag.
+Inside, the old monitor’s case holds a modern display and a battery-powered computer, with a familiar-looking desktop, games, and a few diversions that are there mostly because they’re fun. Its name is a small joke; its carrying bag is a surprisingly serious undertaking. You can use it without knowing how the wiring works, although you will want to know which way the keyboard goes back into the bag.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 OWNER-TALK-2026-10-20 -->
 This guide explains what the PiForma does, what is inside it and how it works. It starts with the things you need to touch, connect, and switch on. Later chapters explain the parts and programs behind the appearance. There is no required course in Raspberry Pi administration before your first game.
@@ -30,4 +30,4 @@ This guide explains what the PiForma does, what is inside it and how it works. I
 **Appendix A** collects technical information and points to the project documentation. **Appendix B** helps you find a useful check when something goes wrong. The **glossary** explains unfamiliar terms used in the guide.
 
 <!-- evidence: needs-confirmation EDITORIAL -->
-Start with Chapter 1 for your first session. Return to Chapter 3 when you want to work with programs and files, or to Appendix B when the computer has other plans.
+Start with Chapter 1 for your first session. Return to Chapter 3 when you want to work with programs and files, or to Appendix B when something goes wrong.

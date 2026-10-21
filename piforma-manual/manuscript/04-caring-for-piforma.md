@@ -1,7 +1,7 @@
 # Caring for Your Macintosh PiForma
 
 <!-- evidence: owner-current H03-care; editorial-advice -->
-The PiForma was built to be used and carried, with a little care. Its case has already had a long life; the electronics inside would prefer a reasonably quiet one.
+The PiForma was built to be used and carried, with a little care. Its case has already had a long life; the electronics inside are newer and more delicate.
 
 ## Handling the computer and display
 
@@ -21,7 +21,7 @@ The keyboard’s nice!view display shows its battery level, as Chapter 2 explain
 ## Charging and storage
 
 <!-- evidence: owner-current H03-battery; repo-verified D-HARDWARE; needs-confirmation Q-POWER -->
-We prefer to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That’s a habit, not a rule from the battery maker.
+We prefer to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That’s our habit. The battery maker never asked us to.
 
 [ILLUSTRATION 4-1|battery-habit.png|Our habit: recharge before the battery display falls below roughly 25 to 50 percent.]
 
@@ -32,7 +32,7 @@ Use the PiForma’s own power cable. A battery that looks full may still need th
 <!-- evidence: owner-current H03-care H01-packing; editorial-advice -->
 Put the folding stand on a solid flat table, open it securely, and center the PiForma. The stand may permit some side-to-side motion, so keep it away from bumps and do not use it on an unstable surface.
 
-Pack in the exact order in Chapter 1. Seat the computer in the bottom foam indents, orient the keyboard correctly, and replace the protective board before the pad, mouse/stand, and pouch. Fasten the clasp as Chapter 1 shows. The bag’s padding helps; it does not justify dropping it.
+Pack in the exact order in Chapter 1. Seat the computer in the bottom foam indents, orient the keyboard correctly, and replace the protective board before the pad, mouse/stand, and pouch. Fasten the clasp as Chapter 1 shows. The bag is padded. Don’t drop it anyway.
 
 ## Bose speakers and stands
 
@@ -61,6 +61,6 @@ There isn’t any. Sorry.
 
 Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably come back to us, assuming we are in the mood.
 
-That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to us rather than continuing to experiment. Treat it kindly and perhaps neither of us will have to find out how extensive the service department’s paperwork is.
+That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to us rather than continuing to experiment. Treat it kindly, and with any luck neither of us will have to find out how much paperwork the service department requires.
 
 [ILLUSTRATION 4-3|apple-phone.png|The service department, standing by.]

@@ -2,7 +2,7 @@
 #import "../styles/book.typ": *
 #import "../styles/screenshots.typ": screen-figure
 #import "../styles/typography.typ": accent
-#opener("This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how to shut down properly, return everything to the bag, and keep the battery in good spirits. The packing order is worth a little attention.")
+#opener("This chapter will help you unpack your Macintosh PiForma, set up the keyboard, mouse and other accessories, and start the computer. You will also learn how to shut down properly, return everything to the bag, and keep the battery charged. The packing order matters more than you might expect.")
 #heading(level:2,"Unpacking the equipment")
 #para([#text("Set the carrying bag upright on a stable surface. Open the clasp, take it out of the strap loop, and pull the loop back out through the grommets; “Closing the bag,” near the end of this chapter, shows the clasp. Leave room nearby for each item as you take it out.")])
 #instruction(1,[#strong[#text("Remove the small brown accessory pouch near the top.")] #text("It contains two game controllers, the USB hub, and the power cable. Set the pouch and its contents aside.")])
@@ -32,8 +32,8 @@
 #wide-illustration("1-3a", "rear-inputs.png", "Rear controls and connections. The RCA input is composite video; the audio socket is an output for speakers or headphones.", width:366.000pt)
 #block(breakable:false,sticky:true)[
 #subhead("The forbidden latch")
-#para([#text("The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would prefer you to admire it without touching it. We have gone rogue and made it conveniently openable. Please pretend we never told you; we would like to keep both our jobs and our continued existence.")])
-#para([#text("“A closer look, strictly off the record,” at the end of this chapter, explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.")])
+#para([#text("The slider on top opens the upper compartment. Around here it is known as the Forbidden Latch. Management has specifically instructed us not to tell you how to open it. They would prefer that you admire it without touching it. You can check the battery’s charge through the top slits without opening anything, which keeps management happy.")])
+#para([#text("Anyway, instructions for opening it are on page 23, in the section called “A closer look, strictly off the record,” toward the end of this chapter.")])
 ]
 #wide-illustration("1-3c", "1-3c.png", "The top of the PiForma and its Forbidden Latch.", width:229.967pt)
 #heading(level:2,"Basic ergonomics")
@@ -61,12 +61,12 @@
 #para([#text("Caps Lock deserves a warning. It is a vintage locking key, and on the PiForma it behaves like a Shift key held down. While it is down, letters come out as capitals and the number keys type symbols, and the keyboard keeps sending Shift, which runs down its battery. Make sure Caps Lock is up, level with Shift and Option, before you start and before you pack the keyboard away.")])
 #block(breakable:false,sticky:true)[
 #subhead("The mouse controls")
-#para([#text("Use the left button for an ordinary click and the wheel for scrolling. The other button is the right button, although the illustration is maintaining a respectable air of mystery. Perhaps it is a second left click. We have never heard of a right click.")])
+#para([#text("Use the left button for an ordinary click and the wheel for scrolling. The other button is the right button. The illustration doesn’t name it, because officially the Macintosh has one button and we have never heard of a right click.")])
 #para([#text("The Sync button is not needed in the normal setup: this mouse is used with its one USB wireless receiver. Leave it alone for ordinary use.")])
 ]
 #wide-illustration("1-4c", "1-4c.png", "The mouse buttons, scroll wheel, and Sync button. The second button is awaiting official recognition.", width:154.693pt)
 #block(breakable:false,sticky:true)[
-#para([#text("Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery. The illustration calls that last item the Eye Correction Laser. Its job is to follow the mouse pad, not improve your eyesight. Keep it pointed at the desk; no eye treatments are included.")])
+#para([#text("Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery. The illustration calls that last item the Eye Correction Laser. It is an optical sensor that tracks the mouse pad. It does nothing for your eyes, so keep it pointed at the desk.")])
 ]
 #wide-illustration("1-4d", "1-4d.png", "Mouse underside: battery compartment, power switch, and optical tracking sensor.", width:200.723pt)
 #para([#text("The mouse can ordinarily stay on between uses, because it drops into a low-power idle state. You can still switch it off for transport or long storage. Its switch has no effect on the keyboard.")])
@@ -144,7 +144,7 @@
 ]
 #wide-illustration("1-7b", "bag-clasp.png", "Pass the clasp through the strap loop and snap it shut.", width:137.655pt)
 #subhead("Carrying the bag")
-#para([#text("Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immune to hard impacts. Cushioning is not armor. The Bose speakers travel separately, as described earlier in this chapter.")])
+#para([#text("Lift and carry the closed bag carefully. The bag is padded to protect the PiForma during normal handling. Don’t drop it. There’s an entire computer in there. The Bose speakers travel separately, as described earlier in this chapter.")])
 #heading(level:2,"If the PiForma doesn’t start")
 #para([#text("Most startup trouble comes down to the battery, so begin there. Then find the symptom that matches what you see and hear. Appendix B repeats these checks in brief and covers problems after startup.")])
 #subhead("Checking the battery")
@@ -154,7 +154,7 @@
 ]
 #wide-illustration("1-6a", "1-6b.png", "Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where to look.", width:173.333pt)
 #para([#text("Press the plunger, read the battery, and try the power switch again. If the battery is empty, seems asleep, or won’t start despite showing charge, plug in the power cable and try again.")])
-#para([#text("We have sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief connection before taking anything apart, but do not count on one minute as a fixed recovery time. Nobody knows why it works; it just sometimes does.")])
+#para([#text("If it still won’t start, connect the power cable and wait roughly a minute before trying again. We’ve had this work even when the battery previously showed full. Try it before taking anything apart, but do not count on one minute as a fixed recovery time. We don’t know why it works either.")])
 #subhead("If there is no green light")
 #para([#text("If there is no green light, no chime, and no picture, start with the power switch, battery indication, plunger and power cable. Then try again. If that doesn’t help, don’t go looking inside; ask us.")])
 #subhead("If the light is on but there is no chime")

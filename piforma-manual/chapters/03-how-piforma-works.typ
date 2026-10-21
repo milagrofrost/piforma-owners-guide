@@ -2,7 +2,7 @@
 #import "../styles/book.typ": *
 #import "../styles/screenshots.typ": screen-figure
 #import "../styles/typography.typ": accent
-#opener("The PiForma wears a familiar face, but Raspberry Pi OS does the work underneath. This chapter explains the everyday business of pointing, typing, opening programs and keeping what you make. You need not learn the wiring to save a file.")
+#opener("The PiForma looks like a Macintosh, but Raspberry Pi OS does the work underneath. This chapter explains the everyday business of pointing, typing, opening programs and keeping what you make. You need not learn the wiring to save a file.")
 #heading(level:2,"Finding your way around the desktop")
 #rail-def("AtEase",[#text("The folder-like launcher that opens programs with a single click.")],[#text("The desktop is the working screen behind your application windows. PiForma Panel supplies the menu bar at the top; AtEase is the folder-like launcher for programs. The Control Strip provides another way to open or return to programs.")])
 #block(height:1fr,above:0pt,below:0pt)
@@ -15,7 +15,7 @@
 #v(0pt)
 #block(breakable:false,sticky:true)[
 #subhead("Two menu bars, two different jobs")
-#para([#text("Here the PiForma parts company with a real Macintosh. On a Macintosh, the menu bar at the top of the screen belongs to whichever program is in front, and its menus change when you switch programs. ")#strong[#text("On the PiForma, the menu bar at the top never changes.")]#text(" It is a system menu bar, and its commands are the same whichever program you are using.")])
+#para([#text("This is where the PiForma differs from a real Macintosh. On a Macintosh, the menu bar at the top of the screen belongs to whichever program is in front, and its menus change when you switch programs. ")#strong[#text("On the PiForma, the menu bar at the top never changes.")]#text(" It is a system menu bar, and its commands are the same whichever program you are using.")])
 ]
 #screen-figure("3-2","piforma-application-menus.svg","The persistent system menu bar remains above the document window. Use the application’s own File menu for Save and its other document commands. The themed window’s close control is at upper left; minimize and maximize are at upper right.",width:366pt)
 #block(height:1fr,above:0pt,below:0pt)
@@ -188,7 +188,7 @@
 #rail-def("Emulator",[#text("A program that imitates another computer or games system so its software can run.")],[#text("Some emulators trap the mouse pointer inside their window. If you can’t get it back out, use the six-second hold, or see Appendix B.")])
 #pagebreak(weak:true)
 #heading(level:2,"Diversions")
-#para([#text("The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experiments among them. A familiar old name may open a modern program in costume rather than the original software. The costume department has been busy.")])
+#para([#text("The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experiments among them. A familiar old name may open a modern program dressed up to look like the original software.")])
 #block(height:1fr,above:0pt,below:0pt)
 #v(0pt)
 #para([#text("The browser is Chromium, dressed as Netscape Navigator; its AtEase button carries the Netscape name. Type an address in the address field to visit a site. Online pages need Wi-Fi; programs stored on the PiForma itself work without it.")])
@@ -228,7 +228,7 @@
 #screen-figure("3-8a","piforma-clippy-message-entry.svg","Enter a question in the message field, then press Enter or click Send.",width:242pt)
 #block(height:1fr,above:0pt,below:0pt)
 #v(0pt)
-#para([#text("Clippy can offer suggestions, but check them against the PiForma’s actual setup before changing settings or installing anything. He is enthusiastic. We have given him his own corner of the screen, which has only encouraged him.")])
+#para([#text("Clippy can offer suggestions, but check them against the PiForma’s actual setup before changing settings or installing anything. He is very enthusiastic, and he is not always right. We have given him his own corner of the screen.")])
 #block(height:1fr,above:0pt,below:0pt)
 #v(0pt)
 #screen-figure("3-8b","piforma-clippy-conversation.svg","An example Chat with Clippy conversation. Its suggestions should be checked against the actual PiForma setup.",width:242pt)
@@ -256,7 +256,7 @@ Have you considered reading the owner’s guide? The whole thing, front to back?
 #block(height:1fr,above:0pt,below:0pt)
 #v(0pt)
 #block(breakable:false,sticky:true)[
-#para([#text("The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. That’s a feature, not a bug. The first line names the network the PiForma has joined, Green Ice in the picture, and a green status means it has joined, though not necessarily that the internet can be reached. The slider below it sets the volume, and Sound Options at the bottom chooses where the sound goes.")])
+#para([#text("The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. It does this every time. The first line names the network the PiForma has joined, Green Ice in the picture, and a green status means it has joined, though not necessarily that the internet can be reached. The slider below it sets the volume, and Sound Options at the bottom chooses where the sound goes.")])
 ]
 #wide-illustration("3-10a", "status-menu.png", "The Wi-Fi status menu: the network the PiForma has joined, the volume slider and Sound Options.", width:190.000pt)
 #block(height:1fr,above:0pt,below:0pt)

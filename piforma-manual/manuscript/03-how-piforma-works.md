@@ -1,7 +1,7 @@
 # How the Macintosh PiForma Works
 
 <!-- evidence: repo-verified D-SOFTWARE; editorial-advice -->
-The PiForma wears a familiar face, but Raspberry Pi OS does the work underneath. This chapter explains the everyday business of pointing, typing, opening programs and keeping what you make. You need not learn the wiring to save a file.
+The PiForma looks like a Macintosh, but Raspberry Pi OS does the work underneath. This chapter explains the everyday business of pointing, typing, opening programs and keeping what you make. You need not learn the wiring to save a file.
 
 ## Finding your way around the desktop
 
@@ -18,7 +18,7 @@ Choose a menu by clicking its name, then click the command you want. An unavaila
 ### Two menu bars, two different jobs
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF OWNER-TALK-2026-10-20 -->
-Here the PiForma parts company with a real Macintosh. On a Macintosh, the menu bar at the top of the screen belongs to whichever program is in front, and its menus change when you switch programs. **On the PiForma, the menu bar at the top never changes.** It is a system menu bar, and its commands are the same whichever program you are using.
+This is where the PiForma differs from a real Macintosh. On a Macintosh, the menu bar at the top of the screen belongs to whichever program is in front, and its menus change when you switch programs. **On the PiForma, the menu bar at the top never changes.** It is a system menu bar, and its commands are the same whichever program you are using.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 [SCREENSHOT 3-2|piforma-application-menus.svg|The persistent system menu bar remains above the document window. Use the application’s own File menu for Save and its other document commands. The themed window’s close control is at upper left; minimize and maximize are at upper right.]
@@ -189,7 +189,7 @@ Some emulators trap the mouse pointer inside their window. If you can’t get it
 
 
 <!-- evidence: repo-verified D-SOFTWARE D-RELATED -->
-The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experiments among them. A familiar old name may open a modern program in costume rather than the original software. The costume department has been busy.
+The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experiments among them. A familiar old name may open a modern program dressed up to look like the original software.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
 The browser is Chromium, dressed as Netscape Navigator; its AtEase button carries the Netscape name. Type an address in the address field to visit a site. Online pages need Wi-Fi; programs stored on the PiForma itself work without it.
@@ -225,7 +225,7 @@ Clippy is the assistant at the lower-right corner of the desktop. In the Chat wi
 
 [SCREENSHOT 3-8a|piforma-clippy-message-entry.svg|Enter a question in the message field, then press Enter or click Send.]
 
-Clippy can offer suggestions, but check them against the PiForma’s actual setup before changing settings or installing anything. He is enthusiastic. We have given him his own corner of the screen, which has only encouraged him.
+Clippy can offer suggestions, but check them against the PiForma’s actual setup before changing settings or installing anything. He is very enthusiastic, and he is not always right. We have given him his own corner of the screen.
 
 [SCREENSHOT 3-8b|piforma-clippy-conversation.svg|An example Chat with Clippy conversation. Its suggestions should be checked against the actual PiForma setup.]
 
@@ -247,7 +247,7 @@ Click PiForma Guide in AtEase; its window is titled Macintosh PiForma Guided Tou
 Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse’s USB wireless receiver is a third, separate connection. So if a website won’t load, the keyboard and mouse aren’t to blame, and if the keyboard stops, Wi-Fi isn’t either.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
-The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. That’s a feature, not a bug. The first line names the network the PiForma has joined, Green Ice in the picture, and a green status means it has joined, though not necessarily that the internet can be reached. The slider below it sets the volume, and Sound Options at the bottom chooses where the sound goes.
+The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks the wireless connection. It does this every time. The first line names the network the PiForma has joined, Green Ice in the picture, and a green status means it has joined, though not necessarily that the internet can be reached. The slider below it sets the volume, and Sound Options at the bottom chooses where the sound goes.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20 -->
 [ILLUSTRATION 3-10a|status-menu.png|The Wi-Fi status menu: the network the PiForma has joined, the volume slider and Sound Options.]

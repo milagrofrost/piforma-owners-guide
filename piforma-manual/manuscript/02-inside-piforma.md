@@ -8,7 +8,7 @@ The PiForma looks like a 1985 monitor, but the computer inside is entirely moder
 <!-- evidence: repo-verified D-HARDWARE -->
 The case began as an Apple IIc Monitor. Its original CRT had been removed before this build. The plastic case, metal chassis, power switch, AC inlet, and rear openings were reused; the computer and screen inside are new.
 
-This is a conversion, not a restoration of a stock Macintosh. The old case was a good place to start and a rather particular place to fit everything else.
+Nothing here was restored to factory condition. The old case was a good place to start, and a difficult place to fit a computer, a screen and a battery.
 
 [ILLUSTRATION 2-1|inside-1.png|The internal assembly, with the Raspberry Pi, display hardware, power adapter, 5V power rail and ordinary internal speaker identified.]
 
@@ -29,7 +29,7 @@ The computer runs Raspberry Pi OS beneath its Macintosh-inspired appearance. App
 An LCD screen replaces the original monitor display. The Raspberry Pi supplies its picture over HDMI. A rear RCA input supplies composite video from an external source: a VCR, an older games console or anything else with a composite video output. Its sound comes in separately, through the external audio adapter.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->
-The screen in this first revision is, frankly, of modest quality: a little dim, with colors that are not quite right, and neither brightness nor color can be adjusted from the computer. We apologize for the economy.
+The picture quality isn’t particularly good. The screen is a little dim, the colors aren’t quite right, and neither brightness nor color can be adjusted from the computer. We spent the display budget elsewhere.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
 Each press of the rear source selector moves the screen to its next input. Only two are in use: HDMI, for the Raspberry Pi, and AV1, for the composite RCA input. The selector also passes AV2 and VGA, which had nothing connected when the PiForma was built. A small label at the top left of the screen names the current input. Press until it shows HDMI to return to the Pi’s picture.

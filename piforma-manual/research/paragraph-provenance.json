@@ -30,7 +30,7 @@
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "cbbdf47ac5c731c384d2ea1ccf159b8583309916399d73fd082142f9dc12d368",
+    "paragraph_sha256": "2c139c6c2a0abf2ea205280e45ab4cd7060b12cc02219e75df5f6cd10b100a5e",
     "evidence": "owner-current H04; repo-verified D-README D-HARDWARE",
     "preview": "Inside, the old monitor’s case holds a modern display and a battery-powered computer, with a familiar-looking desktop, games, and a few dive"
   },
@@ -79,16 +79,16 @@
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "About this manual",
-    "paragraph_sha256": "0a236e60b80ce5104c04dc295ceec6093089fe385c96b09f374beefc11b5a0d2",
+    "paragraph_sha256": "aecfbc57e247e9ee5a87d032bd9b4b222563fba0eb1998d472c399a0378d6451",
     "evidence": "needs-confirmation EDITORIAL",
-    "preview": "Start with Chapter 1 for your first session. Return to Chapter 3 when you want to work with programs and files, or to Appendix B when the co"
+    "preview": "Start with Chapter 1 for your first session. Return to Chapter 3 when you want to work with programs and files, or to Appendix B when someth"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Getting Started",
-    "paragraph_sha256": "a781ffb157a2f1dab88237448c31ed0a5335434d6c28d356686c9826bd5d9a6b",
+    "paragraph_sha256": "5c00d50b4d66910656f1bec8305b52913f501e5c6b2f8cc2198772491ac8b5e0",
     "evidence": "owner-current H01; editorial-advice",
-    "preview": "This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how t"
+    "preview": "This chapter will help you unpack your Macintosh PiForma, set up the keyboard, mouse and other accessories, and start the computer. You will"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -236,16 +236,16 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The forbidden latch",
-    "paragraph_sha256": "b893019f086fcf22a7caf23ebcc2e3d24c3b424cc540b502e4c2fa799dc20d44",
+    "paragraph_sha256": "68da7f1b99267d421e071919c0ac48ca6b4cc1d552cfcca4a6d2eca5f3511fd0",
     "evidence": "owner-current OWNER-REAR-OUTLINE",
-    "preview": "The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would p"
+    "preview": "The slider on top opens the upper compartment. Around here it is known as the Forbidden Latch. Management has specifically instructed us not"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The forbidden latch",
-    "paragraph_sha256": "5c5b93ef86a6915af1baee526161304f5b79b2386301bb347924d986ec7abf6f",
+    "paragraph_sha256": "4f88a73eaf82f7b77c88983ac7570ad10277ea13081d05df45bcaae4cc6d9978",
     "evidence": "owner-current OWNER-REAR-OUTLINE",
-    "preview": "“A closer look, strictly off the record,” at the end of this chapter, explains how it opens. You can check the charge through the top slits "
+    "preview": "Anyway, instructions for opening it are on page 23, in the section called “A closer look, strictly off the record,” toward the end of this c"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -351,9 +351,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The mouse controls",
-    "paragraph_sha256": "73912ca7c25367a8d6bb813454b1e0837cc579a9eff4b2126c8b83a733fbbf91",
+    "paragraph_sha256": "cbba194b4d9c4a7ab221879d7a9e4f64d954d2e54eda98ba810f1d9a4dda2e0f",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "Use the left button for an ordinary click and the wheel for scrolling. The other button is the right button, although the illustration is ma"
+    "preview": "Use the left button for an ordinary click and the wheel for scrolling. The other button is the right button. The illustration doesn’t name i"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -372,7 +372,7 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The mouse controls",
-    "paragraph_sha256": "22544285336ec672db53a0f51f7cef661dfb550cc2d9bcb07c3753f9995ac827",
+    "paragraph_sha256": "25a9325c8d726d768125415f03ca51442254a83f53b5e0a7e02b0e1fbc69dc6f",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
     "preview": "Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery. The illustration calls "
   },
@@ -743,9 +743,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Carrying the bag",
-    "paragraph_sha256": "fe8872ed5dadc2f2015fb8a28d4a64b4829918402143651577078031fd65916e",
+    "paragraph_sha256": "f9f170c17adec9cf10b94e5b0e873af841529aa883fde78a32bb756aa12c492d",
     "evidence": "owner-current H01-carrying; needs-confirmation Q-BOSE",
-    "preview": "Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immun"
+    "preview": "Lift and carry the closed bag carefully. The bag is padded to protect the PiForma during normal handling. Don’t drop it. There’s an entire c"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -785,9 +785,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Checking the battery",
-    "paragraph_sha256": "0f9a5e6d19600e1f280e4ea72ed281159a42402ae93f4084f40faa99def5a906",
+    "paragraph_sha256": "935d703877296ddfa4684b8ec0a2f3e30adcf67081b1a6ad8f69203cc8819bed",
     "evidence": "owner-current H01-battery OWNER-IMAGES-2026-10-14; repo-verified D-HARDWARE D-MAINTENANCE",
-    "preview": "We have sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief conn"
+    "preview": "If it still won’t start, connect the power cable and wait roughly a minute before trying again. We’ve had this work even when the battery pr"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -880,9 +880,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The monitor that became a computer",
-    "paragraph_sha256": "32573e157c7838d3c96d26f1d3316dce9e50495469c78fea0c73061b88e84559",
+    "paragraph_sha256": "35b3cbdbad38a81de9f972f5bb7c1e73768852a90b185fc1c4992f8d4b83fbd0",
     "evidence": "repo-verified D-HARDWARE",
-    "preview": "This is a conversion, not a restoration of a stock Macintosh. The old case was a good place to start and a rather particular place to fit ev"
+    "preview": "Nothing here was restored to factory condition. The old case was a good place to start, and a difficult place to fit a computer, a screen an"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -915,9 +915,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The display and source selector",
-    "paragraph_sha256": "886cc9319e6b86092d8fd47a801442fd2c6a8b916f047a9b65875593cb5abcb2",
+    "paragraph_sha256": "0392934c82f14e5a11a63e4419fa0b1d457cf374a850244d051628528bd1b442",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "The screen in this first revision is, frankly, of modest quality: a little dim, with colors that are not quite right, and neither brightness"
+    "preview": "The picture quality isn’t particularly good. The screen is a little dim, the colors aren’t quite right, and neither brightness nor color can"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1172,9 +1172,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "How the Macintosh PiForma Works",
-    "paragraph_sha256": "620c1727d4802dd9de39a8df0c7315d37ad0d60bbe090a4a84b60e5a7a8972a5",
+    "paragraph_sha256": "04cb71745a5ec1d2e1f1fb0fc03c20b330ea88e52d84258324a734e7c613cd76",
     "evidence": "repo-verified D-SOFTWARE; editorial-advice",
-    "preview": "The PiForma wears a familiar face, but Raspberry Pi OS does the work underneath. This chapter explains the everyday business of pointing, ty"
+    "preview": "The PiForma looks like a Macintosh, but Raspberry Pi OS does the work underneath. This chapter explains the everyday business of pointing, t"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1200,9 +1200,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Two menu bars, two different jobs",
-    "paragraph_sha256": "398f2a3f7514830bb85fe599dccd0ed92d4096f477851ba33d6c2bfd088be71e",
+    "paragraph_sha256": "e9a2f564645a0e5534ad181a49c3d20e46486b41759674783ed9573b323a6b26",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF OWNER-TALK-2026-10-20",
-    "preview": "Here the PiForma parts company with a real Macintosh. On a Macintosh, the menu bar at the top of the screen belongs to whichever program is "
+    "preview": "This is where the PiForma differs from a real Macintosh. On a Macintosh, the menu bar at the top of the screen belongs to whichever program "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1629,7 +1629,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
-    "paragraph_sha256": "26f4162661cb3d66fe3396059f2b9def52e6b7f537bb76ede3b48f452e788e65",
+    "paragraph_sha256": "adee19dc7eb752badd9624d20aa46bfeaeca2afa1818b97514fd282b6d56ab60",
     "evidence": "repo-verified D-SOFTWARE D-RELATED",
     "preview": "The project includes a browser and a collection of themed diversions, with Clippy, Weather Channel, Flying Toasters and music-player experim"
   },
@@ -1720,9 +1720,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Clippy",
-    "paragraph_sha256": "7e82b31bf6dad130a7f7c9bec1b59e632c26482d79d717cb418ce58967309b4f",
+    "paragraph_sha256": "ce42f66a5557638e4838d185f3e8b60b59b2c09d0eaf204ac99e711a14948ae4",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "Clippy can offer suggestions, but check them against the PiForma’s actual setup before changing settings or installing anything. He is enthu"
+    "preview": "Clippy can offer suggestions, but check them against the PiForma’s actual setup before changing settings or installing anything. He is very "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1769,7 +1769,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Wi-Fi and Bluetooth",
-    "paragraph_sha256": "837aedde1a7a7efd87b49fbc85f156460cf9c37c5174a7e09fb5ab1aeb04677f",
+    "paragraph_sha256": "ddeb59df2ae800d831beeea0571bd15b2c46f900ea32b7ae8c81b448bd946885",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
     "preview": "The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks t"
   },
@@ -1804,9 +1804,9 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Caring for Your Macintosh PiForma",
-    "paragraph_sha256": "1a1623d5cd4c111a4d0a71c37ff0662e1637bc4a314a3c032607532c1897c4ad",
+    "paragraph_sha256": "bc7cbda763a36caf2b297f73d1a1427987d2e16efe1adf6a8e28d0d9fbf35315",
     "evidence": "owner-current H03-care; editorial-advice",
-    "preview": "The PiForma was built to be used and carried, with a little care. Its case has already had a long life; the electronics inside would prefer "
+    "preview": "The PiForma was built to be used and carried, with a little care. Its case has already had a long life; the electronics inside are newer and"
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
@@ -1839,9 +1839,9 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Charging and storage",
-    "paragraph_sha256": "6359c590da6428a0b399830a5971d7717cd59af3542eac3ee91bb59b5c4f3fea",
+    "paragraph_sha256": "9a4562185789319dd804a58db7b2563ef09dad012e851bbd6a6eeed56d0ec8ae",
     "evidence": "owner-current H03-battery; repo-verified D-HARDWARE; needs-confirmation Q-POWER",
-    "preview": "We prefer to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That’s a habit, not a rule"
+    "preview": "We prefer to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That’s our habit. The batt"
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
@@ -1867,7 +1867,7 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Stand, bag and transport",
-    "paragraph_sha256": "09becc4c1841801fbf45fa835f5b6ea715f98109b0d40f6c8d93476df6862c49",
+    "paragraph_sha256": "5435b5b1cfcf8ac819b39c81c49a23e26ff6bcc3a2971176a201cf463611edc7",
     "evidence": "owner-current H03-care H01-packing; editorial-advice",
     "preview": "Pack in the exact order in Chapter 1. Seat the computer in the bottom foam indents, orient the keyboard correctly, and replace the protectiv"
   },
@@ -1923,7 +1923,7 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Service and support",
-    "paragraph_sha256": "581a76c5ebe64ca93f34f12a5cdaa872f8e0efdbdc96829c9d5b51c511b46659",
+    "paragraph_sha256": "ebc29146fc1b4ed3977447abf913451790d055b3710d14cf5ec20ffa720bd110",
     "evidence": "owner-current H04-support; editorial-advice",
     "preview": "That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to us rather than continuing to "
   },

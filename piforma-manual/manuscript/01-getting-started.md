@@ -1,7 +1,7 @@
 # Getting Started
 
 <!-- evidence: owner-current H01; editorial-advice -->
-This chapter will help you unpack your Macintosh PiForma, set up its traveling companions, and start the computer. You will also learn how to shut down properly, return everything to the bag, and keep the battery in good spirits. The packing order is worth a little attention.
+This chapter will help you unpack your Macintosh PiForma, set up the keyboard, mouse and other accessories, and start the computer. You will also learn how to shut down properly, return everything to the bag, and keep the battery charged. The packing order matters more than you might expect.
 
 ## Unpacking the equipment
 
@@ -65,9 +65,9 @@ At the rear are the source selector, a composite-video RCA input and an audio ou
 
 ### The forbidden latch
 
-The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would prefer you to admire it without touching it. We have gone rogue and made it conveniently openable. Please pretend we never told you; we would like to keep both our jobs and our continued existence.
+The slider on top opens the upper compartment. Around here it is known as the Forbidden Latch. Management has specifically instructed us not to tell you how to open it. They would prefer that you admire it without touching it. You can check the battery’s charge through the top slits without opening anything, which keeps management happy.
 
-“A closer look, strictly off the record,” at the end of this chapter, explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.
+Anyway, instructions for opening it are on page 23, in the section called “A closer look, strictly off the record,” toward the end of this chapter.
 
 [ILLUSTRATION 1-3c|1-3c.png|The top of the PiForma and its Forbidden Latch.]
 
@@ -114,13 +114,13 @@ Caps Lock deserves a warning. It is a vintage locking key, and on the PiForma it
 ### The mouse controls
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14 -->
-Use the left button for an ordinary click and the wheel for scrolling. The other button is the right button, although the illustration is maintaining a respectable air of mystery. Perhaps it is a second left click. We have never heard of a right click.
+Use the left button for an ordinary click and the wheel for scrolling. The other button is the right button. The illustration doesn’t name it, because officially the Macintosh has one button and we have never heard of a right click.
 
 The Sync button is not needed in the normal setup: this mouse is used with its one USB wireless receiver. Leave it alone for ordinary use.
 
 [ILLUSTRATION 1-4c|1-4c.png|The mouse buttons, scroll wheel, and Sync button. The second button is awaiting official recognition.]
 
-Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery. The illustration calls that last item the Eye Correction Laser. Its job is to follow the mouse pad, not improve your eyesight. Keep it pointed at the desk; no eye treatments are included.
+Underneath are the battery compartment, power switch, and optical tracking window. The mouse runs on one AA battery. The illustration calls that last item the Eye Correction Laser. It is an optical sensor that tracks the mouse pad. It does nothing for your eyes, so keep it pointed at the desk.
 
 [ILLUSTRATION 1-4d|1-4d.png|Mouse underside: battery compartment, power switch, and optical tracking sensor.]
 
@@ -262,7 +262,7 @@ The bag closes like an old canvas military bag. Feed the strap loop through the 
 ### Carrying the bag
 
 <!-- evidence: owner-current H01-carrying; needs-confirmation Q-BOSE -->
-Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immune to hard impacts. Cushioning is not armor. The Bose speakers travel separately, as described earlier in this chapter.
+Lift and carry the closed bag carefully. The bag is padded to protect the PiForma during normal handling. Don’t drop it. There’s an entire computer in there. The Bose speakers travel separately, as described earlier in this chapter.
 
 ## If the PiForma doesn’t start
 
@@ -280,7 +280,7 @@ The normal, management-approved way to read the battery is to press the rear bat
 
 Press the plunger, read the battery, and try the power switch again. If the battery is empty, seems asleep, or won’t start despite showing charge, plug in the power cable and try again.
 
-We have sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief connection before taking anything apart, but do not count on one minute as a fixed recovery time. Nobody knows why it works; it just sometimes does.
+If it still won’t start, connect the power cable and wait roughly a minute before trying again. We’ve had this work even when the battery previously showed full. Try it before taking anything apart, but do not count on one minute as a fixed recovery time. We don’t know why it works either.
 
 ### If there is no green light
 
