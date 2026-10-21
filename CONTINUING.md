@@ -1,3 +1,7 @@
+# Update — October 21, 2026 (tweed, bag picture, sharp opener)
+
+Still 80 pages. The bag copy says "tweed jacket" now. The back-of-bag charging picture (Chapter 1, page 20) is larger (max 242 × 270 pt in `assets/illustration-layout.json`). The Chapter 3 opener is drawn as vector squares (`piforma-cartoon-opener.svg`, made from the 64 × 64 pixel PNG by `scripts/make-pixel-svg.py`) so the reviewed export no longer blurs it.
+
 # Update — October 21, 2026 (Clippy aside)
 
 Still 80 pages. Page 50 (Diversions, under the Chat with Clippy screenshot) now carries the owner's Clippy picture (`assets/illustrations/clippy-aside.png`) with a black-and-white speech bubble offering to help the reader read the guide they are already reading. `clippy-aside()` in `styles/book.typ` places it at the foot of the page so it never moves the text; `build-manuscript.py` appends it to the 3-8b screenshot block.

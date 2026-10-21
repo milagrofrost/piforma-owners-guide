@@ -129,8 +129,8 @@
       "kind": "screen-photograph"
     },
     "bag-back-charging.png": {
-      "max_width_pt": 170,
-      "max_height_pt": 175,
+      "max_width_pt": 242,
+      "max_height_pt": 270,
       "kind": "bag-photograph"
     },
     "bag-clasp.png": {

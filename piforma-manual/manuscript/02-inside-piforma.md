@@ -130,6 +130,6 @@ Inside, smooth green velvet holds the computer as if the two were made for each 
 The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its intended side position. A computer that only roughly fits won’t charge; it has to sit in the grooves.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-21 -->
-It looks right on anyone, and especially right over a tapestry jacket between business trips. There is no room left for clothes. You won’t miss them. You’ll be the envy of the departure lounge.
+It looks right on anyone, and especially right over a tweed jacket between business trips. There is no room left for clothes. You won’t miss them. You’ll be the envy of the departure lounge.
 
 [ILLUSTRATION 2-7|bag-portrait.png|Waxed canvas, embroidered, and fully loaded. The strap loop runs through four grommets and the clasp holds it closed.]

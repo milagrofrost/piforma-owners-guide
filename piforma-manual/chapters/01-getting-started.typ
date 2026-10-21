@@ -136,7 +136,7 @@
 #subhead("Charging in the bag")
 #para([#text("Seating the rear/bottom in the molded foam indents aligns the bag’s wireless-charging arrangement. A hidden transmitter sits under the velvet, and its USB cord comes out of the small pocket on the back of the bag. To charge in the bag, plug that cord into a USB charger. This is a slow, trickle-charging arrangement, not fast charging.")])
 ]
-#wide-illustration("1-7a", "bag-back-charging.png", "The wireless charger’s USB cord comes out of the small back pocket. Plug it into a USB charger.", width:131.250pt)
+#wide-illustration("1-7a", "bag-back-charging.png", "The wireless charger’s USB cord comes out of the small back pocket. Plug it into a USB charger.", width:202.500pt)
 #para([#text("Physical fit does not prove that charging has started. Check the foam seating and that the cord from the back pocket has power. The battery display can show charging from the wireless receiver, but it is hidden while the computer is packed in the bag, so this is rather a hope-and-pray arrangement.")])
 #block(breakable:false,sticky:true)[
 #subhead("Closing the bag")
