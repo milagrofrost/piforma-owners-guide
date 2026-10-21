@@ -138,9 +138,9 @@
       230,
       75
     ],
-    "width_pt": 176,
-    "height_pt": 57.391,
-    "effective_native_ppi": 94,
+    "width_pt": 150,
+    "height_pt": 48.913,
+    "effective_native_ppi": 110,
     "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
   },
   {
@@ -210,9 +210,9 @@
       375,
       140
     ],
-    "width_pt": 242,
-    "height_pt": 90.347,
-    "effective_native_ppi": 112,
+    "width_pt": 150,
+    "height_pt": 56.0,
+    "effective_native_ppi": 180,
     "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
   },
   {
@@ -234,9 +234,9 @@
       826,
       602
     ],
-    "width_pt": 300,
-    "height_pt": 218.644,
-    "effective_native_ppi": 198,
+    "width_pt": 190,
+    "height_pt": 138.475,
+    "effective_native_ppi": 313,
     "treatment": "native pixel geometry; grayscale SVG viewport; lossless color original retained"
   },
   {

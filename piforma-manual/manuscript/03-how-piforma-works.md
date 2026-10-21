@@ -120,9 +120,9 @@ Save often, and always before quitting or shutting down. If a save fails or a di
 ## The menu bar and Control Strip
 
 <!-- evidence: repo-verified P-MENU P-ACTIONS C-README C-MAIN -->
-Apple menu → About This PiForma opens system information. View → Show Desktop minimizes your programs into the Control Strip and reveals the desktop. Special → Shut Down requests an operating-system shutdown; Special → Sleep Display only blanks or sleeps the display. A sleeping screen is not a stopped computer.
+Apple menu → About This PiForma opens system information. View → Show Desktop uncovers the launcher. Special → Shut Down requests an operating-system shutdown; Special → Sleep Display only blanks or sleeps the display. A sleeping screen is not a stopped computer.
 
-The Control Strip sits at the bottom-left of the desktop. The original Macintosh Control Strip held control panels; the PiForma’s works more like a dock. It holds a pane for every program you have open, and for programs kept there for quick access. Click a program’s pane to launch it when closed or return to its windows when open. Some running programs appear as temporary panes.
+The Control Strip sits at the bottom-left of the desktop. The original Macintosh Control Strip held control panels; the PiForma’s works more like a dock. It holds a pane for every program you have open, and for programs kept there for quick access. Click a program’s pane to launch it when closed or return to its windows when open.
 
 <!-- evidence: owner-current OWNER-SCREENSHOTS-1-11 -->
 [SCREENSHOT 3-4|piforma-control-strip.svg|The Control Strip at lower left, with a window popup visible above it. The rest of the desktop is omitted so the strip can be read clearly.]
@@ -143,12 +143,12 @@ Each touch blinks the green light at the front off and on again, so you can see 
 | Tap four times | RetroPie |
 | Hold about six seconds | Closes the active application |
 
-The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a game controller, wait for the desktop and tap the logo four times.
-
 ## Controllers and games
 
 <!-- evidence: owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice -->
 The accessory pouch holds two game controllers. Plug a controller into the rear USB port, or both into the hub. If a controller has an older plug, use the adapter that came with it, and don’t force anything.
+
+To play games without unpacking the keyboard and mouse, switch on, connect a game controller, wait for the desktop and tap the Apple logo four times to open RetroPie.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-18 -->
 [ILLUSTRATION 3-5a|piforma-n64.png|Two game controllers and a racing game on the PiForma screen.]

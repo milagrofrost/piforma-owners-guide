@@ -187,6 +187,20 @@ def convert(file):
         blocks[start:start+4]=['#pagebreak(weak:true)',blocks[start],
             '#annotated("AtEase",none,[\n'+first+'\n#launcher-detail()\n])',
             '#annotated("Show Desktop",none,[\n'+second+'\n'+screen+'\n])']
+        # Each of these topics starts a fresh page, as the owner laid out Chapter 3.
+        for title in ['Working with application windows','Files and folders','The menu bar and Control Strip',
+                      'Controllers and games','Diversions','About This PiForma and the project guide','Wi-Fi and Bluetooth']:
+            i=next(i for i,b in enumerate(blocks) if '#heading(level:2,'+q(title) in b)
+            blocks.insert(i,'#pagebreak(weak:true)')
+        # Spread each page's leftover space between its blocks instead of leaving it
+        # at the foot; full pages get none. The chapter's last page keeps its space below.
+        i=next(i for i,b in enumerate(blocks) if '#heading(level:2,' in b)+1
+        while i<len(blocks):
+            prev=blocks[i-1]
+            if not prev.startswith(('#pagebreak','#heading','#subhead','#v(','#block(height:1fr')) and 'sticky:true' not in prev.split('\n',1)[0] and not blocks[i].startswith('#pagebreak'):
+                blocks.insert(i,'#block(height:1fr,above:0pt,below:0pt)\n#v(0pt)');i+=1
+            i+=1
+        blocks.append('#v(12fr)')
     if file.name=='05-technical-information.md':
         i=0
         while i<len(blocks):

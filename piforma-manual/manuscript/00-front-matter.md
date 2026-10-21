@@ -14,7 +14,7 @@ Only one PiForma was ever made, and this is it. Its story is almost entirely unk
 Inside, the old monitor’s case holds a modern display and a battery-powered computer, with a familiar-looking desktop, games, and a few diversions that have earned their place mostly by being amusing. Its name is a small joke; its carrying bag is a surprisingly serious undertaking. You can use it without knowing how the wiring works, although you will want to know which way the keyboard goes back into the bag.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 OWNER-TALK-2026-10-20 -->
-This guide explains what the PiForma does, what is inside it and how it works, laid out the way Apple laid out the manuals that came with its own computers. It starts with the things you need to touch, connect, and switch on. Later chapters explain the parts and programs behind the appearance. There is no required course in Raspberry Pi administration before your first game.
+This guide explains what the PiForma does, what is inside it and how it works. It starts with the things you need to touch, connect, and switch on. Later chapters explain the parts and programs behind the appearance. There is no required course in Raspberry Pi administration before your first game.
 
 # About this manual
 

@@ -70,13 +70,19 @@
 // a term is first used: a glossary entry right where the reader needs it.
 // It is placed, so it takes no room in the column and moves no page breaks.
 #let rail-def(term,copy,body) = block(width:242pt,above:0pt,below:10pt,breakable:false)[
-  #content-mark()
-  #place(top+left,dx:-112pt,dy:1pt,block(width:96pt)[
+  #let note = block(width:96pt)[
     #set text(size:8pt)
     #set par(leading:3.6pt,spacing:0pt)
     #text(weight:"bold",term + ":") #copy
-  ])
+  ]
+  #content-mark()
+  #place(top+left,dx:-112pt,dy:1pt,note)
   #body
+  // A definition longer than its paragraph keeps its room, so it never runs into the footer.
+  #context {
+    let extra = measure(note).height + 1pt - measure(block(width:242pt,body)).height
+    if extra > 0pt { v(extra) }
+  }
 ]
 #let instruction(n,copy) = block(above:0pt,below:7pt,breakable:false)[
   #content-mark()

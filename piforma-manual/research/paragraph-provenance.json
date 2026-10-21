@@ -37,9 +37,9 @@
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "f49a4d1bc441d2faff394f4787dbe6e59b98a84318eb06d4da63a0fadb91f7b8",
+    "paragraph_sha256": "e6409c70eee87957bbcff1d8b9586eeafdbe965a682aad1e8b781fdac7b39e00",
     "evidence": "owner-current OWNER-TALK-2026-10-19 OWNER-TALK-2026-10-20",
-    "preview": "This guide explains what the PiForma does, what is inside it and how it works, laid out the way Apple laid out the manuals that came with it"
+    "preview": "This guide explains what the PiForma does, what is inside it and how it works. It starts with the things you need to touch, connect, and swi"
   },
   {
     "file": "manuscript\\00-front-matter.md",
@@ -1461,14 +1461,14 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "The menu bar and Control Strip",
-    "paragraph_sha256": "d5e24e99ebd21c0f44adbc62c11023716eb7fbaacc3530d0b0d0ac130511943c",
+    "paragraph_sha256": "7d2b7fd87b3d27bf629721435efad104ffc3259de047bb33012ff2f91ab78825",
     "evidence": "repo-verified P-MENU P-ACTIONS C-README C-MAIN",
-    "preview": "Apple menu → About This PiForma opens system information. View → Show Desktop minimizes your programs into the Control Strip and reveals the"
+    "preview": "Apple menu → About This PiForma opens system information. View → Show Desktop uncovers the launcher. Special → Shut Down requests an operati"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "The menu bar and Control Strip",
-    "paragraph_sha256": "37ccdcf5e7a1e490d998b7a8f59c74334a0f25da84ef90239b5a5b6df5693e96",
+    "paragraph_sha256": "b2aadba7f62ea381d86037a3e15f68b0782e9ed56ec4393015b55ac60ee133d3",
     "evidence": "repo-verified P-MENU P-ACTIONS C-README C-MAIN",
     "preview": "The Control Strip sits at the bottom-left of the desktop. The original Macintosh Control Strip held control panels; the PiForma’s works more"
   },
@@ -1537,17 +1537,17 @@
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
-    "section": "Apple-logo shortcuts",
-    "paragraph_sha256": "152fd58aea841af61476096f3a205d7be30f46237aa6c871d9bb48949d97c558",
-    "evidence": "owner-current OWNER-TALK-2026-10-20",
-    "preview": "The RetroPie shortcut is the useful one. To play games without unpacking the keyboard and mouse, switch on, connect a game controller, wait "
-  },
-  {
-    "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
     "paragraph_sha256": "624866342f677434876a4de12cdc132c8f8e0617970842d7d5be28c041385905",
     "evidence": "owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice",
     "preview": "The accessory pouch holds two game controllers. Plug a controller into the rear USB port, or both into the hub. If a controller has an older"
+  },
+  {
+    "file": "manuscript\\03-how-piforma-works.md",
+    "section": "Controllers and games",
+    "paragraph_sha256": "04c0f59d90c6f4421cf5342ea61f057b7053f721708561970d4048c9a4243f7b",
+    "evidence": "owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice",
+    "preview": "To play games without unpacking the keyboard and mouse, switch on, connect a game controller, wait for the desktop and tap the Apple logo fo"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
