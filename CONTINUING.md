@@ -1,5 +1,7 @@
 # Update — October 21, 2026 (fresh-review cleanup)
 
+A short legal block (© 2026 milagrofrost; Apple trademarks; unofficial fan build) now sits at the foot of the formerly blank page before Chapter 1, set in `main.typ`.
+
 Still 80 pages. A cold review (`/mnt/project-files/guide/fresh-review-2026-10-21.md`) led to this pass, as the owner chose: the cover's proof line and the "Working Proof" PDF title are gone (no bleed, by the owner's choice); every apostrophe is curly; picture callouts were re-set by `scripts/relabel-figures.py` from the originals in `assets/originals/labelled/` so they use the text's names, in Title Case at 7.5 pt (edit its FIGURES table and rerun to change a label); repeated explanations now live in one place with pointers (six-second hold in Chapter 3, keyboard/mouse links in Chapter 2, hidden battery display and Bose speakers in Chapter 1, source selector inputs in Chapter 2); the narrator is "we" throughout ("ask us", not "ask the builder"); the bag section no longer says "Every PiForma deserves a good home"; the credits list the GitHub addresses. Index: "builder, asking the" became "help, asking us for", and battery plunger, Undo, About This PiForma, Chromium and right button were added. The owner kept the three pictures the reviewer called muddy.
 
 # Update — October 21, 2026 (owner's pictures)

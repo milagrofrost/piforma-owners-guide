@@ -11,6 +11,16 @@
 #front("Welcome to the Macintosh PiForma",[
   #include "chapters/00-front-matter.typ"
 ])
+// The legal block sits at the foot of the last front-matter page, as on Apple's copyright pages.
+#page(footer:none,header:none)[
+  #align(bottom)[
+    #set text(size:7.5pt)
+    #set par(leading:3.6pt,spacing:6pt)
+    © 2026 milagrofrost. All rights reserved.
+
+    Apple, the Apple logo and Macintosh are trademarks of Apple Inc. The Macintosh PiForma is an unofficial, one-of-a-kind fan build; Apple had no part in it.
+  ]
+]
 #set page(numbering:"1")
 #chapter(1,"Getting Started",[#include "chapters/01-getting-started.typ"],art:"art-glamor.jpg")
 #chapter(2,"Inside the Macintosh PiForma",[#include "chapters/02-inside-piforma.typ"],art:"art-chassis.jpg")
