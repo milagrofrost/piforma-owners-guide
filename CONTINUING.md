@@ -1,3 +1,7 @@
+# Update — October 21, 2026 (new workbench art)
+
+Still 80 pages. The Chapter 3 facing art (`art-workbench.jpg`) is now the owner's sharper black-and-white workbench photo, center-cropped to the page shape; the full image is in the project folder at `guide/art/workbench-bw-owner.png`.
+
 # Update — October 21, 2026 (tweed, bag picture, sharp opener)
 
 Still 80 pages. The bag copy says "tweed jacket" now. The back-of-bag charging picture (Chapter 1, page 20) is larger (max 242 × 270 pt in `assets/illustration-layout.json`). The Chapter 3 opener is drawn as vector squares (`piforma-cartoon-opener.svg`, made from the 64 × 64 pixel PNG by `scripts/make-pixel-svg.py`) so the reviewed export no longer blurs it.
