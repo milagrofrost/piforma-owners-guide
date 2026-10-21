@@ -15,7 +15,7 @@
   }
 }
 #let book(content) = {
-  set document(title: "Macintosh PiForma Owner’s Guide — Working Proof", author: "Macintosh PiForma")
+  set document(title: "Macintosh PiForma Owner’s Guide", author: "Macintosh PiForma")
   set page(width:432pt,height:522pt,margin:(left:152pt,right:38pt,top:39pt,bottom:43pt),footer:folio(),footer-descent:17pt)
   // Body size and leading follow the Macintosh Plus manual: an x-height of
   // about 3.85 pt on a 10.4 pt line, with roughly half a line between paragraphs.
@@ -328,7 +328,6 @@
   place(top+left,dx:112pt,dy:60pt,text(size:22pt,fill:rgb("777772"))[Owner’s Guide])
   // About 20% larger than the first proof, so the machine carries the cover.
   place(top+left,dx:66pt,dy:196pt,image("../assets/illustrations/piforma-cover.png",width:348pt))
-  place(top+left,dx:84pt,dy:477pt,text(size:8pt)[Working manuscript proof · October 20, 2026])
 }
 // The outside back cover carries the bag, in color, on an even page.
 #let back-cover() = {

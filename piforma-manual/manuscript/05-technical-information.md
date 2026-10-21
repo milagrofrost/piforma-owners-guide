@@ -41,7 +41,7 @@ Power path: rear AC inlet → internal charger → main battery → original pow
 <!-- evidence: repo-verified D-SOFTWARE D-AUDIO -->
 The software includes Raspberry Pi OS, X11/LXDE, Openbox, LightDM, PCManFM, PipeWire, and WirePlumber. System services include apple-gesture-button, volume-knob, atease, and flyingtoasters. User services include piforma-panel, controlstrip-simulator, and the optional usb-audio-loop.
 
-Use the canonical repository's software page, service inventory, configuration archive and installation guide for recovery. Archived helpers describe an earlier installation; do not substitute them for deployed scripts without checking the running configuration.
+Use the canonical repository’s software page, service inventory, configuration archive and installation guide for recovery. Archived helpers describe an earlier installation; do not substitute them for deployed scripts without checking the running configuration.
 
 ## Keyboard conversion and sources
 

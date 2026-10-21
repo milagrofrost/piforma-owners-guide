@@ -1,10 +1,10 @@
 {
-  "manuscript/00-front-matter.md": "b501e07b24a3473d1037eb90af3365267640f844bb9ba733a1fc638036b47f61",
-  "manuscript/01-getting-started.md": "003fc668f2cdd072cb17f37e7a65945ae122d5db2782d744b4df37da427aed23",
-  "manuscript/02-inside-piforma.md": "79fdd153b7d9868f454913e8aed7f4176fa2005d4909d7a0dd089b8768602a6c",
-  "manuscript/03-how-piforma-works.md": "603d3c459dc5952636c505fe099369ada6ddb95c2d35e32abdf4babfa0d0775a",
-  "manuscript/04-caring-for-piforma.md": "ba7bcdf1d1afc5d4df3526b3339c305970c6916a82adb1e0eb5ae31ab08c2e3b",
-  "manuscript/05-technical-information.md": "15f45f1de200d7276adcaa1a7818283b930c1cae44611333c7b9265cc37dec5c",
-  "manuscript/06-glossary-and-credits.md": "269c98d1199ab8947b3ad2721f5171a87b596916dde0c06067b5de7406de13c8",
-  "manuscript/07-troubleshooting.md": "4c93ddfb7f3feff9b5b38a7a0553d7d9b3093ce905377387a4f64843a5f09b81"
+  "manuscript/00-front-matter.md": "127a3ffcbc0219962e9a8b7ebbe5d15157487f2f51efcd9967ece78c8cdf24e5",
+  "manuscript/01-getting-started.md": "66ea08a03c70e8140157691a4a524940ce7f94bc297abf66e4b24a8af212bc18",
+  "manuscript/02-inside-piforma.md": "7685549b1466c6f0b09d12d494f5a54c9593ae82bdb832a771190b3e09a3c1d2",
+  "manuscript/03-how-piforma-works.md": "1f30fa30ebd89da9d0e0951e5403997b798a95ca2247792c5c10c330a5844418",
+  "manuscript/04-caring-for-piforma.md": "e6db2e9e31b368237061b35ecbebb5296ac39381b7c268c978079c4f61636ba6",
+  "manuscript/05-technical-information.md": "7521505111495283a827149a418ac17d25c1eac60243d8e4070e9012166cf589",
+  "manuscript/06-glossary-and-credits.md": "385122a30813066398829738d64d0f98b5f4adf24649006106e19b7c10417ba2",
+  "manuscript/07-troubleshooting.md": "fe16f89954464ea8189b75884941212bc0fd454733f5c91663fed85793e6fec6"
 }

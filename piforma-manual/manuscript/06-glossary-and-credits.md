@@ -79,7 +79,7 @@ The small computer board inside the PiForma case.
 
 ## Raspberry Pi OS
 
-The operating system documented beneath the PiForma’s Macintosh-inspired desktop.
+The operating system running beneath the PiForma’s Macintosh-inspired desktop.
 
 ## RetroPie
 
@@ -91,7 +91,7 @@ An emulator’s snapshot of a game in progress. It is a different facility from 
 
 ## Screen saver
 
-An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own when the computer is idle. Hold the Apple logo for about six seconds to stop it.
+An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own when the computer is idle. Chapter 3 explains how to stop it.
 
 ## Sound Options
 
@@ -114,20 +114,25 @@ The wireless network connection, chosen from the Wi-Fi status menu at the far ri
 <!-- evidence: repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS -->
 This build uses many good ideas by other people, adapted to a computer-shaped joke that became a useful project. The Apple manuals supplied visual and organizational references, not PiForma specifications or approval. Apple had no part in the PiForma; the story in the welcome is a tall tale. Their text has not been copied into this guide.
 
-- The builder on GitHub: [github.com/milagrofrost](https://github.com/milagrofrost).
-- Canonical build records: [Macintosh-PiForma-docs](https://github.com/milagrofrost/Macintosh-PiForma-docs).
-- Keyboard conversion credited in those records: [Matt Chesters’ ZMK ADB keyboard project](https://github.com/mattchesters/zmk-apple-desktop-bus-keyboard).
-- Mouse shell credited in the hardware record: [Retro Wireless Computer Mouse](https://www.printables.com/model/1339297-retro-wireless-computer-mouse).
-- Replacement wheel/axle credited there: [Custom scroll wheel and axle](https://www.printables.com/model/1774131-scroll-wheel-and-axle-for-retro-wireless-computer).
-- Companion applications: [PiForma Panel](https://github.com/milagrofrost/piforma-panel), [AtEase Simulator](https://github.com/milagrofrost/AtEase-simulator), [ControlStrip Simulator](https://github.com/milagrofrost/ControlStrip-Simulator), [About This PiForma](https://github.com/milagrofrost/about-this-pi), and [Docs Viewer](https://github.com/milagrofrost/Macintosh-PiForma-docs-viewer).
-- The canonical related-projects page credits the Clippy fork to Felix Rieseberg’s upstream project and links the Flying Toasters application.
+- Our projects: [github.com/milagrofrost](https://github.com/milagrofrost).
+- Build records: [github.com/milagrofrost/Macintosh-PiForma-docs](https://github.com/milagrofrost/Macintosh-PiForma-docs).
+- This guide: [github.com/milagrofrost/piforma-owners-guide](https://github.com/milagrofrost/piforma-owners-guide).
+- Keyboard conversion, by Matt Chesters: [github.com/mattchesters/zmk-apple-desktop-bus-keyboard](https://github.com/mattchesters/zmk-apple-desktop-bus-keyboard).
+- Mouse shell: [Retro Wireless Computer Mouse](https://www.printables.com/model/1339297-retro-wireless-computer-mouse), with a [custom scroll wheel and axle](https://www.printables.com/model/1774131-scroll-wheel-and-axle-for-retro-wireless-computer), both on Printables.
+- PiForma Panel, the menu bar: [github.com/milagrofrost/piforma-panel](https://github.com/milagrofrost/piforma-panel).
+- AtEase Simulator: [github.com/milagrofrost/AtEase-simulator](https://github.com/milagrofrost/AtEase-simulator).
+- ControlStrip Simulator: [github.com/milagrofrost/ControlStrip-Simulator](https://github.com/milagrofrost/ControlStrip-Simulator).
+- About This PiForma: [github.com/milagrofrost/about-this-pi](https://github.com/milagrofrost/about-this-pi).
+- PiForma Guide (Docs Viewer): [github.com/milagrofrost/Macintosh-PiForma-docs-viewer](https://github.com/milagrofrost/Macintosh-PiForma-docs-viewer).
+- LimeWire Simulator: [github.com/milagrofrost/limewire-simulator](https://github.com/milagrofrost/limewire-simulator).
+- Clippy, forked from Felix Rieseberg’s project: [github.com/milagrofrost/clippy](https://github.com/milagrofrost/clippy).
 
 # PiForma Limited Warranty
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19; editorial-advice -->
-The builder warrants that this PiForma was a working computer when it left the workbench. That is the whole of the warranty.
+We warrant that this PiForma was a working computer when it left the workbench. That is the whole of the warranty.
 
-There is no repair turnaround time and no promise that anything that breaks will ever be fixed. Repairs, if any, happen when the builder has a free weekend and the right part. Opening the Forbidden Latch voids this warranty, which costs you nothing, because there was never much of one to void.
+There is no repair turnaround time and no promise that anything that breaks will ever be fixed. Repairs, if any, happen when we have a free weekend and the right part. Opening the Forbidden Latch voids this warranty, which costs you nothing, because there was never much of one to void.
 
 In keeping with the company’s priorities of the era, this warranty is offered to consumers only. Enterprise customers should consult their enterprise agreement, of which there is none.
 
@@ -141,6 +146,6 @@ If it interferes with radio or television reception, which you can find out by s
 # Tell us what you think
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19; editorial-advice -->
-Apple’s manuals ended with a reply card asking what you thought. This one does too, without the postage. If you have looked through the PiForma or this guide and have a thought, a question or a correction, tell the builder in person or open an issue on the project’s documentation repository, listed in the credits above.
+Apple’s manuals ended with a reply card asking what you thought. This one does too, without the postage. If you have looked through the PiForma or this guide and have a thought, a question or a correction, tell us in person or open an issue at github.com/milagrofrost/Macintosh-PiForma-docs.
 
 Compliments are forwarded to the CEO. Complaints are forwarded to the rogue engineer.

@@ -6,18 +6,18 @@
 #block(breakable:false)[
 #heading(level:2,"Handling the computer and display")
 #para([#text("Use the carrying handle as described in Chapter 1 and watch the keyboard as the computer comes out of the bag. Avoid impacts, pressure on the display, and pulling on connected cables.")])
-#para([#text("Don't try to cure a flicker by tapping the case or poking inside; tell the builder.")])
+#para([#text("Don’t try to cure a flicker by tapping the case or poking inside; tell us.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"Keyboard and mouse care")
-#para([#text("Keep crumbs, liquids, and loose items out of the keys. Switch the keyboard off before packing it, and check that Caps Lock is up: a keyboard left on with Caps Lock down keeps sending Shift and runs its battery flat. Pack it with its keys toward the bag wall, thick edge rear, and thin edge front. Turn the mouse off for prolonged storage or transport if desired.")])
+#para([#text("Keep crumbs, liquids, and loose items out of the keys. Switch the keyboard off before packing it, and check that Caps Lock is up (Chapter 1 explains why). Turn the mouse off for prolonged storage or transport if desired.")])
 #para([#text("The keyboard’s nice!view display shows its battery level, as Chapter 2 explains. Charge it from the USB-C port on its right-hand edge when the level runs low.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"Charging and storage")
-#para([#text("The builder prefers to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That's a habit, not a rule from the battery maker.")])
-#wide-illustration("4-1", "battery-habit.png", "The builder’s habit: recharge before the battery display falls below roughly 25 to 50 percent.", width:220.000pt)
-#para([#text("Use the PiForma's own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 describes. Bag charging requires the foam alignment and a USB charger on the cord from the bag’s back pocket. The battery display can indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. Always switch the PiForma off before it goes into the bag; left on, it drains the battery quickly.")])
+#para([#text("We prefer to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That’s a habit, not a rule from the battery maker.")])
+#wide-illustration("4-1", "battery-habit.png", "Our habit: recharge before the battery display falls below roughly 25 to 50 percent.", width:220.000pt)
+#para([#text("Use the PiForma’s own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 describes. Bag charging requires the foam alignment and a USB charger on the cord from the bag’s back pocket. You can’t see the battery display in the bag; Chapter 1 explains. Always switch the PiForma off before it goes into the bag.")])
 ]
 #block(breakable:false)[
 #heading(level:2,"Stand, bag and transport")
@@ -26,7 +26,7 @@
 ]
 #block(breakable:false)[
 #heading(level:2,"Bose speakers and stands")
-#para([#text("The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer. Carry the speakers and their stands separately.")])
+#para([#text("The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer.")])
 ]
 #heading(level:2,"Cleaning, ventilation and unusual behavior")
 #para([#text("Switch off and disconnect charging power before ordinary exterior cleaning. Use a soft dry cloth gently on the case; keep liquids and solvents away from openings and internal parts.")])
@@ -36,7 +36,7 @@
 #block(breakable:false)[
 #heading(level:2,"Service and support")
 #para([#text("There isn’t any. Sorry.")])
-#para([#text("Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably return to the person who built it, assuming he is in the mood.")])
-#para([#text("That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to the builder rather than continuing to experiment. Treat it kindly and perhaps neither of us will have to find out how extensive the service department’s paperwork is.")])
+#para([#text("Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably come back to us, assuming we are in the mood.")])
+#para([#text("That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to us rather than continuing to experiment. Treat it kindly and perhaps neither of us will have to find out how extensive the service department’s paperwork is.")])
 #wide-illustration("4-3", "apple-phone.png", "The service department, standing by.", width:242.000pt)
 ]

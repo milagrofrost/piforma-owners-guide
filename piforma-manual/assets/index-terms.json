@@ -2,6 +2,12 @@
  "note": "Index terms for scripts/build-index.py. p: case-insensitive regular expressions searched on body pages; s: subentries; see: a cross-reference instead of pages.",
  "entries": [
   {
+   "t": "About This PiForma",
+   "p": [
+    "About This PiForma"
+   ]
+  },
+  {
    "t": "AC inlet",
    "p": [
     "AC (power )?inlet"
@@ -157,6 +163,12 @@
    ]
   },
   {
+   "t": "battery plunger",
+   "p": [
+    "plunger"
+   ]
+  },
+  {
    "t": "Bluetooth",
    "p": [
     "\\bBluetooth\\b(?! LE)"
@@ -188,14 +200,6 @@
    "p": [
     "\\bbrowser\\b",
     "Chromium"
-   ]
-  },
-  {
-   "t": "builder, asking the",
-   "p": [
-    "(ask|tell|consult|speak to) the builder",
-    "builder’s attention",
-    "job for the builder"
    ]
   },
   {
@@ -276,6 +280,12 @@
     "chime dial",
     "rear selector",
     "selector one click"
+   ]
+  },
+  {
+   "t": "Chromium",
+   "p": [
+    "Chromium"
    ]
   },
   {
@@ -524,6 +534,14 @@
     "unusual heat",
     "too hot",
     "temperature"
+   ]
+  },
+  {
+   "t": "help, asking us for",
+   "p": [
+    "\\b(ask|tell|speak to) us\\b",
+    "our attention",
+    "job for us"
    ]
   },
   {
@@ -864,6 +882,10 @@
    ]
   },
   {
+   "t": "right button",
+   "see": "mouse, buttons"
+  },
+  {
    "t": "right click",
    "see": "mouse, buttons"
   },
@@ -1089,17 +1111,23 @@
    ]
   },
   {
-   "t": "USB-C port, rear",
+   "t": "Undo",
    "p": [
-    "rear USB(-C)? port",
-    "USB port at the back",
-    "rear USB-C port"
+    "\\bUndo\\b"
    ]
   },
   {
    "t": "USB hub",
    "p": [
     "\\bhub\\b"
+   ]
+  },
+  {
+   "t": "USB-C port, rear",
+   "p": [
+    "rear USB(-C)? port",
+    "USB port at the back",
+    "rear USB-C port"
    ]
   },
   {

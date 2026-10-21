@@ -2,7 +2,6 @@
 #import "../styles/book.typ": *
 #import "../styles/screenshots.typ": screen-figure
 #import "../styles/typography.typ": accent
-#para([#text("Welcome to the Macintosh PiForma.")])
 #para([#text("This little computer began in the basement of Apple headquarters, which is remarkable, because Apple headquarters did not have a basement. A rogue engineer came across an Apple IIc Monitor down there, emptied it, and Frankensteined a computer into the case from whatever parts were lying around, several of which had not, strictly speaking, been invented yet.")])
 #para([#text("The work went on under the nose of the vice president of the day, a man with firm opinions about customers opening their computers. In short, they shouldn’t. The engineer was in no hurry to show him a Macintosh with easy access to its insides, running open-source software and other people’s good ideas.")])
 #para([#text("Then, in 1985, the vice president was let go, and the mood changed. The CEO turned out to be rather more open-minded about unconventional ideas than anyone had expected, and saw in the PiForma an experiment in something nobody had a name for yet: a Macintosh clone, built from someone else’s parts. Clones would not officially arrive for another ten years; this one simply got there first. The project came up out of the basement, and the PiForma was given the green light.")])

@@ -1,8 +1,6 @@
 # Welcome to the Macintosh PiForma
 
 <!-- evidence: owner-current H04; repo-verified D-README D-HARDWARE -->
-Welcome to the Macintosh PiForma.
-
 This little computer began in the basement of Apple headquarters, which is remarkable, because Apple headquarters did not have a basement. A rogue engineer came across an Apple IIc Monitor down there, emptied it, and Frankensteined a computer into the case from whatever parts were lying around, several of which had not, strictly speaking, been invented yet.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-19 -->

@@ -15,7 +15,7 @@ Set the carrying bag upright on a stable surface. Open the clasp, take it out of
 4. Remove the velvet-covered foam board beneath the mouse pad. Keep it flat; it protects the computer when everything is packed.
 
 <!-- evidence: owner-current H01-unpacking OWNER-TALK-2026-10-19 -->
-The PiForma is underneath the board, with its monitor/screen facing upward. The keyboard is tucked against one side of the computer. It is not another layer in the stack. Note which way it faces, as described under “The keyboard’s place” below, and lift the keyboard out first, before the computer.
+The PiForma is underneath the board, with its screen facing upward. The keyboard is tucked against one side of the computer. It is not another layer in the stack. Note which way it faces, as described under “The keyboard’s place” below, and lift the keyboard out first, before the computer.
 
 Lift the PiForma by its handle and case. Do not push on the screen: pressing on the display can damage the screen or its mounts.
 
@@ -35,9 +35,9 @@ If lifting it out upright is awkward, lay the bag on its back first and try the 
 Notice the keyboard’s orientation before moving it: the keys face the bag wall, the thicker edge faces the rear of the bag, and the thinner edge faces the front. Remember these three directions when you pack it again.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14 -->
-The molded edges in the bottom foam locate the rear/bottom of the computer. The first photograph shows the empty base; the second shows the PiForma and keyboard in place. Match the keyboard's orientation, rather than merely finding a gap large enough to hold it.
+The molded edges in the bottom foam locate the back of the computer. The first photograph shows the empty base; the second shows the PiForma and keyboard in place. Match the keyboard’s orientation, rather than merely finding a gap large enough to hold it.
 
-[ILLUSTRATION 1-2a|1-2a.png|The bottom foam insert. Seat the rear/bottom of the PiForma against the molded edges.]
+[ILLUSTRATION 1-2a|1-2a.png|The bottom foam insert. Seat the back of the PiForma against the molded edges.]
 
 [ILLUSTRATION 1-2b|1-2b.png|PiForma and keyboard inside the bag. Keys face the bag wall; the thick edge goes toward the rear, the thin edge toward the front.]
 
@@ -47,27 +47,27 @@ The molded edges in the bottom foam locate the rear/bottom of the computer. The 
 Before connecting anything, find the power switch on the right side, the green status light at the front, and the chime-selector dial at the back. The Apple logo at the front is also a touch control. It is separate from the physical power switch.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14 -->
-[ILLUSTRATION 1-3b|1-3b.png|The front: screen, Apple-logo touch control, and power indicator.]
+[ILLUSTRATION 1-3b|1-3b.png|The front: screen, Apple-logo touch control, and status light.]
 
-[ILLUSTRATION 1-3d|1-3d.png|The side volume control.]
+[ILLUSTRATION 1-3d|1-3d.png|The side volume knob.]
 
 [ILLUSTRATION 1-3e|1-3e.png|The power switch on the opposite side. This is separate from the Apple-logo touch control.]
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
-The one USB port at the back is a USB-C port. A single device plugged straight into it needs a USB-C plug of its own or an adapter. For more than one device, or for older USB plugs, use the USB hub. The keyboard communicates over Bluetooth; the mouse uses a USB wireless receiver, which stays plugged in inside the case. A keyboard problem and a mouse problem therefore call for different checks.
+The one USB port at the back is a USB-C port. A single device plugged straight into it needs a USB-C plug of its own or an adapter. For more than one device, or for older USB plugs, use the USB hub.
 
 [RAIL Source selector|The rear button that moves the screen to its next input: HDMI for the Raspberry Pi, AV1 for the RCA input.]
 
-At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general audio connection. The audio socket sends sound out to external speakers or headphones. Press the source selector to switch to HDMI for the Raspberry Pi picture. Only two inputs are in use: HDMI for the Raspberry Pi and AV1 for the RCA input. The selector also passes AV2 and VGA, which had nothing connected when the PiForma was built.
+At the rear are the source selector, a composite-video RCA input and an audio output socket. The RCA jack carries video only; the audio socket sends sound out to external speakers or headphones. Press the source selector until the screen shows HDMI for the Raspberry Pi picture. Chapter 2 explains the other inputs.
 
 <!-- evidence: owner-current OWNER-REAR-OUTLINE -->
 [ILLUSTRATION 1-3a|rear-inputs.png|Rear controls and connections. The RCA input is composite video; the audio socket is an output for speakers or headphones.]
 
 ### The forbidden latch
 
-The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would prefer you to admire it without touching it. I have gone rogue and made it conveniently openable. Please pretend I never told you; I would like to keep both my job and my continued existence.
+The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would prefer you to admire it without touching it. We have gone rogue and made it conveniently openable. Please pretend we never told you; we would like to keep both our jobs and our continued existence.
 
-“A closer look, strictly off the record”, at the end of this chapter, explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.
+“A closer look, strictly off the record,” at the end of this chapter, explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.
 
 [ILLUSTRATION 1-3c|1-3c.png|The top of the PiForma and its Forbidden Latch.]
 
@@ -87,8 +87,6 @@ Choose a solid, level table with room for the stand, keyboard, mouse pad, and ca
 4. Put the mouse on its pad beside the keyboard. Its power switch is underneath; turn it on if necessary.
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14 -->
-The stand illustration deliberately shows one support leg short of its final position. Move it into the seat indicated by the arrow before placing the PiForma on top. The partly assembled position is not the position for supporting the computer.
-
 [ILLUSTRATION 1-4a|1-4a.png|Seat the support leg in the position indicated by the arrow, then check the stand before adding the computer.]
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-20 OWNER-TALK-2026-10-20 -->
@@ -101,9 +99,9 @@ Center the PiForma exactly: not to the left, not to the right, but in the middle
 ### The keyboard controls
 
 <!-- evidence: owner-current OWNER-IMAGES-2026-10-14 OWNER-IMAGES-2026-10-20 -->
-The overhead view identifies the keyboard's volume dial, on the left, and its nice!view status display. The power switch and USB-C charging port are on the right-hand edge, where the keyboard’s ADB port used to be. Their labels in the overhead view show only the general location, because the port and switch themselves are not visible from above; the close-up of the right edge shows them. Charge the keyboard from that USB-C port.
+The overhead view identifies the keyboard’s volume dial, on the left, and its nice!view status display. The power switch and USB-C charging port are on the right-hand edge, where the keyboard’s ADB port used to be. Their labels in the overhead view show only the general location, because the port and switch themselves are not visible from above; the close-up of the right edge shows them. Charge the keyboard from that USB-C port.
 
-[ILLUSTRATION 1-4b|1-4b.png|Keyboard controls. The USB port and power-switch callouts indicate their general location, not a directly visible socket or switch.]
+[ILLUSTRATION 1-4b|1-4b.png|Keyboard controls. The USB-C port and power-switch callouts indicate their general location, not a directly visible socket or switch.]
 
 [ILLUSTRATION 1-4g|keyboard-switch-usbc.png|The keyboard’s right-hand edge: power switch and USB-C charging port.]
 
@@ -126,12 +124,12 @@ Underneath are the battery compartment, power switch, and optical tracking windo
 
 [ILLUSTRATION 1-4d|1-4d.png|Mouse underside: battery compartment, power switch, and optical tracking sensor.]
 
-The mouse can ordinarily stay on between uses, because it drops into a low-power idle state. You can still switch it off for transport or long storage. Its switch has no effect on the keyboard, which has its own switch and Bluetooth connection.
+The mouse can ordinarily stay on between uses, because it drops into a low-power idle state. You can still switch it off for transport or long storage. Its switch has no effect on the keyboard.
 
 ### USB devices and controllers
 
 <!-- evidence: owner-current H01-usb OWNER-TALK-2026-10-20; repo-verified D-MAINTENANCE -->
-Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two game controllers are in the accessory pouch. Chapter 3 explains the game launcher. Use the leads or adapters that came with the controllers, and don't force a plug into the hub.
+Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two game controllers are in the accessory pouch. Chapter 3 explains the game launcher. Use the cables or adapters that came with the controllers, and don’t force a plug into the hub.
 
 ### Bose speakers and stands
 
@@ -146,18 +144,18 @@ Connect the speakers to the rear audio output socket, then send the sound there 
 ### Bringing sound into the PiForma
 
 <!-- evidence: owner-current H01-audio; repo-verified D-SOFTWARE D-AUDIO -->
-The external audio adapter brings sound from another device, such as a VCR or a games console, into the PiForma over USB, so it plays through the PiForma’s speakers. That makes it external audio into the computer; sound going out uses the rear audio socket. The rear RCA jack carries only the picture.
+The external audio adapter brings sound from another device, such as a VCR or a games console, into the PiForma over USB, so it plays through the PiForma’s speakers. That makes it external audio into the computer; sound going out uses the rear audio socket, as described above. The rear RCA jack carries only the picture.
 
 ## Important safety instructions
 
 <!-- evidence: editorial-advice; owner-current H01-safety OWNER-TALK-2026-10-20; repo-verified D-SAFETY D-HARDWARE -->
 Keep liquids away, protect the display, and leave ventilation openings clear. Keep the PiForma out of direct sun. Use a stable stand on a level table. Do not carry the computer by cables or press on the screen to move it.
 
-The power switch does not disconnect external charging power from the internal charger. Switching it off doesn't make the inside safe to work on. Never open it up with charging power connected, and leave internal repairs to the builder.
+The power switch does not disconnect external charging power from the internal charger. Switching it off doesn’t make the inside safe to work on. Never open it up with charging power connected, and leave internal repairs to us.
 
-Stop using the computer if it becomes unusually hot, smells hot, or has damaged power wiring or a damaged battery. Don't keep trying to switch it on. Charge it only with its own power cable. It was built at home, so it carries no safety certification.
+Stop using the computer if it becomes unusually hot, smells hot, or has damaged power wiring or a damaged battery. Don’t keep trying to switch it on. Charge it only with its own power cable or the bag’s charging cord. It was built at home, so it carries no safety certification.
 
-Stop using it, too, if the screen starts to flicker. A flicker probably means the HDMI connection between the Raspberry Pi and the screen is wearing out, and it needs the builder’s attention before the next session.
+Stop using it, too, if the screen starts to flicker. A flicker probably means the HDMI connection between the Raspberry Pi and the screen is wearing out, and it needs our attention before the next session.
 
 ## Starting up the computer
 
@@ -167,14 +165,14 @@ Stop using it, too, if the screen starts to flicker. A flicker probably means th
 3. Listen for a startup chime. Depending on the rear selector’s position, there may be no sound.
 4. Watch for the startup picture or sequence. The desktop normally follows in about one to two minutes; allow for some variation.
 
-A silent startup doesn't mean anything has failed, because some chime positions are silent. Go by the green light and the screen as well.
+A silent startup doesn’t mean anything has failed, because some chime positions are silent. Go by the green light and the screen as well.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20 -->
 The first thing on the screen is always No Signal. Don’t panic: the screen wakes up before the Raspberry Pi does, and there is no way to skip the message. It shows once, the screen goes blank, and the startup picture should appear within 10 to 15 seconds.
 
 [ILLUSTRATION 1-6c|no-signal.png|Every startup begins with this. It is normal.]
 
-The startup picture looks like an old Macintosh that has failed its startup test, sad face, error codes and all. That is the builder’s sense of humor. Nothing has crashed and no ROM has failed. The label at the top left names the input the screen is showing, and it should say HDMI.
+The startup picture looks like an old Macintosh that has failed its startup test, sad face, error codes and all. That is our sense of humor. Nothing has crashed and no ROM has failed. The label at the top left names the input the screen is showing, and it should say HDMI.
 
 [ILLUSTRATION 1-6d|boot-screen.png|The startup picture. The sad face is a joke; the label at the top left shows the HDMI input.]
 
@@ -192,7 +190,7 @@ Once the desktop appears, try this short tour. You need not change any settings 
 1. Move the mouse on its pad and watch the pointer follow it. Point at an item by moving the pointer over it. To click, press and release the left mouse button once. The other left button can wait for Chapter 3.
 2. Find the menu bar at the top of the screen and the folder-like AtEase launcher beneath it. If a window covers the launcher, choose View → Show Desktop from the top menu bar. This minimizes your programs into the Control Strip without quitting them.
 3. In AtEase, click a folder tab if needed, then click a program button once. AtEase buttons take a single click, not a double-click. Wait for the program’s window to appear before clicking again. Use a windowed program for this first exercise; a full-screen game will cover the desktop.
-4. Explore the program's visible controls. When finished, use the program's own Quit or Exit command if it has one, or its window close control. If asked to save something you want to keep, save it before continuing. Closing one window may leave other windows from the same program open.
+4. Explore the program’s visible controls. When finished, use the program’s own Quit or Exit command if it has one, or its window close control. If asked to save something you want to keep, save it before continuing. Closing one window may leave other windows from the same program open.
 5. Choose View → Show Desktop to return to the launcher. You can now open another program in the same way.
 
 <!-- evidence: repo-verified A-APP P-MENU ABOUT-CONFIG; editorial-advice -->
@@ -264,7 +262,7 @@ The bag closes like an old canvas military bag. Feed the strap loop through the 
 ### Carrying the bag
 
 <!-- evidence: owner-current H01-carrying; needs-confirmation Q-BOSE -->
-Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immune to hard impacts. Cushioning is not armor. The Bose speakers and stands do not fit in this bag; carry them separately.
+Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immune to hard impacts. Cushioning is not armor. The Bose speakers travel separately, as described earlier in this chapter.
 
 ## If the PiForma doesn’t start
 
@@ -280,31 +278,31 @@ The normal, management-approved way to read the battery is to press the rear bat
 
 [ILLUSTRATION 1-6a|1-6b.png|Read the battery percentage through the top slits after pressing the rear battery plunger. The eye shows where to look.]
 
-Press the plunger, read the battery, and try the power switch again. If the battery is empty, seems asleep, or won't start despite showing charge, plug in the power cable and try again.
+Press the plunger, read the battery, and try the power switch again. If the battery is empty, seems asleep, or won’t start despite showing charge, plug in the power cable and try again.
 
-The builder has sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief connection before taking anything apart, but do not count on one minute as a fixed recovery time. Nobody knows why it works; it just sometimes does.
+We have sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief connection before taking anything apart, but do not count on one minute as a fixed recovery time. Nobody knows why it works; it just sometimes does.
 
 ### If there is no green light
 
 <!-- evidence: owner-current H01-troubleshooting -->
-If there is no green light, no chime, and no picture, start with the power switch, battery indication, plunger and power cable. Then try again. If that doesn't help, don't go looking inside; ask the builder.
+If there is no green light, no chime, and no picture, start with the power switch, battery indication, plunger and power cable. Then try again. If that doesn’t help, don’t go looking inside; ask us.
 
 ### If the light is on but there is no chime
 
 <!-- evidence: owner-current H01-chime; repo-verified D-HARDWARE D-MAINTENANCE -->
 Some positions on the rear chime-selector dial are intentionally silent or empty. With the PiForma powered on, move the dial through several positions in either direction and listen for an available sound.
 
-If it never sounds, the chime module may need attention, which is a job for the builder. The chime has its own sound hardware, so desktop sound can still work without it.
+If it never sounds, the chime module may need attention, which is a job for us. The chime has its own sound hardware, so desktop sound can still work without it.
 
 ### If the light and chime work but the screen stays blank
 
 <!-- evidence: owner-current H01-troubleshooting OWNER-TALK-2026-10-20; repo-verified D-HARDWARE D-KNOWN -->
-No Signal and a moment of blank screen are normal at first. If the startup picture has not appeared after about 15 seconds, press the source selector at the back until the screen shows HDMI. The chime plays before the computer has finished starting, so wait for the picture. If the picture stays blank, flickers or distorts, ask the builder rather than disturbing anything inside.
+No Signal and a moment of blank screen are normal at first. If the startup picture has not appeared after about 15 seconds, press the source selector at the back until the screen shows HDMI. The chime plays before the computer has finished starting, so wait for the picture. If the picture stays blank, flickers or distorts, ask us rather than disturbing anything inside.
 
 ### If the desktop is slow to appear
 
 <!-- evidence: owner-current H01-troubleshooting -->
-Give the computer one to two minutes to reach the desktop. If it stays on the startup picture, note what you see and tell the builder rather than switching it off and on repeatedly.
+Give the computer one to two minutes to reach the desktop. If it stays on the startup picture, note what you see and tell us rather than switching it off and on repeatedly.
 
 ### A closer look, strictly off the record
 
@@ -317,4 +315,4 @@ For an optional open-top look, first make sure the vice president isn’t lookin
 
 [ILLUSTRATION 1-6b|1-6a.png|Slide up toward the open padlock to unlock; lift at the slider to open. Close the top before sliding down to lock.]
 
-Of course, you did not hear any of this from me. If anyone from management asks, you were merely admiring the ventilation slits. I would appreciate remaining employed. And alive.
+Of course, you did not hear any of this from us. If anyone from management asks, you were merely admiring the ventilation slits. We would appreciate remaining employed.

@@ -33,7 +33,7 @@
 ])
 #heading(level:2,"Software, services and recovery")
 #para([#text("The software includes Raspberry Pi OS, X11/LXDE, Openbox, LightDM, PCManFM, PipeWire, and WirePlumber. System services include apple-gesture-button, volume-knob, atease, and flyingtoasters. User services include piforma-panel, controlstrip-simulator, and the optional usb-audio-loop.")])
-#para([#text("Use the canonical repository's software page, service inventory, configuration archive and installation guide for recovery. Archived helpers describe an earlier installation; do not substitute them for deployed scripts without checking the running configuration.")])
+#para([#text("Use the canonical repository’s software page, service inventory, configuration archive and installation guide for recovery. Archived helpers describe an earlier installation; do not substitute them for deployed scripts without checking the running configuration.")])
 #heading(level:2,"Keyboard conversion and sources")
 #para([#text("The build credits Matt Chesters’ zmk-apple-desktop-bus-keyboard conversion. Special keys follow the deployed keymap.")])
 #para([#text("The keyboard conversion uses a Seeed XIAO nRF52840, MCP23017 I/O expander, custom board, 100 mAh battery and nice!view display. Profile 2 of its five Bluetooth profiles is paired with the PiForma.")])

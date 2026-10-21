@@ -8,12 +8,12 @@ The PiForma was built to be used and carried, with a little care. Its case has a
 <!-- evidence: owner-current H01-handle; repo-verified D-KNOWN; editorial-advice -->
 Use the carrying handle as described in Chapter 1 and watch the keyboard as the computer comes out of the bag. Avoid impacts, pressure on the display, and pulling on connected cables.
 
-Don't try to cure a flicker by tapping the case or poking inside; tell the builder.
+Don’t try to cure a flicker by tapping the case or poking inside; tell us.
 
 ## Keyboard and mouse care
 
 <!-- evidence: owner-current H01-keyboard H01-mouse; editorial-advice -->
-Keep crumbs, liquids, and loose items out of the keys. Switch the keyboard off before packing it, and check that Caps Lock is up: a keyboard left on with Caps Lock down keeps sending Shift and runs its battery flat. Pack it with its keys toward the bag wall, thick edge rear, and thin edge front. Turn the mouse off for prolonged storage or transport if desired.
+Keep crumbs, liquids, and loose items out of the keys. Switch the keyboard off before packing it, and check that Caps Lock is up (Chapter 1 explains why). Turn the mouse off for prolonged storage or transport if desired.
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20 -->
 The keyboard’s nice!view display shows its battery level, as Chapter 2 explains. Charge it from the USB-C port on its right-hand edge when the level runs low.
@@ -21,11 +21,11 @@ The keyboard’s nice!view display shows its battery level, as Chapter 2 explain
 ## Charging and storage
 
 <!-- evidence: owner-current H03-battery; repo-verified D-HARDWARE; needs-confirmation Q-POWER -->
-The builder prefers to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That's a habit, not a rule from the battery maker.
+We prefer to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That’s a habit, not a rule from the battery maker.
 
-[ILLUSTRATION 4-1|battery-habit.png|The builder’s habit: recharge before the battery display falls below roughly 25 to 50 percent.]
+[ILLUSTRATION 4-1|battery-habit.png|Our habit: recharge before the battery display falls below roughly 25 to 50 percent.]
 
-Use the PiForma's own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 describes. Bag charging requires the foam alignment and a USB charger on the cord from the bag’s back pocket. The battery display can indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. Always switch the PiForma off before it goes into the bag; left on, it drains the battery quickly.
+Use the PiForma’s own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 describes. Bag charging requires the foam alignment and a USB charger on the cord from the bag’s back pocket. You can’t see the battery display in the bag; Chapter 1 explains. Always switch the PiForma off before it goes into the bag.
 
 ## Stand, bag and transport
 
@@ -37,7 +37,7 @@ Pack in the exact order in Chapter 1. Seat the computer in the bottom foam inden
 ## Bose speakers and stands
 
 <!-- evidence: owner-current H03-bose; editorial-advice; needs-confirmation Q-BOSE -->
-The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer. Carry the speakers and their stands separately.
+The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer.
 
 ## Cleaning, ventilation and unusual behavior
 
@@ -59,8 +59,8 @@ The Raspberry Pi sits behind the top left of the screen. To check its temperatur
 <!-- evidence: owner-current H04-support; editorial-advice -->
 There isn’t any. Sorry.
 
-Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably return to the person who built it, assuming he is in the mood.
+Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably come back to us, assuming we are in the mood.
 
-That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to the builder rather than continuing to experiment. Treat it kindly and perhaps neither of us will have to find out how extensive the service department’s paperwork is.
+That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to us rather than continuing to experiment. Treat it kindly and perhaps neither of us will have to find out how extensive the service department’s paperwork is.
 
 [ILLUSTRATION 4-3|apple-phone.png|The service department, standing by.]

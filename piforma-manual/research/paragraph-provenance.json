@@ -2,13 +2,6 @@
   {
     "file": "manuscript\\00-front-matter.md",
     "section": "Welcome to the Macintosh PiForma",
-    "paragraph_sha256": "43d30f68f445137531feca51cd31bcbd98523a4f81b05749ffd3514847314822",
-    "evidence": "owner-current H04; repo-verified D-README D-HARDWARE",
-    "preview": "Welcome to the Macintosh PiForma."
-  },
-  {
-    "file": "manuscript\\00-front-matter.md",
-    "section": "Welcome to the Macintosh PiForma",
     "paragraph_sha256": "f5849a5a7a153128a369ed3fcc11b60122dbaf63346a780be9b8afc0a61a0cad",
     "evidence": "owner-current H04; repo-verified D-README D-HARDWARE",
     "preview": "This little computer began in the basement of Apple headquarters, which is remarkable, because Apple headquarters did not have a basement. A"
@@ -131,9 +124,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Unpacking the equipment",
-    "paragraph_sha256": "0d82ced9cca98cfcc7635a031e516a8a079b3bc475c1d2d1abdd253dde553c3e",
+    "paragraph_sha256": "3fc4d17a73f678411def75d51a01d493ef0ed6f6104d760505d8627d123ac3a6",
     "evidence": "owner-current H01-unpacking OWNER-TALK-2026-10-19",
-    "preview": "The PiForma is underneath the board, with its monitor/screen facing upward. The keyboard is tucked against one side of the computer. It is n"
+    "preview": "The PiForma is underneath the board, with its screen facing upward. The keyboard is tucked against one side of the computer. It is not anoth"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -173,16 +166,16 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The keyboard’s place",
-    "paragraph_sha256": "890be2b32304b658a20dfc7d87db2c0287aa88b1bb4c5863f3fca5899ff103ed",
+    "paragraph_sha256": "a0b2f2df22b59b0a785d116c382b0efb6722c2dcfee7e19b31a5053330515cca",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "The molded edges in the bottom foam locate the rear/bottom of the computer. The first photograph shows the empty base; the second shows the "
+    "preview": "The molded edges in the bottom foam locate the back of the computer. The first photograph shows the empty base; the second shows the PiForma"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The keyboard’s place",
-    "paragraph_sha256": "c02fd379b75c95d403ff032a8ee8e8ffc46ecff4c138f56fe4e3804880afb562",
+    "paragraph_sha256": "1d646c8a978b9c9945bb4ed6718c7b5429ece14d0509c195efa048617fe07a2a",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "[ILLUSTRATION 1-2a|1-2a.png|The bottom foam insert. Seat the rear/bottom of the PiForma against the molded edges.]"
+    "preview": "[ILLUSTRATION 1-2a|1-2a.png|The bottom foam insert. Seat the back of the PiForma against the molded edges.]"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -201,16 +194,16 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
-    "paragraph_sha256": "ee85ac7d699765b3571242d3a273b7664d3d4c8e5f298237647f5f616b4e0adb",
+    "paragraph_sha256": "ab54811cd7db291b76ca8feb4fe982289e8ccc3b7daefe93f5b4758366c210de",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "[ILLUSTRATION 1-3b|1-3b.png|The front: screen, Apple-logo touch control, and power indicator.]"
+    "preview": "[ILLUSTRATION 1-3b|1-3b.png|The front: screen, Apple-logo touch control, and status light.]"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
-    "paragraph_sha256": "74c3c833253cdc32bf4d63fb89de46d250cb5ec7ac19fa77debd6f538d2930fd",
+    "paragraph_sha256": "8fac42e9c29594d834793d104813b8c2c0e261fe269691de4e3a52a287618f86",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "[ILLUSTRATION 1-3d|1-3d.png|The side volume control.]"
+    "preview": "[ILLUSTRATION 1-3d|1-3d.png|The side volume knob.]"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -222,16 +215,16 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
-    "paragraph_sha256": "24946f61eca4ad741c874fc14679eb19712ac0a56fd3e6e909bca6412c746fee",
+    "paragraph_sha256": "66158819ed6caa64f0f4e04faf9836ee54567d6cdf68daa13226c2cfc18b9f3c",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
     "preview": "The one USB port at the back is a USB-C port. A single device plugged straight into it needs a USB-C plug of its own or an adapter. For more"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Taking a closer look",
-    "paragraph_sha256": "f6f48891b063f22350fd9f085478c8aa7612eaee5cf308b21da2d56553564e09",
+    "paragraph_sha256": "5e5d24709c396646a8b6851e084ac002405f5a383d3faac0aac7dd0e53e4da76",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
-    "preview": "At the rear are a display-source selector, a composite-video RCA input and an audio output socket. That RCA jack is for video, not a general"
+    "preview": "At the rear are the source selector, a composite-video RCA input and an audio output socket. The RCA jack carries video only; the audio sock"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -243,16 +236,16 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The forbidden latch",
-    "paragraph_sha256": "1d057eccf3b97064f1a207642cc9d91ba044428024edc18e6ee21bdf4968494e",
+    "paragraph_sha256": "b893019f086fcf22a7caf23ebcc2e3d24c3b424cc540b502e4c2fa799dc20d44",
     "evidence": "owner-current OWNER-REAR-OUTLINE",
     "preview": "The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would p"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The forbidden latch",
-    "paragraph_sha256": "d4d2d296a3757c7192bc8bb530339909c3e84022103e9d0e69ff8be0a0b994c6",
+    "paragraph_sha256": "5c5b93ef86a6915af1baee526161304f5b79b2386301bb347924d986ec7abf6f",
     "evidence": "owner-current OWNER-REAR-OUTLINE",
-    "preview": "“A closer look, strictly off the record”, at the end of this chapter, explains how it opens. You can check the charge through the top slits "
+    "preview": "“A closer look, strictly off the record,” at the end of this chapter, explains how it opens. You can check the charge through the top slits "
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -295,13 +288,6 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The stand, keyboard and mouse",
-    "paragraph_sha256": "5bd1d8f5465928db5ce663987a45f86a44a50a4899661ebd26786299ae22223e",
-    "evidence": "owner-current OWNER-IMAGES-2026-10-14",
-    "preview": "The stand illustration deliberately shows one support leg short of its final position. Move it into the seat indicated by the arrow before p"
-  },
-  {
-    "file": "manuscript\\01-getting-started.md",
-    "section": "The stand, keyboard and mouse",
     "paragraph_sha256": "1247b7a55286f45e13bd2525198a1fc56e5f244a213ba95f5ad357b31666a449",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
     "preview": "[ILLUSTRATION 1-4a|1-4a.png|Seat the support leg in the position indicated by the arrow, then check the stand before adding the computer.]"
@@ -330,16 +316,16 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The keyboard controls",
-    "paragraph_sha256": "eaccd4556dfaab33ab9180b52e01f7f0725a1880502fe8080ffd339c16f21340",
+    "paragraph_sha256": "078a3200e00f0b85f769d17b06257b97c1ec1d972b5331187d373d0b241d010b",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14 OWNER-IMAGES-2026-10-20",
-    "preview": "The overhead view identifies the keyboard's volume dial, on the left, and its nice!view status display. The power switch and USB-C charging "
+    "preview": "The overhead view identifies the keyboard’s volume dial, on the left, and its nice!view status display. The power switch and USB-C charging "
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The keyboard controls",
-    "paragraph_sha256": "60b3e7e156c73946f17b8d3aa32475a0ae001b35ca1066603aed355bcdd09a44",
+    "paragraph_sha256": "2414a95b5abd82cd700f6e349dcfa096b0a63df8605ba9ab1af50c854bde4f7d",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14 OWNER-IMAGES-2026-10-20",
-    "preview": "[ILLUSTRATION 1-4b|1-4b.png|Keyboard controls. The USB port and power-switch callouts indicate their general location, not a directly visibl"
+    "preview": "[ILLUSTRATION 1-4b|1-4b.png|Keyboard controls. The USB-C port and power-switch callouts indicate their general location, not a directly visi"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -400,14 +386,14 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "The mouse controls",
-    "paragraph_sha256": "a1a78163e6abd96596172e1e09bb8ea3c84fd7897c5a07426444da008291d523",
+    "paragraph_sha256": "38ec69fa9e3bb5b47f203cfa6bd0d38b9abe5dc14dbab8b2b465e4600170acb0",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14",
     "preview": "The mouse can ordinarily stay on between uses, because it drops into a low-power idle state. You can still switch it off for transport or lo"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "USB devices and controllers",
-    "paragraph_sha256": "91a4de843b9f368273e41c9ef0b704786c810242bfdf656a4b8c84aabcad87df",
+    "paragraph_sha256": "ba79d3b9e7f50cc3db2ab7b7790a153a1bf2f4feba947a2e59fdacddaae06409",
     "evidence": "owner-current H01-usb OWNER-TALK-2026-10-20; repo-verified D-MAINTENANCE",
     "preview": "Plug the USB hub into the rear USB-C port when you need more than one USB connection, or when a device has an older USB plug. The two game c"
   },
@@ -435,7 +421,7 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Bringing sound into the PiForma",
-    "paragraph_sha256": "7bebc24401e38ee65163c278db3375aae3fd7b33752c4b4fd8cd0940d6ec63f3",
+    "paragraph_sha256": "9dfd89b556c4c2bfd928802eafe5800b5912521e5682b75573d930b9e0cb89bc",
     "evidence": "owner-current H01-audio; repo-verified D-SOFTWARE D-AUDIO",
     "preview": "The external audio adapter brings sound from another device, such as a VCR or a games console, into the PiForma over USB, so it plays throug"
   },
@@ -449,21 +435,21 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Important safety instructions",
-    "paragraph_sha256": "2ac62e7903ccffbafed8484eb1eab30b174888b3af0284cc64e313d9d8f4eb33",
+    "paragraph_sha256": "cb0429e83e0d1596e5109fef3a29561d92a52b3caa09a33be745a1bdc5539035",
     "evidence": "editorial-advice; owner-current H01-safety OWNER-TALK-2026-10-20; repo-verified D-SAFETY D-HARDWARE",
-    "preview": "The power switch does not disconnect external charging power from the internal charger. Switching it off doesn't make the inside safe to wor"
+    "preview": "The power switch does not disconnect external charging power from the internal charger. Switching it off doesn’t make the inside safe to wor"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Important safety instructions",
-    "paragraph_sha256": "cf7d530f3680aa9b9421b6ca8359973a7a6d132ab3c59dae704593805ca5e7f6",
+    "paragraph_sha256": "f279c1a85d691326a32d3cceb915334fc352111399fe6b91b8e987b0e1ebf8bc",
     "evidence": "editorial-advice; owner-current H01-safety OWNER-TALK-2026-10-20; repo-verified D-SAFETY D-HARDWARE",
-    "preview": "Stop using the computer if it becomes unusually hot, smells hot, or has damaged power wiring or a damaged battery. Don't keep trying to swit"
+    "preview": "Stop using the computer if it becomes unusually hot, smells hot, or has damaged power wiring or a damaged battery. Don’t keep trying to swit"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Important safety instructions",
-    "paragraph_sha256": "f85f68a8e933d4226e456c92e3f3f6a703531f67dfecb483c6ad6272271ee0f0",
+    "paragraph_sha256": "c0aea0a92a343a630ebc360bb637f0a4edb2d270c2adb132fd00d43e280b3d05",
     "evidence": "editorial-advice; owner-current H01-safety OWNER-TALK-2026-10-20; repo-verified D-SAFETY D-HARDWARE",
     "preview": "Stop using it, too, if the screen starts to flicker. A flicker probably means the HDMI connection between the Raspberry Pi and the screen is"
   },
@@ -494,9 +480,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Starting up the computer",
-    "paragraph_sha256": "0f10aa57176cc8b1dc60c2f21b123937e42f3c9ec6d8cd60b5c92d79ad878128",
+    "paragraph_sha256": "a447478265f3274dd25896058b8c714c30ea3bbaa86a13ae453f716f77ae1958",
     "evidence": "owner-current H01-startup",
-    "preview": "A silent startup doesn't mean anything has failed, because some chime positions are silent. Go by the green light and the screen as well."
+    "preview": "A silent startup doesn’t mean anything has failed, because some chime positions are silent. Go by the green light and the screen as well."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -515,9 +501,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Starting up the computer",
-    "paragraph_sha256": "70f93b595df6e852d5e926d9750574939ace429818ff1858f21c44ee44c17dd9",
+    "paragraph_sha256": "499be1ae0c3de3cce22ffe69be7a2d226e4f31597397b9ee100754656bfd7d84",
     "evidence": "owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20",
-    "preview": "The startup picture looks like an old Macintosh that has failed its startup test, sad face, error codes and all. That is the builder’s sense"
+    "preview": "The startup picture looks like an old Macintosh that has failed its startup test, sad face, error codes and all. That is our sense of humor."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -569,7 +555,7 @@
     "file": "manuscript\\01-getting-started.md",
     "section": "Your first session",
     "evidence": "owner-current OWNER-TALK-2026-10-20; editorial-advice",
-    "preview": "4. Explore the program's visible controls. When finished, use the program's own Quit or Exit command if it has one, or its window close control. If asked to save something you want to keep, save it before continuing. Closing one window may leave other windows from the same program open."
+    "preview": "4. Explore the program’s visible controls. When finished, use the program’s own Quit or Exit command if it has one, or its window close control. If asked to save something you want to keep, save it before continuing. Closing one window may leave other windows from the same program open."
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -757,7 +743,7 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Carrying the bag",
-    "paragraph_sha256": "2a105f9da23dfcb2772e944e3ef8330d33cd327a420e076c23e061fbe27ed627",
+    "paragraph_sha256": "fe8872ed5dadc2f2015fb8a28d4a64b4829918402143651577078031fd65916e",
     "evidence": "owner-current H01-carrying; needs-confirmation Q-BOSE",
     "preview": "Lift and carry the closed bag carefully. The padding offers useful protection against ordinary handling; it does not make the computer immun"
   },
@@ -792,21 +778,21 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Checking the battery",
-    "paragraph_sha256": "d94f961d81f8a5a8aa0238ec15d251ae715b92cdbaa3b32f0569cd79db94e789",
+    "paragraph_sha256": "a9ef485f7a74f058489463d0f80fa1a2030d59ccfeadd75c76f312f5c6a0814b",
     "evidence": "owner-current H01-battery OWNER-IMAGES-2026-10-14; repo-verified D-HARDWARE D-MAINTENANCE",
-    "preview": "Press the plunger, read the battery, and try the power switch again. If the battery is empty, seems asleep, or won't start despite showing c"
+    "preview": "Press the plunger, read the battery, and try the power switch again. If the battery is empty, seems asleep, or won’t start despite showing c"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Checking the battery",
-    "paragraph_sha256": "bc332d0b68fba96d3672736179ccf15b7a287f04471fb133304a8cefebbb2c1c",
+    "paragraph_sha256": "0f9a5e6d19600e1f280e4ea72ed281159a42402ae93f4084f40faa99def5a906",
     "evidence": "owner-current H01-battery OWNER-IMAGES-2026-10-14; repo-verified D-HARDWARE D-MAINTENANCE",
-    "preview": "The builder has sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a br"
+    "preview": "We have sometimes recovered a start after roughly a minute on external power, even when the battery previously showed full. Try a brief conn"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "If there is no green light",
-    "paragraph_sha256": "6dd06c3170230a0f467171414a1a9f88851830ac223174c83585d138567b25ec",
+    "paragraph_sha256": "fa2f495f6b1ad29e1c25126bfb650366a0bb3ab2cb7ae15010d54b72fff0798b",
     "evidence": "owner-current H01-troubleshooting",
     "preview": "If there is no green light, no chime, and no picture, start with the power switch, battery indication, plunger and power cable. Then try aga"
   },
@@ -820,23 +806,23 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "If the light is on but there is no chime",
-    "paragraph_sha256": "e357af467c791de1897eaffa6f180276b0860edbdb5ec3b720e18ba0524297ff",
+    "paragraph_sha256": "bde0584c958aab95afdf5071d541e76df4f7bb039738df6938a8be5edb06462b",
     "evidence": "owner-current H01-chime; repo-verified D-HARDWARE D-MAINTENANCE",
-    "preview": "If it never sounds, the chime module may need attention, which is a job for the builder. The chime has its own sound hardware, so desktop so"
+    "preview": "If it never sounds, the chime module may need attention, which is a job for us. The chime has its own sound hardware, so desktop sound can s"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "If the light and chime work but the screen stays blank",
-    "paragraph_sha256": "cd1680ce879e5664f98f84c215bb62a325de36ebed104667fe0b5c1adec83ed6",
+    "paragraph_sha256": "0b17c16a5afc45b9bd95c082785a93a95adce1e3e7f054e5ee23c92ff2cc08e9",
     "evidence": "owner-current H01-troubleshooting OWNER-TALK-2026-10-20; repo-verified D-HARDWARE D-KNOWN",
     "preview": "No Signal and a moment of blank screen are normal at first. If the startup picture has not appeared after about 15 seconds, press the source"
   },
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "If the desktop is slow to appear",
-    "paragraph_sha256": "4b36efbeba225f989c86fa1f27edad8fc711b3e9ca1895ebe8f7cf5428ab0b66",
+    "paragraph_sha256": "0bce5b56ad47405008ea7d02497203ad8e40320f1135b128d83f0cc878b8e410",
     "evidence": "owner-current H01-troubleshooting",
-    "preview": "Give the computer one to two minutes to reach the desktop. If it stays on the startup picture, note what you see and tell the builder rather"
+    "preview": "Give the computer one to two minutes to reach the desktop. If it stays on the startup picture, note what you see and tell us rather than swi"
   },
   {
     "file": "manuscript\\01-getting-started.md",
@@ -873,9 +859,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "A closer look, strictly off the record",
-    "paragraph_sha256": "fb5054d75d143ef2b370dfdbe227fe6a9be0f5955455f5d2f73e99b58b0fbf40",
+    "paragraph_sha256": "59469c19770c3348e77b884e5b783fbe59a2f224a0869920171f4b282fe0a5bb",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14 OWNER-TALK-2026-10-20; editorial-advice",
-    "preview": "Of course, you did not hear any of this from me. If anyone from management asks, you were merely admiring the ventilation slits. I would app"
+    "preview": "Of course, you did not hear any of this from us. If anyone from management asks, you were merely admiring the ventilation slits. We would ap"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -929,7 +915,7 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The display and source selector",
-    "paragraph_sha256": "4d6d13a7c0d9842212919a9a5ece0ef246faed1f59c96aaf1a4621e352e8bb93",
+    "paragraph_sha256": "886cc9319e6b86092d8fd47a801442fd2c6a8b916f047a9b65875593cb5abcb2",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "The screen in this first revision is, frankly, of modest quality: a little dim, with colors that are not quite right, and neither brightness"
   },
@@ -950,7 +936,7 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The battery and charging paths",
-    "paragraph_sha256": "af767d16aae9d9a4492dbf35812578541eccbacccfd3203113d7e136db540190",
+    "paragraph_sha256": "d164c91c2783c9618887ff7e200ee74473ddde41c68905dc03dff6454aa651f3",
     "evidence": "repo-verified D-HARDWARE D-BOM D-SAFETY",
     "preview": "The internal battery lets you use the PiForma without a power cord. The power cable feeds its charger, and the battery can charge while the "
   },
@@ -964,9 +950,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The battery and charging paths",
-    "paragraph_sha256": "d5513e06bea833782358f2bf419644aa329758f9bfa45315c45c771b85a27245",
+    "paragraph_sha256": "d0589770bd6652b32dafcff8362fa0aacfd3df232753128fcee95515a4d58d16",
     "evidence": "owner-current H01-battery; repo-verified D-HARDWARE; needs-confirmation Q-BATTERY",
-    "preview": "[ILLUSTRATION 2-2|inside-3.png|The open top reveals the wireless charging receiver, battery-button plunger and battery display. The battery "
+    "preview": "[ILLUSTRATION 2-2|inside-3.png|The open top reveals the wireless charging receiver, battery plunger and battery display. The battery is at 8"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1088,7 +1074,7 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The converted Apple keyboard",
-    "paragraph_sha256": "3f62486bf2acd14cdd4fb2458c3164d4b233248c466bda2171381a1333d24c79",
+    "paragraph_sha256": "1197fdd3398c4c2c31a36ba82f6493d731981dc246dd16174010152dee8ff5d3",
     "evidence": "repo-verified D-HARDWARE D-BOM; historic-record H03",
     "preview": "The vintage Apple keyboard has been converted to Bluetooth LE using Matt Chesters’ keyboard-conversion project. It has its own battery, a ni"
   },
@@ -1123,7 +1109,7 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The converted Apple keyboard",
-    "paragraph_sha256": "c2e6f652696dd7738f9f80aa6ea8bfeeb2cb8ced98e2916cfcc57c52ce602912",
+    "paragraph_sha256": "0fb59f3dd2932bef83ca01f9a94293f21cc03d2e3539467f307dabf6517e7742",
     "evidence": "owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20",
     "preview": "Pressing down on the display changes the Bluetooth profile, one step per press; press on its plastic surround rather than the screen. Leave "
   },
@@ -1137,9 +1123,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "Bose speakers and stands",
-    "paragraph_sha256": "1bd226304efbfc8e923bb4d644bf5296938b3d77135802b30e01e7fb6c4e0d0f",
+    "paragraph_sha256": "2cda739f98fbbe86c7baea48cf18fcd250543e1a9fae228da160aa48752fd289",
     "evidence": "owner-current H03-bose OWNER-TALK-2026-10-19",
-    "preview": "The Bose speakers are an optional extra. They connect to the rear audio output socket. The PiForma’s internal speaker works without them. Pl"
+    "preview": "The Bose speakers are optional; the PiForma’s internal speaker works without them. Chapter 1 explains connecting and placing them."
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1151,9 +1137,9 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The bag and its fitted interior",
-    "paragraph_sha256": "2d034d9afc13adcd73d491f3ded7ccec2d3fb78401474c18eb739bb41de8a8b6",
+    "paragraph_sha256": "9eb51f205828adcc0092bba9caaed1a7c9325980f706e0663bb1ae05f9b81367",
     "evidence": "owner-current OWNER-TALK-2026-10-21",
-    "preview": "Every PiForma deserves a good home. This one travels in a waxed canvas backpack, finished with Otter Wax, so it shrugs off the weather and o"
+    "preview": "The PiForma travels in a waxed canvas backpack, finished with Otter Wax, so it shrugs off the weather and only looks better with age. Colorf"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1165,16 +1151,16 @@
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The bag and its fitted interior",
-    "paragraph_sha256": "279f04906f37eacd9f4a769aba0af75002b4f7bf944172736d02c3b47c0dd8bf",
+    "paragraph_sha256": "8dd19ebb8abf65e2ee5a368abfe16816379f0fad319661373cb2027f35dbe696",
     "evidence": "repo-verified D-HARDWARE; owner-current H01-packing OWNER-TALK-2026-10-21",
     "preview": "The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its i"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
     "section": "The bag and its fitted interior",
-    "paragraph_sha256": "5ec31de28defb60f38985e7ecae76cd9abc491152c1625f623792796a2928582",
+    "paragraph_sha256": "6262bff5398e6cb164712a144324a6068a10112e589183a1e04d876d7de33465",
     "evidence": "owner-current OWNER-TALK-2026-10-21",
-    "preview": "It looks right on anyone, and especially right over a tapestry jacket between business trips. There is no room left for clothes. You won't m"
+    "preview": "It looks right on anyone, and especially right over a tapestry jacket between business trips. There is no room left for clothes. You won’t m"
   },
   {
     "file": "manuscript\\02-inside-piforma.md",
@@ -1221,16 +1207,16 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Two menu bars, two different jobs",
-    "paragraph_sha256": "67c6337067cad6b784c7852cf7d856be3772c663584d8ad51af86bb41578d88a",
+    "paragraph_sha256": "79b06d68df6817957a879176bbc7dc79047ac9e8cee0950838271b9eb927579c",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 3-2|piforma-application-menus.svg|The persistent system menu bar remains above the document window. Use the application's own Fi"
+    "preview": "[SCREENSHOT 3-2|piforma-application-menus.svg|The persistent system menu bar remains above the document window. Use the application’s own Fi"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Two menu bars, two different jobs",
-    "paragraph_sha256": "1d53f6d4ef0975d80fd85e9482d525d63ef764bc5dd6a4954fdf07cc3b173eec",
+    "paragraph_sha256": "b769a9206a06dcec6abe9bbf7ebe01078b5504a8c8a09c0e1c464c51fa40763b",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "Each program keeps its own menus inside its own window. For document work, use that program's own File → Save, Edit → Copy, Edit → Paste, an"
+    "preview": "Each program keeps its own menus inside its own window. For document work, use that program’s own File → Save, Edit → Copy, Edit → Paste, an"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1256,44 +1242,44 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Using the mouse",
-    "paragraph_sha256": "15e81463219981ba7fadc0a3a7f3debf8dfb42fefc8743d33a45e4623a3cd1f8",
+    "paragraph_sha256": "022e2c9f1cdf3c4ed71d25f798072ae719ffffe1e86f0082eb57037ffe241b79",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
     "preview": "Roll the wheel to scroll through a longer page or list. Point over the area you want to scroll. Scroll bars provide another way to reach mat"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Using the mouse",
-    "paragraph_sha256": "43289d2fc0a60902c6d7d8bed5d64b69cf9a2e4734b94e843ac6cf674ca96401",
+    "paragraph_sha256": "8ae98d644ab9fcb2c178625a3be7d41d409ab75144153d17ca09c6575948270b",
     "evidence": "owner-current OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "The right button may show a menu of actions for the item under the pointer. Its behavior depends on the program. This is the mysterious “sec"
+    "preview": "The right button may show a menu of actions for the item under the pointer. Its behavior depends on the program. This is the mysterious “???"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Using the keyboard",
-    "paragraph_sha256": "dec6fdffd2edf0ae4e9b68b609b8f3442eb5834b7ff1c601d76275215d86161f",
+    "paragraph_sha256": "a5960a50c263a4d5baff80001e24fd38e5ba7367934aedd66fe6264907ebc13c",
     "evidence": "owner-current H01-keyboard OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "Switch the keyboard on at its right-hand edge. It uses Bluetooth, independently of the mouse's USB wireless receiver. First click in the win"
+    "preview": "Switch the keyboard on at its right-hand edge. First click in the window or text field where you want to type. The insertion point marks whe"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Using the keyboard",
-    "paragraph_sha256": "8afb4500ba4ea74a19deafbd7e95279325eba28ff2068b387cbd9d063e4ad7de",
+    "paragraph_sha256": "fb66e821a93ab39578dd2ba170c225182b86a8c7083914d5989d84c051d4727c",
     "evidence": "owner-current H01-keyboard OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "Use the letter, number and punctuation keys to enter text. Hold Shift while typing a letter for a capital or a key's shifted symbol. Return "
+    "preview": "Use the letter, number and punctuation keys to enter text. Hold Shift while typing a letter for a capital or a key’s shifted symbol. Return "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Using the keyboard",
-    "paragraph_sha256": "842d7f556972108cece7fe3943dd5a724c0efede47e598427631024f34ec26a1",
+    "paragraph_sha256": "0a4155f7fd8b5179f6f7b23a117d7dd30b08a3e686461d7ff36b5b9521f4a8c5",
     "evidence": "owner-current H01-keyboard OWNER-IMAGES-2026-10-14; editorial-advice",
     "preview": "To replace text, select it by dragging across it, then type the replacement. Deleting selected text removes the whole selection. If you remo"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Using the keyboard",
-    "paragraph_sha256": "ece21ab8b3a352be23b0d3e8451893b119a32b8dda350878a8493adb48bdf7a6",
+    "paragraph_sha256": "01cddd324422c7814462b6451deb192f1868026b5720d59867c23f5ed686f07a",
     "evidence": "owner-current H01-keyboard OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "Use an application's own Cut, Copy and Paste commands when available. Copy leaves the original selection in place; Cut removes it; Paste ins"
+    "preview": "Use an application’s own Cut, Copy and Paste commands when available. Copy leaves the original selection in place; Cut removes it; Paste ins"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1305,16 +1291,16 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Using the keyboard",
-    "paragraph_sha256": "6d800e8321d38dde4c49c1d3338ad80fabbd7ff5159699e7673dd3853b823d58",
+    "paragraph_sha256": "f21aea6b86de5ab037989d26f335e55bed239778f54ea3c1a0f89d1a8788c62e",
     "evidence": "owner-current H01-keyboard OWNER-IMAGES-2026-10-14; editorial-advice",
-    "preview": "The vintage keys don't map neatly onto modern shortcuts, and the Apple key may not do what it did in 1985. Use the commands each program sho"
+    "preview": "The vintage keys don’t map neatly onto modern shortcuts, and the Apple key may not do what it did in 1985. Use the commands each program sho"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Opening programs with AtEase",
-    "paragraph_sha256": "1b39e47731ed0e5a0c5049c547fd22c57fa5717e3cc4087a705d97bf571f84dd",
+    "paragraph_sha256": "4bfc7801ac9b9a875a6dd7089ebaf852886d9b6426a5145cc1e278eb5816f7b6",
     "evidence": "repo-verified A-APP D-ATEASE; owner-current OWNER-TALK-2026-10-19",
-    "preview": "AtEase has two folder tabs. At Ease Items holds the programs; sites holds a selection of websites the builder finds interesting, a collectio"
+    "preview": "AtEase has two folder tabs. At Ease Items holds the programs; sites holds a selection of websites we find interesting, a collection still be"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1340,16 +1326,16 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Working with application windows",
-    "paragraph_sha256": "2048159044adbf5fb57600e9213f996550daecd9638a7f98a2d76528457366ec",
+    "paragraph_sha256": "df27595e205c151288ea169955e435980a1c249829a1bbc0c5bb9528a0ee5e47",
     "evidence": "repo-verified D-SOFTWARE C-MAIN; editorial-advice",
     "preview": "Where a normal window has a title bar, drag it to a more useful position. Where a resize border or corner is provided, drag that border or c"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Working with application windows",
-    "paragraph_sha256": "b58507a522751aa778f43059778fa666dcde253522222d64b3db1fb2c4879c27",
+    "paragraph_sha256": "894065a6701b673bdf08bef7979fd9b1f3b59eab76af278cae82fca363964c29",
     "evidence": "repo-verified D-SOFTWARE C-MAIN; editorial-advice",
-    "preview": "Use a program's Quit or Exit command to leave it. A window close control closes that window, which may leave other windows from the same pro"
+    "preview": "Use a program’s Quit or Exit command to leave it. A window close control closes that window, which may leave other windows from the same pro"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1361,16 +1347,16 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Window controls",
-    "paragraph_sha256": "269fe357525315567450ad4f71109a2c072bcf54093141bfa1622c8c121d4f68",
+    "paragraph_sha256": "82edf615d3ccfb857d2a750119ccd477890c666b31238ab3b448ea98fbb8c6f4",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF",
     "preview": "The themed document window in the menu-bar picture, near the start of this chapter, has a close control at the upper left. At the upper righ"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Window controls",
-    "paragraph_sha256": "1552973ab87378126f7f7506f027f56bcac5b2b23bda313de669ca127e6a880f",
+    "paragraph_sha256": "64726515c78aaad0a4df70ffe4ea4f944fd81fb71eb38b9e92f5638c9161128c",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11 OWNER-SCREENSHOT-BRIEF",
-    "preview": "Use the controls a window actually provides. Some windows omit controls or draw them differently. Clippy's chat, for example, has its close "
+    "preview": "Use the controls a window actually provides. Some windows omit controls or draw them differently. Clippy’s chat, for example, has its close "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1382,16 +1368,16 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Files and folders",
-    "paragraph_sha256": "065ff246d57eaa8ccaee8a234a7f4441f3c93cc4c34d94d53508cccf56785ffb",
+    "paragraph_sha256": "083fd70d778aae9334afd543261644c157f224813629f8dc750ea53b6f62ebbf",
     "evidence": "repo-verified P-MENU P-ACTIONS D-SOFTWARE; editorial-advice",
-    "preview": "PiForma Panel's File → Open Home Folder opens your home folder in a file window. Browse by opening the folders shown there. Many file views "
+    "preview": "PiForma Panel’s File → Open Home Folder opens your home folder in a file window. Browse by opening the folders shown there. Many file views "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Files and folders",
-    "paragraph_sha256": "40b45a952ee99babdf6258f6d7db7c09e09288ea475065e7c7ceeb5087278f65",
+    "paragraph_sha256": "de7c32b45f252c755924a585bd0012b92dc5b023c788f0529dff3f2ed3343a5e",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "[SCREENSHOT 3-3a|piforma-open-home-folder.svg|Use the system File menu's Open Home Folder command to reach your files.]"
+    "preview": "[SCREENSHOT 3-3a|piforma-open-home-folder.svg|Use the system File menu’s Open Home Folder command to reach your files.]"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1410,9 +1396,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Files and folders",
-    "paragraph_sha256": "a4f934f1a7c496551560d7573b7f642f9048f872f24ee18bbdb6a7ae571bf70a",
+    "paragraph_sha256": "cd587bfe423c5235a37b552f3e9e060ddce0cb1b3c26ae6d7e2f5e959009b9fc",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "Moving or copying a file doesn't save the changes in an open document; only Save does that."
+    "preview": "Moving or copying a file doesn’t save the changes in an open document; only Save does that."
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1439,13 +1425,13 @@
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Saving and reopening your work",
     "evidence": "editorial-advice",
-    "preview": "1. Choose Save from the application's own menu. On the first save, it will usually ask for a name and location."
+    "preview": "1. Choose Save from the application’s own menu. On the first save, it will usually ask for a name and location."
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Saving and reopening your work",
     "evidence": "editorial-advice",
-    "preview": "2. Select a folder you can find again, enter a useful filename, and confirm with the dialog's Save control. Keep the file type the program suggests."
+    "preview": "2. Select a folder you can find again, enter a useful filename, and confirm with the dialog’s Save control. Keep the file type the program suggests."
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1463,14 +1449,14 @@
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Saving and reopening your work",
     "evidence": "editorial-advice",
-    "preview": "5. To return later, use the application's Open command and find the saved file, or open the file from its folder. Check that the expected work appears."
+    "preview": "5. To return later, use the application’s Open command and find the saved file, or open the file from its folder. Check that the expected work appears."
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Saving and reopening your work",
-    "paragraph_sha256": "7cd55bec7f8a0bc53e63a5861f50ccc774848f15f3ffbc25b285d9c907fad93f",
+    "paragraph_sha256": "2d6e933b6cd70ab55473715a64399940b5b67ff538cc0c2bbcd1f314589c98e3",
     "evidence": "editorial-advice",
-    "preview": "Save often, and always before quitting or shutting down. If a save fails or a dialog is still waiting, deal with it before closing. Don't co"
+    "preview": "Save often, and always before quitting or shutting down. If a save fails or a dialog is still waiting, deal with it before closing. Don’t co"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1482,7 +1468,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "The menu bar and Control Strip",
-    "paragraph_sha256": "c06a91562e5293d379f815324c5df85ab080bee5bf268a1d4f8f3aa50b16c921",
+    "paragraph_sha256": "37ccdcf5e7a1e490d998b7a8f59c74334a0f25da84ef90239b5a5b6df5693e96",
     "evidence": "repo-verified P-MENU P-ACTIONS C-README C-MAIN",
     "preview": "The Control Strip sits at the bottom-left of the desktop. The original Macintosh Control Strip held control panels; the PiForma’s works more"
   },
@@ -1559,7 +1545,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "e3d301aa5c51c483ef12d4553d39cad175a0cea7fb160d94c09a80c4cc0c5b6c",
+    "paragraph_sha256": "624866342f677434876a4de12cdc132c8f8e0617970842d7d5be28c041385905",
     "evidence": "owner-current H01-usb; repo-verified D-SOFTWARE D-MAINTENANCE; editorial-advice",
     "preview": "The accessory pouch holds two game controllers. Plug a controller into the rear USB port, or both into the hub. If a controller has an older"
   },
@@ -1573,30 +1559,30 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "ae6743bc3c4e37c5d2f869bc7e29e4a0f5a42de20dde8b5fbef283ea79d6bc70",
+    "paragraph_sha256": "7bf50bc43c5a08732c15e34aac5c8fb2676e04ccd4baf0efde47ac4d69a57b65",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "Open RetroPie/EmulationStation from AtEase to reach the game collection. Use the controls shown by the launcher to choose a system and game."
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "0f2c34d59ec6fd64e88008c2c75db92cf5bdb74db92c567f9e74c2461d0dd406",
+    "paragraph_sha256": "b0e2f38adc262a338358c8ce63f06a57966faba8f4edb88d43ce99aec014ba65",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
-    "preview": "[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation's game list. The bar along the bottom names the buttons for this screen, "
+    "preview": "[SCREENSHOT 3-5b|piforma-emulationstation-n64.svg|EmulationStation’s game list. The bar along the bottom names the buttons for this screen, "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "40725d7cb4e16e4a0ac5a84b695557af42ad1127e994c6de48560500ffdf4f4d",
+    "paragraph_sha256": "7a00579d0cac5d2ac0a7ba8180ecfcef2be0f43bb21d17c83eee29d000a998f5",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
     "preview": "Before settling into a game, find out how that game pauses, saves and exits. The controllers are already set up, so if a screen asks you to "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Controllers and games",
-    "paragraph_sha256": "0f4200687feadcc19623eed0854a99ab0d3356f995ddb2e233a952b206b2e960",
+    "paragraph_sha256": "25d56be7c582e02bc4575374505eb1bf919b472fbf83ee8391f1c0d12bae8b6d",
     "evidence": "owner-current OWNER-IMAGES-2026-10-18",
-    "preview": "A game can save in two ways: its own save, and the emulator's save state, a snapshot of the moment. Use whichever the game offers and check "
+    "preview": "A game can save in two ways: its own save, and the emulator’s save state, a snapshot of the moment. Use whichever the game offers and check "
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1608,9 +1594,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Leaving a full-screen program",
-    "paragraph_sha256": "b1e346f7afe64aabdd2705e90cc5e1b03f3d654efb8fae3f206d927bc2ca280e",
+    "paragraph_sha256": "73684e81b0efd7889ccebb2820dc0f3988e95d5818e0ceff0f6cbd99b3cc8397",
     "evidence": "owner-current OWNER-UPDATE-1; editorial-advice",
-    "preview": "On the current PiForma, holding the Apple-logo touch control for about six seconds closes only the active application. Use it when a full-sc"
+    "preview": "Holding the Apple-logo touch control for about six seconds closes only the active application. Use it when a full-screen program gives you n"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1636,9 +1622,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Leaving a full-screen program",
-    "paragraph_sha256": "17fbd507e51231eecea3f6599e94d25a4c659b2964ef48289ec7370698368f28",
+    "paragraph_sha256": "b9d811599113a7f288bc469adb2f9fe882a1a342bbfe136468b60b941ea3047b",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
-    "preview": "Some emulators trap the mouse pointer inside their window. If you can't get it back out, hold the Apple logo for about six seconds, or see A"
+    "preview": "Some emulators trap the mouse pointer inside their window. If you can’t get it back out, use the six-second hold, or see Appendix B."
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1657,7 +1643,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
-    "paragraph_sha256": "3dcabada950a1077039ebcd7e67841f09f4100feb57144dd9f5e7a5d5db4a068",
+    "paragraph_sha256": "158b663992e7f0ed5633ac8f3985a3d81bf6f2a37a2d29576e93bd9b64c8e4e4",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "The other AtEase buttons are mostly what they seem. America Online opens an America Online simulator, and Encarta opens Kiwix, a reader for "
   },
@@ -1706,7 +1692,7 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Diversions",
-    "paragraph_sha256": "e13fafec2b6b19043770f74497f167e5670753d217753ed6f0734b0a4d984636",
+    "paragraph_sha256": "c0a2122774f0cf22733b88e5bc554a459b753381e750d9555041787eb153dca6",
     "evidence": "owner-current OWNER-TALK-2026-10-19",
     "preview": "The Flying Toasters are a screen saver you start yourself. Because the animation works the computer hard, they never start on their own when"
   },
@@ -1734,9 +1720,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Clippy",
-    "paragraph_sha256": "e26105263085d4233bebf6fcd90a321d1293a090e8b813cb9036b03de8d52c1c",
+    "paragraph_sha256": "7e82b31bf6dad130a7f7c9bec1b59e632c26482d79d717cb418ce58967309b4f",
     "evidence": "owner-current OWNER-SCREENSHOTS-1-11",
-    "preview": "Clippy can offer suggestions, but check them against the PiForma's actual setup before changing settings or installing anything. He is enthu"
+    "preview": "Clippy can offer suggestions, but check them against the PiForma’s actual setup before changing settings or installing anything. He is enthu"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1755,9 +1741,9 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "About This PiForma and the project guide",
-    "paragraph_sha256": "c64630223f943f5c42c4926e4ffc25c79b9bf8298cd9db629acf5e0f507df4d4",
+    "paragraph_sha256": "baca32d58dc36c23c4746d44a1b646a7c3fc3e8939ee1700d5dc122faa93b1f6",
     "evidence": "repo-verified ABOUT-README ABOUT-CONFIG VIEWER-README VIEWER-STACKS",
-    "preview": "PiForma Guide is the built-in guide to the computer and its functions, with the project's hardware, software, maintenance and other document"
+    "preview": "PiForma Guide is the built-in guide to the computer and its functions, with the project’s hardware, software, maintenance and other document"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
@@ -1776,14 +1762,14 @@
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Wi-Fi and Bluetooth",
-    "paragraph_sha256": "6481cd3e27c671c7c5072afdb15aef2cc5753ac33a63e07a20aef821c1e3f149",
+    "paragraph_sha256": "b69bd91a0226077e4f561424d6c050c6d3eb4c7cdf462e30ad01decc44c14ef3",
     "evidence": "repo-verified D-SOFTWARE; editorial-advice",
-    "preview": "Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse's USB wireless receiver is a t"
+    "preview": "Wi-Fi connects the computer to a wireless network. Bluetooth connects devices such as the keyboard. The mouse’s USB wireless receiver is a t"
   },
   {
     "file": "manuscript\\03-how-piforma-works.md",
     "section": "Wi-Fi and Bluetooth",
-    "paragraph_sha256": "8c62dfa9850805caa7140b495ecc0f60ef8e5d28795f4046b23cdd1090a68d91",
+    "paragraph_sha256": "837aedde1a7a7efd87b49fbc85f156460cf9c37c5174a7e09fb5ab1aeb04677f",
     "evidence": "owner-current OWNER-TALK-2026-10-20",
     "preview": "The Wi-Fi status icon is at the far right of the menu bar. Click it and wait: the menu can take 20 or 30 seconds to appear while it checks t"
   },
@@ -1832,16 +1818,16 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Handling the computer and display",
-    "paragraph_sha256": "2eb86898297bafcbf483a610bb470953ea3cdfce37cc689e292e4219bbe10917",
+    "paragraph_sha256": "5bb3ebccd361d86e83be91936036a44b2c5cd2b000717a0e1f94b1dabd849e93",
     "evidence": "owner-current H01-handle; repo-verified D-KNOWN; editorial-advice",
-    "preview": "Don't try to cure a flicker by tapping the case or poking inside; tell the builder."
+    "preview": "Don’t try to cure a flicker by tapping the case or poking inside; tell us."
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Keyboard and mouse care",
-    "paragraph_sha256": "7e3d9b49c950cabd06dd23d9c3c4735f288e165b4d0ce530f92d8e3a8be7a108",
+    "paragraph_sha256": "de197fb43a35d72f98768eefa33275914c9f57ba5399968c9728252d3ca06739",
     "evidence": "owner-current H01-keyboard H01-mouse; editorial-advice",
-    "preview": "Keep crumbs, liquids, and loose items out of the keys. Switch the keyboard off before packing it, and check that Caps Lock is up: a keyboard"
+    "preview": "Keep crumbs, liquids, and loose items out of the keys. Switch the keyboard off before packing it, and check that Caps Lock is up (Chapter 1 "
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
@@ -1853,23 +1839,23 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Charging and storage",
-    "paragraph_sha256": "b96a16f43a0894d9f63ee92be05be6c04e8ac89b7abd447ebca50788622aeef8",
+    "paragraph_sha256": "6359c590da6428a0b399830a5971d7717cd59af3542eac3ee91bb59b5c4f3fea",
     "evidence": "owner-current H03-battery; repo-verified D-HARDWARE; needs-confirmation Q-POWER",
-    "preview": "The builder prefers to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That's a habit, "
+    "preview": "We prefer to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That’s a habit, not a rule"
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Charging and storage",
-    "paragraph_sha256": "e71e07d73b71c7f44872640edeb87600391ce45d888e786d800208e9819b4d68",
+    "paragraph_sha256": "f375da28883bc8fe47de21e5e20d8a59545862a5516fef73b12bb9f53347e4f5",
     "evidence": "owner-current H03-battery; repo-verified D-HARDWARE; needs-confirmation Q-POWER",
-    "preview": "[ILLUSTRATION 4-1|battery-habit.png|The builder’s habit: recharge before the battery display falls below roughly 25 to 50 percent.]"
+    "preview": "[ILLUSTRATION 4-1|battery-habit.png|Our habit: recharge before the battery display falls below roughly 25 to 50 percent.]"
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Charging and storage",
-    "paragraph_sha256": "759b82aec6c180ce27f3b2eb561e41e8c233f95ba0ff89163a13e744d8d47c68",
+    "paragraph_sha256": "e4723bce3293845bdbaaceb69c6fae413c34853ba4eb7dbfc72fd8e14b27930a",
     "evidence": "owner-current H03-battery; repo-verified D-HARDWARE; needs-confirmation Q-POWER",
-    "preview": "Use the PiForma's own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 "
+    "preview": "Use the PiForma’s own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 "
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
@@ -1888,9 +1874,9 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Bose speakers and stands",
-    "paragraph_sha256": "218150757e261001fdf742fa8daeb151f6d0818a68103a7b7b8d49e8c1d59633",
+    "paragraph_sha256": "c7cb73d4e109a687801725d5852ef74bf36851ebc3dfb3c85545d52ac3038a7d",
     "evidence": "owner-current H03-bose; editorial-advice; needs-confirmation Q-BOSE",
-    "preview": "The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer. Carr"
+    "preview": "The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer."
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
@@ -1930,16 +1916,16 @@
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Service and support",
-    "paragraph_sha256": "9c71cf432501e838f6b1b0678a076a48efd460ca5b8712dfe36c9930989536ec",
+    "paragraph_sha256": "6cd21d1554826ac3911aea4419aeab0d41258406a63a354c40696123dde7dd6e",
     "evidence": "owner-current H04-support; editorial-advice",
     "preview": "Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful perso"
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
     "section": "Service and support",
-    "paragraph_sha256": "0e45a9aebd97df76af26011da88b518464d3f6c7d3e37ec8d08963ada828005d",
+    "paragraph_sha256": "581a76c5ebe64ca93f34f12a5cdaa872f8e0efdbdc96829c9d5b51c511b46659",
     "evidence": "owner-current H04-support; editorial-advice",
-    "preview": "That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to the builder rather than conti"
+    "preview": "That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to us rather than continuing to "
   },
   {
     "file": "manuscript\\04-caring-for-piforma.md",
@@ -2092,9 +2078,9 @@
   {
     "file": "manuscript\\05-technical-information.md",
     "section": "Software, services and recovery",
-    "paragraph_sha256": "4385208adc9e2023f256867b409cfd8f5bb7e596b8b41ccc38dfaff0827c2ffb",
+    "paragraph_sha256": "a8aef8e5d5a52f488a611f68fdeb50e316fe904ab64ca42e1982e8050f1799cb",
     "evidence": "repo-verified D-SOFTWARE D-AUDIO",
-    "preview": "Use the canonical repository's software page, service inventory, configuration archive and installation guide for recovery. Archived helpers"
+    "preview": "Use the canonical repository’s software page, service inventory, configuration archive and installation guide for recovery. Archived helpers"
   },
   {
     "file": "manuscript\\05-technical-information.md",
@@ -2246,9 +2232,9 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Raspberry Pi OS",
-    "paragraph_sha256": "db7b8909b73b782d25e0f78dc80e4ef4c0a25597f651fd722347e0cb02341a5c",
+    "paragraph_sha256": "8f990e6236b36b07419be4a9422c2d6f5d3ede258902e7acbf7f931f2a2a3639",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
-    "preview": "The operating system documented beneath the PiForma’s Macintosh-inspired desktop."
+    "preview": "The operating system running beneath the PiForma’s Macintosh-inspired desktop."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -2267,7 +2253,7 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Screen saver",
-    "paragraph_sha256": "31146925d08f6f8cd896681697fe80498610d201f10baeb8f17348a419b3c938",
+    "paragraph_sha256": "b044e5fcbee773798758592cb55d1d9bdbc4f2ece8e09bbc7c84b4857b5adb07",
     "evidence": "editorial-advice; repo-verified D-SOFTWARE D-HARDWARE",
     "preview": "An animation that fills the screen. On the PiForma, the Flying Toasters are a screen saver you start yourself; nothing starts on its own whe"
   },
@@ -2310,57 +2296,87 @@
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Credits and acknowledgments",
     "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
-    "preview": "- The builder on GitHub: [github.com/milagrofrost](https://github.com/milagrofrost)."
+    "preview": "- Our projects: [github.com/milagrofrost](https://github.com/milagrofrost)."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Credits and acknowledgments",
     "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
-    "preview": "- Canonical build records: [Macintosh-PiForma-docs](https://github.com/milagrofrost/Macintosh-PiForma-docs)."
+    "preview": "- Build records: [github.com/milagrofrost/Macintosh-PiForma-docs](https://github.com/milagrofrost/Macintosh-PiForma-docs)."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Credits and acknowledgments",
     "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
-    "preview": "- Keyboard conversion credited in those records: [Matt Chesters’ ZMK ADB keyboard project](https://github.com/mattchesters/zmk-apple-desktop-bus-keyboard)."
+    "preview": "- This guide: [github.com/milagrofrost/piforma-owners-guide](https://github.com/milagrofrost/piforma-owners-guide)."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Credits and acknowledgments",
     "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
-    "preview": "- Mouse shell credited in the hardware record: [Retro Wireless Computer Mouse](https://www.printables.com/model/1339297-retro-wireless-computer-mouse)."
+    "preview": "- Keyboard conversion, by Matt Chesters: [github.com/mattchesters/zmk-apple-desktop-bus-keyboard](https://github.com/mattchesters/zmk-apple-desktop-bus-keyboard)."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Credits and acknowledgments",
     "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
-    "preview": "- Replacement wheel/axle credited there: [Custom scroll wheel and axle](https://www.printables.com/model/1774131-scroll-wheel-and-axle-for-retro-wireless-computer)."
+    "preview": "- Mouse shell: [Retro Wireless Computer Mouse](https://www.printables.com/model/1339297-retro-wireless-computer-mouse), with a [custom scroll wheel and axle](https://www.printables.com/model/1774131-scroll-wheel-and-axle-for-retro-wireless-computer), both on Printables."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Credits and acknowledgments",
     "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
-    "preview": "- Companion applications: [PiForma Panel](https://github.com/milagrofrost/piforma-panel), [AtEase Simulator](https://github.com/milagrofrost/AtEase-simulator), [ControlStrip Simulator](https://github.com/milagrofrost/ControlStrip-Simulator), [About This PiForma](https://github.com/milagrofrost/about-this-pi), and [Docs Viewer](https://github.com/milagrofrost/Macintosh-PiForma-docs-viewer)."
+    "preview": "- PiForma Panel, the menu bar: [github.com/milagrofrost/piforma-panel](https://github.com/milagrofrost/piforma-panel)."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Credits and acknowledgments",
     "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
-    "preview": "- The canonical related-projects page credits the Clippy fork to Felix Rieseberg’s upstream project and links the Flying Toasters application."
+    "preview": "- AtEase Simulator: [github.com/milagrofrost/AtEase-simulator](https://github.com/milagrofrost/AtEase-simulator)."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Credits and acknowledgments",
+    "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
+    "preview": "- ControlStrip Simulator: [github.com/milagrofrost/ControlStrip-Simulator](https://github.com/milagrofrost/ControlStrip-Simulator)."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Credits and acknowledgments",
+    "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
+    "preview": "- About This PiForma: [github.com/milagrofrost/about-this-pi](https://github.com/milagrofrost/about-this-pi)."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Credits and acknowledgments",
+    "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
+    "preview": "- PiForma Guide (Docs Viewer): [github.com/milagrofrost/Macintosh-PiForma-docs-viewer](https://github.com/milagrofrost/Macintosh-PiForma-docs-viewer)."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Credits and acknowledgments",
+    "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
+    "preview": "- LimeWire Simulator: [github.com/milagrofrost/limewire-simulator](https://github.com/milagrofrost/limewire-simulator)."
+  },
+  {
+    "file": "manuscript\\06-glossary-and-credits.md",
+    "section": "Credits and acknowledgments",
+    "evidence": "repo-verified D-README D-HARDWARE D-RELATED; needs-confirmation Q-CREDITS",
+    "preview": "- Clippy, forked from Felix Rieseberg’s project: [github.com/milagrofrost/clippy](https://github.com/milagrofrost/clippy)."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "PiForma Limited Warranty",
-    "paragraph_sha256": "300903876c12fb0f345bdd15216f79b34e10f3b51944cda9605624f1ecee9ae5",
+    "paragraph_sha256": "de4273afcfcb0f9e93d59d468b67fcc3ac0fc4c09cf57fb57e22c60c805c51d6",
     "evidence": "owner-current OWNER-TALK-2026-10-19; editorial-advice",
-    "preview": "The builder warrants that this PiForma was a working computer when it left the workbench. That is the whole of the warranty."
+    "preview": "We warrant that this PiForma was a working computer when it left the workbench. That is the whole of the warranty."
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "PiForma Limited Warranty",
-    "paragraph_sha256": "0e8d78c7f9d502a3224efc72eb55906fa5a05e10831cbcf4d4afd25cbce60b7d",
+    "paragraph_sha256": "4e3b5f9f7d082ccc6f5df827aa7e751ddef712c146da99170e0bf3b447b54658",
     "evidence": "owner-current OWNER-TALK-2026-10-19; editorial-advice",
-    "preview": "There is no repair turnaround time and no promise that anything that breaks will ever be fixed. Repairs, if any, happen when the builder has"
+    "preview": "There is no repair turnaround time and no promise that anything that breaks will ever be fixed. Repairs, if any, happen when we have a free "
   },
   {
     "file": "manuscript\\06-glossary-and-credits.md",
@@ -2386,7 +2402,7 @@
   {
     "file": "manuscript\\06-glossary-and-credits.md",
     "section": "Tell us what you think",
-    "paragraph_sha256": "5b4b86a8ed887a02091ab10de23daffe1216603f3408b2af8b3db8b45270c6c6",
+    "paragraph_sha256": "fec463890e40113d448497672ff9e21f6b1db2e634ec302a3fcf78dd3ed39447",
     "evidence": "owner-current OWNER-TALK-2026-10-19; editorial-advice",
     "preview": "Apple’s manuals ended with a reply card asking what you thought. This one does too, without the postage. If you have looked through the PiFo"
   },
@@ -2400,79 +2416,79 @@
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "When Something Goes Wrong",
-    "paragraph_sha256": "3cb7917ca20dbed0b3911aefae50def65baaf420e1803ca60ab4ef4d583cb4f1",
+    "paragraph_sha256": "4c6d42e4b5620223ace62f7ad708c2f44791966fc28e08cfb1a9938cb54a3a5c",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "Start with what you can see and hear. Make one check at a time, then observe the result. Note any message before dismissing it. Stop using t"
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "No green light, chime or picture",
-    "paragraph_sha256": "c62fbc8a6dd17093f845845c1801952f893e9abb525afc24d282ddde58038b95",
+    "paragraph_sha256": "44f572ed1371e8a62a4f24b0ad8e50ec4fd190c4692027cb44f2b07746b7d598",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "Check the power switch on the right side. Press the rear battery plunger and read the battery percentage through the top slits. Plug in the "
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "Battery does not appear to charge",
-    "paragraph_sha256": "aa1c00ef76c105786da34ce74f77240e1656d3e244611be92aabc6275c1831c5",
+    "paragraph_sha256": "d7369812ec82a3fc109c9b47c76c500b8c873650571dd56189c018ff9020f2b0",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
-    "preview": "Check that the power cable is plugged in at both ends. For the bag arrangement, check the rear/bottom seating in the foam indents and that t"
+    "preview": "Check that the power cable is plugged in at both ends. For the bag arrangement, check the seating in the foam indents and that the cord from"
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "Green light or chime, but no desktop",
-    "paragraph_sha256": "ef28f63ebc3e32c6f5041a38a5d29704800655eb5e00a60a3eb91519f73b1169",
+    "paragraph_sha256": "1902845df9da299c2be18ebec6ecfa15d9ff27a3c31e1010c89608fb6600408a",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "Allow approximately one to two minutes for startup, with some variation. A No Signal message and a moment of blank screen are normal at firs"
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "Mouse pointer does not move",
-    "paragraph_sha256": "ebf5ee523eb2101dca30e3b0e0de2fc87f77738cd959b50de5f917f840852df6",
+    "paragraph_sha256": "9a84e2da5aacd15b46178927c5a49e937f79b38db78365e65f7b06f9c0a61b87",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
-    "preview": "Check the underside power switch and put the mouse on its pad. Keep the optical tracking window facing the pad. The mouse's USB wireless rec"
+    "preview": "Check the underside power switch and put the mouse on its pad. Keep the optical tracking window facing the pad. The mouse’s USB wireless rec"
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "Keyboard does not type",
-    "paragraph_sha256": "8e43d9844a1ce1166476271cc685eb91300ce1c381e4ea077073821d6be728dc",
+    "paragraph_sha256": "4793f240ea424988797403debd9bb14622727d8193fa3a5f2afd582411d91eb8",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "If letters come out as capitals or the number keys type symbols, Caps Lock is down: press it again so it sits level with the other keys. Oth"
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "No sound, or no startup chime",
-    "paragraph_sha256": "7b727c4e23c0863c74fa5f90467574c701c9baa48c57bfa15a4de014abedfc6d",
+    "paragraph_sha256": "0759264d0ccd97a999c6972f1b17a36d4d0139886c5905dc73845db3484b3084",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
-    "preview": "For normal program sound, turn the side volume control or the keyboard's volume dial up a little and check that the program has something pl"
+    "preview": "For normal program sound, turn the side volume knob or the keyboard’s volume dial up a little and check that the program has something playi"
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "No sound, or no startup chime",
-    "paragraph_sha256": "2b1451e445f18e52d0352a6f9afa0ce0352ab83065aa7c9219120056749ec987",
+    "paragraph_sha256": "549c05428666f8fbffed4c15e119d745597865e19cf9b2262d9444c57a523c0e",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "For a missing startup chime, remember that some rear selector positions are silent. Turn the dial a click at a time with the power on, as Ch"
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "A website or network service will not open",
-    "paragraph_sha256": "8b324aff0e9813a47777f854328bb5c8f5394e3e052c4f4f39c7662cc7d92030",
+    "paragraph_sha256": "18ce231bc43d7efe3fba69e971819217270c5669c1005d0b9235a8c8662c2f8b",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "Try another known page or service. Check the Wi-Fi status icon at the far right of the menu bar; its menu can take 20 or 30 seconds to open."
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "A program will not respond",
-    "paragraph_sha256": "847da1a98cc4e86ef145c51e7cc4c897f7afb82568fac1c657dc6ca6f7e1d1c7",
+    "paragraph_sha256": "d070dede584db56c37b8d2d88a124f42fce0fa23c87022f889a8345a59411bec",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
     "preview": "Wait briefly, then look for a dialog waiting behind the main window. Check whether the pointer and other applications respond. Save unaffect"
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "A program will not respond",
-    "paragraph_sha256": "ea05cc71d19cc0ca272dae1a73e18c9094fc32473669c366ef8acd90e7d9c791",
+    "paragraph_sha256": "3a8192cd43dede5bbd0b7322500bbf66127486ef592043d0116159cb24cf8717",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
-    "preview": "If necessary, the Apple-logo hold of about six seconds closes only the active application. Check which application is active first. Unsaved "
+    "preview": "If necessary, use the six-second Apple-logo hold described in Chapter 3. Check which application is active first. Unsaved work may be lost, "
   },
   {
     "file": "manuscript\\07-troubleshooting.md",
@@ -2484,8 +2500,8 @@
   {
     "file": "manuscript\\07-troubleshooting.md",
     "section": "A program will not respond",
-    "paragraph_sha256": "f134a447b5227c78f7d91cb225f76e226f8d18115f784327de1d039afcb080ad",
+    "paragraph_sha256": "7c2d19e72ec615f703e935ca6ebc76c2d9bf345073ed99db03902ee79565a90e",
     "evidence": "owner-current H01-troubleshooting H01-battery H01-chime OWNER-UPDATE-1; repo-verified D-HARDWARE D-KNOWN D-SOFTWARE; editorial-advice",
-    "preview": "If the launcher or menu bar does not return after leaving a full-screen program, save accessible work and consult the builder. Do not try lo"
+    "preview": "If the launcher or menu bar does not return after leaving a full-screen program, save accessible work and ask us. Do not try longer logo hol"
   }
 ]
