@@ -262,7 +262,7 @@ The bag closes like an old canvas military bag. Feed the strap loop through the 
 ### Carrying the bag
 
 <!-- evidence: owner-current H01-carrying; needs-confirmation Q-BOSE -->
-Lift and carry the closed bag carefully. The bag is padded to protect the PiForma during normal handling. Don’t drop it. There’s an entire computer in there. The Bose speakers travel separately, as described earlier in this chapter.
+Carry the closed bag carefully. Its padding protects the PiForma during normal handling. Don’t drop it. We never crash tested this model, so don’t be the first to find out what happens. The Bose speakers travel separately, as described earlier in this chapter.
 
 ## If the PiForma doesn’t start
 

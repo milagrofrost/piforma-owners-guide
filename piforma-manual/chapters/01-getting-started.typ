@@ -144,7 +144,7 @@
 ]
 #wide-illustration("1-7b", "bag-clasp.png", "Pass the clasp through the strap loop and snap it shut.", width:137.655pt)
 #subhead("Carrying the bag")
-#para([#text("Lift and carry the closed bag carefully. The bag is padded to protect the PiForma during normal handling. Don’t drop it. There’s an entire computer in there. The Bose speakers travel separately, as described earlier in this chapter.")])
+#para([#text("Carry the closed bag carefully. Its padding protects the PiForma during normal handling. Don’t drop it. We never crash tested this model, so don’t be the first to find out what happens. The Bose speakers travel separately, as described earlier in this chapter.")])
 #heading(level:2,"If the PiForma doesn’t start")
 #para([#text("Most startup trouble comes down to the battery, so begin there. Then find the symptom that matches what you see and hear. Appendix B repeats these checks in brief and covers problems after startup.")])
 #subhead("Checking the battery")

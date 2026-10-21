@@ -743,9 +743,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Carrying the bag",
-    "paragraph_sha256": "f9f170c17adec9cf10b94e5b0e873af841529aa883fde78a32bb756aa12c492d",
+    "paragraph_sha256": "c92b293d19a48ee2eb747927eeff9241ef4064cddb9804c6ce5005fa2f025c28",
     "evidence": "owner-current H01-carrying; needs-confirmation Q-BOSE",
-    "preview": "Lift and carry the closed bag carefully. The bag is padded to protect the PiForma during normal handling. Don’t drop it. There’s an entire c"
+    "preview": "Carry the closed bag carefully. Its padding protects the PiForma during normal handling. Don’t drop it. We never crash tested this model, so"
   },
   {
     "file": "manuscript\\01-getting-started.md",
