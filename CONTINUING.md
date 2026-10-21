@@ -1,6 +1,6 @@
 # Update — October 21, 2026 (Clippy aside)
 
-Still 80 pages. Page 50 (Diversions, under the Chat with Clippy screenshot) now carries the owner's Clippy picture (`assets/illustrations/clippy-aside.png`) with a speech bubble offering to help the reader read the guide they are already reading. `clippy-aside()` in `styles/book.typ` places it at the foot of the page so it never moves the text; `build-manuscript.py` appends it to the 3-8b screenshot block.
+Still 80 pages. Page 50 (Diversions, under the Chat with Clippy screenshot) now carries the owner's Clippy picture (`assets/illustrations/clippy-aside.png`) with a black-and-white speech bubble offering to help the reader read the guide they are already reading. `clippy-aside()` in `styles/book.typ` places it at the foot of the page so it never moves the text; `build-manuscript.py` appends it to the 3-8b screenshot block.
 
 # Update — October 21, 2026 (Chapter 3 page layout)
 

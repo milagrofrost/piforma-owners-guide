@@ -353,10 +353,10 @@
   grid(columns:(78pt,auto),column-gutter:14pt,align:bottom,
     image("../assets/illustrations/clippy-aside.png",width:78pt),
     move(dy:-28pt,{
-      place(top+left,dx:-9pt,dy:24pt,polygon(fill:rgb("#FFFFE1"),stroke:0.6pt+ink,(9pt,0pt),(0pt,8pt),(9pt,12pt)))
-      block(width:196pt,fill:rgb("#FFFFE1"),stroke:0.6pt+ink,radius:6pt,inset:(x:9pt,y:8pt))[
-        #set text(size:8.5pt)
+      place(top+left,dx:-9pt,dy:24pt,polygon(fill:white,stroke:0.6pt+black,(9pt,0pt),(0pt,8pt),(9pt,12pt)))
+      block(width:196pt,fill:white,stroke:0.6pt+black,radius:6pt,inset:(x:9pt,y:8pt))[
+        #set text(size:8.5pt,fill:black)
         #set par(leading:4pt,spacing:6pt,justify:false)
         #body]
-      place(top+left,dx:-0.3pt,dy:24.6pt,rect(width:1pt,height:10.8pt,fill:rgb("#FFFFE1")))
+      place(top+left,dx:-0.3pt,dy:24.6pt,rect(width:1pt,height:10.8pt,fill:white))
     })))
