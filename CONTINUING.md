@@ -1,3 +1,7 @@
+# Update — October 21, 2026 (Clippy aside)
+
+Still 80 pages. Page 50 (Diversions, under the Chat with Clippy screenshot) now carries the owner's Clippy picture (`assets/illustrations/clippy-aside.png`) with a speech bubble offering to help the reader read the guide they are already reading. `clippy-aside()` in `styles/book.typ` places it at the foot of the page so it never moves the text; `build-manuscript.py` appends it to the 3-8b screenshot block.
+
 # Update — October 21, 2026 (Chapter 3 page layout)
 
 Still 80 pages. At the owner's direction, Chapter 3 topics start fresh pages: Working with application windows, Files and folders, The menu bar and Control Strip (shares one page with Apple-logo shortcuts), Controllers and games (two pages), Diversions (four pages), About This PiForma and the project guide, and Wi-Fi and Bluetooth. `build-manuscript.py` inserts those page breaks and puts a fractional filler between Chapter 3's blocks, so leftover space on a page is spread between paragraphs and pictures instead of pooling at the foot (the chapter's last page keeps its space below). The two file-window screenshots and the Control Strip screenshot are smaller, the RetroPie controller-only tip moved to "Controllers and games", and `rail-def()` now reserves the height of a definition longer than its paragraph. The welcome no longer says the guide is laid out like Apple's manuals.
