@@ -449,9 +449,9 @@
   {
     "file": "manuscript\\01-getting-started.md",
     "section": "Important safety instructions",
-    "paragraph_sha256": "c0aea0a92a343a630ebc360bb637f0a4edb2d270c2adb132fd00d43e280b3d05",
+    "paragraph_sha256": "56771c6262b345ddbd9e8dae2b3e65673c687bd9ab87c9c2a8b79c9fc71208ab",
     "evidence": "editorial-advice; owner-current H01-safety OWNER-TALK-2026-10-20; repo-verified D-SAFETY D-HARDWARE",
-    "preview": "Stop using it, too, if the screen starts to flicker. A flicker probably means the HDMI connection between the Raspberry Pi and the screen is"
+    "preview": "Stop using it, too, if the screen starts to flicker. A flicker can have several causes, and it needs our attention before the next session."
   },
   {
     "file": "manuscript\\01-getting-started.md",

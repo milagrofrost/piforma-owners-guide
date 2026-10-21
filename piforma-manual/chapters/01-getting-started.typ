@@ -82,7 +82,7 @@
 #para([#text("Keep liquids away, protect the display, and leave ventilation openings clear. Keep the PiForma out of direct sun. Use a stable stand on a level table. Do not carry the computer by cables or press on the screen to move it.")])
 #para([#text("The power switch does not disconnect external charging power from the internal charger. Switching it off doesn’t make the inside safe to work on. Never open it up with charging power connected, and leave internal repairs to us.")])
 #para([#text("Stop using the computer if it becomes unusually hot, smells hot, or has damaged power wiring or a damaged battery. Don’t keep trying to switch it on. Charge it only with its own power cable or the bag’s charging cord. It was built at home, so it carries no safety certification.")])
-#para([#text("Stop using it, too, if the screen starts to flicker. A flicker probably means the HDMI connection between the Raspberry Pi and the screen is wearing out, and it needs our attention before the next session.")])
+#para([#text("Stop using it, too, if the screen starts to flicker. A flicker can have several causes, and it needs our attention before the next session.")])
 #heading(level:2,"Starting up the computer")
 #annotated("The startup chime",[#text("A silent startup doesn’t mean anything has failed, because some chime positions are silent. Go by the green light and the screen as well.")],[
 #instruction(1,[#strong[#text("Find the power switch on the right side and switch the PiForma on.")]])

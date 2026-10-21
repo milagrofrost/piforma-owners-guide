@@ -155,7 +155,7 @@ The power switch does not disconnect external charging power from the internal c
 
 Stop using the computer if it becomes unusually hot, smells hot, or has damaged power wiring or a damaged battery. Don’t keep trying to switch it on. Charge it only with its own power cable or the bag’s charging cord. It was built at home, so it carries no safety certification.
 
-Stop using it, too, if the screen starts to flicker. A flicker probably means the HDMI connection between the Raspberry Pi and the screen is wearing out, and it needs our attention before the next session.
+Stop using it, too, if the screen starts to flicker. A flicker can have several causes, and it needs our attention before the next session.
 
 ## Starting up the computer
 
