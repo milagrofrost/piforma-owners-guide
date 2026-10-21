@@ -1,3 +1,7 @@
+# Update — October 21, 2026 (cover title)
+
+The cover now reads only "Macintosh PiForma", in black, vertically centered beside a slightly smaller logo (52 pt, was 58 pt). See `cover()` in `styles/book.typ`.
+
 # Update — October 21, 2026 (editorial voice pass)
 
 Still 80 pages, with every line and picture where it was. At the owner's request, a light copyedit was applied to front matter and Chapters 1–4 to make asides plainer and less "crafted": the Forbidden Latch now says management told us not to explain it and points to page 23; the display paragraph admits it's not a good screen ("We spent the display budget elsewhere"); the bag-carrying, battery-recovery, right-button, Eye Correction Laser, Clippy, Wi-Fi-menu and service-department lines were simplified. The before/after list is in the project folder at `guide/voice-pass-2026-10-21.md`. The rule for edits like this: keep each paragraph's line count so page layout, contents and index don't move; compare per-page line positions with a baseline after each rebuild. `index-terms.json` gained the phrase "picture quality" so the display "quality" entry keeps page 27.

@@ -329,9 +329,10 @@
 }
 #let cover() = {
   set page(margin:0pt,footer:none)
-  place(top+left,dx:40pt,dy:28pt,image("../assets/logo/piforma-logo.svg",width:58pt))
-  place(top+left,dx:112pt,dy:28pt,text(size:22pt,fill:rgb("777772"))[Macintosh PiForma])
-  place(top+left,dx:112pt,dy:60pt,text(size:22pt,fill:rgb("777772"))[Owner’s Guide])
+  // The name sits beside the logo, centered on it.
+  place(top+left,dx:40pt,dy:28pt,grid(columns:2,column-gutter:16pt,align:horizon,
+    image("../assets/logo/piforma-logo.svg",width:52pt),
+    text(size:22pt,fill:black)[Macintosh PiForma]))
   // About 20% larger than the first proof, so the machine carries the cover.
   place(top+left,dx:66pt,dy:196pt,image("../assets/illustrations/piforma-cover.png",width:348pt))
 }
