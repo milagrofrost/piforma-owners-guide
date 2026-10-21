@@ -49,7 +49,7 @@ To replace text, select it by dragging across it, then type the replacement. Del
 
 Use an application's own Cut, Copy and Paste commands when available. Copy leaves the original selection in place; Cut removes it; Paste inserts the copied or cut material at the insertion point. Check the selection before cutting, and the insertion point before pasting.
 
-[ILLUSTRATION 3-2b|text-selection.png|A selected word shows white on black. Choose Copy or Cut from the Edit menu, click with the I-beam pointer to place the insertion point, then choose Paste.]
+[ILLUSTRATION 3-2b|edit-copy-paste.png|Selected text is highlighted. Choose Copy or Cut from the Edit menu, click to place the insertion point, then choose Paste.]
 
 The vintage keys don't map neatly onto modern shortcuts, and the Apple key may not do what it did in 1985. Use the commands each program shows in its menus. If ordinary typing fails, use the keyboard checks in Appendix B.
 

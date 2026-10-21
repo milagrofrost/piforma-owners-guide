@@ -12,7 +12,7 @@
 #pagebreak()
 #wide-illustration("1-3e","1-3e.png","The power switch on the opposite side. This is separate from the Apple-logo touch control.",width:176pt)
 #pagebreak()
-#wide-illustration("1-3c","1-3c.png","The top of the PiForma and its Forbidden Latch.",width:300pt)
+#wide-illustration("1-3c","1-3c.png","The top of the PiForma and its Forbidden Latch.",width:229.333pt)
 #pagebreak()
 #wide-illustration("1-4a","1-4a.png","Seat the support leg in the position indicated by the arrow, then check the stand before adding the computer.",width:200.0pt)
 #pagebreak()

@@ -22,7 +22,7 @@
     },
     "1-3c.png": {
       "max_width_pt": 300,
-      "max_height_pt": 225,
+      "max_height_pt": 172,
       "kind": "control-diagram"
     },
     "1-3d.png": {
@@ -158,30 +158,30 @@
       "max_height_pt": 120,
       "kind": "line-drawing"
     },
-    "text-selection.png": {
+    "edit-copy-paste.png": {
       "max_width_pt": 242,
       "max_height_pt": 130,
-      "kind": "line-drawing"
+      "kind": "screen-photograph"
     },
     "battery-habit.png": {
       "max_width_pt": 220,
       "max_height_pt": 80,
       "kind": "line-drawing"
     },
-    "service-phone.png": {
-      "max_width_pt": 190,
-      "max_height_pt": 160,
+    "apple-phone.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 200,
       "kind": "line-drawing"
     },
-    "bose-speaker.png": {
-      "max_width_pt": 150,
-      "max_height_pt": 190,
+    "bose-technical.png": {
+      "max_width_pt": 200,
+      "max_height_pt": 150,
       "kind": "line-drawing"
     },
-    "carrying-bag.png": {
-      "max_width_pt": 170,
-      "max_height_pt": 185,
-      "kind": "line-drawing"
+    "bag-portrait.png": {
+      "max_width_pt": 180,
+      "max_height_pt": 172,
+      "kind": "photograph"
     }
   },
   "groups": [

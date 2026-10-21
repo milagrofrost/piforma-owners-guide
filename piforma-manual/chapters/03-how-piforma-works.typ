@@ -24,7 +24,7 @@
 #para([#text("Use the letter, number and punctuation keys to enter text. Hold Shift while typing a letter for a capital or a key's shifted symbol. Return commonly ends a paragraph in a document; in a dialog it may accept the current choice, so read the dialog first. Use the arrow keys to move through text where the program supports them.")])
 #para([#text("To replace text, select it by dragging across it, then type the replacement. Deleting selected text removes the whole selection. If you remove something by mistake, look for Undo in that application's Edit menu before doing more work.")])
 #para([#text("Use an application's own Cut, Copy and Paste commands when available. Copy leaves the original selection in place; Cut removes it; Paste inserts the copied or cut material at the insertion point. Check the selection before cutting, and the insertion point before pasting.")])
-#wide-illustration("3-2b", "text-selection.png", "A selected word shows white on black. Choose Copy or Cut from the Edit menu, click with the I-beam pointer to place the insertion point, then choose Paste.", width:242.000pt)
+#wide-illustration("3-2b", "edit-copy-paste.png", "Selected text is highlighted. Choose Copy or Cut from the Edit menu, click to place the insertion point, then choose Paste.", width:242.000pt)
 #para([#text("The vintage keys don't map neatly onto modern shortcuts, and the Apple key may not do what it did in 1985. Use the commands each program shows in its menus. If ordinary typing fails, use the keyboard checks in Appendix B.")])
 #pagebreak(weak:true)
 #heading(level:2,"Opening programs with AtEase")

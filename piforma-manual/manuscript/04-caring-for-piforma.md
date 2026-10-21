@@ -49,7 +49,7 @@ To clean the screen, wipe it gently with a washcloth that is only very slightly 
 
 Leave vents clear and keep the PiForma out of direct sun, which will toast it. Watch for unusual heat, smell, swelling, damaged wiring, a flickering screen, or electrical behavior that is out of character. Stop using the machine in that condition. A desktop that still appears is no reason to ignore any of these.
 
-[RAILPIC pi-location-rail.png|The Raspberry Pi sits behind the top left of the screen (dashed). Rest a hand on the case top above it (red).]
+[RAILPIC piforma-fire.png|Warmth gathers at the top left, where the Raspberry Pi sits. Warm is normal. This is not.]
 
 <!-- evidence: owner-current OWNER-TALK-2026-10-20; repo-verified D-HARDWARE; editorial-advice -->
 The Raspberry Pi sits behind the top left of the screen. To check its temperature, rest a hand on the top left of the case. Warm is normal; if it feels too hot, shut down and switch off. The Pi protects itself by slowing down when it gets very hot, but it doesn’t switch itself off, so it is up to you.
@@ -63,4 +63,4 @@ Only one Macintosh PiForma was ever made, and it was never offered for sale. The
 
 That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to the builder rather than continuing to experiment. Treat it kindly and perhaps neither of us will have to find out how extensive the service department’s paperwork is.
 
-[ILLUSTRATION 4-3|service-phone.png|The service department, standing by.]
+[ILLUSTRATION 4-3|apple-phone.png|The service department, standing by.]

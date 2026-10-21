@@ -35,7 +35,7 @@
 #para([#text("The slider on top releases the upper compartment. Its official designation, at least around here, is the Forbidden Latch. Management would prefer you to admire it without touching it. I have gone rogue and made it conveniently openable. Please pretend I never told you; I would like to keep both my job and my continued existence.")])
 #para([#text("“A closer look, strictly off the record”, at the end of this chapter, explains how it opens. You can check the charge through the top slits without opening it, which should keep management happy.")])
 ]
-#wide-illustration("1-3c", "1-3c.png", "The top of the PiForma and its Forbidden Latch.", width:300.000pt)
+#wide-illustration("1-3c", "1-3c.png", "The top of the PiForma and its Forbidden Latch.", width:229.333pt)
 #heading(level:2,"Basic ergonomics")
 #para([#text("Choose a solid, level table with room for the stand, keyboard, mouse pad, and cables. Place the screen at a comfortable viewing angle, out of glare, with the keyboard directly in front of you and the mouse beside it. Put speakers where they will not tip, block the screen, or pull on the computer’s cables. Adjust your chair rather than spending the afternoon leaning toward the computer.")])
 #pagebreak(weak:true)

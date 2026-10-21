@@ -117,13 +117,19 @@ The matching mouse combines Bambu wireless mouse-kit electronics with a printed 
 <!-- evidence: owner-current H03-bose OWNER-TALK-2026-10-19 -->
 The Bose speakers are an optional extra. They connect to the rear audio output socket. The PiForma’s internal speaker works without them. Place them on stable supports with cables clear of the computer and its stand.
 
-[ILLUSTRATION 2-6|bose-speaker.png|A Bose RoomMate speaker on its stand. The pair are optional, and travel outside the bag.]
+[ILLUSTRATION 2-6|bose-technical.png|A Bose RoomMate speaker on its stand. The pair are optional, and travel outside the bag.]
 
 ## The bag and its fitted interior
 
-<!-- evidence: repo-verified D-HARDWARE; owner-current H01-packing -->
-The carrying bag is part of the build. It has a corrugated-plastic liner, a foam bottom, green velvet, alignment grooves, and a wireless charging transmitter concealed under the lining. Its cable reaches the back pocket.
+<!-- evidence: owner-current OWNER-TALK-2026-10-21 -->
+Every PiForma deserves a good home. This one travels in a waxed canvas backpack, finished with Otter Wax, so it shrugs off the weather and only looks better with age. Colorful embroidery and a set of patches give it a personality all its own. We are known for minimalist design. Here, we went a little rogue.
+
+<!-- evidence: repo-verified D-HARDWARE; owner-current H01-packing OWNER-TALK-2026-10-21 -->
+Inside, smooth green velvet holds the computer as if the two were made for each other, because they were. A corrugated-plastic liner gives the bag its shape, a foam bottom cushions it, and alignment grooves set the PiForma in exactly the right place. A wireless charging transmitter is concealed under the lining, with its cable reaching the back pocket, so the computer charges while it rests.
 
 The foam locates the computer as well as cushioning it. The packing sequence in Chapter 1 protects the screen and puts the keyboard in its intended side position. A computer that only roughly fits won't charge; it has to sit in the grooves.
 
-[ILLUSTRATION 2-7|carrying-bag.png|The carrying bag, closed: the strap loop runs through four grommets and the clasp holds it.]
+<!-- evidence: owner-current OWNER-TALK-2026-10-21 -->
+It looks right on anyone, and especially right over a tapestry jacket between business trips. There is no room left for clothes. You won't miss them. You'll be the envy of the departure lounge.
+
+[ILLUSTRATION 2-7|bag-portrait.png|Waxed canvas, embroidered, and fully loaded. The strap loop runs through four grommets and the clasp holds it closed.]

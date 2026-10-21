@@ -133,7 +133,7 @@
 #index-see("packing","carrying bag")
 #index-entry("PiForma Guide","50–51")
 #index-entry("PiForma Panel","18, 36, 39, 41, 67")
-#index-entry("pointer","16, 37–38, 46, 62–63")
+#index-entry("pointer","16, 37, 46, 62–63")
 #index-entry("power cable","2, 14, 18–19, 22, 28, 56, 61")
 #index-entry("power switch","5, 14, 18–19, 22–23, 28, 30, 59, 61")
 #index-entry("programs","")

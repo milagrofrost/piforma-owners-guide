@@ -284,9 +284,9 @@
     if n == 1 {
       place(top+left,dx:-136pt,dy:267pt,image("../assets/illustrations/piforma-bw.png",width:200pt))
     } else if n == 2 {
-      place(top+left,dx:-96pt,dy:250pt,image("../assets/illustrations/raspberry-pi.png",width:210pt))
+      place(top+left,dx:-96pt,dy:250pt,image("../assets/illustrations/raspberry-pi-diagram.png",width:200pt))
     } else if n == 3 {
-      place(top+left,dx:-96pt,dy:236pt,image("../assets/illustrations/classic-window.png",width:210pt))
+      place(top+left,dx:-96pt,dy:236pt,image("../assets/illustrations/piforma-cartoon-opener.png",width:180pt))
     } else if n == 4 {
       place(top+left,dx:-90pt,dy:226pt,image("../assets/illustrations/handle-with-care.png",width:170pt))
     }
