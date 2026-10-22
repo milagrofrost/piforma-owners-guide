@@ -1,3 +1,7 @@
+# Update — October 22, 2026 (Edge image fix)
+
+`scripts/export-reviewed-pdf.py` now re-encodes any JPEG that PyMuPDF's `rewrite_images` stored with three channels under a one-channel gray color space. Microsoft Edge (PDFium) drew those pictures cropped and squashed: the bag portrait (PDF page 41) and the PiForma-on-fire rail picture (page 65). Check with `pypdfium2` if a picture looks wrong only in Edge or Chrome.
+
 # Update — October 21, 2026 (cover title)
 
 The cover now reads only "Macintosh PiForma", in black, vertically centered beside a slightly smaller logo (52 pt, was 58 pt). See `cover()` in `styles/book.typ`.
