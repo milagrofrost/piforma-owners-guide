@@ -6,4 +6,4 @@
 #contents()
 #front("Welcome to the Macintosh PiForma",[#include "chapters/00-front-matter.typ"])
 #set page(numbering:"1")
-#chapter(1,"Getting Started",[#include "chapters/01-getting-started.typ"])
+#chapter(1,"Getting Started",[#include "chapters/01-getting-started.typ"],art:"art-glamor.jpg")

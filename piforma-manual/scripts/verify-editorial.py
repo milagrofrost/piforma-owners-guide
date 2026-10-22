@@ -11,14 +11,14 @@ def check(name,ok):
     assert ok,name
 def in_order(text,needles):
     positions=[text.index(s) for s in needles];return positions==sorted(positions)
-check('Exact removal sequence',in_order(unpack,['1. Remove the small brown accessory pouch','2. Take out the mouse and the collapsible','3. Remove this printed guide','4. Lift out the mouse pad','5. Remove the velvet-covered foam board']))
-check('Pouch inventory',all(s in unpack for s in ['two Nintendo 64 controllers','USB hub','power cable']))
+check('Exact removal sequence',in_order(unpack,['1. Remove the small brown accessory pouch','2. Take out the mouse and the collapsible','3. Lift out the mouse pad','4. Remove the velvet-covered foam board']))
+check('Pouch inventory',all(s in unpack for s in ['two game controllers','USB hub','power cable']))
 check('Side keyboard and three orientations',all(s in unpack for s in ['not another layer','keys face the bag wall','thicker edge faces the rear','thinner edge faces the front']))
 check('Handle access and alternate removal',all(s in unpack for s in ['inside front wall','top side of the PiForma','handle outward','lay the bag on its back']))
-check('Startup sequence',in_order(chapter.split('## Starting up the computer',1)[1],['physical power control on the right side','green light at the front','startup chime','startup picture or sequence','one to two minutes']))
+check('Startup sequence',in_order(chapter.split('## Starting up the computer',1)[1],['power switch on the right side','green light at the front','startup chime','startup picture or sequence','one to two minutes']))
 check('Battery recovery observation without guarantee',all(s in chapter for s in ['outside plunger mechanically presses','roughly a minute','battery previously showed full','do not count on one minute as a fixed recovery time']))
 check('Distinct startup symptoms',all(s in chapter for s in ['If there is no green light','If the light is on but there is no chime','If the light and chime work but the screen stays blank','If the desktop is slow to appear','If it never sounds']))
-check('Graceful shutdown before physical off',in_order(chapter.split('## Stopping the computer',1)[1],['Save your work','Special → Shut Down','operating system finish','turn off the right-side physical power control']))
+check('Graceful shutdown before physical off',in_order(chapter.split('## Stopping the computer',1)[1],['Save your work','Special → Shut Down','operating system finish','turn off the power switch on the right side']))
 check('Packing and charge confirmation',all(s in packing for s in ['monitor/screen facing upward','rear/bottom','molded indents','Gently shift or wiggle','does not prove that charging has started']))
 check('Reverse packing order',in_order(packing,['5. Place the velvet-covered foam board','6. Put the mouse pad','7. Put the mouse and collapsible stand','8. Return the two controllers']))
 check('Latest six-second owner confirmation', 'about six seconds closes only the active application on the current PiForma' in chapter)
@@ -29,7 +29,7 @@ check('Expected chapter headings',all((P/'manuscript'/name).exists() for name in
 check('Normal battery check uses rear plunger and slits',all(s in chapter for s in ['press the rear battery plunger','peer through the slits','do not have to open the compartment']))
 opening=chapter.split('### A closer look, strictly off the record',1)[1].split('### If there is no green light',1)[0]
 check('Unlock before lifting; close before locking',in_order(opening,['1. Slide the top latch toward the open-padlock','2. With the latch unlocked, lift at the slider','3. Close the compartment before sliding the latch']))
-check('New setup details preserved',all(s in chapter for s in ['Seat the support leg in its final position','port and switch themselves are not visible from above','one receiver','Eye Correction Laser','Forbidden Latch']))
+check('New setup details preserved',all(s in chapter for s in ['Seat the support leg in its final position','port and switch themselves are not visible from above','one USB wireless receiver','Eye Correction Laser','Forbidden Latch']))
 software=(P/'manuscript/03-how-piforma-works.md').read_text(encoding='utf-8')
 troubleshooting=(P/'manuscript/07-troubleshooting.md').read_text(encoding='utf-8')
 publication='\n'.join(f.read_text(encoding='utf-8') for f in (P/'manuscript').glob('*.md'))

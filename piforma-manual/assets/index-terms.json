@@ -1,0 +1,1263 @@
+{
+ "note": "Index terms for scripts/build-index.py. p: case-insensitive regular expressions searched on body pages; s: subentries; see: a cross-reference instead of pages.",
+ "entries": [
+  {
+   "t": "About This PiForma",
+   "p": [
+    "About This PiForma"
+   ]
+  },
+  {
+   "t": "AC inlet",
+   "p": [
+    "AC (power )?inlet"
+   ]
+  },
+  {
+   "t": "accessory pouch",
+   "p": [
+    "accessory pouch",
+    "brown pouch"
+   ]
+  },
+  {
+   "t": "America Online",
+   "p": [
+    "America Online"
+   ]
+  },
+  {
+   "t": "Apple IIc Monitor",
+   "p": [
+    "Apple IIc Monitor"
+   ]
+  },
+  {
+   "t": "Apple logo",
+   "p": [
+    "Apple[- ]logo touch control",
+    "Apple logo (on|at) the front"
+   ],
+   "s": [
+    {
+     "t": "shortcuts",
+     "p": [
+      "short taps",
+      "Tap (once|twice)",
+      "RetroPie shortcut"
+     ]
+    },
+    {
+     "t": "six-second hold",
+     "p": [
+      "about six\\s+seconds",
+      "six-\\s?second hold"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Apple menu",
+   "p": [
+    "Apple menu"
+   ]
+  },
+  {
+   "t": "applications",
+   "see": "programs"
+  },
+  {
+   "t": "At Ease Items tab",
+   "p": [
+    "At Ease Items"
+   ]
+  },
+  {
+   "t": "AtEase",
+   "p": [
+    "\\bAtEase\\b"
+   ],
+   "s": [
+    {
+     "t": "folder tabs",
+     "p": [
+      "folder tabs?"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "audio",
+   "see": "sound"
+  },
+  {
+   "t": "audio output socket",
+   "p": [
+    "audio (output )?socket"
+   ]
+  },
+  {
+   "t": "AV1 input",
+   "p": [
+    "\\bAV1\\b"
+   ]
+  },
+  {
+   "t": "backups",
+   "p": [
+    "backup"
+   ]
+  },
+  {
+   "t": "bag",
+   "see": "carrying bag"
+  },
+  {
+   "t": "battery",
+   "p": [
+    "internal battery",
+    "main battery",
+    "battery pack",
+    "battery runtime"
+   ],
+   "s": [
+    {
+     "t": "checking the charge",
+     "p": [
+      "battery plunger",
+      "top slits",
+      "Checking the battery",
+      "read the battery"
+     ]
+    },
+    {
+     "t": "charging",
+     "p": [
+      "battery can charge",
+      "permits battery charging",
+      "Charging and storage",
+      "does not appear to charge"
+     ]
+    },
+    {
+     "t": "running out",
+     "p": [
+      "low-battery",
+      "battery runs out",
+      "drains? (the battery|quickly)",
+      "full drain"
+     ]
+    },
+    {
+     "t": "runtime",
+     "p": [
+      "six hours"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "battery display",
+   "p": [
+    "battery display"
+   ]
+  },
+  {
+   "t": "battery plunger",
+   "p": [
+    "plunger"
+   ]
+  },
+  {
+   "t": "Bluetooth",
+   "p": [
+    "\\bBluetooth\\b(?! LE)"
+   ],
+   "s": [
+    {
+     "t": "profiles",
+     "p": [
+      "profile 2",
+      "Bluetooth profiles?"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Bluetooth LE",
+   "p": [
+    "Bluetooth LE"
+   ]
+  },
+  {
+   "t": "Bose speakers",
+   "p": [
+    "\\bBose\\b"
+   ]
+  },
+  {
+   "t": "browser",
+   "p": [
+    "\\bbrowser\\b",
+    "Chromium"
+   ]
+  },
+  {
+   "t": "Caps Lock",
+   "p": [
+    "Caps Lock"
+   ]
+  },
+  {
+   "t": "carrying bag",
+   "s": [
+    {
+     "t": "carrying",
+     "p": [
+      "Carrying the bag",
+      "travel separately",
+      "Stand, bag and transport"
+     ]
+    },
+    {
+     "t": "charging in",
+     "p": [
+      "Charging in the bag",
+      "charge in the bag",
+      "Bag charging",
+      "bag arrangement",
+      "bag is charging"
+     ]
+    },
+    {
+     "t": "closing",
+     "p": [
+      "The bag closes",
+      "snap the clasp",
+      "Fasten the clasp"
+     ]
+    },
+    {
+     "t": "fitted interior",
+     "p": [
+      "fitted interior",
+      "molded (edges|indents)",
+      "foam indents"
+     ]
+    },
+    {
+     "t": "packing",
+     "p": [
+      "\\bPacking the equipment",
+      "Pack in the exact order",
+      "packing sequence"
+     ]
+    },
+    {
+     "t": "unpacking",
+     "p": [
+      "Unpacking the equipment",
+      "Finding the handle"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "carrying handle",
+   "p": [
+    "carrying handle",
+    "by its handle"
+   ]
+  },
+  {
+   "t": "chime",
+   "see": "startup chime"
+  },
+  {
+   "t": "chime selector",
+   "p": [
+    "chime[- ]selector",
+    "chime dial",
+    "rear selector",
+    "selector one click"
+   ]
+  },
+  {
+   "t": "Chromium",
+   "p": [
+    "Chromium"
+   ]
+  },
+  {
+   "t": "cleaning",
+   "p": [
+    "\\bclean(ing)?\\b"
+   ]
+  },
+  {
+   "t": "clicking",
+   "p": [
+    "Click means",
+    "To click,"
+   ],
+   "s": [
+    {
+     "t": "double-clicking",
+     "p": [
+      "double-click"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Clippy",
+   "p": [
+    "\\bClippy\\b"
+   ]
+  },
+  {
+   "t": "clock",
+   "p": [
+    "\\bclock\\b"
+   ]
+  },
+  {
+   "t": "close control",
+   "p": [
+    "close (control|button)"
+   ]
+  },
+  {
+   "t": "composite video",
+   "p": [
+    "composite"
+   ]
+  },
+  {
+   "t": "Control Strip",
+   "p": [
+    "Control ?Strip"
+   ]
+  },
+  {
+   "t": "controllers",
+   "see": "game controllers"
+  },
+  {
+   "t": "Cut, Copy and Paste",
+   "p": [
+    "\\bPaste\\b"
+   ]
+  },
+  {
+   "t": "desktop",
+   "p": [
+    "Finding your way around the desktop",
+    "The desktop is the working screen",
+    "PiForma desktop:"
+   ],
+   "s": [
+    {
+     "t": "slow to appear",
+     "p": [
+      "slow to appear",
+      "but no desktop"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "dialogs",
+   "p": [
+    "\\bdialogs?\\b"
+   ]
+  },
+  {
+   "t": "display",
+   "see": "screen"
+  },
+  {
+   "t": "dragging",
+   "p": [
+    "\\bdrag(ging)?\\b"
+   ]
+  },
+  {
+   "t": "EmulationStation",
+   "p": [
+    "EmulationStation"
+   ]
+  },
+  {
+   "t": "emulators",
+   "p": [
+    "\\bemulators?\\b"
+   ]
+  },
+  {
+   "t": "Encarta",
+   "p": [
+    "Encarta"
+   ]
+  },
+  {
+   "t": "ergonomics",
+   "p": [
+    "ergonomics"
+   ]
+  },
+  {
+   "t": "external audio adapter",
+   "p": [
+    "external audio",
+    "capture adapter"
+   ]
+  },
+  {
+   "t": "files",
+   "p": [
+    "Files and folders"
+   ],
+   "s": [
+    {
+     "t": "moving and renaming",
+     "p": [
+      "moving, renaming",
+      "Moving or copying a file"
+     ]
+    },
+    {
+     "t": "opening",
+     "p": [
+      "Open Home Folder",
+      "Open command"
+     ]
+    },
+    {
+     "t": "saving",
+     "p": [
+      "Saving and reopening"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Flying Toasters",
+   "p": [
+    "Flying Toasters"
+   ]
+  },
+  {
+   "t": "folders",
+   "p": [
+    "Files and folders",
+    "A folder groups"
+   ],
+   "s": [
+    {
+     "t": "home folder",
+     "p": [
+      "home folder"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Forbidden Latch",
+   "p": [
+    "latch"
+   ]
+  },
+  {
+   "t": "full-screen programs",
+   "p": [
+    "full-\\s?screen"
+   ]
+  },
+  {
+   "t": "game controllers",
+   "p": [
+    "(?<!LCD )controllers?\\b"
+   ]
+  },
+  {
+   "t": "games",
+   "p": [
+    "Controllers and games"
+   ],
+   "s": [
+    {
+     "t": "quitting",
+     "p": [
+      "quit a game",
+      "game closes",
+      "Closing a game"
+     ]
+    },
+    {
+     "t": "saving",
+     "p": [
+      "save state",
+      "its own save"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "GPIO",
+   "p": [
+    "GPIO"
+   ]
+  },
+  {
+   "t": "green light",
+   "p": [
+    "green (status )?light"
+   ]
+  },
+  {
+   "t": "HDMI",
+   "p": [
+    "HDMI"
+   ]
+  },
+  {
+   "t": "headphones",
+   "p": [
+    "headphones"
+   ]
+  },
+  {
+   "t": "heat",
+   "p": [
+    "unusually hot",
+    "unusual heat",
+    "too hot",
+    "temperature"
+   ]
+  },
+  {
+   "t": "help, asking us for",
+   "p": [
+    "\\b(ask|tell|speak to) us\\b",
+    "our attention",
+    "job for us"
+   ]
+  },
+  {
+   "t": "home folder",
+   "p": [
+    "home folder"
+   ]
+  },
+  {
+   "t": "hub",
+   "see": "USB hub"
+  },
+  {
+   "t": "insertion point",
+   "p": [
+    "insertion point"
+   ]
+  },
+  {
+   "t": "internal speaker",
+   "p": [
+    "internal (USB )?speaker"
+   ]
+  },
+  {
+   "t": "keyboard",
+   "s": [
+    {
+     "t": "battery",
+     "p": [
+      "keyboard’s (small )?1\\s?00 mAh battery",
+      "keyboard’s own charge",
+      "runs (down )?its battery",
+      "runs its battery flat"
+     ]
+    },
+    {
+     "t": "charging",
+     "p": [
+      "Charge the keyboard",
+      "Charge it from the USB-C",
+      "charge it from the USB-C"
+     ]
+    },
+    {
+     "t": "controls",
+     "p": [
+      "keyboard controls"
+     ]
+    },
+    {
+     "t": "conversion",
+     "p": [
+      "converted Apple keyboard",
+      "keyboard[- ]conversion",
+      "Keyboard conversion"
+     ]
+    },
+    {
+     "t": "packing",
+     "p": [
+      "keys (face|toward) the bag wall",
+      "keys toward the bag wall",
+      "The keyboard’s place"
+     ]
+    },
+    {
+     "t": "painted finish",
+     "p": [
+      "retrobright"
+     ]
+    },
+    {
+     "t": "typing",
+     "p": [
+      "Using the keyboard",
+      "does not type"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Kiwix",
+   "p": [
+    "Kiwix"
+   ]
+  },
+  {
+   "t": "latch",
+   "see": "Forbidden Latch"
+  },
+  {
+   "t": "LCD screen",
+   "p": [
+    "\\bLCD\\b"
+   ]
+  },
+  {
+   "t": "LimeWire Simulator",
+   "p": [
+    "LimeWire"
+   ]
+  },
+  {
+   "t": "Mac OS 9",
+   "p": [
+    "Mac OS 9"
+   ]
+  },
+  {
+   "t": "Macintosh HD",
+   "p": [
+    "Macintosh HD"
+   ]
+  },
+  {
+   "t": "menu bar",
+   "p": [
+    "menu bar"
+   ],
+   "s": [
+    {
+     "t": "system menu bar",
+     "p": [
+      "system menu bar",
+      "Two menu bars"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "microSD card",
+   "p": [
+    "microSD"
+   ]
+  },
+  {
+   "t": "minimizing windows",
+   "p": [
+    "minimiz"
+   ]
+  },
+  {
+   "t": "mouse",
+   "s": [
+    {
+     "t": "battery",
+     "p": [
+      "AA battery"
+     ]
+    },
+    {
+     "t": "buttons",
+     "p": [
+      "mouse controls",
+      "right button",
+      "left (mouse )?button"
+     ]
+    },
+    {
+     "t": "power switch",
+     "p": [
+      "power switch is underneath",
+      "underside power switch",
+      "Turn the mouse off",
+      "mouse can ordinarily stay on"
+     ]
+    },
+    {
+     "t": "pointer does not move",
+     "p": [
+      "pointer does not move"
+     ]
+    },
+    {
+     "t": "scroll wheel",
+     "p": [
+      "scroll wheel",
+      "Roll the wheel",
+      "wheel for scrolling"
+     ]
+    },
+    {
+     "t": "Sync button",
+     "p": [
+      "Sync button"
+     ]
+    },
+    {
+     "t": "tracking window",
+     "p": [
+      "tracking (window|sensor)",
+      "little eye underneath"
+     ]
+    },
+    {
+     "t": "using",
+     "p": [
+      "Using the mouse"
+     ]
+    },
+    {
+     "t": "wireless receiver",
+     "p": [
+      "USB wireless receiver"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "mouse pad",
+   "p": [
+    "mouse pad"
+   ]
+  },
+  {
+   "t": "Netscape Navigator",
+   "p": [
+    "Netscape"
+   ]
+  },
+  {
+   "t": "network",
+   "see": "Wi-Fi"
+  },
+  {
+   "t": "nice!view display",
+   "p": [
+    "nice!view"
+   ]
+  },
+  {
+   "t": "No Signal message",
+   "p": [
+    "No Signal"
+   ]
+  },
+  {
+   "t": "packing",
+   "see": "carrying bag"
+  },
+  {
+   "t": "PiForma Guide",
+   "p": [
+    "PiForma Guide\\b",
+    "Guided Tour"
+   ]
+  },
+  {
+   "t": "PiForma Panel",
+   "p": [
+    "PiForma Panel"
+   ]
+  },
+  {
+   "t": "pointer",
+   "p": [
+    "\\bpointer\\b"
+   ]
+  },
+  {
+   "t": "power cable",
+   "p": [
+    "power (cable|cord)"
+   ]
+  },
+  {
+   "t": "power switch",
+   "p": [
+    "power switch on the right",
+    "right-side power switch",
+    "Check the power switch",
+    "try the power switch",
+    "with the power switch",
+    "power switch (does not|doesn’t|controls|had been)",
+    "original power switch",
+    "computer’s power switch",
+    "physical switch is off",
+    "switch off physical power"
+   ]
+  },
+  {
+   "t": "programs",
+   "s": [
+    {
+     "t": "not responding",
+     "p": [
+      "will not respond",
+      "won’t respond",
+      "unresponsive"
+     ]
+    },
+    {
+     "t": "opening",
+     "p": [
+      "Opening programs",
+      "click a program button",
+      "Opening a program"
+     ]
+    },
+    {
+     "t": "quitting",
+     "p": [
+      "Quit or Exit",
+      "quit command"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "RAM",
+   "p": [
+    "\\bRAM\\b"
+   ]
+  },
+  {
+   "t": "Raspberry Pi",
+   "p": [
+    "Raspberry Pi(?! OS)"
+   ]
+  },
+  {
+   "t": "Raspberry Pi OS",
+   "p": [
+    "Raspberry Pi OS"
+   ]
+  },
+  {
+   "t": "RCA input",
+   "p": [
+    "\\bRCA\\b"
+   ]
+  },
+  {
+   "t": "RetroPie",
+   "p": [
+    "RetroPie"
+   ]
+  },
+  {
+   "t": "right button",
+   "see": "mouse, buttons"
+  },
+  {
+   "t": "right click",
+   "see": "mouse, buttons"
+  },
+  {
+   "t": "safety",
+   "p": [
+    "safety (instructions|certification)",
+    "unsafe"
+   ]
+  },
+  {
+   "t": "Save As",
+   "p": [
+    "Save As"
+   ]
+  },
+  {
+   "t": "save state",
+   "p": [
+    "save state"
+   ]
+  },
+  {
+   "t": "saving work",
+   "p": [
+    "Saving and reopening",
+    "Save often",
+    "only Save does",
+    "Save your work"
+   ]
+  },
+  {
+   "t": "screen",
+   "s": [
+    {
+     "t": "cleaning",
+     "p": [
+      "clean the screen"
+     ]
+    },
+    {
+     "t": "flickering",
+     "p": [
+      "flicker"
+     ]
+    },
+    {
+     "t": "quality",
+     "p": [
+      "modest quality",
+      "picture quality",
+      "Brightness and color"
+     ]
+    },
+    {
+     "t": "sleeping",
+     "p": [
+      "Sleep Display",
+      "sleeping screen",
+      "display is asleep"
+     ]
+    },
+    {
+     "t": "stays blank",
+     "p": [
+      "screen stays blank",
+      "picture stays blank"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "screen saver",
+   "see": "Flying Toasters"
+  },
+  {
+   "t": "scrolling",
+   "p": [
+    "\\bscroll(ing| bars?)\\b",
+    "to scroll"
+   ]
+  },
+  {
+   "t": "service and support",
+   "p": [
+    "service department",
+    "Service and support"
+   ]
+  },
+  {
+   "t": "SheepShaver",
+   "p": [
+    "SheepShaver"
+   ]
+  },
+  {
+   "t": "Show Desktop",
+   "p": [
+    "Show Desktop",
+    "Showing the desktop"
+   ]
+  },
+  {
+   "t": "Shut Down",
+   "p": [
+    "(?-i:Shut Down)",
+    "shut down (properly|the PiForma)",
+    "shutdown is complete",
+    "Stopping the computer",
+    "operating-system shutdown"
+   ]
+  },
+  {
+   "t": "sound",
+   "s": [
+    {
+     "t": "bringing in",
+     "p": [
+      "Bringing sound into",
+      "external audio"
+     ]
+    },
+    {
+     "t": "choosing the output",
+     "p": [
+      "Sound Options"
+     ]
+    },
+    {
+     "t": "no sound",
+     "p": [
+      "No sound"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Sound Options",
+   "p": [
+    "Sound Options"
+   ]
+  },
+  {
+   "t": "source selector",
+   "p": [
+    "source selector",
+    "selector until the screen"
+   ]
+  },
+  {
+   "t": "speakers",
+   "see": "Bose speakers; internal speaker"
+  },
+  {
+   "t": "Special menu",
+   "p": [
+    "Special menu",
+    "Special →"
+   ]
+  },
+  {
+   "t": "stand",
+   "p": [
+    "collapsible stand",
+    "folding stand",
+    "the stand\\b",
+    "its stand\\b",
+    "Stand, bag"
+   ]
+  },
+  {
+   "t": "starting up",
+   "p": [
+    "Starting up the computer",
+    "switch the PiForma on"
+   ],
+   "s": [
+    {
+     "t": "if the PiForma doesn’t start",
+     "p": [
+      "doesn’t start",
+      "won't start",
+      "won’t start",
+      "No green light, chime"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "startup chime",
+   "p": [
+    "startup chimes?",
+    "Startup chimes",
+    "The startup chime"
+   ]
+  },
+  {
+   "t": "startup picture",
+   "p": [
+    "startup picture"
+   ]
+  },
+  {
+   "t": "status light",
+   "see": "green light"
+  },
+  {
+   "t": "stopping the computer",
+   "see": "Shut Down"
+  },
+  {
+   "t": "Terminal",
+   "p": [
+    "\\bTerminal\\b"
+   ]
+  },
+  {
+   "t": "top compartment",
+   "p": [
+    "upper compartment",
+    "open-top",
+    "open top",
+    "opening the compartment"
+   ]
+  },
+  {
+   "t": "Undo",
+   "p": [
+    "\\bUndo\\b"
+   ]
+  },
+  {
+   "t": "USB hub",
+   "p": [
+    "\\bhub\\b"
+   ]
+  },
+  {
+   "t": "USB-C port, rear",
+   "p": [
+    "rear USB(-C)? port",
+    "USB port at the back",
+    "rear USB-C port"
+   ]
+  },
+  {
+   "t": "vice president",
+   "p": [
+    "vice president"
+   ]
+  },
+  {
+   "t": "volume",
+   "s": [
+    {
+     "t": "keyboard volume dial",
+     "p": [
+      "volume dial"
+     ]
+    },
+    {
+     "t": "side volume knob",
+     "p": [
+      "side volume",
+      "knob on the side",
+      "volume knob"
+     ]
+    },
+    {
+     "t": "slider",
+     "p": [
+      "slider below it sets the volume",
+      "volume slider"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "warranty",
+   "p": [
+    "warranty"
+   ]
+  },
+  {
+   "t": "Weather Channel",
+   "p": [
+    "Weather Channel",
+    "WeatherStar"
+   ]
+  },
+  {
+   "t": "Wi-Fi",
+   "p": [
+    "Wi-Fi(?! status)"
+   ],
+   "s": [
+    {
+     "t": "joining a network",
+     "p": [
+      "wireless network manager",
+      "join a different network"
+     ]
+    },
+    {
+     "t": "status menu",
+     "p": [
+      "Wi-Fi status"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "Winamp",
+   "p": [
+    "Winamp",
+    "QMMP"
+   ]
+  },
+  {
+   "t": "windows",
+   "s": [
+    {
+     "t": "active",
+     "p": [
+      "window is active",
+      "active application",
+      "bring it forward"
+     ]
+    },
+    {
+     "t": "closing",
+     "p": [
+      "close control",
+      "Closing a window",
+      "Closing one window"
+     ]
+    },
+    {
+     "t": "maximizing and minimizing",
+     "p": [
+      "maximiz",
+      "minimizes it"
+     ]
+    },
+    {
+     "t": "moving",
+     "p": [
+      "title bar"
+     ]
+    },
+    {
+     "t": "resizing",
+     "p": [
+      "resize"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "wireless charging",
+   "p": [
+    "wireless[- ]charg",
+    "charging transmitter",
+    "hidden transmitter",
+    "from the wireless receiver"
+   ]
+  },
+  {
+   "t": "wireless network manager",
+   "p": [
+    "wireless network manager"
+   ]
+  }
+ ]
+}

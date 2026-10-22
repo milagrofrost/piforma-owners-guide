@@ -5,7 +5,7 @@ it raises on unknown HTML instead of silently dropping prose. Generated files
 can be inspected, but edit manuscript/*.md then rerun to retain one prose source.
 """
 from pathlib import Path
-import re, json, argparse, subprocess, hashlib, shutil, os
+import re, json, argparse, subprocess, hashlib, shutil, os,importlib.util
 import pymupdf as pdf
 from PIL import Image, ImageDraw
 P=Path(__file__).resolve().parents[1]
@@ -22,6 +22,22 @@ def inline(s):
         result.append('#link('+q(m[2])+',text('+q(m[1])+'))');offset=m.end()
     result.append('#text('+q(plain(s[offset:]))+')')
     return ''.join(result)
+# Rich inline copy: links, **bold** and *italic*, each run kept as plain text.
+RICH=re.compile(r'\[([^\]]+)\]\(([^)]+)\)|\*\*(.+?)\*\*|\*(.+?)\*')
+def rich(s):
+    out=[];offset=0;s=s.replace('`','')
+    for m in RICH.finditer(s):
+        if m.start()>offset: out.append('#text('+q(s[offset:m.start()])+')')
+        if m[1]: out.append('#link('+q(m[2])+',text('+q(m[1])+'))')
+        elif m[3]: out.append('#strong[#text('+q(m[3])+')]')
+        else: out.append('#emph[#text('+q(m[4])+')]')
+        offset=m.end()
+    if offset<len(s): out.append('#text('+q(s[offset:])+')')
+    return ''.join(out)
+def directive(s):
+    """Apple sets the action of a numbered step in bold and its explanation in roman."""
+    m=re.match(r'^(.+?[.!?])\s+(?=[A-Z“"(])(.*)$',s)
+    return f'[#strong[{rich(m[1])}] {rich(m[2])}]' if m else f'[#strong[{rich(s)}]]'
 evidence=[]
 layout_file=P/'assets/illustration-layout.json'
 artwork_layout=json.loads(layout_file.read_text(encoding='utf-8'))['images'] if layout_file.exists() else {}
@@ -31,8 +47,18 @@ screen_assets={a['presentation']:a for a in json.loads(screen_manifest.read_text
 screen_placements=[]
 def convert(file):
     lines=file.read_text(encoding='utf-8').splitlines();blocks=[];buf=[];status='editorial-advice';section='';opening=True
+    top='';term=None;sidebar=None;rows=[];rail=None
+    def flush_table():
+        nonlocal rows
+        if not rows:return
+        cells=[[c.strip() for c in r.strip().strip('|').split('|')] for r in rows];rows=[]
+        cells=[r for r in cells if not all(set(c)<=set('-: ') for c in r)]
+        head='('+','.join(q(c) for c in cells[0])+',)'
+        body='('+','.join('('+','.join(f'[{rich(c)}]' for c in r)+',)' for r in cells[1:])+',)'
+        blocks.append(f'#ref-table({head},{body})')
     def flush():
-        nonlocal buf,opening
+        nonlocal buf,opening,term,rail
+        flush_table()
         if not buf:return
         text=' '.join(buf);buf=[]
         evidence.append({'file':str(file.relative_to(P)),'section':section,'paragraph_sha256':hashlib.sha256(text.encode()).hexdigest(),'evidence':status,'preview':text[:140]})
@@ -59,43 +85,80 @@ def convert(file):
             copy=re.sub(r'^\[(VERIFY|MODEL TO CONFIRM):\s*','',text).rstrip(']')
             blocks.append(f'#verification({q(plain(copy))})')
         else:
-            function='opener' if opening and file.name.startswith(('01-','02-','03-','04-')) else 'para'
-            blocks.append(f'#{function}({q(plain(text))})')
+            if opening and file.name.startswith(('01-','02-','03-','04-')):blocks.append(f'#opener({q(plain(text))})')
+            elif term:blocks.append(f'#glossary-entry({q(term)},[{rich(text)}])');term=None
+            elif rail and rail[0]=='pic' and not sidebar:blocks.append(f'#rail-pic({q(rail[1])},[{rich(rail[2])}],[{rich(text)}])')
+            elif rail and not sidebar:blocks.append(f'#rail-def({q(rail[0])},[{rich(rail[1])}],[{rich(text)}])')
+            else:blocks.append(f'#para({"width:100%," if sidebar else ""}[{rich(text)}])')
+            rail=None
         opening=False
     for line in lines:
         if line.startswith('<!-- evidence:'):
             flush();status=line.removeprefix('<!-- evidence:').removesuffix('-->').strip();continue
         if not line.strip():flush();continue
+        if line.startswith('|'):
+            if buf:flush()
+            rows.append(line);evidence.append({'file':str(file.relative_to(P)),'section':section,'evidence':status,'preview':line});continue
+        # [RAIL term|definition] on its own line sets a rail definition beside the next paragraph.
+        m=re.fullmatch(r'\[RAIL ([^|]+)\|(.+)\]',line.strip())
+        if m:flush();rail=(m[1],m[2]);continue
+        # [RAILPIC file|caption] sets a small drawing in the rail beside the next paragraph.
+        m=re.fullmatch(r'\[RAILPIC ([^|]+)\|(.+)\]',line.strip())
+        if m:flush();rail=('pic',m[1],m[2]);continue
+        if line.startswith('#### '):
+            flush();sidebar=(line[5:],len(blocks));continue
+        if line.strip()=='---' and sidebar:
+            flush();title,start=sidebar;sidebar=None
+            blocks[start:]=[f'#sidebar({q(title)},[\n'+'\n'.join(blocks[start:])+'\n])'];continue
         if line.startswith('# '):
-            flush();section=line[2:];
+            flush();section=line[2:];top=section
             if file.name=='00-front-matter.md':
                 if section=='About this manual':blocks.append(f'#pagebreak()\n#current-title.update({q(section)})\n#heading(level:1,{q(section)})')
             elif file.name=='06-glossary-and-credits.md' and section=='Credits and acknowledgments':blocks.append(f'#pagebreak(to: "odd")\n#current-title.update({q(section)})\n#heading(level:1,{q(section)})')
+            # Back-matter notices after the credits: the warranty opens a page, the others follow it.
+            elif file.name=='06-glossary-and-credits.md' and section!='Glossary':blocks.append(('#pagebreak()\n' if section=='PiForma Limited Warranty' else '')+f'#current-title.update({q(section)})\n#heading(level:1,{q(section)})')
             continue
         if line.startswith('## '):
             flush();section=line[3:]
-            blocks.append(f'#glossary-term({q(section)})' if file.name=='06-glossary-and-credits.md' else f'#heading(level:2,{q(section)})')
+            if file.name=='06-glossary-and-credits.md' and top=='Glossary':term=section
+            elif file.name=='06-glossary-and-credits.md':blocks.append(f'#glossary-term({q(section)})')
+            else:blocks.append(f'#heading(level:2,{q(section)})')
             continue
         if line.startswith('### '):flush();section=line[4:];blocks.append(f'#subhead({q(section)})');continue
         m=re.match(r'^(\d+)\. (.*)',line)
         if m:
-            flush();blocks.append(f'#instruction({m[1]},text({q(plain(m[2]))}))')
+            flush()
+            blocks.append(f'#sb-item({m[1]},[{rich(m[2])}])' if sidebar else f'#instruction({m[1]},{directive(m[2])})')
             evidence.append({'file':str(file.relative_to(P)),'section':section,'evidence':status,'preview':line});opening=False;continue
         if line.startswith('- '):
             flush()
             if file.name=='05-technical-information.md' and ': ' in line:
                 label,copy=line[2:].split(': ',1)
                 blocks.append(f'#spec-row({q(label+":")},text({q(plain(copy))}))')
-            else:blocks.append(f'#bullet([{inline(line[2:])}])')
+            else:blocks.append(f'#bullet([{rich(line[2:])}])')
             evidence.append({'file':str(file.relative_to(P)),'section':section,'evidence':status,'preview':line});opening=False;continue
         if '<!--' in line: raise ValueError('Unsupported markup: '+line)
         buf.append(line)
     flush()
+    # Adjacent figures listed as a group share one plate, in any chapter.
+    by_file={a['file']:a for a in artwork_sizes}
+    for group in json.loads(layout_file.read_text(encoding='utf-8')).get('groups',[]):
+        indexes=[i for i,b in enumerate(blocks) if b.startswith('#wide-illustration(') and any(q(name) in b for name in group['files'])]
+        if not indexes:continue
+        assert len(indexes)==len(group['files'])
+        assert indexes==list(range(indexes[0],indexes[0]+len(indexes))), 'Only adjacent figures can be grouped'
+        items=[]
+        for name in group['files']:
+            a=by_file[name]
+            trim=artwork_layout.get(name,{}).get('empty_canvas_trim')
+            trim_arg=',trim:('+','.join(f'{k}:{v}' for k,v in trim.items())+')' if trim else ''
+            items.append(f'(id:{q(a["figure"])},file:{q(name)},caption:{q(a["caption"])},width:{a["width_pt"]}pt{trim_arg})')
+        blocks[indexes[0]:indexes[-1]+1]=['#figure-group(('+','.join(items)+',),mode:'+q(group.get('mode','columns'))+')']
     # Presentation rules move only figure blocks, never source prose or captions.
     if file.name=='01-getting-started.md':
         # Startup reads as a procedure with its existing silent-chime explanation
         # alongside it. Prose stays in the manuscript in its original order.
-        note=next(i for i,b in enumerate(blocks) if b.startswith('#para(') and 'A silent startup does not by itself' in b)
+        note=next(i for i,b in enumerate(blocks) if b.startswith('#para(') and 'A silent startup doesn' in b)
         start=next(i for i,b in enumerate(blocks[:note]) if b.startswith('#heading(level:2,"Starting up the computer"'))+1
         assert all(b.startswith('#instruction(') for b in blocks[start:note])
         note_copy=blocks[note].removeprefix('#para(').removesuffix(')')
@@ -104,29 +167,19 @@ def convert(file):
             if b.startswith('#wide-illustration("1-1",'):blocks[i]=b.replace('#wide-illustration(', '#illustration-plate(',1)
         setup=next(i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,"Putting it all together"'))
         blocks.insert(setup,'#pagebreak(weak:true)')
-        by_file={a['file']:a for a in artwork_sizes}
-        for group in json.loads(layout_file.read_text(encoding='utf-8')).get('groups',[]):
-            indexes=[i for i,b in enumerate(blocks) if b.startswith('#wide-illustration(') and any(q(name) in b for name in group['files'])]
-            if not indexes:continue
-            assert len(indexes)==len(group['files'])
-            assert indexes==list(range(indexes[0],indexes[0]+len(indexes))), 'Only adjacent figures can be grouped'
-            items=[]
-            for name in group['files']:
-                a=by_file[name]
-                trim=artwork_layout.get(name,{}).get('empty_canvas_trim')
-                trim_arg=',trim:('+','.join(f'{k}:{v}' for k,v in trim.items())+')' if trim else ''
-                items.append(f'(id:{q(a["figure"])},file:{q(name)},caption:{q(a["caption"])},width:{a["width_pt"]}pt{trim_arg})')
-            blocks[indexes[0]:indexes[-1]+1]=['#figure-group(('+','.join(items)+',),mode:'+q(group.get('mode','columns'))+')']
         for placement in json.loads(layout_file.read_text(encoding='utf-8')).get('placements',[]):
             i=next(i for i,b in enumerate(blocks) if b.startswith('#wide-illustration(') and q(placement['file']) in b)
             figure=blocks.pop(i)
             anchor=next(i for i,b in enumerate(blocks) if placement['after_text'] in b)
             blocks.insert(anchor+1,figure)
-        for keep in json.loads(layout_file.read_text(encoding='utf-8')).get('keep_together',[]):
-            start=next(i for i,b in enumerate(blocks) if keep['start'] in b)
-            end=next(i for i,b in enumerate(blocks) if keep['end'] in b)
-            assert start<=end
-            blocks[start:end+1]=['#block(breakable:false)[\n'+'\n'.join(blocks[start:end+1])+'\n]']
+    # Keep a passage on the same page as the picture it describes, in any chapter.
+    for keep in json.loads(layout_file.read_text(encoding='utf-8')).get('keep_together',[]):
+        start=next((i for i,b in enumerate(blocks) if keep['start'] in b),None)
+        if start is None:continue
+        end=next(i for i,b in enumerate(blocks) if i>=start and keep['end'] in b)
+        # The text is held together and made sticky to the picture that follows it;
+        # nesting the picture's own unbreakable block inside another loses its caption height.
+        if end>start:blocks[start:end]=['#block(breakable:false,sticky:true)[\n'+'\n'.join(blocks[start:end])+'\n]']
     if file.name=='03-how-piforma-works.md':
         start=next(i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,"Opening programs with AtEase"'))
         first,second,screen=blocks[start+1:start+4]
@@ -134,6 +187,25 @@ def convert(file):
         blocks[start:start+4]=['#pagebreak(weak:true)',blocks[start],
             '#annotated("AtEase",none,[\n'+first+'\n#launcher-detail()\n])',
             '#annotated("Show Desktop",none,[\n'+second+'\n'+screen+'\n])']
+        # Each of these topics starts a fresh page, as the owner laid out Chapter 3.
+        for title in ['Working with application windows','Files and folders','The menu bar and Control Strip',
+                      'Controllers and games','Diversions','About This PiForma and the project guide','Wi-Fi and Bluetooth']:
+            i=next(i for i,b in enumerate(blocks) if '#heading(level:2,'+q(title) in b)
+            blocks.insert(i,'#pagebreak(weak:true)')
+        # Clippy keeps the reader company in the spare space under his own screenshot.
+        i=next(i for i,b in enumerate(blocks) if 'piforma-clippy-conversation.svg' in b)
+        blocks[i]+=('\n#clippy-aside[#text(weight:"bold")[It looks like you’re trying to operate a Macintosh PiForma!]\n\n'
+                    'Have you considered reading the owner’s guide? The whole thing, front to back?\n\n'
+                    '○ #h(2pt) I am literally reading it right now\\\n○ #h(2pt) Don’t show me this tip again]')
+        # Spread each page's leftover space between its blocks instead of leaving it
+        # at the foot; full pages get none. The chapter's last page keeps its space below.
+        i=next(i for i,b in enumerate(blocks) if '#heading(level:2,' in b)+1
+        while i<len(blocks):
+            prev=blocks[i-1]
+            if not prev.startswith(('#pagebreak','#heading','#subhead','#v(','#block(height:1fr')) and 'sticky:true' not in prev.split('\n',1)[0] and not blocks[i].startswith('#pagebreak'):
+                blocks.insert(i,'#block(height:1fr,above:0pt,below:0pt)\n#v(0pt)');i+=1
+            i+=1
+        blocks.append('#v(12fr)')
     if file.name=='05-technical-information.md':
         i=0
         while i<len(blocks):
@@ -146,9 +218,10 @@ def convert(file):
     if file.name in ['04-caring-for-piforma.md','07-troubleshooting.md']:
         starts=[i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,')]
         for start,end in reversed(list(zip(starts,starts[1:]+[len(blocks)]))):
+            if 'Cleaning, ventilation' in blocks[start]:continue
             blocks[start:end]=['#block(breakable:false)[\n'+'\n'.join(blocks[start:end])+'\n]']
     if file.name=='02-inside-piforma.md':
-        i=next(i for i,b in enumerate(blocks) if b.startswith('#heading(level:2,"The battery and charging paths"'))
+        i=next(i for i,b in enumerate(blocks) if '#heading(level:2,"The battery and charging paths"' in b)
         blocks.insert(i,'#pagebreak(weak:true)')
     return '\n'.join(blocks)+'\n'
 for file in sorted((P/'manuscript').glob('*.md')):
@@ -170,6 +243,12 @@ def call(args):
     if r.returncode:raise RuntimeError(r.stderr)
 for source,name in [('main.typ','macintosh-piforma-working-proof'),('first-chapter.typ','chapter-1-working-proof'),('artwork-preview.typ','new-artwork-proof')]:
     call([typst,'compile',str(P/source),str(P/'output'/f'{name}.pdf')])
+# The index reads its page numbers from the compiled proof, then the proof is
+# compiled again with the index filled in. The index follows every page it lists.
+spec=importlib.util.spec_from_file_location('build_index',P/'scripts/build-index.py');build_index=importlib.util.module_from_spec(spec);spec.loader.exec_module(build_index)
+if build_index.build(P/'output/macintosh-piforma-working-proof.pdf'):
+    call([typst,'compile',str(P/'main.typ'),str(P/'output/macintosh-piforma-working-proof.pdf')])
+    assert not build_index.build(P/'output/macintosh-piforma-working-proof.pdf'),'Index page numbers did not settle'
 call([typst,'compile','--format','png','--ppi',str(opts.ppi),str(P/'main.typ'),str(out/'page-{p}.png')])
 doc=pdf.open(P/'output/macintosh-piforma-working-proof.pdf');issues=[];fonts=[]
 for i,page in enumerate(doc):

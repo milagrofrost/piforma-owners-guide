@@ -48,7 +48,8 @@ Four chapters retained. Folios are generated in the PDF; unresolved questions st
 - The menu bar and Control Strip
 - Controllers and games
 - Leaving a full-screen program
-- Clippy and the other diversions
+- Diversions
+- Clippy
 - About This PiForma and the project guide
 - Wi-Fi and Bluetooth
 - Ending a session

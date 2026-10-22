@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" width="680" height="300">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#222"/></marker></defs>
+<g stroke="#222" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+<!-- the screen, with its input label at the top left -->
+<rect x="20" y="40" width="250" height="200" rx="18" fill="#fff"/>
+<rect x="44" y="62" width="202" height="150" rx="6" fill="#e9e8e4"/>
+<rect x="54" y="72" width="64" height="26" fill="#fff" stroke-width="1.6"/>
+<path d="M118 85 H300" stroke="#f34836" stroke-width="2" fill="none"/>
+<!-- the four inputs in a loop -->
+<g fill="#fff">
+<rect x="330" y="40" width="130" height="64" rx="8" stroke="#f34836" stroke-width="3"/>
+<rect x="520" y="40" width="130" height="64" rx="8"/>
+<rect x="520" y="176" width="130" height="64" rx="8"/>
+<rect x="330" y="176" width="130" height="64" rx="8"/>
+</g>
+<g fill="none" marker-end="url(#a)">
+<path d="M462 72 H514"/>
+<path d="M585 106 V170"/>
+<path d="M518 208 H466"/>
+<path d="M395 174 V110"/>
+</g>
+</g>
+<g font-family="EB Garamond" fill="#222" text-anchor="middle">
+<text x="86" y="91" font-size="17">HDMI</text>
+<g font-size="24" font-weight="bold"><text x="395" y="70">HDMI</text><text x="585" y="70">AV1</text><text x="585" y="206">AV2</text><text x="395" y="206">VGA</text></g>
+<g font-size="18"><text x="395" y="94">Raspberry Pi</text><text x="585" y="94">RCA input</text><text x="585" y="230">not connected</text><text x="395" y="230">not connected</text></g>
+<text x="490" y="152" font-size="17" fill="#555">one press each</text>
+</g>
+</svg>
