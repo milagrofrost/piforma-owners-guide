@@ -33,6 +33,12 @@ Publication copy contains operating instructions and necessary limits, not produ
 
 [MODEL TO CONFIRM: Speaker models, power requirements, connection to PiForma, stand assembly and attachment, and whether they travel separately. Connection and assembly steps will be added after these details are supplied. Neither speakers nor stands are assigned a place in the carrying bag.]
 
+October 19, 2026: Speaker models, connection and travel are now in the guide (1984 Bose RoomMate, rear audio output socket, carried separately; optional extra). Still open: power requirements and stand assembly. Builder to-do: a clickable switch between the internal speaker and the rear audio socket, in AtEase or the Apple menu, replacing the current command.
+
+**October 20, 2026: the owner made this switch an absolute must-do before the guide is printed.** Once it exists, rewrite the Bose section's "ask the builder" sentence and the matching note in Appendix B.
+
+**Done October 20, 2026 (evening):** the Wi-Fi status menu now ends with Sound Options, which opens a control panel for choosing the sound output. Chapter 1's Bose section, Chapter 3 ("Choosing where sound goes"), Appendix B and the glossary describe it; the "ask the builder" sentence is gone. Clicking the network name now opens a wireless network manager.
+
 ### 01-getting-started.md — Bringing sound into the PiForma
 
 [VERIFY: Identify the actual adapter and its input sockets before connecting an external source. The software’s device name does not establish the supplied adapter’s exact model or acceptable signal levels. The rear composite-video RCA jack is not this audio input.]

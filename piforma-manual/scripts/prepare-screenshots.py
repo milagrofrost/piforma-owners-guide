@@ -6,15 +6,20 @@ P=Path(__file__).resolve().parents[1];dest=P/'assets/screenshots';(dest/'origina
 items=[
  (1,'piforma-desktop-overview',None,366),
  (2,'piforma-shutdown-menu',(0,0,460,145),242),
- (3,'piforma-about-system',(0,0,745,490),366),
- (4,'piforma-guide-application',(0,25,824,570),366),
+ (3,'piforma-about-system',(0,0,745,490),300),
+ (4,'piforma-guide-application',(0,25,824,570),300),
  (5,'piforma-clippy-conversation',(222,124,603,504),242),
- (6,'piforma-control-strip',(0,525,230,602),176),
+ (6,'piforma-control-strip',(0,525,230,602),150),
  (7,'piforma-show-desktop',(0,0,420,120),242),
  (8,'piforma-application-menus',(0,0,824,290),366),
- (9,'piforma-open-home-folder',(0,0,375,140),242),
- (10,'piforma-home-folder',None,366),
+ (9,'piforma-open-home-folder',(0,0,375,140),150),
+ (10,'piforma-home-folder',None,190),
  (11,'piforma-clippy-message-entry',(240,438,584,482),242),
+ (12,'piforma-limewire-simulator',None,280),
+ (13,'piforma-flying-toasters',None,242),
+ (14,'piforma-winamp',None,300),
+ (15,'piforma-weatherstar',None,200),
+ (16,'piforma-emulationstation-n64',None,366),
 ]
 manifest=[]
 for number,name,roi,width in items:

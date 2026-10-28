@@ -1,6 +1,6 @@
 # Current approved guide — October 17, 2026
 
-Open the [69-page reviewed proof](output/macintosh-piforma-layout-reviewed.pdf). The approved study is applied throughout, with natural-width EB Garamond and direct specification language. Read [the change report](approved-redesign-report.md). Build instructions remain in the repository README. The active text baseline is `verification/manuscript-lock.json`.
+Open the [80-page reviewed proof](output/macintosh-piforma-layout-reviewed.pdf). The approved study is applied throughout, with natural-width EB Garamond and direct specification language. Read [the change report](approved-redesign-report.md). Build instructions remain in the repository README. The active text baseline is `verification/manuscript-lock.json`.
 
 # Active manual project
 

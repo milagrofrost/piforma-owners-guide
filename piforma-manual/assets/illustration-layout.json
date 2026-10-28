@@ -18,21 +18,21 @@
     },
     "1-3b.png": {
       "max_width_pt": 366,
-      "max_height_pt": 245
+      "max_height_pt": 170
     },
     "1-3c.png": {
       "max_width_pt": 300,
-      "max_height_pt": 225,
+      "max_height_pt": 172,
       "kind": "control-diagram"
     },
     "1-3d.png": {
       "max_width_pt": 176,
-      "max_height_pt": 176,
+      "max_height_pt": 135,
       "kind": "paired-control-view"
     },
     "1-3e.png": {
       "max_width_pt": 176,
-      "max_height_pt": 176,
+      "max_height_pt": 135,
       "kind": "paired-control-view"
     },
     "1-4a.png": {
@@ -46,22 +46,22 @@
     },
     "1-4c.png": {
       "max_width_pt": 300,
-      "max_height_pt": 300,
+      "max_height_pt": 190,
       "kind": "labeled-drawing"
     },
     "1-4d.png": {
       "max_width_pt": 320,
-      "max_height_pt": 300,
+      "max_height_pt": 220,
       "kind": "labeled-drawing"
     },
     "1-6a.png": {
       "max_width_pt": 330,
-      "max_height_pt": 180,
+      "max_height_pt": 72,
       "kind": "control-detail"
     },
     "1-6b.png": {
       "max_width_pt": 330,
-      "max_height_pt": 248
+      "max_height_pt": 130
     },
     "inside-1.png": {
       "max_width_pt": 366,
@@ -75,8 +75,113 @@
     },
     "inside-3.png": {
       "max_width_pt": 366,
-      "max_height_pt": 345,
+      "max_height_pt": 270,
       "kind": "owner-labeled-interior-photograph"
+    },
+    "complete-setup.png": {
+      "max_width_pt": 366,
+      "max_height_pt": 190,
+      "kind": "assembled-setup-photograph"
+    },
+    "piforma-n64.png": {
+      "max_width_pt": 220,
+      "max_height_pt": 210,
+      "kind": "controller-photograph"
+    },
+    "closing-app-1.png": {
+      "max_width_pt": 176,
+      "max_height_pt": 140,
+      "kind": "paired-control-view"
+    },
+    "closing-app-2.png": {
+      "max_width_pt": 176,
+      "max_height_pt": 140,
+      "kind": "paired-control-view"
+    },
+    "stand-centered.png": {
+      "max_width_pt": 180,
+      "max_height_pt": 190,
+      "kind": "setup-photograph"
+    },
+    "stand-profile.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 150,
+      "kind": "setup-photograph"
+    },
+    "keyboard-switch-usbc.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 140,
+      "kind": "owner-labeled-photograph"
+    },
+    "niceview-labeled.png": {
+      "max_width_pt": 366,
+      "max_height_pt": 140,
+      "kind": "owner-labeled-photograph"
+    },
+    "no-signal.png": {
+      "max_width_pt": 200,
+      "max_height_pt": 80,
+      "kind": "screen-photograph"
+    },
+    "boot-screen.png": {
+      "max_width_pt": 220,
+      "max_height_pt": 150,
+      "kind": "screen-photograph"
+    },
+    "bag-back-charging.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 270,
+      "kind": "bag-photograph"
+    },
+    "bag-clasp.png": {
+      "max_width_pt": 170,
+      "max_height_pt": 130,
+      "kind": "bag-photograph"
+    },
+    "desktop-labeled.png": {
+      "max_width_pt": 366,
+      "max_height_pt": 190,
+      "kind": "owner-labeled-screenshot"
+    },
+    "status-menu.png": {
+      "max_width_pt": 190,
+      "max_height_pt": 132,
+      "kind": "screen-photograph"
+    },
+    "wifi-manager.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 233,
+      "kind": "screen-photograph"
+    },
+    "source-cycle.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 120,
+      "kind": "line-drawing"
+    },
+    "edit-copy-paste.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 130,
+      "kind": "screen-photograph"
+    },
+    "battery-habit.png": {
+      "max_width_pt": 220,
+      "max_height_pt": 80,
+      "kind": "line-drawing"
+    },
+    "apple-phone.png": {
+      "max_width_pt": 242,
+      "max_height_pt": 200,
+      "kind": "line-drawing"
+    },
+    "bose-technical.png": {
+      "max_width_pt": 200,
+      "max_height_pt": 150,
+      "kind": "line-drawing"
+    },
+    "bag-portrait.png": {
+      "max_width_pt": 180,
+      "max_height_pt": 172,
+      "kind": "photograph"
     }
   },
   "groups": [
@@ -93,18 +198,16 @@
         "1-3e.png"
       ],
       "mode": "columns"
-    }
-  ],
-  "placements": [
-    {
-      "file": "1-3b.png",
-      "after_text": "It is separate from the physical power switch."
     },
     {
-      "file": "1-4a.png",
-      "after_text": "rests securely rather than leaning toward one side."
+      "files": [
+        "closing-app-1.png",
+        "closing-app-2.png"
+      ],
+      "mode": "columns"
     }
   ],
+  "placements": [],
   "keep_together": [
     {
       "start": "#subhead(\"The forbidden latch\")",
@@ -112,11 +215,111 @@
     },
     {
       "start": "#subhead(\"A closer look, strictly off the record\")",
-      "end": "I would appreciate remaining employed."
+      "end": "\"1-6a.png\""
     },
     {
-      "start": "The owner\u2019s current arrangement has one externally",
+      "start": "The one USB port at the back is a USB-C port.",
       "end": "\"rear-inputs.png\""
+    },
+    {
+      "start": "#subhead(\"The mouse controls\")",
+      "end": "\"1-4c.png\""
+    },
+    {
+      "start": "Underneath are the battery compartment",
+      "end": "\"1-4d.png\""
+    },
+    {
+      "start": "#heading(level:2,\"The menu bar and Control Strip\"",
+      "end": "piforma-control-strip.svg"
+    },
+    {
+      "start": "#heading(level:2,\"Controllers and games\"",
+      "end": "piforma-n64.png"
+    },
+    {
+      "start": "The nice!view display, above the number keys",
+      "end": "niceview-labeled.png"
+    },
+    {
+      "start": "#subhead(\"The keyboard controls\")",
+      "end": "\"1-4b.png\""
+    },
+    {
+      "start": "#heading(level:2,\"Taking a closer look\"",
+      "end": "\"1-3e.png\""
+    },
+    {
+      "start": "#subhead(\"Two menu bars, two different jobs\")",
+      "end": "piforma-application-menus.svg"
+    },
+    {
+      "start": "Center the PiForma exactly",
+      "end": "stand-profile.png"
+    },
+    {
+      "start": "#subhead(\"Charging in the bag\")",
+      "end": "bag-back-charging.png"
+    },
+    {
+      "start": "The first thing on the screen is always No Signal",
+      "end": "no-signal.png"
+    },
+    {
+      "start": "#heading(level:2,\"Your first session\"",
+      "end": "desktop-labeled.png"
+    },
+    {
+      "start": "#heading(level:2,\"The battery and charging paths\"",
+      "end": "inside-3.png"
+    },
+    {
+      "start": "Winamp is the QMMP music player",
+      "end": "piforma-winamp.svg"
+    },
+    {
+      "start": "LimeWire Simulator is a period-styled",
+      "end": "piforma-limewire-simulator.svg"
+    },
+    {
+      "start": "The Weather Channel estimates your location",
+      "end": "piforma-weatherstar.svg"
+    },
+    {
+      "start": "The Flying Toasters are a screen saver you start",
+      "end": "piforma-flying-toasters.svg"
+    },
+    {
+      "start": "The installed launcher calls this application PiForma Guide",
+      "end": "piforma-guide-application.svg"
+    },
+    {
+      "start": "The Wi-Fi status icon is at the far right",
+      "end": "status-menu.png"
+    },
+    {
+      "start": "#subhead(\"Closing the bag\")",
+      "end": "bag-clasp.png"
+    },
+    {
+      "start": "The normal, management-approved way to read the battery",
+      "end": "\"1-6b.png\""
+    },
+    {
+      "start": "#heading(level:2,\"System sound and startup chimes\"",
+      "end": "inside-2.png"
+    },
+    {
+      "start": "Open RetroPie/EmulationStation from AtEase",
+      "end": "piforma-emulationstation-n64.svg"
+    },
+    {
+      "start": "Open Home Folder opens your home folder",
+      "end": "piforma-open-home-folder.svg"
+    },
+    {
+      "start": "To join a different network, click",
+      "end": "wifi-manager.png"
     }
   ],
   "compositions": {

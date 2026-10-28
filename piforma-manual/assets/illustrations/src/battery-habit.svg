@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 210" width="660" height="210">
+<g stroke="#222" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="70" width="540" height="90" rx="12" fill="#fff"/>
+<rect x="580" y="96" width="22" height="38" rx="4" fill="#fff"/>
+<!-- charge level fill -->
+<rect x="50" y="80" width="434" height="70" rx="6" fill="#e9e8e4" stroke="none"/>
+<!-- the habit band, 25 to 50 percent -->
+<rect x="170" y="80" width="130" height="70" fill="#f34836" fill-opacity="0.22" stroke="#f34836" stroke-width="2"/>
+<g stroke-width="1.6">
+<path d="M50 160 v12 M180 160 v12 M310 160 v12 M440 160 v12 M570 160 v12"/>
+</g>
+<path d="M235 64 V40" stroke="#f34836" stroke-width="2" fill="none"/>
+</g>
+<g font-family="EB Garamond" fill="#222" text-anchor="middle" font-size="20">
+<text x="50" y="196">0%</text><text x="180" y="196">25%</text><text x="310" y="196">50%</text><text x="440" y="196">75%</text><text x="570" y="196">100%</text>
+<text x="235" y="30" font-size="21">Recharge before it falls below here</text>
+</g>
+</svg>

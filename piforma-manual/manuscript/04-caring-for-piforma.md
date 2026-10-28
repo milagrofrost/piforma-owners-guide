@@ -1,51 +1,66 @@
 # Caring for Your Macintosh PiForma
 
 <!-- evidence: owner-current H03-care; editorial-advice -->
-The PiForma was built to be used and carried, with a little care. Its case has already had a long life; the electronics inside would prefer a reasonably quiet one.
+The PiForma was built to be used and carried, with a little care. Its case has already had a long life; the electronics inside are newer and more delicate.
 
 ## Handling the computer and display
 
 <!-- evidence: owner-current H01-handle; repo-verified D-KNOWN; editorial-advice -->
 Use the carrying handle as described in Chapter 1 and watch the keyboard as the computer comes out of the bag. Avoid impacts, pressure on the display, and pulling on connected cables.
 
-The display connections need gentle handling. Do not try to cure a flicker by tapping the case or moving internal parts while powered. Record the symptom and let the builder investigate.
+Don’t try to cure a flicker by tapping the case or poking inside; tell us.
 
 ## Keyboard and mouse care
 
 <!-- evidence: owner-current H01-keyboard H01-mouse; editorial-advice -->
-Keep crumbs, liquids, and loose items out of the keys. Pack the keyboard with its keys toward the bag wall, thick edge rear, and thin edge front. Turn the mouse off for prolonged storage or transport if desired, and keep its receiver accounted for.
+Keep crumbs, liquids, and loose items out of the keys. Switch the keyboard off before packing it, and check that Caps Lock is up (Chapter 1 explains why). Turn the mouse off for prolonged storage or transport if desired.
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 OWNER-IMAGES-2026-10-20 -->
+The keyboard’s nice!view display shows its battery level, as Chapter 2 explains. Charge it from the USB-C port on its right-hand edge when the level runs low.
 
 ## Charging and storage
 
 <!-- evidence: owner-current H03-battery; repo-verified D-HARDWARE; needs-confirmation Q-POWER -->
-The owner prefers to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. This is a personal usage preference, not a manufacturer storage-charge specification.
+We prefer to keep the main battery above roughly 25–50% most of the time rather than repeatedly running it empty. That’s our habit. The battery maker never asked us to.
 
-Use the intended external supply. A full-looking battery may still need the plunger or a brief power connection before startup, as Chapter 1 describes. Bag charging requires the foam alignment. The battery display can indicate charging from the wireless receiver, but is hidden while the computer is packed in the bag. A USB power monitor can show power drawn by the bag charger; it does not directly measure what reaches the battery. Chapter 1 explains this limitation.
+[ILLUSTRATION 4-1|battery-habit.png|Our habit: recharge before the battery display falls below roughly 25 to 50 percent.]
+
+Use the PiForma’s own power cable. A battery that looks full may still need the plunger or a minute on power before it starts, as Chapter 1 describes. Bag charging requires the foam alignment and a USB charger on the cord from the bag’s back pocket. You can’t see the battery display in the bag; Chapter 1 explains. Always switch the PiForma off before it goes into the bag.
 
 ## Stand, bag and transport
 
 <!-- evidence: owner-current H03-care H01-packing; editorial-advice -->
 Put the folding stand on a solid flat table, open it securely, and center the PiForma. The stand may permit some side-to-side motion, so keep it away from bumps and do not use it on an unstable surface.
 
-Pack in the exact order in Chapter 1. Seat the computer in the bottom foam indents, orient the keyboard correctly, and replace the protective board before the pad, guide, mouse/stand, and pouch. The bag’s padding helps; it does not justify dropping it.
+Pack in the exact order in Chapter 1. Seat the computer in the bottom foam indents, orient the keyboard correctly, and replace the protective board before the pad, mouse/stand, and pouch. Fasten the clasp as Chapter 1 shows. The bag is padded. Don’t drop it anyway.
 
 ## Bose speakers and stands
 
 <!-- evidence: owner-current H03-bose; editorial-advice; needs-confirmation Q-BOSE -->
-Move the speakers and stands carefully and keep their cables from pulling on the computer. Do not assume the stands can be carried by the speakers or folded while attached.
+The speakers travel separately from the bag. Move the speakers and stands carefully and keep their cables from pulling on the computer.
 
 ## Cleaning, ventilation and unusual behavior
 
 <!-- evidence: editorial-advice; repo-verified D-SAFETY D-KNOWN -->
-Switch off and disconnect charging power before ordinary exterior cleaning. Use a soft dry cloth gently on the case; keep liquids and solvents away from openings and internal parts. Confirm the LCD’s cleaning instructions before using a screen-cleaning product.
+Switch off and disconnect charging power before ordinary exterior cleaning. Use a soft dry cloth gently on the case; keep liquids and solvents away from openings and internal parts.
 
-Leave vents clear and watch for unusual heat, smell, swelling, damaged wiring, or electrical behavior that is out of character. Stop using the machine in that condition. The build’s heat history is a reason to investigate, not to ignore a problem because the desktop still appears.
+<!-- evidence: owner-current OWNER-TALK-2026-10-20 -->
+To clean the screen, wipe it gently with a washcloth that is only very slightly damp, wrung out until no water drips. No soap is needed.
+
+Leave vents clear and keep the PiForma out of direct sun, which will toast it. Watch for unusual heat, smell, swelling, damaged wiring, a flickering screen, or electrical behavior that is out of character. Stop using the machine in that condition. A desktop that still appears is no reason to ignore any of these.
+
+[RAILPIC piforma-fire.png|Warmth gathers at the top left, where the Raspberry Pi sits. Warm is normal. This is not.]
+
+<!-- evidence: owner-current OWNER-TALK-2026-10-20; repo-verified D-HARDWARE; editorial-advice -->
+The Raspberry Pi sits behind the top left of the screen. To check its temperature, rest a hand on the top left of the case. Warm is normal; if it feels too hot, shut down and switch off. The Pi protects itself by slowing down when it gets very hot, but it doesn’t switch itself off, so it is up to you.
 
 ## Service and support
 
 <!-- evidence: owner-current H04-support; editorial-advice -->
 There isn’t any. Sorry.
 
-The Macintosh PiForma is a one-off project made for enjoyment, not manufacture or sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably return to the person who built it, assuming he is in the mood.
+Only one Macintosh PiForma was ever made, and it was never offered for sale. There is no service department, warranty desk, or helpful person in a tie waiting by the phone. If it needs repair, it will probably come back to us, assuming we are in the mood.
 
-That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to the builder rather than continuing to experiment. Treat it kindly and perhaps neither of us will have to find out how extensive the service department’s paperwork is.
+That does not make unusual heat or electrical damage a joke. Stop using an unsafe-looking machine and speak to us rather than continuing to experiment. Treat it kindly, and with any luck neither of us will have to find out how much paperwork the service department requires.
+
+[ILLUSTRATION 4-3|apple-phone.png|The service department, standing by.]

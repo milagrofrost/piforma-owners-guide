@@ -11,11 +11,23 @@
 #front("Welcome to the Macintosh PiForma",[
   #include "chapters/00-front-matter.typ"
 ])
+// The legal block sits at the foot of the last front-matter page, as on Apple's copyright pages.
+#page(footer:none,header:none)[
+  #align(bottom)[
+    #set text(size:7.5pt)
+    #set par(leading:3.6pt,spacing:6pt)
+    © 2026 milagrofrost. All rights reserved.
+
+    Apple, the Apple logo and Macintosh are trademarks of Apple Inc. The Macintosh PiForma is an unofficial, one-of-a-kind fan build; Apple had no part in it.
+  ]
+]
 #set page(numbering:"1")
-#chapter(1,"Getting Started",[#include "chapters/01-getting-started.typ"])
-#chapter(2,"Inside the Macintosh PiForma",[#include "chapters/02-inside-piforma.typ"])
-#chapter(3,"How the Macintosh PiForma Works",[#include "chapters/03-how-piforma-works.typ"])
-#chapter(4,"Caring for Your Macintosh PiForma",[#include "chapters/04-caring-for-piforma.typ"])
+#chapter(1,"Getting Started",[#include "chapters/01-getting-started.typ"],art:"art-glamor.jpg")
+#chapter(2,"Inside the Macintosh PiForma",[#include "chapters/02-inside-piforma.typ"],art:"art-chassis.jpg")
+#chapter(3,"How the Macintosh PiForma Works",[#include "chapters/03-how-piforma-works.typ"],art:"art-workbench.jpg")
+#chapter(4,"Caring for Your Macintosh PiForma",[#include "chapters/04-caring-for-piforma.typ"],art:"art-bezel.jpg")
 #end-section("Appendix A: Technical Information",[#include "chapters/05-technical-information.typ"])
 #end-section("Appendix B: When Something Goes Wrong",[#include "chapters/07-troubleshooting.typ"])
 #end-section("Glossary",[#include "chapters/06-glossary-and-credits.typ"])
+#end-section("Index",[#include "chapters/08-index.typ"])
+#back-cover()

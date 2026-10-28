@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" width="440" height="400">
+<g stroke="#222" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+<rect x="30" y="30" width="380" height="340" rx="8" fill="#fff"/>
+<rect x="44" y="44" width="352" height="312" rx="4" fill="none" stroke-width="1.6"/>
+<!-- this side up -->
+<g fill="#222">
+<path d="M92 170 V108 H74 L110 66 L146 108 H128 V170 Z"/>
+<path d="M164 170 V108 H146 L182 66 L218 108 H200 V170 Z"/>
+</g>
+<!-- the glass -->
+<path d="M270 66 H338 C338 108 324 128 304 132 C284 128 270 108 270 66 Z" fill="#fff" stroke-width="5"/>
+<path d="M304 132 V178 M282 182 H326" fill="none" stroke-width="5"/>
+<path d="M300 78 L310 100 L298 104 L306 124" fill="none" stroke="#f34836" stroke-width="2.4"/>
+</g>
+<g font-family="EB Garamond" fill="#222" text-anchor="middle" font-weight="bold">
+<text x="220" y="250" font-size="40">HANDLE</text>
+<text x="220" y="296" font-size="40">WITH CARE</text>
+<text x="220" y="334" font-size="19" font-weight="normal">THIS SIDE UP · DO NOT DROP</text>
+</g>
+</svg>

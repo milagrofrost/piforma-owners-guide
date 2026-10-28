@@ -74,6 +74,9 @@ Keep these as sharp **actual photographs**, preferably color originals. They sup
 | `1-4b.png` | Keyboard overview. H-06 adds the hidden edge, not another overhead view. |
 | `1-4c.png`, `1-4d.png` | Mouse top/underside, controls and optical sensor. H-03 adds the missing receiver. |
 | `1-6a.png`, `1-6b.png` | Latch opening detail and battery-reading viewing direction. H-01 adds the real display/status evidence. |
+| `complete-setup.png` | Assembled setup with keyboard, mouse, Bose speakers on stands and a controller (Figure 1-5, added October 18). Covers most of H-05; a closer view of the seated support leg could still help. |
+| `piforma-n64.png`, `16.png` | Two controllers with a game running, and the EmulationStation N64 list (Figures 3-5a/b, added October 18). S-05 still needs a game's real pause/exit menu; H-03 still needs the controller connections. |
+| `12.png`–`15.png` | Winamp, LimeWire Simulator, the Weather Channel and Flying Toasters (Figures 3-7a–d, added October 18). |
 
 ## What style to send
 
