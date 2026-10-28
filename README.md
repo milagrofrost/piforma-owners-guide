@@ -2,6 +2,8 @@
 
 Editable manuscript and Typst production source for the Macintosh PiForma Owner's Guide. Start with the [current 80-page reviewed proof](piforma-manual/output/macintosh-piforma-layout-reviewed.pdf) and [continuation handoff](CONTINUING.md).
 
+![Cover and pages 16–17 of the reviewed proof](docs/images/guide-preview.png)
+
 The manual retains four chapters, technical information, symptom-based troubleshooting, a glossary and the owner's personality. It follows the original Macintosh Plus and SE guides as instructional and visual references. PiForma is a privately built computer in an Apple IIc Monitor shell, not an Apple product.
 
 ## What to edit
