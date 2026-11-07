@@ -1,0 +1,59 @@
+# Copies the finished Owner's Guide PDF to milagrofrost.com whenever it changes.
+#
+# Needs one repository secret, WEBSITE_TOKEN: a fine-grained personal access
+# token limited to milagrofrost/milagrofrost-html with "Contents: Read and write".
+
+name: Sync guide PDF to website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - piforma-manual/output/macintosh-piforma-layout-reviewed.pdf
+  workflow_dispatch:
+
+concurrency:
+  group: sync-pdf-to-website
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for the website token
+        env:
+          WEBSITE_TOKEN: ${{ secrets.WEBSITE_TOKEN }}
+        run: |
+          if [ -z "$WEBSITE_TOKEN" ]; then
+            echo "::error::Add a WEBSITE_TOKEN secret (fine-grained token with Contents read/write on milagrofrost/milagrofrost-html)."
+            exit 1
+          fi
+
+      - name: Check out the guide PDF
+        uses: actions/checkout@v4
+        with:
+          path: guide
+          sparse-checkout: piforma-manual/output
+          sparse-checkout-cone-mode: true
+
+      - name: Check out the website
+        uses: actions/checkout@v4
+        with:
+          repository: milagrofrost/milagrofrost-html
+          token: ${{ secrets.WEBSITE_TOKEN }}
+          path: site
+
+      - name: Copy the PDF and push if it changed
+        working-directory: site
+        run: |
+          mkdir -p piforma
+          cp ../guide/piforma-manual/output/macintosh-piforma-layout-reviewed.pdf piforma/owners-guide.pdf
+          git add piforma/owners-guide.pdf
+          if git diff --cached --quiet; then
+            echo "Website already has this PDF."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update PiForma Owner's Guide PDF from piforma-owners-guide@${GITHUB_SHA::7}"
+          git push
