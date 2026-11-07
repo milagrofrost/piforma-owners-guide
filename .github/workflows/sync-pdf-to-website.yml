@@ -30,14 +30,14 @@ jobs:
           fi
 
       - name: Check out the guide PDF
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: guide
           sparse-checkout: piforma-manual/output
           sparse-checkout-cone-mode: true
 
       - name: Check out the website
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: milagrofrost/milagrofrost-html
           token: ${{ secrets.WEBSITE_TOKEN }}
